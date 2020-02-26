@@ -1,6 +1,6 @@
 # onboarding-android 
 [![doc](https://img.shields.io/badge/doc-onboarding-51CB56)](https://docs.alicebiometrics.com/onboarding/) 
-[![doc-android](https://img.shields.io/badge/doc-ios-51CB56)](https://docs.alicebiometrics.com/onboarding/sdk/android/)
+[![doc-android](https://img.shields.io/badge/doc-android-51CB56)](https://docs.alicebiometrics.com/onboarding/sdk/android/)
 
 ALiCE Onboarding Android component allows the automatic capture of documents and video selfie of the user in real time from the camera of your device. It also simplifies the communication with the onboarding API to facilitate rapid integration and development. It manages the onboarding flow configuration: requested documents and order.
 
