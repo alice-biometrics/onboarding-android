@@ -18,11 +18,13 @@ import br.com.simplepass.loadingbutton.customViews.CircularProgressButton
 import com.alicebiometrics.onboarding.Enviroment
 import com.alicebiometrics.onboarding.api.DocumentType
 import com.alicebiometrics.onboarding.api.Onboarding
+import com.alicebiometrics.onboarding.auth.AuthenticationError
+import com.alicebiometrics.onboarding.auth.Authenticator
+import com.alicebiometrics.onboarding.auth.Response
+import com.alicebiometrics.onboarding.auth.SandboxAuthenticator
 import com.alicebiometrics.onboarding.config.OnboardingConfig
-import com.alicebiometrics.onboarding.sandbox.Response
-import com.alicebiometrics.onboarding.sandbox.SandboxError
-import com.alicebiometrics.onboarding.sandbox.SandboxManager
-import com.alicebiometrics.onboarding.sandbox.UserInfo
+import com.alicebiometrics.onboarding.sandbox.*
+
 import com.google.android.material.snackbar.Snackbar
 import org.json.JSONObject
 
@@ -57,6 +59,7 @@ class MainActivity : AppCompatActivity(), SharedPreferences.OnSharedPreferenceCh
     private var requireSelfie: Boolean = true
     private var firstName: Boolean = false
     private var lastName: Boolean = false
+    private lateinit var userInfo: UserInfo
 
     // UI //
     private lateinit var parentLayout: View
@@ -74,64 +77,59 @@ class MainActivity : AppCompatActivity(), SharedPreferences.OnSharedPreferenceCh
 
         val intent = Intent(this, PermissionsManager::class.java)
         this.startActivity(intent)
-
     }
 
-    fun run(view: View) {
-        val email = emailInput.text.toString()
-        when {
-            sandboxManager == null -> Snackbar.make(
-                parentLayout,
-                getString(R.string.empty_sandbox_token),
-                Snackbar.LENGTH_LONG
-            ).show()
-            isValidEmail(email) -> {
-                createAccountButton.startAnimation()
-                createAccountButton.isEnabled = false
-                sandboxManager!!.createUserAndGetUserToken(
-                    userInfo = UserInfo(
-                        email = email,
-                        firstName = getFirstName(),
-                        lastName = getLastName()
-                    )
-                ) { response ->
-                    onUserCreated(response)
-                }
-            }
-            else -> Snackbar.make(
-                parentLayout,
-                getString(R.string.email_not_valid),
-                Snackbar.LENGTH_LONG
-            ).show()
-        }
-    }
-
-    private fun onUserCreated(response: Response) {
-        if (response is Response.Success) {
-            createAccountButton.revertAnimation()
-            createAccountButton.isEnabled = true
-            if (useOnboardingCommands) {
-                launchOnboardingCommandsActivity(userId = response.message)
-                return
-            }
-            val onboarding = Onboarding(
-                this,
-                config = getOnboardingConfig(userToken = response.message)
+    fun getAuthenticator(authenticationMode: AuthenticationMode) : Authenticator {
+        when (authenticationMode) {
+            AuthenticationMode.TRIAL -> return SandboxAuthenticator(
+                sandboxToken = this.sandboxToken,
+                userInfo = this.userInfo
             )
-            onboarding.run(ONBOARDING_REQUEST_CODE)
-        } else {
-            val failure = response as Response.Failure
-            if (failure.error == SandboxError.USERALREADYEXISTS) {
-                sandboxManager!!.getUserToken(email = emailInput.text.toString()) { getUserTokenResponse ->
-                    onUserCreated(getUserTokenResponse)
-                }
-                return
-            }
-            createAccountButton.isEnabled = true
-            createAccountButton.revertAnimation()
-            Snackbar.make(parentLayout, getStringSanboxError(failure.error), Snackbar.LENGTH_LONG)
-                .show()
+            AuthenticationMode.PRODUCTION -> return MyBackendAuthenticator()
         }
+    }
+
+    fun onButtonPressed(view: View) {
+
+        createAccountButton.startAnimation()
+        createAccountButton.isEnabled = false
+
+        userInfo = UserInfo(
+            email = emailInput.text.toString(),
+            firstName = getFirstName(),
+            lastName = getLastName()
+        )
+
+        val authenticator = getAuthenticator(AuthenticationMode.TRIAL)
+
+        // Please, for production environments use AuthenticationMode.PRODUCTION authentication mode
+        // Find in MyBackendAuthenticator.kt  an example
+        // val authenticator = getAuthenticator(AuthenticationMode.PRODUCTION)
+
+        authenticator.execute { response ->
+            when (response) {
+                is Response.Success -> onUserAuthenticated(response.message)
+                is Response.Failure -> Snackbar.make(
+                    parentLayout,
+                    getStringAuthenticationError(response.error),
+                    Snackbar.LENGTH_LONG
+                ).show()
+            }
+        }
+    }
+
+    private fun onUserAuthenticated(userToken: String) {
+        createAccountButton.revertAnimation()
+        createAccountButton.isEnabled = true
+        if (useOnboardingCommands) {
+            launchOnboardingCommandsActivity(userId=userToken)
+            return
+        }
+        val onboarding = Onboarding(
+            this,
+            config = getOnboardingConfig(userToken=userToken)
+        )
+        onboarding.run(ONBOARDING_REQUEST_CODE)
     }
 
     // SANDBOX
@@ -140,7 +138,6 @@ class MainActivity : AppCompatActivity(), SharedPreferences.OnSharedPreferenceCh
         if (Onboarding.getEnvironment() == Enviroment.preproduction) {
             token = experimentalSandboxToken
         }
-
         if (token.isEmpty()) {
             Handler().postDelayed({
                 Snackbar.make(
@@ -189,7 +186,7 @@ class MainActivity : AppCompatActivity(), SharedPreferences.OnSharedPreferenceCh
                 type = DocumentType.PASSPORT
             )
         }
-            return config
+        return config
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
@@ -329,18 +326,15 @@ class MainActivity : AppCompatActivity(), SharedPreferences.OnSharedPreferenceCh
         }
     }
 
-    private fun isValidEmail(target: CharSequence?): Boolean {
-        return if (target == null) false else android.util.Patterns.EMAIL_ADDRESS.matcher(target).matches()
-    }
-
-    private fun getStringSanboxError(sandboxError: SandboxError): String {
-        when (sandboxError) {
-            SandboxError.CLIENTERROR -> return getString(R.string.client_error)
-            SandboxError.CONNECTIONERROR -> return getString(R.string.connection_error)
-            SandboxError.ENCODINGERROR -> return getString(R.string.encoding_error)
-            SandboxError.INVALIDSANDBOXTOKEN -> return getString(R.string.invalid_sandbox_token)
-            SandboxError.SERVERERROR -> return getString(R.string.server_error)
-            SandboxError.UNKNOWNERROR -> return getString(R.string.unknown_error)
+    private fun getStringAuthenticationError(authenticationError: AuthenticationError): String {
+        when (authenticationError) {
+            AuthenticationError.CLIENTERROR -> return getString(R.string.client_error)
+            AuthenticationError.CONNECTIONERROR -> return getString(R.string.connection_error)
+            AuthenticationError.ENCODINGERROR -> return getString(R.string.encoding_error)
+            AuthenticationError.INVALIDSANDBOXTOKEN -> return getString(R.string.invalid_sandbox_token)
+            AuthenticationError.SERVERERROR -> return getString(R.string.server_error)
+            AuthenticationError.UNKNOWNERROR -> return getString(R.string.unknown_error)
+            AuthenticationError.INVALIDMAIL -> return "Invalid mail"
         }
         return ""
     }

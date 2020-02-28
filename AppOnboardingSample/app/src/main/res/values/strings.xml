@@ -39,7 +39,7 @@
     <string name="client_error">Client error</string>
     <string name="connection_error">Connection error</string>
     <string name="encoding_error">Encoding error</string>
-    <string name="invalid_sandbox_token">Invalid sandbox token</string>
+    <string name="invalid_sandbox_token">Invalid SANDBOX_TOKEN. Please, add a valid SANDBOX_TOKEN (Settings)</string>
     <string name="server_error">Server error</string>
     <string name="unknown_error">Unknown error</string>
     <string name="label_framework_version">Framework version:</string>

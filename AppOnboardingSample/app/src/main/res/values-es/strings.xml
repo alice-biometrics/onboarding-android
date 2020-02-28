@@ -32,7 +32,7 @@
     <string name="client_error">Error en el cliente</string>
     <string name="connection_error">Error de conexión</string>
     <string name="encoding_error">Error de codificación</string>
-    <string name="invalid_sandbox_token">Sandbox token invalido</string>
+    <string name="invalid_sandbox_token">Sandbox token invalido. Por favor, añada un SANDBOX_TOKEN válido en (Settings)</string>
     <string name="server_error">Error de servidor</string>
     <string name="unknown_error">Error desconocido</string>
     <string name="label_app_version">Versión:</string>
