@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true" >
+        <shape android:shape="rectangle" android:padding="10dp">
+            <solid android:color="@color/onboardingColorWhite"/>
+            <corners
+                android:bottomRightRadius="50dp"
+                android:bottomLeftRadius="50dp"
+                android:topLeftRadius="50dp"
+                android:topRightRadius="50dp"/>
+        </shape>
+    </item>
+
+    <item android:state_focused="true" >
+        <shape android:shape="rectangle" android:padding="10dp">
+            <solid android:color="@color/onboardingColorWhite"/>
+            <corners
+                android:bottomRightRadius="50dp"
+                android:bottomLeftRadius="50dp"
+                android:topLeftRadius="50dp"
+                android:topRightRadius="50dp"/>
+        </shape>
+    </item>
+
+    <item android:state_enabled="true" >
+        <shape android:shape="rectangle" android:padding="10dp">
+            <solid android:color="@color/onboardingColorWhite"/>
+            <corners
+                android:bottomRightRadius="50dp"
+                android:bottomLeftRadius="50dp"
+                android:topLeftRadius="50dp"
+                android:topRightRadius="50dp"/>
+        </shape>
+    </item>
+
+    <item>
+        <shape android:shape="rectangle" android:padding="10dp">
+            <solid android:color="@color/onboardingColorWhite"/>
+            <corners
+                android:bottomRightRadius="50dp"
+                android:bottomLeftRadius="50dp"
+                android:topLeftRadius="50dp"
+                android:topRightRadius="50dp"/>
+        </shape>
+    </item>
+</selector>

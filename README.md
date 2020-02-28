@@ -27,42 +27,71 @@ The main features are:
 
 ## Installation :computer:
 
-**Using Maven**
 
-The AliceOnboarding component is available on Maven Central. Add AliceOnboarding to your projects adding to your Gradle the following code:
+**Our configuration:**
 
-```
-gradle ...
-```
+minSdkVersion = 21
+targetSdkVersion = 28
+compileSdkVersion = 28
+Kotlin = 1.3.60
+
+
+## Adding the SDK dependency
 
 **Using JCentral**
+```
+repositories {
+    jcenter()
+}
+```
 
 ```
-gradle ...
+dependencies {
+    implementation 'com.alicebiometrics.onboarding:AliceOnboarding:+'
+}
 ```
+
+Note:
+
+```
+repositories {
+    maven {
+        url  "https://dl.bintray.com/alice-biometrics/alicebiometrics" 
+    }
+```
+
+
+## Considerations
+
+**Supported Android versions**
+
+All versions of Android are supported since Android 5.0 ( sdk 21).
+
+
+**Google Firebase**
+
+The Onboarding Client SDK uses Google Firebase so when you integrate it in you application you will need to [register it](https://firebase.google.com/docs/android/setup) as a Firebase project and add the Firebase configuration file to your project.
+
+We provide a `google-services.json` file for the sample application inside the `app` module.
+
 
 
 ## Getting Started :chart_with_upwards_trend:
-
-### Import the library
-
-
-```kotlin
-import AliceOnboarding
-```
 
 ### Configuration
 
 You can configure the onboarding flow with the following code:
 
 ```kotlin
-let userToken = "<ADD-YOUR-USER-TOKEN-HERE>"
+val userToken = "<ADD-YOUR-USER-TOKEN-HERE>"
 
-let config = OnboardingConfig.builder()
+val config = OnboardingConfig.builder()
   .withUserToken(userToken)
   .withAddSelfieStage()
-  .withAddDocumentStage(ofType: .idcard, issuingCountry: "ESP")
-  .withAddDocumentStage(ofType: .driverlicense, issuingCountry: "ESP")
+  .withAddDocumentStage(type = DocumentType.IDCARD, issuingCountry = "ESP")
+  .withAddDocumentStage(type = DocumentType.DRIVERLICENSE, issuingCountry = "ESP")
+  .withAddDocumentStage(type = PASSPORT)
+
 ```
 
 Where `userToken` is used to secure requests made by the users on their mobile devices or web clients. You should obtain it from your Backend.
@@ -73,18 +102,24 @@ Where `userToken` is used to secure requests made by the users on their mobile d
 Once you configured the ALiCE Onboarding Flow, you can run the process with:
 
 ```kotlin
-let onboarding = Onboarding(self, config: config)
-onboarding.run { result in
-    switch result {
-    case let .success(userStatus):
-        print("userStatus: \(String(describing: userStatus))")
-    case let .failure(error):
-        print("failure: \(error.localizedDescription)")
-    case .cancel:
-        print("User has cancelled the onboarding")
+val onboarding = Onboarding(this, config: config)
+    onboarding.run(ONBOARDING_REQUEST_CODE)
+    }
+}
+
+```kotlin
+override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+    super.onActivityResult(requestCode, resultCode, data)
+        if (requestCode == ONBOARDING_REQUEST_CODE) {
+            if (resultCode == Activity.RESULT_OK) {
+                val userInfo = data!!.getStringExtra("userStatus")
+        } else if (resultCode == Activity.RESULT_CANCELED) {
+        
+        }
     }
 }
 ```
+
 
 ## Authentication :closed_lock_with_key:
 
@@ -164,18 +199,6 @@ authenticator.execute { result in
        // Inform the user about Authentication Errors
     }
 }
-```
-
-
-## Demo :rocket:
-
-Check our iOS demo in this repo (`AppOnboardingSample` folder). 
-
-Intall cocoapods dependencies with:
-
-```console
-cd AppOnboardingSample
-TODO
 ```
 
 Open the Android Studio workspace

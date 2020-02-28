@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name" translatable="false">AppOnboardingSample</string>
+    <string name="create_account">Create account</string>
+    <string name="onboarding_error">Onboarding could not be completed</string>
+    <string name="email_not_valid">Please, check that your email is correct</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_about">About</string>
+    <string name="command_add_selfie">Command Add Selfie</string>
+    <string name="command_add_document">Command Add Document</string>
+    <string name="command_get_user_status">Command Get User Status</string>
+    <string name="command_authenticate">Command Authenticate</string>
+    <string name="get_supported_documents">Get Supported Documents</string>
+    <string name="exit">Exit</string>
+
+    <!-- Preference Titles -->
+    <string name="general_preferences_header">General</string>
+    <string name="driver_license_header">Driver\'s license</string>
+
+    <!-- Messages Preferences -->
+    <string name="country_title">Country</string>
+    <string name="auth_error">Auth problem: Please, contact alice@alicebiometrics.com</string>
+
+
+    <!-- Sync Preferences -->
+    <string name="driver_license_preference_title">Add Spanish driver\'s license</string>
+    <string name="preferences">Preferences</string>
+    <string name="email_hint">Please, type your email</string>
+    <string name="alice_logo_description" translatable="false">Alice logo</string>
+    <string name="selfie_preference_title">Add Selfie</string>
+    <string name="user_already_exists">Error: the user already exists</string>
+    <string name="onboarding_commands">Use OnboardingCommands</string>
+    <string name="empty_sandbox_token">Error: you must set the SandboxToken on the Preferences</string>
+    <string name="ask_for_first_name">Ask for First Name</string>
+    <string name="ask_for_last_name">Ask for Last Name</string>
+    <string name="hint_last_name">Please, type your last name</string>
+    <string name="hint_first_name">Please, type your first name</string>
+    <string name="experimental_environment">Experimental Environment</string>
+
+    <string name="client_error">Client error</string>
+    <string name="connection_error">Connection error</string>
+    <string name="encoding_error">Encoding error</string>
+    <string name="invalid_sandbox_token">Invalid sandbox token</string>
+    <string name="server_error">Server error</string>
+    <string name="unknown_error">Unknown error</string>
+    <string name="label_framework_version">Framework version:</string>
+    <string name="title_alice_onboarding" translatable="false">Alice Onboarding</string>
+    <string name="label_app_version">Version:</string>
+    <string name="title_app_info">App Info</string>
+    <string name="select_country">Select country</string>
+    <string name="onboarding_flow_preferences_header">Onboarding flow</string>
+    <string name="onboarding_additional_options_preferences_header">Additional options</string>
+    <string name="experimental_sandbox_token">Experimental Sandbox Token</string>
+    <string name="id_card_preference_title">Add ID Card</string>
+    <string name="residence_permit_preference_title">Add Residence Permit</string>
+    <string name="passport_preference_title">Passport</string>
+
+
+
+</resources>

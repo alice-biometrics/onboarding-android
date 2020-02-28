@@ -1,0 +1,122 @@
+<!--
+  ~ Copyright 2018 The app Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:icon="@drawable/settings"
+        app:title="@string/general_preferences_header">
+
+        <EditTextPreference
+            android:icon="@drawable/token"
+            android:paddingLeft="10dp"
+            app:key="sandbox_token"
+            app:title="Sandbox token" />
+
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:icon="@drawable/experimental"
+            app:key="experimental_environment"
+            app:title="@string/experimental_environment" />
+
+
+        <EditTextPreference
+            android:icon="@drawable/token"
+            app:key="experimental_sandbox_token"
+            app:title="@string/experimental_sandbox_token" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:icon="@drawable/settings"
+        app:title="@string/onboarding_flow_preferences_header">
+
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:icon="@drawable/commands"
+            app:key="select_country"
+            app:title="@string/select_country" />
+
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:icon="@drawable/selfie"
+            app:key="selfie"
+            app:title="@string/selfie_preference_title" />
+
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:icon="@drawable/ic_identity_card"
+            app:key="id_card"
+            app:title="@string/id_card_preference_title" />
+
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:icon="@drawable/car"
+            app:key="driver_license"
+            app:title="@string/driver_license_preference_title" />
+
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:icon="@drawable/ic_identity_card"
+            app:key="residence_permit"
+            app:title="@string/residence_permit_preference_title" />
+
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:icon="@drawable/ic_identity_card"
+            app:key="passport"
+            app:title="@string/passport_preference_title" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:icon="@drawable/settings"
+        app:title="@string/onboarding_additional_options_preferences_header">
+
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:icon="@drawable/commands"
+            app:key="onboarding_commands"
+            app:title="@string/onboarding_commands" />
+
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:icon="@drawable/person"
+            app:key="firstName"
+            app:title="@string/ask_for_first_name" />
+
+
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:icon="@drawable/person"
+            app:key="lastName"
+            app:title="@string/ask_for_last_name" />
+
+        <Preference
+            app:icon="@drawable/info"
+            app:key="about"
+            app:title="@string/title_activity_about">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetClass="com.alicebiometrics.apponboardingsample.AboutActivity"
+                android:targetPackage="com.alicebiometrics.apponboardingsample" />
+        </Preference>
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
