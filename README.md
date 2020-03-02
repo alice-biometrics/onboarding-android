@@ -211,12 +211,6 @@ See the authentication options [here](AppOnboardingSample/MainView/MainViewContr
 
 Check our Android demo in this repo (`AppOnboardingSample` folder). 
 
-Intall cocoapods dependencies with:
-
-```console
-gradle ...
-```
-
 To Run the Project:
 
 * Open the Android Studio Project
@@ -226,7 +220,7 @@ To Run the Project:
 
 #### App
 
-Add your `SANDBOX_TOKEN` credentials in `Settings -> CREDENTIALS -> Sandbox Token` 
+Add your `SANDBOX_TOKEN` credentials in `Settings -> General -> Sandbox Token` 
 
 <img src="images/app_settings.jpg" width="200">
 
