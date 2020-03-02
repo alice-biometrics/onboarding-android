@@ -105,9 +105,9 @@ val onboarding = Onboarding(this, config: config)
     onboarding.run(ONBOARDING_REQUEST_CODE)
     }
 }
-.
-.
-.
+
+...
+
 override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
     super.onActivityResult(requestCode, resultCode, data)
         if (requestCode == ONBOARDING_REQUEST_CODE) {
@@ -128,7 +128,7 @@ How can we get the `userToken` to start testing ALiCE Onboarding technology?
 `AliceOnboarding` can be used with two differnet authentication modes:
 
 * Trial (Using ALiCE Onboarding Sandbox): Recommended only in the early stages of integration.
-    - Pros: This mode do not need backend integration.
+    - Pros: This mode does not need backend integration.
     - Cons: Security.
 * Production (Using your Backend): In a production deployment we strongly recommend to use your backend to obtain required TOKENS.
     - Pros: Security. Only your backend is able to do critical operations.
@@ -136,7 +136,7 @@ How can we get the `userToken` to start testing ALiCE Onboarding technology?
 
 ### Trial
 
-If you want to test the technology without integrate it with your backend, you can use our Sandbox Service. This service associates a user mail with the ALiCE Onboarding `user_id`. You can create an user and obtain its `USER_TOKEN` already linked with the email.
+If you want to test the technology without integrate it with your backend, you can use our Sandbox Service. This service associates a user mail with the ALiCE Onboarding `user_id`. You can create a user and obtain his `USER_TOKEN` already linked with the email.
 
 Use the `SandboxAuthenticator` class to ease the integration.
 
@@ -161,7 +161,7 @@ authenticator.execute { response ->
 }
 ```
 
-Where `sandboxToken` is a temporal token for testing the technology in a development/testing environment. 
+Where `sandboxToken` is a temporary token for testing the technology in a development/testing environment. 
 
 An `email` parameter in `UserInfo` is required to associate it to an ALiCE Onboarding `user_id`. You can also add some additional information from your user as `firstName` and `lastName`.
 
@@ -169,7 +169,7 @@ For more information about the Sandbox, please check the following [doc](https:/
 
 ### Production
 
-On the other hand, for a production environments we strongly recommend to use your backend to obtain required `USER_TOKEN`.
+On the other hand, for production environments we strongly recommend to use your backend to obtain the required `USER_TOKEN`.
 
 You can implement the `Authenticator` interface available in the `AliceOnboarding` library.
 
@@ -218,7 +218,7 @@ See the authentication options [here](AppOnboardingSample/MainView/MainViewContr
 
 Check our Android demo in this repo (`AppOnboardingSample` folder). 
 
-To Run the Project:
+To run the project:
 
 * Open the Android Studio Project
 * Add a valid `google-services.json`(Firebase)
@@ -260,7 +260,7 @@ Execution failed for task ':app:processDebugGoogleServices'.
   <path-to-your-project>/AppOnboardingSample/app/google-services.json
 ```
 
-Please, configure your Firbase project. Check [Requirements](#requirements) and [Demo :rocket:](#demo-rocket).
+Please, configure your Firebase project. Check [Requirements](#requirements) and [Demo :rocket:](#demo-rocket).
 
 
 ## Documentation :page_facing_up:
