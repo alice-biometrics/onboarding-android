@@ -64,7 +64,7 @@ dependencies {
 }
 ```
 
-Notes:
+**Bintray**:
 
 Approval of new versions in the JCenter may be delayed. Add the following code to solve the dependencies using Bintray.
 
