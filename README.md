@@ -1,4 +1,5 @@
 # onboarding-android 
+[![Bintray](https://img.shields.io/bintray/v/alice-biometrics/alicebiometrics/AliceOnboarding.svg?maxAge=2592000)](https://bintray.com/alice-biometrics/alicebiometrics/AliceOnboarding)
 [![doc](https://img.shields.io/badge/doc-onboarding-51CB56)](https://docs.alicebiometrics.com/onboarding/) 
 [![doc-android](https://img.shields.io/badge/doc-android-51CB56)](https://docs.alicebiometrics.com/onboarding/sdk/android/)
 
@@ -11,9 +12,9 @@ The main features are:
 - Manage the onboarding flow configuration: requested documents and order.
 
 ## Table of Contents
+- [Requirements](#requirements)
 - [Installation :computer:](#installation-computer)
 - [Getting Started :chart_with_upwards_trend:](#getting-started-chart_with_upwards_trend)
-  * [Import the library](#import-the-library)
   * [Configuration](#configuration)
   * [Run ALiCE Onboarding](#run-alice-onboarding)
 - [Authentication :closed_lock_with_key:](#authentication-closed_lock_with_key)
@@ -25,56 +26,53 @@ The main features are:
 - [Contact :mailbox_with_mail:](#contact-mailbox_with_mail)
 
 
+## Requirements
+
+All versions of Android are supported since Android 5.0 (sdk 21).
+
+**Google Firebase**
+
+ALiCE Onboarding Android SDK uses Google Firebase so when you integrate it in you application you will need to [register it](https://firebase.google.com/docs/android/setup) as a Firebase project and add the Firebase configuration file to your project.
+
+
 ## Installation :computer:
 
 
-**Our configuration:**
+### Our configuration
 
+```gradle
 minSdkVersion = 21
 targetSdkVersion = 28
 compileSdkVersion = 28
 Kotlin = 1.3.60
+```
 
-
-## Adding the SDK dependency
+### Adding the SDK dependency
 
 **Using JCentral**
-```
+
+```gradle
 repositories {
     jcenter()
 }
 ```
 
-```
+```gradle
 dependencies {
     implementation 'com.alicebiometrics.onboarding:AliceOnboarding:+'
 }
 ```
 
-Note:
+Notes:
 
-```
+Approval of new versions in the JCenter may be delayed. Add the following code to solve the dependencies using Bintray.
+
+```gradle
 repositories {
     maven {
         url  "https://dl.bintray.com/alice-biometrics/alicebiometrics" 
     }
 ```
-
-
-## Considerations
-
-**Supported Android versions**
-
-All versions of Android are supported since Android 5.0 ( sdk 21).
-
-
-**Google Firebase**
-
-The Onboarding Client SDK uses Google Firebase so when you integrate it in you application you will need to [register it](https://firebase.google.com/docs/android/setup) as a Firebase project and add the Firebase configuration file to your project.
-
-We provide a `google-services.json` file for the sample application inside the `app` module.
-
-
 
 ## Getting Started :chart_with_upwards_trend:
 
@@ -106,8 +104,9 @@ val onboarding = Onboarding(this, config: config)
     onboarding.run(ONBOARDING_REQUEST_CODE)
     }
 }
-
-```kotlin
+.
+.
+.
 override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
     super.onActivityResult(requestCode, resultCode, data)
         if (requestCode == ONBOARDING_REQUEST_CODE) {
@@ -141,12 +140,12 @@ If you want to test the technology without integrate it with your backend, you c
 Use the `SandboxAuthenticator` class to ease the integration.
 
 ```kotlin
-let sandboxToken = "<ADD-YOUR-SANDBOX-TOKEN-HERE>"
-let userInfo = UserInfo(email: email, // required
-                        firstName: firstName, // optional 
-                        lastName: lastName)  // optional 
+val sandboxToken = "<ADD-YOUR-SANDBOX-TOKEN-HERE>"
+val userInfo = UserInfo(email = email, // required
+                        firstName = firstName, // optional 
+                        lastName = lastName)  // optional 
                         
-let authenticator = SandboxAuthenticator(sandboxToken: sandboxToken, userInfo: userInfo)
+val authenticator = SandboxAuthenticator(sandboxToken = sandboxToken, userInfo = userInfo)
 
 authenticator.execute { result in
     switch result {
@@ -207,6 +206,29 @@ Open the Android Studio workspace
 Add your `SANDBOX_TOKEN` credentials in `Settings -> CREDENTIALS -> Sandbox Token` 
 
 See the authentication options [here](AppOnboardingSample/MainView/MainViewController+Auth.swift)
+
+## Demo :rocket:
+
+Check our Android demo in this repo (`AppOnboardingSample` folder). 
+
+Intall cocoapods dependencies with:
+
+```console
+gradle ...
+```
+
+To Run the Project:
+
+* Open the Android Studio Project
+* Add a valid `google-services.json`(Firebase)
+* Check the `applicationId`to fit `google-services.json`
+* Run the application.
+
+#### App
+
+Add your `SANDBOX_TOKEN` credentials in `Settings -> CREDENTIALS -> Sandbox Token` 
+
+<img src="images/app_settings.jpg" width="200">
 
 ## Customisation :gear:
 
