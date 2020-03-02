@@ -35,6 +35,22 @@ All versions of Android are supported since Android 5.0 (sdk 21).
 
 ALiCE Onboarding Android SDK uses Google Firebase so when you integrate it in you application you will need to [register it](https://firebase.google.com/docs/android/setup) as a Firebase project and add the Firebase configuration file to your project.
 
+Please, create your credentials for your application and associate them with your applicationId:
+
+Copy your `google-services.json` file for the example application inside your Android Project.
+
+```console
+cp ~/Downloads/google-services.json <Your-Android-Project-Path>
+```
+ 
+Your google-services.json should have an applicationId associated. Please, change in `<Your-Android-Project-Path>/build.gradle`
+
+```gradle
+android {
+    defaultConfig {
+        applicationId "<ADD-HERE-YOUR-APPLICATION-ID"
+    }
+```
 
 ## Installation :computer:
 
@@ -221,8 +237,8 @@ Check our Android demo in this repo (`AppOnboardingSample` folder).
 To run the project:
 
 * Open the Android Studio Project
-* Add a valid `google-services.json`(Firebase)
-* Check the `applicationId`to fit `google-services.json`
+* Add a valid `google-services.json`(Check [Requirements](#requirements)) 
+* Check the `applicationId`to fit `google-services.json` (Check [Requirements](#requirements)) 
 * Run the application.
 
 #### App
