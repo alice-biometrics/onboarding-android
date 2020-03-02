@@ -21,6 +21,7 @@ The main features are:
   * [Trial](#trial)
   * [Production](#production)
 - [Demo :rocket:](#demo-rocket)
+- [Troubleshooting :fire:](#troubleshooting-fire)
 - [Customisation :gear:](#customisation-gear)
 - [Documentation :page_facing_up:](#documentation-page_facing_up)
 - [Contact :mailbox_with_mail:](#contact-mailbox_with_mail)
@@ -147,13 +148,15 @@ val userInfo = UserInfo(email = email, // required
                         
 val authenticator = SandboxAuthenticator(sandboxToken = sandboxToken, userInfo = userInfo)
 
-authenticator.execute { result in
-    switch result {
-    case .success(let userToken):
-       // Configure ALiCE Onboarding with the OnboardingConfig
-       // Then Run the ALiCE Onboarding Flow
-    case .failure(let error):
-       // Inform the user about Authentication Errors
+authenticator.execute { response ->
+    when (response) {
+        is Response.Success -> {
+          // Configure ALiCE Onboarding with the OnboardingConfig
+          // Then Run the ALiCE Onboarding Flow
+        }
+        is Response.Failure -> {
+          // Inform the user about Authentication Errors
+        }
     }
 }
 ```
@@ -168,18 +171,20 @@ For more information about the Sandbox, please check the following [doc](https:/
 
 On the other hand, for a production environments we strongly recommend to use your backend to obtain required `USER_TOKEN`.
 
-You can implement the `Authenticator` protocol available in the `AliceOnboarding` framework.
+You can implement the `Authenticator` interface available in the `AliceOnboarding` library.
 
 ```kotlin
 class MyBackendAuthenticator : Authenticator {
-    
-    func execute(completion: @escaping Response<String, AuthenticationError>){
-        
+
+
+    override fun execute(callback: (Response) -> Unit) {
+
         // Add here your code to retrieve the user token from your backend
-        
-        let userToken = "fakeUserToken"
-        completion(.success(userToken))
+
+        val userToken = "fakeUserToken"
+        callback(Response.Success(userToken))
     }
+
 }
 ```
 
@@ -187,15 +192,17 @@ In a very similar way to the authentication available with the sandbox:
 
 ```kotlin
                         
-let authenticator = MyBackendAuthenticator()
+val authenticator = MyBackendAuthenticator()
 
-authenticator.execute { result in
-    switch result {
-    case .success(let userToken):
-       // Configure ALiCE Onboarding with the OnboardingConfig
-       // Then Run the ALiCE Onboarding Flow
-    case .failure(let error):
-       // Inform the user about Authentication Errors
+authenticator.execute { response ->
+    when (response) {
+        is Response.Success -> {
+          // Configure ALiCE Onboarding with the OnboardingConfig
+          // Then Run the ALiCE Onboarding Flow
+        }
+        is Response.Failure -> {
+          // Inform the user about Authentication Errors
+        }
     }
 }
 ```
@@ -230,6 +237,30 @@ Add your `SANDBOX_TOKEN` credentials in `Settings -> General -> Sandbox Token`
 Please, visit the doc.
 
 https://docs.alicebiometrics.com/onboarding/sdk/android/customisation.html
+
+## Troubleshooting :fire:
+
+#### Firebase is not configured
+
+
+If you obtain something similar when you run the application:
+
+```error
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:processDebugGoogleServices'.
+> File google-services.json is missing. The Google Services Plugin cannot function without it. 
+   Searched Location: 
+  <path-to-your-project>/AppOnboardingSample/app/src/nullnull/google-services.json
+  <path-to-your-project>/AppOnboardingSample/app/src/debug/google-services.json
+  <path-to-your-project>/AppOnboardingSample/app/src/nullnullDebug/google-services.json
+  <path-to-your-project>/AppOnboardingSample/app/src/nullnull/debug/google-services.json
+  <path-to-your-project>/AppOnboardingSample/app/src/debug/nullnull/google-services.json
+  <path-to-your-project>/AppOnboardingSample/app/google-services.json
+```
+
+Please, configure your Firbase project. Check [Requirements](#requirements) and [Demo :rocket:](#demo-rocket).
 
 
 ## Documentation :page_facing_up:
