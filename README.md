@@ -1,4 +1,4 @@
-# onboarding-android 
+# onboarding-android :robot:
 [![Bintray](https://img.shields.io/bintray/v/alice-biometrics/alicebiometrics/AliceOnboarding.svg?maxAge=2592000)](https://bintray.com/alice-biometrics/alicebiometrics/AliceOnboarding)
 [![doc](https://img.shields.io/badge/doc-onboarding-51CB56)](https://docs.alicebiometrics.com/onboarding/) 
 [![doc-android](https://img.shields.io/badge/doc-android-51CB56)](https://docs.alicebiometrics.com/onboarding/sdk/android/)
