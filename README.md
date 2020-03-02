@@ -245,7 +245,7 @@ https://docs.alicebiometrics.com/onboarding/sdk/android/customisation.html
 
 If you obtain something similar when you run the application:
 
-```error
+```
 FAILURE: Build failed with an exception.
 
 * What went wrong:
