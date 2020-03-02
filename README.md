@@ -93,7 +93,7 @@ val config = OnboardingConfig.builder()
 
 ```
 
-Where `userToken` is used to secure requests made by the users on their mobile devices or web clients. You should obtain it from your Backend.
+Where `userToken` is used to secure requests made by the users on their mobile devices or web clients. You should obtain it from your Backend (see [Authentication :closed_lock_with_key:](#authentication-closed_lock_with_key)).
 
 
 ### Run ALiCE Onboarding
