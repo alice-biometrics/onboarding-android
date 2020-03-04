@@ -1,7 +1,6 @@
-# onboarding-android <img src="https://github.com/alice-biometrics/custom-emojis/blob/master/images/android.png" width="30">
-[![Bintray](https://img.shields.io/bintray/v/alice-biometrics/alicebiometrics/AliceOnboarding.svg?maxAge=2592000)](https://bintray.com/alice-biometrics/alicebiometrics/AliceOnboarding)
-[![doc](https://img.shields.io/badge/doc-onboarding-51CB56)](https://docs.alicebiometrics.com/onboarding/) 
-[![doc-android](https://img.shields.io/badge/doc-android-51CB56)](https://docs.alicebiometrics.com/onboarding/sdk/android/)
+# onboarding-android <img src="https://github.com/alice-biometrics/custom-emojis/blob/master/images/android.png" width="30"> [![Bintray](https://img.shields.io/bintray/v/alice-biometrics/alicebiometrics/AliceOnboarding.svg?maxAge=2592000)](https://bintray.com/alice-biometrics/alicebiometrics/AliceOnboarding) [![doc](https://img.shields.io/badge/doc-onboarding-51CB56)](https://docs.alicebiometrics.com/onboarding/) [![doc-android](https://img.shields.io/badge/doc-android-51CB56)](https://docs.alicebiometrics.com/onboarding/sdk/android/)
+
+<img src="https://github.com/alice-biometrics/custom-emojis/blob/master/images/alice_color_complementario_1.png" width=auto>
 
 ALiCE Onboarding Android component allows the automatic capture of documents and video selfie of the user in real time from the camera of your device. It also simplifies the communication with the onboarding API to facilitate rapid integration and development. It manages the onboarding flow configuration: requested documents and order.
 
