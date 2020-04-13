@@ -1,4 +1,4 @@
-# onboarding-android <img src="https://github.com/alice-biometrics/custom-emojis/blob/master/images/android.png" width="30"> [ ![Bintray](https://api.bintray.com/packages/alice-biometrics/alicebiometrics/AliceOnboarding/images/download.svg) ](https://bintray.com/alice-biometrics/alicebiometrics/AliceOnboarding/_latestVersion) [![doc](https://img.shields.io/badge/doc-onboarding-51CB56)](https://docs.alicebiometrics.com/onboarding/) [![doc-android](https://img.shields.io/badge/doc-android-51CB56)](https://docs.alicebiometrics.com/onboarding/sdk/android/)
+# onboarding-android <img src="https://github.com/alice-biometrics/custom-emojis/blob/master/images/android.png" width="30"> [![Bintray](https://api.bintray.com/packages/alice-biometrics/alicebiometrics/AliceOnboarding/images/download.svg) ](https://bintray.com/alice-biometrics/alicebiometrics/AliceOnboarding/_latestVersion) [![doc](https://img.shields.io/badge/doc-onboarding-51CB56)](https://docs.alicebiometrics.com/onboarding/) [![doc-android](https://img.shields.io/badge/doc-android-51CB56)](https://docs.alicebiometrics.com/onboarding/sdk/android/)
 
 
 
