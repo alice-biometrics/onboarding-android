@@ -18,6 +18,7 @@ The main features are:
 - [Getting Started :chart_with_upwards_trend:](#getting-started-chart_with_upwards_trend)
   * [Configuration](#configuration)
   * [Run ALiCE Onboarding](#run-alice-onboarding)
+  * [Permissions](#permissions)
 - [Authentication :closed_lock_with_key:](#authentication-closed_lock_with_key)
   * [Trial](#trial)
   * [Production](#production)
@@ -135,6 +136,15 @@ override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) 
         }
     }
 }
+```
+
+### Permissions
+
+ALiCE Onboarding needs to have the following permissions granted.
+
+```kotlin
+  <uses-permission android:name="android.permission.CAMERA" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 ```
 
 
@@ -278,6 +288,26 @@ Execution failed for task ':app:processDebugGoogleServices'.
 ```
 
 Please, configure your Firebase project. Check [Requirements](#requirements) and [Demo :rocket:](#demo-rocket).
+
+
+#### Write permission not granted
+
+```
+java.lang.IllegalStateException
+        at android.media.MediaRecorder.stop(Native Method)
+        at com.alicebiometrics.onboarding.camera.AliceCaptureCamera.stopRecordVideo(AliceCaptureCamera.java:509)
+        at com.alicebiometrics.onboarding.activities.SelfieCapturerActivity.stopRecordVideoCamera(SelfieCapturerActivity.kt:136)
+        at com.alicebiometrics.onboarding.activities.SelfieCapturerActivity.access$stopRecordVideoCamera(SelfieCapturerActivity.kt:38)
+        at com.alicebiometrics.onboarding.activities.SelfieCapturerActivity$updateFaceCounter$runnable$1.run(SelfieCapturerActivity.kt:118)
+        at android.os.Handler.handleCallback(Handler.java:883)
+        at android.os.Handler.dispatchMessage(Handler.java:100)
+```
+
+Please, grant write permission. Check [Permissions](#permissions)
+
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+This permission is necessary because the android MediaRecorder utility used to record the video clip writes the output to disk.
 
 
 ## Documentation :page_facing_up:
