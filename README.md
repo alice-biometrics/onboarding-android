@@ -35,7 +35,7 @@ All versions of Android are supported since Android 5.0 (sdk 21).
 
 **Google Firebase**
 
-ALiCE Onboarding Android SDK uses Google Firebase so when you integrate it in you application you will need to [register it](https://firebase.google.com/docs/android/setup) as a Firebase project and add the Firebase configuration file to your project.
+ALiCE Onboarding Android SDK uses Google Firebase so when you integrate it in you application you will need to [register it](https://firebase.google.com/docs/android/setup) as a Firebase project and add the Firebase configuration file to your project. Only on-device (free) Firebase API is required.
 
 Please, create your credentials for your application and associate them with your applicationId:
 
