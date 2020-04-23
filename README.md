@@ -16,9 +16,9 @@ The main features are:
 - [Requirements](#requirements)
 - [Installation :computer:](#installation-computer)
 - [Getting Started :chart_with_upwards_trend:](#getting-started-chart_with_upwards_trend)
-  * [Configuration](#configuration)
-  * [Run ALiCE Onboarding](#run-alice-onboarding)
   * [Permissions](#permissions)
+  * [Onboarding](#onboarding)
+  * [Onboarding with Commands](#onboarding-with-commands)
 - [Authentication :closed_lock_with_key:](#authentication-closed_lock_with_key)
   * [Trial](#trial)
   * [Production](#production)
@@ -95,7 +95,24 @@ repositories {
 
 ## Getting Started :chart_with_upwards_trend:
 
-### Configuration
+You can integrate the onboarding process in two different ways: using a pre-configured flow, through the `Onboarding` class, or creating a manual flow, through the `OnboardingCommands` class.
+
+In the first case, you simply need to indicate to the SDK the flow you want: number and type of documents, order, etc. From this configuration, the SDK takes control and allows you to perform the entire onboarding process autonomously without having to worry about managing ALiCE Onboarding API calls. This is the fastest and easiest way to integrate the onboarding process in your application.
+
+In the second case, no flow is specified. The onboarding process is completely free, allowing your application to manage the beginning and end of it, as well as the capture and upload of the different documents to the API. This case is indicated for an expert level of configuration, allowing you to split the onboarding process into different stages and add other tasks related to your customer flow (e.g. a form to be filled in by the user).
+
+### Permissions
+
+ALiCE Onboarding needs to have the following permissions granted.
+
+```kotlin
+  <uses-permission android:name="android.permission.CAMERA" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+```
+
+### Onboarding
+
+##### Configuration
 
 You can configure the onboarding flow with the following code:
 
@@ -114,7 +131,7 @@ val config = OnboardingConfig.builder()
 Where `userToken` is used to secure requests made by the users on their mobile devices or web clients. You should obtain it from your Backend (see [Authentication :closed_lock_with_key:](#authentication-closed_lock_with_key)).
 
 
-### Run ALiCE Onboarding
+##### Run ALiCE Onboarding
 
 Once you configured the ALiCE Onboarding Flow, you can run the process with:
 
@@ -138,15 +155,114 @@ override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) 
 }
 ```
 
-### Permissions
+### Onboarding with Commands
 
-ALiCE Onboarding needs to have the following permissions granted.
+Check detailed doc about `OnboardingCommands` class [here](https://docs.alicebiometrics.com/onboarding/sdk/ios/Classes/OnboardingCommands.html).
+ 
+You can configure and run specific actions with the class `OnboardingCommands`. 
+This mode allows you to use the following commands:
+* `addSelfie`: Presents a Selfie Capturer and upload this info to ALiCE Onboarding.
+* `createDocument`: Creates a document (`DocumentType`, `DocumentIssuingCountry`). It returns a `DocumentId`.
+* `addDocument`: Add document Side. It requires as input a valid `DocumentId` and `DocumentSide`.
+* `getUserStatus`: Returns information about the User.
+* `authenticate`: Presents a Selfie Capturer and verify the identity of the enrolled user. User must be authorized to use this command.
+* `getDocumentsSupported`: Returns a map with information about supported documents in ALiCE Onboarding
 
-```kotlin
-  <uses-permission android:name="android.permission.CAMERA" />
-  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+First of all, you have to configure an `OnboardingCommand` instance:
+
+```swift
+val onboardingCommands = OnboardingCommands(this, userToken)
 ```
 
+Once you configured the `OnboardingCommands`, you can run the selected process with:
+
+##### Run Selfie Capturer
+
+```kotlin
+class OnboardingCommandActivity : AppCompatActivity() {
+
+    private val ONBOARDINGCOMMANDS = "ONBOARDING_COMMANDS"
+    private val REQUEST_CODE_ADD_FACE = 100
+    private lateinit var onboardingCommands: OnboardingCommands
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_onboarding_command)
+        onboardingCommands = OnboardingCommands(this, intent.getStringExtra("userToken"))
+    }
+
+    fun commandAddSelfie(view: View) {
+        onboardingCommands.addSelfie(requestCode=REQUEST_CODE_ADD_FACE)
+    }
+
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+        if (requestCode == REQUEST_CODE_ADD_FACE) {
+            when(val result: OnboardingCommandResult = data!!.getParcelableExtra("onboardingCommandResult")){
+                is OnboardingCommandResult.Success -> {
+                    showDialog(result.response.content)
+                }
+                is OnboardingCommandResult.Failure -> {
+                    handleOnboardingError(result.response)
+                }
+            }
+        }
+    }
+```
+
+##### Run Document Capturer
+
+```kotlin
+class OnboardingCommandActivity : AppCompatActivity() {
+
+    private val REQUEST_CODE_ADD_DOCUMENT = 200
+    private lateinit var onboardingCommands: OnboardingCommands
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_onboarding_command)
+        onboardingCommands = OnboardingCommands(this, intent.getStringExtra("userToken"))
+    }
+
+    fun commandAddDocument(view: View) {
+       val documentype = DocumentType.IDCARD
+       val documentCountry = "ESP"
+       onboardingCommands.createDocument(documentype, documentCountry) { result ->
+           when (result) {
+               is OnboardingCommandResult.Success -> {
+                   onboardingCommands.addDocument(
+                           documentId = result.response.content,
+                           type =  documentype,
+                           issuingCountry = documentCountry,
+                           side = DocumentSide.FRONT,
+                           requestCode=REQUEST_CODE_ADD_DOCUMENT)
+               }
+               is OnboardingCommandResult.Failure  -> {
+                   showDialog(result.response.toString())
+               }
+           }
+       }
+    }
+    
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+      super.onActivityResult(requestCode, resultCode, data)
+      if (requestCode == REQUEST_CODE_ADD_DOCUMENT) {
+          when(val result: OnboardingCommandResult = data!!.getParcelableExtra("onboardingCommandResult")){
+              is OnboardingCommandResult.Success -> {
+                  showDialog(result.response.content)
+              }
+              is OnboardingCommandResult.Failure -> {
+                  handleOnboardingError(result.response)
+              }
+          }
+      }
+    }
+}
+```
+
+Check an example of this in the [AppOnboardingSample](https://github.com/alice-biometrics/onboarding-android/blob/master/AppOnboardingSample/app/src/main/java/com/alicebiometrics/apponboardingsample/OnboardingCommandActivity.kt) application.
 
 ## Authentication :closed_lock_with_key:
 
