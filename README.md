@@ -61,8 +61,8 @@ android {
 
 ```gradle
 minSdkVersion = 21
-targetSdkVersion = 28
-compileSdkVersion = 28
+targetSdkVersion = 29
+compileSdkVersion = 29
 Kotlin = 1.3.60
 ```
 
