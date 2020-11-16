@@ -100,7 +100,7 @@ class OnboardingCommandActivity : AppCompatActivity() {
     private fun showDialog(message: String) {
         val customAlertDialog = CustomAlertDialog(this)
         customAlertDialog.setMessage(message)
-        customAlertDialog.setNegativeButton(getString(R.string.exit))
+        customAlertDialog.setNegativeButton(getString(R.string.exit), {})
         customAlertDialog.show()
     }
 
