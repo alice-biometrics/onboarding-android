@@ -61,8 +61,8 @@ android {
 
 ```gradle
 minSdkVersion = 21
-targetSdkVersion = 28
-compileSdkVersion = 28
+targetSdkVersion = 29
+compileSdkVersion = 29
 Kotlin = 1.3.60
 ```
 
@@ -425,6 +425,26 @@ Please, grant write permission. Check [Permissions](#permissions)
 
 This permission is necessary because the android MediaRecorder utility used to record the video clip writes the output to disk.
 
+#### java.lang.ExceptionInInitializerError on launch (versions >= 1.5.1)
+
+If you are using versions greather than or equal to 1.5.1 and the application crashes on launch and the trace it's like this:
+
+```
+Caused by java.lang.ExceptionInInitializerError
+       at kotlin.reflect.jvm.internal.impl.builtins.DefaultBuiltIns.getInstance(DefaultBuiltIns.java)
+       at kotlin.reflect.jvm.internal.impl.types.ErrorUtils$1.getBuiltIns(ErrorUtils.java:139)
+       at kotlin.reflect.jvm.internal.impl.resolve.descriptorUtil.DescriptorUtilsKt.getBuiltIns(Descriptor
+       ....
+Caused by: java.lang.IllegalStateException: No BuiltInsLoader implementation was found. Please ensure that the META-INF/services/ is not stripped from your application and that the Java virtual machine is not running under a security manager
+```
+The error is caused by proguard. You can fix this by adding these new rules:
+
+```
+-keep interface kotlin.reflect.jvm.internal.impl.builtins.BuiltInsLoader
+-keep class kotlin.reflect.jvm.internal.impl.serialization.deserialization.builtins.BuiltInsLoaderImpl
+```
+
+This will be fixed on future versions of the library since it's already [fixed on the upstream of the faulty dependency](https://github.com/JetBrains/kotlin/pull/2893).
 
 ## Documentation :page_facing_up:
 
