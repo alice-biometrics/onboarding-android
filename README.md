@@ -33,27 +33,6 @@ The main features are:
 
 All versions of Android are supported since Android 5.0 (sdk 21).
 
-**Google Firebase**
-
-ALiCE Onboarding Android SDK uses Google Firebase so when you integrate it in you application you will need to [register it](https://firebase.google.com/docs/android/setup) as a Firebase project and add the Firebase configuration file to your project. Only on-device (free) Firebase API is required.
-
-Please, create your credentials for your application and associate them with your applicationId:
-
-Copy your `google-services.json` file for the example application inside your Android Project.
-
-```console
-cp ~/Downloads/google-services.json <Your-Android-Project-Path>
-```
- 
-Your google-services.json should have an applicationId associated. Please, change in `<Your-Android-Project-Path>/build.gradle`
-
-```gradle
-android {
-    defaultConfig {
-        applicationId "<ADD-HERE-YOUR-APPLICATION-ID"
-    }
-```
-
 ## Installation :computer:
 
 
@@ -364,8 +343,6 @@ Check our Android demo in this repo (`AppOnboardingSample` folder).
 To run the project:
 
 * Open the Android Studio Project
-* Add a valid `google-services.json`(Check [Requirements](#requirements)) 
-* Check the `applicationId`to fit `google-services.json` (Check [Requirements](#requirements)) 
 * Run the application.
 
 #### App
@@ -382,29 +359,6 @@ Please, visit the doc.
 https://docs.alicebiometrics.com/onboarding/sdk/android/customisation.html
 
 ## Troubleshooting :fire:
-
-#### Firebase is not configured
-
-
-If you obtain something similar when you run the application:
-
-```
-FAILURE: Build failed with an exception.
-
-* What went wrong:
-Execution failed for task ':app:processDebugGoogleServices'.
-> File google-services.json is missing. The Google Services Plugin cannot function without it. 
-   Searched Location: 
-  <path-to-your-project>/AppOnboardingSample/app/src/nullnull/google-services.json
-  <path-to-your-project>/AppOnboardingSample/app/src/debug/google-services.json
-  <path-to-your-project>/AppOnboardingSample/app/src/nullnullDebug/google-services.json
-  <path-to-your-project>/AppOnboardingSample/app/src/nullnull/debug/google-services.json
-  <path-to-your-project>/AppOnboardingSample/app/src/debug/nullnull/google-services.json
-  <path-to-your-project>/AppOnboardingSample/app/google-services.json
-```
-
-Please, configure your Firebase project. Check [Requirements](#requirements) and [Demo :rocket:](#demo-rocket).
-
 
 #### Write permission not granted
 
