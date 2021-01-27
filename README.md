@@ -407,4 +407,3 @@ For more information about ALiCE Onboarding:  https://docs.alicebiometrics.com/o
 ## Contact :mailbox_with_mail:
 
 support@alicebiometrics.com
-
