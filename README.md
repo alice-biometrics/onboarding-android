@@ -247,7 +247,7 @@ Check an example of this in the [AppOnboardingSample](https://github.com/alice-b
 
 How can we get the `userToken` to start testing ALiCE Onboarding technology?
 
-`AliceOnboarding` can be used with two differnet authentication modes:
+`AliceOnboarding` can be used with two different authentication modes:
 
 * Trial (Using ALiCE Onboarding Sandbox): Recommended only in the early stages of integration.
     - Pros: This mode does not need backend integration.
