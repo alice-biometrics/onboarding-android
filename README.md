@@ -329,12 +329,6 @@ authenticator.execute { response ->
 }
 ```
 
-Open the Android Studio workspace
-
-
-Add your `SANDBOX_TOKEN` credentials in `Settings -> CREDENTIALS -> Sandbox Token` 
-
-See the authentication options [here](AppOnboardingSample/MainView/MainViewController+Auth.swift)
 
 ## Demo :rocket:
 
