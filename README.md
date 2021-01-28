@@ -135,8 +135,6 @@ override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) 
 ```
 
 ### Onboarding with Commands
-
-Check detailed doc about `OnboardingCommands` class [here](https://docs.alicebiometrics.com/onboarding/sdk/ios/Classes/OnboardingCommands.html).
  
 You can configure and run specific actions with the class `OnboardingCommands`. 
 This mode allows you to use the following commands:
