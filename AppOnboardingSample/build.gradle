@@ -12,6 +12,7 @@ buildscript {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         classpath "org.jetbrains.dokka:dokka-android-gradle-plugin:$dokkaVersion"
         classpath "org.jetbrains.kotlin:kotlin-serialization:$kotlin_version"
+        classpath "org.jfrog.buildinfo:build-info-extractor-gradle:4.20.0"
     }
 }
 
@@ -23,7 +24,7 @@ allprojects {
         jcenter()
         maven { url "https://jitpack.io" }
         maven {
-            url  "https://dl.bintray.com/alice-biometrics/alicebiometrics"
+            url "https://alicebiometrics.jfrog.io/artifactory/alicebiometrics-maven-pro-local/"
         }
     }
 }
