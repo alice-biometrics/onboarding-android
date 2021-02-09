@@ -53,6 +53,7 @@ repositories {
     maven {
         url  "https://alicebiometrics.jfrog.io/artifactory/alicebiometrics-maven-pro-local/" 
     }
+}
 ```
 
 ```gradle
