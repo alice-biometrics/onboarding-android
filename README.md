@@ -47,12 +47,12 @@ Kotlin = 1.3.60
 
 ### Adding the SDK dependency
 
-**Using JCentral**
-
 ```gradle
 repositories {
     jcenter()
-}
+    maven {
+        url  "https://alicebiometrics.jfrog.io/artifactory/alicebiometrics-maven-pro-local/" 
+    }
 ```
 
 ```gradle
@@ -61,16 +61,6 @@ dependencies {
 }
 ```
 
-**Bintray**:
-
-Approval of new versions in the JCenter may be delayed. Add the following code to solve the dependencies using Bintray.
-
-```gradle
-repositories {
-    maven {
-        url  "https://dl.bintray.com/alice-biometrics/alicebiometrics" 
-    }
-```
 
 ## Getting Started :chart_with_upwards_trend:
 
