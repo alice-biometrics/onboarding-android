@@ -14,7 +14,7 @@ The main features are:
 
 ## Documentation :page_facing_up:
 
-Refer to  https://docs.alicebiometrics.com/onboarding/sections/mobile_client_side_sdks/android.html
+Refer to https://docs.alicebiometrics.com/onboarding/sections/mobile_client_side_sdks/android.html
 
 ## Contact :mailbox_with_mail:
 
