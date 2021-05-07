@@ -1,8 +1,14 @@
 name: ci
 
 on:
-  schedule:
-  - cron:  '0 24 * * 6'
+  release:
+    types: # This configuration does not affect the page_build event above
+      - created
+  push:
+    paths:
+      - '.github/workflows/ci.yml'
+    branches:
+      - 'master'
 
 jobs:
   build:
