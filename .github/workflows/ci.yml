@@ -27,7 +27,7 @@ jobs:
       uses: reactivecircus/android-emulator-runner@v2
       with:
         working-directory: ./AppOnboardingSample
-        api-level: 23
+        api-level: 29
         target: default
         arch: x86
         profile: Nexus 6
