@@ -23,18 +23,11 @@ jobs:
       with:
         java-version: 1.8
         
-    - name: Build all artifacts
-      id: buildAllApks
-      uses: eskatos/gradle-command-action@v1.3.3
+    - name: Run Instrumentation Tests
+      uses: reactivecircus/android-emulator-runner@v2
       with:
-        build-root-directory: AppOnboardingSample
-        gradle-version: current
-        wrapper-cache-enabled: true
-        dependencies-cache-enabled: true
-        configuration-cache-enabled: true
-        arguments: assembleRelease
-        
-    - name: Run Unit Tests
-      working-directory: AppOnboardingSample/
-      run: |
-          ./gradlew testStagingDebugUnitTest
+        api-level: 23
+        target: default
+        arch: x86
+        profile: Nexus 6
+        script: ./gradlew connectedAndroidTest --stacktrace
