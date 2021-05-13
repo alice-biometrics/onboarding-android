@@ -24,5 +24,4 @@ jobs:
     - name: Tests [UI test]
       working-directory: AppOnboardingSample/
       run: |
-          ./gradlew connectToSmartphoneTestFarm
           ./gradlew connectedAndroidTest
