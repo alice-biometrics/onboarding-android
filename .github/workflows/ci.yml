@@ -26,7 +26,7 @@ jobs:
     - name: Run Instrumented Tests
       uses: reactivecircus/android-emulator-runner@v2
       with:
-        working-directory: ./AppOnboardingSample
+        working-directory: ./AliceOnboardingSampleApp
         api-level: 23
         target: default
         arch: x86
