@@ -21,7 +21,7 @@ import com.alicebiometrics.onboarding.api.Onboarding
 import com.alicebiometrics.onboarding.auth.AuthenticationError
 import com.alicebiometrics.onboarding.auth.Authenticator
 import com.alicebiometrics.onboarding.auth.Response
-import com.alicebiometrics.onboarding.auth.SandboxAuthenticator
+import com.alicebiometrics.onboarding.auth.TrialAuthenticator
 import com.alicebiometrics.onboarding.config.OnboardingConfig
 import com.alicebiometrics.onboarding.sandbox.*
 
@@ -81,8 +81,8 @@ class MainActivity : AppCompatActivity(), SharedPreferences.OnSharedPreferenceCh
 
     fun getAuthenticator(authenticationMode: AuthenticationMode) : Authenticator {
         when (authenticationMode) {
-            AuthenticationMode.TRIAL -> return SandboxAuthenticator(
-                sandboxToken = this.sandboxToken,
+            AuthenticationMode.TRIAL -> return TrialAuthenticator(
+                trialToken = this.sandboxToken,
                 userInfo = this.userInfo
             )
             AuthenticationMode.PRODUCTION -> return MyBackendAuthenticator()
@@ -149,7 +149,7 @@ class MainActivity : AppCompatActivity(), SharedPreferences.OnSharedPreferenceCh
                 emailInput.clearComposingText()
             }, 100)
         } else {
-            sandboxManager = SandboxManager(sandboxToken = token)
+            sandboxManager = SandboxManager(trialToken = token)
         }
     }
 
@@ -328,13 +328,13 @@ class MainActivity : AppCompatActivity(), SharedPreferences.OnSharedPreferenceCh
 
     private fun getStringAuthenticationError(authenticationError: AuthenticationError): String {
         when (authenticationError) {
-            AuthenticationError.CLIENTERROR -> return getString(R.string.client_error)
-            AuthenticationError.CONNECTIONERROR -> return getString(R.string.connection_error)
-            AuthenticationError.ENCODINGERROR -> return getString(R.string.encoding_error)
-            AuthenticationError.INVALIDSANDBOXTOKEN -> return getString(R.string.invalid_sandbox_token)
-            AuthenticationError.SERVERERROR -> return getString(R.string.server_error)
-            AuthenticationError.UNKNOWNERROR -> return getString(R.string.unknown_error)
-            AuthenticationError.INVALIDMAIL -> return "Invalid mail"
+            AuthenticationError.CLIENT_ERROR -> return getString(R.string.client_error)
+            AuthenticationError.CONNECTION_ERROR -> return getString(R.string.connection_error)
+            AuthenticationError.ENCODING_ERROR -> return getString(R.string.encoding_error)
+            AuthenticationError.INVALID_TRIAL_TOKEN -> return getString(R.string.invalid_sandbox_token)
+            AuthenticationError.SERVER_ERROR -> return getString(R.string.server_error)
+            AuthenticationError.UNKNOWN_ERROR -> return getString(R.string.unknown_error)
+            AuthenticationError.INVALID_MAIL -> return "Invalid mail"
         }
         return ""
     }
