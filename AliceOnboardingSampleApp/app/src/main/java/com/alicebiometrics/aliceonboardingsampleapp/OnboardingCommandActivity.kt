@@ -43,7 +43,9 @@ class OnboardingCommandActivity : AppCompatActivity() {
                             type =  documentype,
                             issuingCountry = documentCountry,
                             side = DocumentSide.FRONT,
-                            requestCode=REQUEST_CODE_ADD_DOCUMENT)
+                            requestCode=REQUEST_CODE_ADD_DOCUMENT) {
+
+                    }
                 }
                 is OnboardingCommandResult.Failure  -> {
                     showDialog(result.response.toString())
