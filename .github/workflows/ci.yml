@@ -1,14 +1,6 @@
 name: ci
 
-on:
-  release:
-    types: # This configuration does not affect the page_build event above
-      - created
-  push:
-    paths:
-      - '.github/workflows/ci.yml'
-    branches:
-      - 'master'
+on: push
 
 jobs:
   build:
