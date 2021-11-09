@@ -29,8 +29,8 @@ class ExampleInstrumentedTest {
     @Rule @JvmField
     val mActivityRule = ActivityTestRule(MainActivity::class.java)
 
-    @get:Rule var permissionRuleCamera = GrantPermissionRule.grant(android.Manifest.permission.CAMERA)
-    @get:Rule var permissionRuleWriteExternal = GrantPermissionRule.grant(android.Manifest.permission.WRITE_EXTERNAL_STORAGE)
+    //@get:Rule var permissionRuleCamera = GrantPermissionRule.grant(android.Manifest.permission.CAMERA)
+    //@get:Rule var permissionRuleWriteExternal = GrantPermissionRule.grant(android.Manifest.permission.WRITE_EXTERNAL_STORAGE)
 
 
     var mLocatingActivity: MainActivity? = null
