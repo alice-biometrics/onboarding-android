@@ -36,11 +36,13 @@ jobs:
         run: |
           latest_release=$(curl -sSL \
           -X GET \
-          -H "Authorization: token $ALICE_GITHUB_ACCESS_TOKEN" \
+          -H "Authorization: token ${{ env.ALICE_GITHUB_ACCESS_TOKEN }} \
           -H "$GITHUB_API_HEADER" \
            "$GITHUB_API_URI/repos/$repo/releases/latest")
           latest_release_version=$(echo $latest_release | jq '.tag_name') | sed 's/"//g'
           latest_release_body=$(echo $latest_release | jq '.body') | sed 's/"//g'
+          echo "SDK version: $latest_release_version"
+          echo "SDK description: $latest_release_body"
           
       - uses: alice-biometrics/release-creator@v1.0.3
         with:
