@@ -17,5 +17,5 @@ def update_android_version(version):
 		file.writelines(lines)
 
 if __name__ == "__main__":
-   platform, version = sys.argv[1:]
+   version = sys.argv[1:]
    update_android_version(version)
