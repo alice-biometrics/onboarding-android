@@ -1,17 +1,21 @@
 name: ci
 
 on:
-  release:
-    types: # This configuration does not affect the page_build event above
-      - created
   push:
     paths:
       - '.github/workflows/ci.yml'
+      - 'AliceOnboardingSampleApp/app/build.gradle'
     branches:
       - 'master'
+      - 'ci/draft-releases/'
 
+env:
+  ALICE_GITHUB_ACCESS_TOKEN: ${{ secrets.ALICE_GITHUB_ACCESS_TOKEN }}
+  GITHUB_API_URI: "https://api.github.com"
+  GITHUB_API_HEADER: "Accept: application/vnd.github.v3+json"
+  
 jobs:
-  test:
+  ci:
     runs-on: macOS-10.15
     steps:
       - name: checkout
@@ -23,5 +27,26 @@ jobs:
           working-directory: ./AliceOnboardingSampleApp
           api-level: 29
           script: ./gradlew connectedCheck
+          
+  create-release:
+    name: Public repo release
+    needs: [ci]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get onboarding-android-lib latest release
+        run: |
+          latest_release=$(curl -sSL \
+          -X GET \
+          -H "Authorization: token $ALICE_GITHUB_ACCESS_TOKEN" \
+          -H "$GITHUB_API_HEADER" \
+           "$GITHUB_API_URI/repos/$repo/releases/latest")
+          latest_release_version=$(echo $latest_release | jq '.tag_name') | sed 's/"//g'
+          latest_release_body=$(echo $latest_release | jq '.body') | sed 's/"//g'
+          
+      - uses: alice-biometrics/release-creator@v1.0.3
+        with:
+          GITHUB_TOKEN: ${{ env.ALICE_GITHUB_ACCESS_TOKEN }}
+          version: $latest_release_version
+          description: $latest_release_body
 
 
