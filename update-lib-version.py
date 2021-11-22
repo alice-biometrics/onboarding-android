@@ -4,7 +4,7 @@ import sys
 
 def update_android_version(version):
 	print(f"Updating Android version {version}")
-	filename = "AliceOnboardingSampleApp/app/build.gradlee"
+	filename = "AliceOnboardingSampleApp/app/build.gradle"
 
 	with open(filename, "r") as file:
 		lines = file.readlines()
