@@ -7,7 +7,7 @@ on:
       - 'AliceOnboardingSampleApp/app/build.gradle'
     branches:
       - 'master'
-      - 'ci/draft-releases/'
+      - 'ci/draft-releases'
 
 env:
   ALICE_GITHUB_ACCESS_TOKEN: ${{ secrets.ALICE_GITHUB_ACCESS_TOKEN }}
