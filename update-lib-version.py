@@ -3,6 +3,7 @@
 import sys
 
 def update_android_version(version):
+	version = version.replace("['", "").replace("']", "")
 	print(f"Updating Android version {version}")
 	filename = "AliceOnboardingSampleApp/app/build.gradle"
 
