@@ -135,7 +135,7 @@ class MainActivity : AppCompatActivity(), SharedPreferences.OnSharedPreferenceCh
     // SANDBOX
     private fun checkSandboxToken() {
         var token: String = sandboxToken
-        if (Onboarding.getEnvironment() == Enviroment.preproduction) {
+        if (Onboarding.getEnvironment() == Enviroment.STAGING) {
             token = experimentalSandboxToken
         }
         if (token.isEmpty()) {
@@ -303,9 +303,9 @@ class MainActivity : AppCompatActivity(), SharedPreferences.OnSharedPreferenceCh
 
     private fun configureEnvironment() {
         if (experimentalEnvironment) {
-            Onboarding.setEnvironment(Enviroment.preproduction)
+            Onboarding.setEnvironment(Enviroment.STAGING)
         } else {
-            Onboarding.setEnvironment(Enviroment.production)
+            Onboarding.setEnvironment(Enviroment.PRODUCTION)
         }
     }
 

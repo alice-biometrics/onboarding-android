@@ -22,7 +22,7 @@ class AboutActivity : AppCompatActivity() {
         setContentView(R.layout.activity_about)
         frameworkVersionTextView = findViewById(R.id.tv_framework_version)
         appVersionTextView = findViewById(R.id.tv_app_version)
-        frameworkVersionTextView.text = Onboarding.version
+        frameworkVersionTextView.text = Onboarding.sdkVersion
         appVersionTextView.text = BuildConfig.VERSION_NAME
         setSupportActionBar(findViewById(R.id.about_toolbar))
         supportActionBar!!.setDisplayHomeAsUpEnabled(true)
