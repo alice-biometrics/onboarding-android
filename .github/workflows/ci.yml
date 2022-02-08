@@ -26,5 +26,3 @@ jobs:
           working-directory: ./AliceOnboardingSampleApp
           api-level: 29
           script: ./gradlew connectedCheck
-
-
