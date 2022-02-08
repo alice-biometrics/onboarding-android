@@ -3,7 +3,7 @@
 import sys
 
 def update_android_version(version):
-	version = version.replace("['", "").replace("']", "")
+	version = version[0] if isinstance(version, list) else version
 	print(f"Updating Android version {version}")
 	filename = "AliceOnboardingSampleApp/app/build.gradle"
 
