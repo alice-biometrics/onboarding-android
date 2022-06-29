@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="onboarding_click_or_drop">Premeu o arrossegueu la imatge aquí</string>
+<string name="onboarding_close">Tancar</string>
+<string name="onboarding_rotate">Gira</string>
+<string name="onboarding_yes">Sí</string>
+<string name="onboarding_no">No</string>
+<string name="onboarding_alert_title_really_sure_to_exit">Procés incomplet</string>
+<string name="onboarding_alert_subtitle_really_sure_to_exit">Estàs segur que vols sortir?</string>
+<string name="onboarding_ask_for_permissions_title">Aquesta funcionalitat requereix accés a la càmera</string>
+<string name="onboarding_ask_for_permissions_subtitle">A la configuració del dispositiu, obriu la configuració de l\'aplicació i activeu la càmera.</string>
+<string name="onboarding_ask_for_permissions_ok_button">Obre Configuració</string>
+<string name="onboarding_ask_for_permissions_cancel_button">Cancel·lar</string>
+<string name="onboarding_not_supported_browser_modal_message">No recomanem l\'ús d\'aquest navegador. Proveu el procés amb un navegador més popular com Chrome o Firefox.</string>
+<string name="onboarding_not_supported_browser_modal_title">Navegador no compatible</string>
+
+//Errors
+<string name="onboarding_error_config">Si us plau, revisi el seu OnboardingConfig. Deu tenir seleccionada com a mínim un OnboardingStage.</string>
+<string name="onboarding_error_loading_resources">Connexió lenta-ho a provar més tard</string>
+<string name="onboarding_error_title_technical">Hi ha hagut algun error.</string>
+<string name="onboarding_error_subtitle_technical">Intenta-ho de nou.</string>
+<string name="onboarding_error_title_connection">Error de connexió</string>
+<string name="onboarding_error_subtitle_connection">Comprova la teva connexió a Internet</string>
+<string name="onboarding_error_storage_is_full_title">Error per falta d\'espai</string>
+<string name="onboarding_error_storage_is_full_subtitle">Si us plau, elimina algun arxiu per poder continuar.</string>
+<string name="onboarding_error_title_camera">Error a l\'gravar el vídeo</string>
+<string name="onboarding_error_subtitle_camera">Intenta-ho de nou.</string>
+<string name="onboarding_error_title_selfie">No s\'ha pogut completar l\'enviament de l\'selfie.</string>
+<string name="onboarding_error_subtitle_selfie">Intenta-ho de nou.</string>
+<string name="onboarding_error_title_authentication">Error d\'autenticació.</string>
+<string name="onboarding_error_subtitle_authentication">Intenta-ho de nou.</string>
+<string name="onboarding_error_subtitle_camera_not_available">Si us plau, comprovi la seva càmera</string>
+<string name="onboarding_browser_no_compatible">Aquesta funcionalitat no és compatible amb el navegad por utilitzat. Proveu amb Safari</string>
+<string name="onboarding_error_user_not_found">Usuari no trobat</string>
+<string name="onboarding_error_title_file_too_big">El fitxer és massa gran</string>
+<string name="onboarding_error_subtitle_file_too_big">La mida màxima permesa del fitxer és de {size} MB</string>
+<string name="onboarding_error_title_file_type_not_supported">El fitxer no és compatible</string>
+<string name="onboarding_error_subtitle_file_type_not_supported">Els tipus de fitxers admesos són .jpg, .png, .bmp</string>
+<string name="onboarding_error_doc_country_not_supported">Ho sentim, aquest tipus de document no és compatible amb el país seleccionat</string>
+<string name="onboarding_error_title_challenge_timeout">Temps esgotat</string>
+<string name="onboarding_error_subtitle_challenge_timeout">No s\'ha completat el desafiament. Intenta-ho de nou.</string>
+
+//Stages
+<string name="onboarding_stages_title">Verificació d\'identitat</string>
+<string name="onboarding_stages_description">Si us plau, completeu els passos següents per a una verificació correcta</string>
+<string name="onboarding_stages_selfie">Selfie</string>
+<string name="onboarding_stages_selfie_with_challenge">Selfie amb repte</string>
+<string name="onboarding_stages_selfie_with_document">Selfie amb document</string>
+<string name="onboarding_stages_id_card">Carnet d\'identitat</string>
+<string name="onboarding_stages_driver_license">Carnet de conduir</string>
+<string name="onboarding_stages_passport">Passaport</string>
+<string name="onboarding_stages_residence_permit">Permís de residència</string>
+<string name="onboarding_stages_credit_card">Targeta de crèdit/dèbit</string>
+<string name="onboarding_stages_health_insurance_card">Targeta sanitària</string>
+<string name="onboarding_stages_already_completed">Pas ja completat</string>
+<string name="onboarding_stages_completed">Complet</string>
+<string name="onboarding_stages_inactive">Si us plau, completa el pas anterior</string>
+<string name="onboarding_stages_start_button">COMENÇAR</string>
+<string name="onboarding_stages_done_button">CONTINUAR</string>
+
+//Doc sides screen
+<string name="onboarding_sides_title_id_card">Carnet d\'identitat</string>
+<string name="onboarding_sides_title_driver_license">Carnet de conduir</string>
+<string name="onboarding_sides_title_passport">Passaport</string>
+<string name="onboarding_sides_title_residence_permit">Permís de residència</string>
+<string name="onboarding_sides_title_health_insurance_card">Targeta sanitària</string>
+<string name="onboarding_sides_subtitle">Si us plau, procedeixi amb la captura de el document.</string>
+<string name="onboarding_sides_front">PART FRONTAL</string>
+<string name="onboarding_sides_back">PART POSTERIOR</string>
+<string name="onboarding_sides_info_page">PÀGINA D\'INFORMACIÓ</string>
+<string name="onboarding_sides_tap_here">TOCA AQUÍ</string>
+<string name="onboarding_sides_done_button">CONTINUAR</string>
+<string name="onboarding_sides_issuing_country">País emissor:</string>
+
+//Country selector
+<string name="onboarding_country_selector_subtitle_issuing_country">Seleccioneu el país emissor</string>
+<string name="onboarding_country_selector_other">Altre</string>
+<string name="onboarding_country_selector_not_selected">Si us plau, seleccioneu el país d\'emissió</string>
+<string name="onboarding_country_selector_start">Començar</string>
+<string name="onboarding_country_selector_cancel">Cancel·lar</string>
+<string name="onboarding_country_selector_reload">Recarregar</string>
+
+//Doc capturer
+<string name="onboarding_doc_capturer_retry_photo">Reintenta captura</string>
+<string name="onboarding_doc_capturer_send_photo">Enviar captura</string>
+<string name="onboarding_doc_capturer_manual">Captura manual</string>
+<string name="onboarding_doc_capturer_retry">Reintentar</string>
+<string name="onboarding_doc_capturer_dismiss">Cancel·lar</string>
+<string name="onboarding_doc_capturer_add_sheet">Afegeix un full</string>
+<string name="onboarding_doc_capturer_send">Enviar</string>
+<string name="onboarding_doc_capturer_info_text">Enquadra la %1$s de la teva %2$s de %3$s fins que s’analitzi automàticament</string>
+<string name="onboarding_doc_capturer_info_text_passport">Ajusteu la pàgina d’informació del passaport fins que s’analitzi automàticament</string>
+<string name="onboarding_doc_capturer_alert_title_timeout">Problema a l\'llegir el teu document</string>
+<string name="onboarding_doc_capturer_alert_subtitle_timeout">Assegura\'t que el teu document està ajustat a l\'rectangle</string>
+<string name="onboarding_doc_capturer_alert_title_generic_problem">Problema a l\'llegir el teu document</string>
+<string name="onboarding_doc_capturer_alert_subtitle_generic_problem">Assegura\'t de mostrar el document correcte (%1$s - %2$s) sense oclusions, reflexos o ombres</string>
+<string name="onboarding_doc_capturer_alert_subtitle_passport_missing_mrz">Assegura\'t de mostrar el passaport sense oclusions, reflexos o ombres</string>
+<string name="onboarding_doc_capturer_alert_title_wrong_doc">Document incorrecte</string>
+<string name="onboarding_doc_capturer_alert_subtitle_wrong_doc">Assegura\'t de mostrar el document correcte (%1$s - %2$s)</string>
+<string name="onboarding_doc_capturer_alert_subtitle_wrong_doc_residencepermit_esp">Assegura\'t de mostrar un document vàlid amb fotografia</string>
+<string name="onboarding_doc_capturer_alert_title_wrong_side">Costat incorrecte</string>
+<string name="onboarding_doc_capturer_alert_subtitle_wrong_side">Assegura\'t de mostrar el costat correcte (%1$s)</string>
+<string name="onboarding_doc_capturer_alert_title_poor_quality">Problema a l\'llegir el teu document</string>
+<string name="onboarding_doc_capturer_alert_subtitle_poor_quality">Assegura\'t de mostrar el document sense oclusions, reflexos o ombres</string>
+<string name="onboarding_doc_capturer_front">PART FRONTAL</string>
+<string name="onboarding_doc_capturer_back">PART POSTERIOR</string>
+<string name="onboarding_doc_capturer_choose_source">Trieu origen</string>
+<string name="onboarding_doc_capturer_review_back">Utilitza una altra foto</string>
+<string name="onboarding_doc_capturer_subtitle">Si us plau, continuï amb la captura</string>
+<string name="onboarding_doc_capturer_subtitle_review">Si us plau, assegura\'t que la imatge només conté el document i que aquest no està girat</string>
+<string name="onboarding_doc_capturer_title_review">Revisió de la imatge</string>
+<string name="onboarding_doc_capturer_review_ok">Està bé</string>
+<string name="onboarding_doc_capturer_source_camera">Càmera</string>
+<string name="onboarding_doc_capturer_source_file">Arxiu</string>
+<string name="onboarding_doc_capturer_adding">Carregant arxiu</string>
+<string name="onboarding_doc_capturer_subtitle_try_manual_capture">El document no ha pogut ser capturat, provi la captura manual</string>
+<string name="onboarding_doc_capturer_subtitle_try_again_or_manual_capture">El document no ha pogut ser capturat. Prova de nou o bé utilitza la captura manual</string>
+<string name="onboarding_doc_capturer_qr_message">No us preocupeu, podeu continuar el procés des del vostre smartphone. Escaneja el QR!</string>
+<string name="onboarding_doc_capturer_qr_or_you_can">o podeu</string>
+<string name="onboarding_doc_capturer_check_position">Ajusta el document a l\'rectangle</string>
+<string name="onboarding_doc_capturer_processing_stay_still">Capturant… No mogui el document</string>
+
+//Credit card general
+<string name="onboarding_credit_card_supported_cards">Targetes admeses:</string>
+<string name="onboarding_credit_card_alert_title_generic_problem">Problema a l\'llegir la seva targeta</string>
+<string name="onboarding_credit_card_alert_subtitle_generic_problem">Si es troba amb problemes d\'escaneig de la seva targeta, pot introduir les dades manualment</string>
+<string name="onboarding_credit_card_alert_title_unsupported_card">Targeta no admesa</string>
+<string name="onboarding_credit_card_alert_subtitle_unsupported_card">Les targetes admeses són: </string>
+<string name="onboarding_credit_card_alert_retry">Reintentar</string>
+<string name="onboarding_credit_card_alert_enter_manually">Introduir manualment</string>
+
+//Credit card mode selector
+<string name="onboarding_credit_card_mode_selector_title">Targeta de crèdit/dèbit</string>
+<string name="onboarding_credit_card_mode_selector_subtitle">Si us plau, tria un mètode per proporcionar la informació de la targeta</string>
+<string name="onboarding_credit_card_mode_selector_nfc">Escanejar automàticament amb NFC (només si la targeta té aquest símbol)</string>
+<string name="onboarding_credit_card_mode_selector_camera">Escanejar automàticament amb la càmera del darrere</string>
+<string name="onboarding_credit_card_mode_selector_form">Introduir manualment</string>
+
+//Credit card capturer from camera
+<string name="onboarding_credit_card_camera_capturer_info_text">Enquadra el costat que mostra el número de la targeta fins que es escanegi automàticament</string>
+
+//Credit card capturer from NFC
+<string name="onboarding_credit_card_nfc_capturer_title">Escaneja la targeta</string>
+<string name="onboarding_credit_card_nfc_capturer_error_not_available">No hi ha cap mòdul NFC disponible en aquest dispositiu</string>
+<string name="onboarding_credit_card_nfc_capturer_error_generic">Si us plau, no moguis la targeta. Intenta-ho de nou.</string>
+<string name="onboarding_credit_card_nfc_capturer_error_unknown_card">Targeta desconeguda</string>
+<string name="onboarding_credit_card_nfc_capturer_error_contactless_locked">Targeta bloquejada</string>
+<string name="onboarding_credit_card_nfc_capturer_tap_your_card">Si us plau, posi la seva targeta a la part posterior del seu telèfon</string>
+<string name="onboarding_credit_card_nfc_info_title_scanning">Llegint…</string>
+<string name="onboarding_credit_card_nfc_info_subtitle_scanning">Si us plau, no moguis la targeta durant la lectura.</string>
+<string name="onboarding_credit_card_nfc_alert_title_is_off">NFC desactivat</string>
+<string name="onboarding_credit_card_nfc_alert_subtitle_is_off">Cal tenir activat el mòdul NFC per a la lectura. Vols activar-ara?</string>
+<string name="onboarding_credit_card_nfc_alert_positive_is_off">Activa</string>
+<string name="onboarding_credit_card_nfc_alert_title_expired_card">Targeta caducada</string>
+<string name="onboarding_credit_card_nfc_alert_subtitle_expired_card">La teva targeta ha caducat el</string>
+
+//Credit card form
+<string name="onboarding_credit_card_form_title">Dades de la targeta</string>
+<string name="onboarding_credit_card_form_subtitle_check_data">Si us plau, revisa i completa les dades</string>
+<string name="onboarding_credit_card_form_add_card">Afegir targeta</string>
+<string name="onboarding_credit_card_form_hint_card_number">Número de targeta</string>
+<string name="onboarding_credit_card_form_hint_expiration">Data de venciment</string>
+<string name="onboarding_credit_card_form_hint_cvv">CVV</string>
+<string name="onboarding_credit_card_form_hint_cardholder_name">Nom de titular de la targeta</string>
+<string name="onboarding_credit_card_form_hint_postal_code">codi postal</string>
+<string name="onboarding_credit_card_form_hint_country_code">Codi de país</string>
+<string name="onboarding_credit_card_form_hint_mobile_number">Núm mòbil</string>
+<string name="onboarding_credit_card_form_cvv">CVV</string>
+<string name="onboarding_credit_card_form_cvc">CVC</string>
+<string name="onboarding_credit_card_form_cid">CID</string>
+<string name="onboarding_credit_card_form_cvn">CVN</string>
+<string name="onboarding_credit_card_form_month">Mes</string>
+<string name="onboarding_credit_card_form_year">any</string>
+<string name="onboarding_credit_card_form_card_number_required">El nombre de targeta és obligatori</string>
+<string name="onboarding_credit_card_form_card_number_invalid">Número de targeta no vàlid</string>
+<string name="onboarding_credit_card_form_card_number_unsupported">Targeta no admesa</string>
+<string name="onboarding_credit_card_form_cvv_required">El %s és obligatori</string>
+<string name="onboarding_credit_card_form_cvv_invalid">El %s no és vàlid</string>
+<string name="onboarding_credit_card_form_expiration_required">La data de venciment és obligatòria</string>
+<string name="onboarding_credit_card_form_expiration_invalid">Data de venciment no vàlida</string>
+<string name="onboarding_credit_card_form_cardholder_name_required">El nom de la titular de la targeta és obligatori</string>
+<string name="onboarding_credit_card_form_postal_code_required">El codi postal és obligatori</string>
+<string name="onboarding_credit_card_form_country_code_required">El codi de país és obligatori</string>
+<string name="onboarding_credit_card_form_mobile_number_required">El número de telèfon és obligatori</string>
+<string name="onboarding_credit_card_form_save_card_checkbox_name">Desar targeta</string>
+
+//Document NFC capturer
+<string name="onboarding_nfc_doc_capturer_hold_your_doc_iphone">Mantingues el teu iPhone tocant el teu document i assegura\'t que sobresurti en part per dalt</string>
+<string name="onboarding_nfc_doc_capturer_hold_your_doc_android">Col·loca el document a la part posterior del teu telèfon</string>
+<string name="onboarding_nfc_doc_capturer_finding_antenna">Alinea el document amb l\'antena NFC del teu telèfon. Si no saps on es troba, llisca poc a poc el teu document fins que el telèfon vibri o soni.</string>
+<string name="onboarding_nfc_doc_capturer_finding_antenna_shortened">Lisca poc a poc el teu document fins que el telèfon vibri o soni.</string>
+<string name="onboarding_nfc_doc_capturer_keep_still_until_finished">Mantingues el document quiet fins que finalitzi la lectura</string>
+<string name="onboarding_nfc_doc_capturer_tutorial">Tutorial</string>
+<string name="onboarding_nfc_doc_capturer_start_reading">COMENÇAR</string>
+<string name="onboarding_nfc_doc_capturer_expiry">Venciment</string>
+<string name="onboarding_nfc_doc_capturer_authenticating">Autenticant el document …</string>
+<string name="onboarding_nfc_doc_capturer_reading">Llegint … no moguis el document</string>
+<string name="onboarding_nfc_doc_capturer_success">Document llegit correctament.</string>
+<string name="onboarding_nfc_doc_capturer_error_connection_title">Error de connexió</string>
+<string name="onboarding_nfc_doc_capturer_error_connection_subtitle">No moguis el teu document durant el procés de lectura</string>
+<string name="onboarding_nfc_doc_capturer_error_generic_title">Problema a l\'llegir el teu document</string>
+<string name="onboarding_nfc_doc_capturer_error_generic_subtitle">Intenta-ho de nou.</string>
+<string name="onboarding_nfc_doc_capturer_error_unsupported_doc_title">Document incompatible</string>
+<string name="onboarding_nfc_doc_capturer_error_unsupported_doc_subtitle">Ho sentim, de moment no suportem el teu document</string>
+<string name="onboarding_nfc_doc_capturer_error_wrong_doc_title">Document incorrecte</string>
+<string name="onboarding_nfc_doc_capturer_error_wrong_doc_subtitle">Assegura\'t d\'estar escanejant el document correcte</string>
+
+//Selfie capturer
+<string name="onboarding_selfie_capturer_adding">Afegint selfie…</string>
+<string name="onboarding_selfie_capturer_adding_with_challenge">Afegint una selfie amb un repte…</string>
+<string name="onboarding_selfie_capturer_adding_with_document">S\'està afegint una selfie amb el document…</string>
+<string name="onboarding_selfie_capturer_authenticating">Autenticant…</string>
+<string name="onboarding_selfie_capturer_move_farther">Si us plau, allunyi el dispositiu</string>
+<string name="onboarding_selfie_capturer_get_closer">Si us plau, acosta\'t al dispositiu</string>
+<string name="onboarding_selfie_capturer_no_face">Cara no detectada.</string>
+<string name="onboarding_selfie_capturer_look_camera">Si us plau, miri a la càmera</string>
+<string name="onboarding_selfie_capturer_center_face">Si us plau, centri la seva cara a la oval</string>
+<string name="onboarding_selfie_capturer_device_elevation">Si us plau, posa el dispositiu a l\'alçada dels ulls</string>
+<string name="onboarding_selfie_cancel">Cancel·lar</string>
+<string name="onboarding_selfie_capturer_wrong_yaw_angle">Si us plau, centri la seva cara a la oval</string>
+<string name="onboarding_selfie_capturer_title_insufficient_faces">No s\'ha pogut extreure la informació facial</string>
+<string name="onboarding_selfie_capturer_subtitle_insufficient_faces">Assegura\'t de romandre quiet, mantenint la teva cara a l\'oval i en bones condicions d\'il·luminació durante tot el procés</string>
+<string name="onboarding_selfie_capturer_face_detected_tooltip">Feu clic aquí per fer-vos una foto!</string>
+<string name="onboarding_selfie_capturer_subtitle">Si us plau, continuï amb la captura</string>
+<string name="onboarding_selfie_capturer_subtitle_review">Si us plau, comprova que la foto és bona</string>
+<string name="onboarding_selfie_with_document_capturer_center_face">Si us plau, centreu la vostra cara a l\'oval i el document al rectangle</string>
+
+//OTD capturer
+<string name="onboarding_other_trusted_docs_subtitle">Si us plau, trieu un fitxer PDF</string>
+<string name="onboarding_other_trusted_docs_capturer_subtitle">Si us plau, captureu el vostre document</string>
+<string name="onboarding_other_trusted_docs_click_or_drop">Feu clic o deixeu anar el fitxer aquí</string>
+<string name="onboarding_other_trusted_docs_capturer_accept">Acceptar</string>
+<string name="onboarding_other_trusted_docs_capturer_cancel">Cancel·lar</string>
+<string name="onboarding_other_trusted_docs_capturer_continue">Continuar</string>
+<string name="onboarding_other_trusted_docs_capturer_camera">Càmera</string>
+<string name="onboarding_other_trusted_docs_capturer_images_limit">Nombre màxim d\'imatges assolit</string>
+<string name="onboarding_other_trusted_docs_capturer_documents">Documents</string>
+<string name="onboarding_other_trusted_docs_capturer_file_size_limit_title">PDF massa gran</string>
+<string name="onboarding_other_trusted_docs_capturer_file_size_limit_subtitle">El fitxer no pot excedir els 5 MB</string>
+
+//Welcome
+
+</resources>

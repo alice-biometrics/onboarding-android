@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="onboarding_click_or_drop">Pulsa o arrastra la imagen aquí</string>
+<string name="onboarding_close">Cerrar</string>
+<string name="onboarding_rotate">Girar</string>
+<string name="onboarding_yes">Sí</string>
+<string name="onboarding_no">No</string>
+<string name="onboarding_alert_title_really_sure_to_exit">Proceso incompleto</string>
+<string name="onboarding_alert_subtitle_really_sure_to_exit">¿Estás seguro de querer salir?</string>
+<string name="onboarding_ask_for_permissions_title">Esta funcionalidad requiere acceso a la cámara</string>
+<string name="onboarding_ask_for_permissions_subtitle">En la configuración del dispositivo, abre la configuración de la aplicación y activa la camara.</string>
+<string name="onboarding_ask_for_permissions_ok_button">Abrir Configuración</string>
+<string name="onboarding_ask_for_permissions_cancel_button">Cancelar</string>
+<string name="onboarding_not_supported_browser_modal_message">No recomendamos el uso de este navegador. Por favor, intente realizar el proceso utilizando un navegador más extendido como Chrome o Firefox.</string>
+<string name="onboarding_not_supported_browser_modal_title">Navegador no compatible</string>
+
+//Errors
+<string name="onboarding_error_config">Por favor, revisa tu OnboardingConfig. Debes seleccionar por lo menos un Onboarding Stage.</string>
+<string name="onboarding_error_loading_resources">Conexión lenta, inténtalo de nuevo más tarde</string>
+<string name="onboarding_error_title_technical">Ha ocurrido algún error.</string>
+<string name="onboarding_error_subtitle_technical">Por favor, inténtalo de nuevo.</string>
+<string name="onboarding_error_title_connection">Error de conexión</string>
+<string name="onboarding_error_subtitle_connection">Comprueba tu conexión a Internet</string>
+<string name="onboarding_error_storage_is_full_title">Error por falta de espacio</string>
+<string name="onboarding_error_storage_is_full_subtitle">Por favor, elimina algún archivo para poder continuar.</string>
+<string name="onboarding_error_title_camera">Error al grabar el vídeo</string>
+<string name="onboarding_error_subtitle_camera">Por favor, inténtalo de nuevo.</string>
+<string name="onboarding_error_title_selfie">No se ha podido completar el envío del selfie.</string>
+<string name="onboarding_error_subtitle_selfie">Por favor, inténtalo de nuevo.</string>
+<string name="onboarding_error_title_authentication">Error de autenticación.</string>
+<string name="onboarding_error_subtitle_authentication">Por favor, inténtalo de nuevo.</string>
+<string name="onboarding_error_subtitle_camera_not_available">Por favor, comprueba que estás en un entorno seguro y verifica tu cámara</string>
+<string name="onboarding_browser_no_compatible">Esta funcionalidad no está disponible en este navegador, por favor pruebe en Safari</string>
+<string name="onboarding_error_user_not_found">Usuario no encontrado</string>
+<string name="onboarding_error_title_file_too_big">Archivo demasiado grande</string>
+<string name="onboarding_error_subtitle_file_too_big">El tamaño máximo soportado es {size} MB</string>
+<string name="onboarding_error_title_file_type_not_supported">Archivo no soportado</string>
+<string name="onboarding_error_subtitle_file_type_not_supported">Tipos de archivo soportados .jpg, png, .bmp</string>
+<string name="onboarding_error_doc_country_not_supported">Lo sentimos, este tipo de documento no es compatible con el país seleccionado</string>
+<string name="onboarding_error_title_challenge_timeout">Tiempo agotado</string>
+<string name="onboarding_error_subtitle_challenge_timeout">No se ha superado el reto. Por favor, inténtelo de nuevo</string>
+
+//Stages
+<string name="onboarding_stages_title">Verificación de identidad</string>
+<string name="onboarding_stages_description">Por favor, completa los siguientes pasos para una verificación correcta</string>
+<string name="onboarding_stages_selfie">Selfie</string>
+<string name="onboarding_stages_selfie_with_challenge">Selfie con retos</string>
+<string name="onboarding_stages_selfie_with_document">Selfie con documento</string>
+<string name="onboarding_stages_id_card">Carnet de identidad</string>
+<string name="onboarding_stages_driver_license">Carnet de conducir</string>
+<string name="onboarding_stages_passport">Pasaporte</string>
+<string name="onboarding_stages_residence_permit">Permiso de residencia</string>
+<string name="onboarding_stages_credit_card">Tarjeta de crédito/débito</string>
+<string name="onboarding_stages_health_insurance_card">Tarjeta sanitaria</string>
+<string name="onboarding_stages_already_completed">Paso ya completado</string>
+<string name="onboarding_stages_completed">Completado</string>
+<string name="onboarding_stages_inactive">Por favor, completa el paso anterior</string>
+<string name="onboarding_stages_start_button">COMENZAR</string>
+<string name="onboarding_stages_done_button">CONTINUAR</string>
+
+//Doc sides screen
+<string name="onboarding_sides_title_id_card">Carnet de identidad</string>
+<string name="onboarding_sides_title_driver_license">Carnet de conducir</string>
+<string name="onboarding_sides_title_passport">Pasaporte</string>
+<string name="onboarding_sides_title_residence_permit">Permiso de residencia</string>
+<string name="onboarding_sides_title_health_insurance_card">Tarjeta sanitaria</string>
+<string name="onboarding_sides_subtitle">Por favor, procede con la captura del documento</string>
+<string name="onboarding_sides_front">PARTE FRONTAL</string>
+<string name="onboarding_sides_back">PARTE TRASERA</string>
+<string name="onboarding_sides_info_page">PÁGINA DE INFORMACIÓN</string>
+<string name="onboarding_sides_tap_here">TOCA AQUÍ</string>
+<string name="onboarding_sides_done_button">CONTINUAR</string>
+<string name="onboarding_sides_issuing_country">País emisor:</string>
+
+//Country selector
+<string name="onboarding_country_selector_subtitle_issuing_country">Selecciona el país emisor</string>
+<string name="onboarding_country_selector_other">Otro</string>
+<string name="onboarding_country_selector_not_selected">Por favor, selecciona el país de emisión</string>
+<string name="onboarding_country_selector_start">Comenzar</string>
+<string name="onboarding_country_selector_cancel">Cancelar</string>
+<string name="onboarding_country_selector_reload">Recargar</string>
+
+//Doc capturer
+<string name="onboarding_doc_capturer_retry_photo">Reintentar captura</string>
+<string name="onboarding_doc_capturer_send_photo">Enviar captura</string>
+<string name="onboarding_doc_capturer_manual">Captura manual</string>
+<string name="onboarding_doc_capturer_retry">Reintentar</string>
+<string name="onboarding_doc_capturer_dismiss">Cancelar</string>
+<string name="onboarding_doc_capturer_add_sheet">Añadir hoja</string>
+<string name="onboarding_doc_capturer_send">Enviar</string>
+<string name="onboarding_doc_capturer_info_text">Encuadra la %1$s de tu %2$s de %3$s hasta que se escanee automáticamente</string>
+<string name="onboarding_doc_capturer_info_text_passport">Encuadra la página de información de tu pasaporte hasta que se escanee automáticamente</string>
+<string name="onboarding_doc_capturer_alert_title_timeout">Problema al leer tu documento</string>
+<string name="onboarding_doc_capturer_alert_subtitle_timeout">Asegúrate de que tu documento está ajustado al rectángulo</string>
+<string name="onboarding_doc_capturer_alert_title_generic_problem">Problema al leer tu documento</string>
+<string name="onboarding_doc_capturer_alert_subtitle_generic_problem">Asegúrate de mostrar el documento correcto (%1$s de %2$s) sin oclusiones, reflejos o sombras</string>
+<string name="onboarding_doc_capturer_alert_subtitle_passport_missing_mrz">Asegúrate de mostrar tu pasaporte sin oclusiones, reflejos o sombras</string>
+<string name="onboarding_doc_capturer_alert_title_wrong_doc">Documento incorrecto</string>
+<string name="onboarding_doc_capturer_alert_subtitle_wrong_doc">Asegúrate de mostrar el documento correcto (%1$s de %2$s)</string>
+<string name="onboarding_doc_capturer_alert_subtitle_wrong_doc_residencepermit_esp">Asegúrate de mostrar un documento válido con fotografía</string>
+<string name="onboarding_doc_capturer_alert_title_wrong_side">Lado incorrecto</string>
+<string name="onboarding_doc_capturer_alert_subtitle_wrong_side">Asegúrate de mostrar el lado correcto (%1$s)</string>
+<string name="onboarding_doc_capturer_alert_title_poor_quality">Problema al leer tu documento</string>
+<string name="onboarding_doc_capturer_alert_subtitle_poor_quality">Asegurate de mostrar el documento sin oclusiones, reflejos o sombras</string>
+<string name="onboarding_doc_capturer_front">PARTE FRONTAL</string>
+<string name="onboarding_doc_capturer_back">PARTE TRASERA</string>
+<string name="onboarding_doc_capturer_choose_source">Elige origen</string>
+<string name="onboarding_doc_capturer_review_back">Usar otra foto</string>
+<string name="onboarding_doc_capturer_subtitle">Por favor, continúa con la captura</string>
+<string name="onboarding_doc_capturer_subtitle_review">Por favor, asegúrate de que la imagen sólo contiene el documento y de que éste no está girado</string>
+<string name="onboarding_doc_capturer_title_review">Revisión de la imagen</string>
+<string name="onboarding_doc_capturer_review_ok">Está bien</string>
+<string name="onboarding_doc_capturer_source_camera">Cámara</string>
+<string name="onboarding_doc_capturer_source_file">Archivo</string>
+<string name="onboarding_doc_capturer_adding">Subiendo archivo</string>
+<string name="onboarding_doc_capturer_subtitle_try_manual_capture">El documento no ha podido ser capturado, prueba la captura manual</string>
+<string name="onboarding_doc_capturer_subtitle_try_again_or_manual_capture">El documento no ha podido ser capturado. Prueba de nuevo o usa la captura manual</string>
+<string name="onboarding_doc_capturer_qr_message">No te preocupes, puedes seguir el proceso en tu smartphone. ¡Escanea el QR!</string>
+<string name="onboarding_doc_capturer_qr_or_you_can">o puedes</string>
+<string name="onboarding_doc_capturer_check_position">Ajusta el documento al rectángulo</string>
+<string name="onboarding_doc_capturer_processing_stay_still">Capturando… No muevas el documento</string>
+
+//Credit card general
+<string name="onboarding_credit_card_supported_cards">Tarjetas admitidas:</string>
+<string name="onboarding_credit_card_alert_title_generic_problem">Problema al leer tu tarjeta</string>
+<string name="onboarding_credit_card_alert_subtitle_generic_problem">Si encuentras problemas en el escaneo automático de tu tarjeta, puedes introducir los datos manualmente</string>
+<string name="onboarding_credit_card_alert_title_unsupported_card">Tarjeta no admitida</string>
+<string name="onboarding_credit_card_alert_subtitle_unsupported_card">Las tarjetas admitidas son: </string>
+<string name="onboarding_credit_card_alert_retry">Reintentar</string>
+<string name="onboarding_credit_card_alert_enter_manually">Introducir manualmente</string>
+
+//Credit card mode selector
+<string name="onboarding_credit_card_mode_selector_title">Tarjeta de crédito/débito</string>
+<string name="onboarding_credit_card_mode_selector_subtitle">Por favor, elije un método para proporcionar la información de tu tarjeta</string>
+<string name="onboarding_credit_card_mode_selector_nfc">Escanear automáticamente con NFC (solo si tu tarjeta tiene este símbolo)</string>
+<string name="onboarding_credit_card_mode_selector_camera">Escanear automáticamente con la cámara trasera</string>
+<string name="onboarding_credit_card_mode_selector_form">Introducir manualmente</string>
+
+//Credit card capturer from camera
+<string name="onboarding_credit_card_camera_capturer_info_text">Encuadra el lado que muestra el número de la tarjeta hasta que se escanee automáticamente</string>
+
+//Credit card capturer from NFC
+<string name="onboarding_credit_card_nfc_capturer_title">Escanear tarjeta</string>
+<string name="onboarding_credit_card_nfc_capturer_error_not_available">No hay ningún módulo NFC disponible en este dispositivo</string>
+<string name="onboarding_credit_card_nfc_capturer_error_generic">Por favor, no muevas tu tarjeta. Inténtalo de nuevo.</string>
+<string name="onboarding_credit_card_nfc_capturer_error_unknown_card">Tarjeta desconocida</string>
+<string name="onboarding_credit_card_nfc_capturer_error_contactless_locked">Tarjeta bloqueada</string>
+<string name="onboarding_credit_card_nfc_capturer_tap_your_card">Por favor, pon tu tarjeta en la parte posterior de tu teléfono</string>
+<string name="onboarding_credit_card_nfc_info_title_scanning">Leyendo…</string>
+<string name="onboarding_credit_card_nfc_info_subtitle_scanning">Por favor, no muevas la tarjeta durante la lectura.</string>
+<string name="onboarding_credit_card_nfc_alert_title_is_off">NFC desactivado</string>
+<string name="onboarding_credit_card_nfc_alert_subtitle_is_off">Es necesario tener activado el módulo NFC para la lectura. ¿Deseas activarlo ahora?</string>
+<string name="onboarding_credit_card_nfc_alert_positive_is_off">Activar</string>
+<string name="onboarding_credit_card_nfc_alert_title_expired_card">Tarjeta caducada</string>
+<string name="onboarding_credit_card_nfc_alert_subtitle_expired_card">Tu tarjeta caducó el</string>
+
+//Credit card form
+<string name="onboarding_credit_card_form_title">Datos de la tarjeta</string>
+<string name="onboarding_credit_card_form_subtitle_check_data">Por favor, revisa y completa los datos</string>
+<string name="onboarding_credit_card_form_add_card">Añadir tarjeta</string>
+<string name="onboarding_credit_card_form_hint_card_number">Número de tarjeta</string>
+<string name="onboarding_credit_card_form_hint_expiration">Fecha de vencimiento</string>
+<string name="onboarding_credit_card_form_hint_cvv">CVV</string>
+<string name="onboarding_credit_card_form_hint_cardholder_name">Nombre del titular de la tarjeta</string>
+<string name="onboarding_credit_card_form_hint_postal_code">Código postal</string>
+<string name="onboarding_credit_card_form_hint_country_code">Código de país</string>
+<string name="onboarding_credit_card_form_hint_mobile_number">N.º de móvil</string>
+<string name="onboarding_credit_card_form_cvv">CVV</string>
+<string name="onboarding_credit_card_form_cvc">CVC</string>
+<string name="onboarding_credit_card_form_cid">CID</string>
+<string name="onboarding_credit_card_form_cvn">CVN</string>
+<string name="onboarding_credit_card_form_month">Mes</string>
+<string name="onboarding_credit_card_form_year">Año</string>
+<string name="onboarding_credit_card_form_card_number_required">El número de tarjeta es obligatorio</string>
+<string name="onboarding_credit_card_form_card_number_invalid">Número de tarjeta no válido</string>
+<string name="onboarding_credit_card_form_card_number_unsupported">Tarjeta no admitida</string>
+<string name="onboarding_credit_card_form_cvv_required">El %s es obligatorio</string>
+<string name="onboarding_credit_card_form_cvv_invalid">El %s es inválido</string>
+<string name="onboarding_credit_card_form_expiration_required">La fecha de vencimiento es obligatoria</string>
+<string name="onboarding_credit_card_form_expiration_invalid">Fecha de vencimiento no válida</string>
+<string name="onboarding_credit_card_form_cardholder_name_required">El nombre del titular de la tarjeta es obligatorio</string>
+<string name="onboarding_credit_card_form_postal_code_required">El código postal es obligatorio</string>
+<string name="onboarding_credit_card_form_country_code_required">El código de país es obligatorio</string>
+<string name="onboarding_credit_card_form_mobile_number_required">El numéro de telefono es obligatorio</string>
+<string name="onboarding_credit_card_form_save_card_checkbox_name">Guardar tarjeta</string>
+
+//Document NFC capturer
+<string name="onboarding_nfc_doc_capturer_hold_your_doc_iphone">Mantén tu iPhone pegado a tu documento y asegúrate de que sobresalga en parte por arriba</string>
+<string name="onboarding_nfc_doc_capturer_hold_your_doc_android">Pega tu documento a parte posterior de tu teléfono</string>
+<string name="onboarding_nfc_doc_capturer_finding_antenna">Alinea el documento con la antena NFC de tu teléfono. Si no sabes donde se encuentra, desliza poco a poco tu documento hasta que el teléfono vibre o suene.</string>
+<string name="onboarding_nfc_doc_capturer_finding_antenna_shortened">Desliza lentamente tu documento hasta que el teléfono vibre o suene.</string>
+<string name="onboarding_nfc_doc_capturer_keep_still_until_finished">Mantén el documento quieto hasta que finalice la lectura</string>
+<string name="onboarding_nfc_doc_capturer_tutorial">Tutorial</string>
+<string name="onboarding_nfc_doc_capturer_start_reading">COMENZAR</string>
+<string name="onboarding_nfc_doc_capturer_expiry">Caducidad</string>
+<string name="onboarding_nfc_doc_capturer_authenticating">Autenticando el documento…</string>
+<string name="onboarding_nfc_doc_capturer_reading">Leyendo… no muevas el documento</string>
+<string name="onboarding_nfc_doc_capturer_success">Documento leído correctamente.</string>
+<string name="onboarding_nfc_doc_capturer_error_connection_title">Error de conexión</string>
+<string name="onboarding_nfc_doc_capturer_error_connection_subtitle">No muevas tu documento durante el proceso de lectura</string>
+<string name="onboarding_nfc_doc_capturer_error_generic_title">Problema al leer tu documento</string>
+<string name="onboarding_nfc_doc_capturer_error_generic_subtitle">Por favor, inténtalo de nuevo.</string>
+<string name="onboarding_nfc_doc_capturer_error_unsupported_doc_title">Documento incompatible</string>
+<string name="onboarding_nfc_doc_capturer_error_unsupported_doc_subtitle">Lo sentimos, de momento no soportamos tu documento</string>
+<string name="onboarding_nfc_doc_capturer_error_wrong_doc_title">Documento incorrecto</string>
+<string name="onboarding_nfc_doc_capturer_error_wrong_doc_subtitle">Asegúrate de estar usando el documento correcto</string>
+
+//Selfie capturer
+<string name="onboarding_selfie_capturer_adding">Añadiendo selfie…</string>
+<string name="onboarding_selfie_capturer_adding_with_challenge">Añadiendo selfie con retos…</string>
+<string name="onboarding_selfie_capturer_adding_with_document">Añadiendo selfie con documento…</string>
+<string name="onboarding_selfie_capturer_authenticating">Autenticando…</string>
+<string name="onboarding_selfie_capturer_move_farther">Por favor, aleja el dispositivo</string>
+<string name="onboarding_selfie_capturer_get_closer">Por favor, acércate al dispositivo</string>
+<string name="onboarding_selfie_capturer_no_face">Cara no detectada</string>
+<string name="onboarding_selfie_capturer_look_camera">Por favor, mira a la cámara</string>
+<string name="onboarding_selfie_capturer_center_face">Por favor, centra tu cara en el óvalo</string>
+<string name="onboarding_selfie_capturer_device_elevation">Por favor, coloca el dispositivo a la altura de los ojos</string>
+<string name="onboarding_selfie_cancel">Cancelar</string>
+<string name="onboarding_selfie_capturer_wrong_yaw_angle">Por favor, centra tu cara en el óvalo</string>
+<string name="onboarding_selfie_capturer_title_insufficient_faces">No se ha podido extraer la información facial</string>
+<string name="onboarding_selfie_capturer_subtitle_insufficient_faces">Asegúrate de permanecer quieto, manteniendo tu rostro en el óvalo y en buenas condiciones de iluminación durante todo el proceso</string>
+<string name="onboarding_selfie_capturer_face_detected_tooltip">Pulse aquí para sacar una foto!</string>
+<string name="onboarding_selfie_capturer_subtitle">Por favor, continúa con la captura</string>
+<string name="onboarding_selfie_capturer_subtitle_review">Por favor, comprueba que la foto es buena</string>
+<string name="onboarding_selfie_with_document_capturer_center_face">Por favor, centra tu cara en el óvalo y el documento en el rectángulo</string>
+
+//OTD capturer
+<string name="onboarding_other_trusted_docs_subtitle">Por favor, elija un PDF</string>
+<string name="onboarding_other_trusted_docs_capturer_subtitle">Por favor, capture su documento</string>
+<string name="onboarding_other_trusted_docs_click_or_drop">Pulse o arrastre el archivo aquí</string>
+<string name="onboarding_other_trusted_docs_capturer_accept">Aceptar</string>
+<string name="onboarding_other_trusted_docs_capturer_cancel">Cancelar</string>
+<string name="onboarding_other_trusted_docs_capturer_continue">Continuar</string>
+<string name="onboarding_other_trusted_docs_capturer_camera">Cámara</string>
+<string name="onboarding_other_trusted_docs_capturer_images_limit">Número máximo de imágenes alcanzado</string>
+<string name="onboarding_other_trusted_docs_capturer_documents">Documentos</string>
+<string name="onboarding_other_trusted_docs_capturer_file_size_limit_title">PDF demasiado grande</string>
+<string name="onboarding_other_trusted_docs_capturer_file_size_limit_subtitle">El archivo no puede exceder los 5 MB</string>
+
+//Welcome
+
+</resources>
