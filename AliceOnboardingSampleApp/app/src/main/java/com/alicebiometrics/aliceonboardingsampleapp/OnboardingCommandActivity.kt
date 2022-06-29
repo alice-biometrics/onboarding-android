@@ -28,7 +28,9 @@ class OnboardingCommandActivity : AppCompatActivity() {
     }
 
     fun commandAddSelfie(view: View) {
-        onboardingCommands.addSelfie(requestCode=REQUEST_CODE_ADD_FACE)
+        onboardingCommands.addSelfie {
+
+        }
 
     }
 
@@ -42,8 +44,7 @@ class OnboardingCommandActivity : AppCompatActivity() {
                             documentId = result.response.content,
                             type =  documentype,
                             issuingCountry = documentCountry,
-                            side = DocumentSide.FRONT,
-                            requestCode=REQUEST_CODE_ADD_DOCUMENT) {
+                            side = DocumentSide.FRONT) {
 
                     }
                 }
