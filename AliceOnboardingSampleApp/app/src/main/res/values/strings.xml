@@ -1,243 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<string name="onboarding_click_or_drop">Click or drop image here</string>
-<string name="onboarding_close">Close</string>
-<string name="onboarding_rotate">Rotate</string>
-<string name="onboarding_yes">Yes</string>
-<string name="onboarding_no">No</string>
-<string name="onboarding_alert_title_really_sure_to_exit">Incomplete process</string>
-<string name="onboarding_alert_subtitle_really_sure_to_exit">Are you really sure to exit?</string>
-<string name="onboarding_ask_for_permissions_title">This functionality requires camera access</string>
-<string name="onboarding_ask_for_permissions_subtitle">In the device settings, open the application settings and activate the camera.</string>
-<string name="onboarding_ask_for_permissions_ok_button">Open Settings</string>
-<string name="onboarding_ask_for_permissions_cancel_button">Cancel</string>
-<string name="onboarding_not_supported_browser_modal_message">We do not recommend the use of this browser. Please try the process using a more popular browser like Chrome or Firefox.</string>
-<string name="onboarding_not_supported_browser_modal_title">Unsupported browser</string>
+    <string name="app_name" translatable="false">Alice</string>
+    <string name="create_account">Create account</string>
+    <string name="onboarding_error">Onboarding could not be completed</string>
+    <string name="email_not_valid">Please, check that your email is correct</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_about">About</string>
+    <string name="command_add_selfie">Command Add Selfie</string>
+    <string name="command_add_document">Command Add Document</string>
+    <string name="command_get_user_status">Command Get User Status</string>
+    <string name="command_authenticate">Command Authenticate</string>
+    <string name="get_supported_documents">Get Supported Documents</string>
+    <string name="exit">Exit</string>
 
-//Errors
-<string name="onboarding_error_config">Please, review your OnboardingConfig. You should select at least one Onboarding Stage.</string>
-<string name="onboarding_error_loading_resources">Slow connection, try again later.</string>
-<string name="onboarding_error_title_technical">An error occurred.</string>
-<string name="onboarding_error_subtitle_technical">Please, try again.</string>
-<string name="onboarding_error_title_connection">Connection error</string>
-<string name="onboarding_error_subtitle_connection">Please, check your internet connection.</string>
-<string name="onboarding_error_storage_is_full_title">Missing disk space</string>
-<string name="onboarding_error_storage_is_full_subtitle">Please, delete some files to continue.</string>
-<string name="onboarding_error_title_camera">Camera error.</string>
-<string name="onboarding_error_subtitle_camera">Please, try again.</string>
-<string name="onboarding_error_title_selfie">The selfie could not be sent.</string>
-<string name="onboarding_error_subtitle_selfie">Please, try again.</string>
-<string name="onboarding_error_title_authentication">Authentication error.</string>
-<string name="onboarding_error_subtitle_authentication">Please, try again.</string>
-<string name="onboarding_error_subtitle_camera_not_available">Please, check that your context is secure and check your camera</string>
-<string name="onboarding_browser_no_compatible">This functionality is not available in this browser, please try Safari</string>
-<string name="onboarding_error_user_not_found">User not found</string>
-<string name="onboarding_error_title_file_too_big">File is too big</string>
-<string name="onboarding_error_subtitle_file_too_big">Max allowed file size is {size} MB</string>
-<string name="onboarding_error_title_file_type_not_supported">File not supported</string>
-<string name="onboarding_error_subtitle_file_type_not_supported">Supported file types are .jpg, .png, .bmp</string>
-<string name="onboarding_error_doc_country_not_supported">Sorry, this type of document is not supported for the selected country</string>
-<string name="onboarding_error_title_challenge_timeout">Timeout</string>
-<string name="onboarding_error_subtitle_challenge_timeout">The challenge has not been completed. Please, try again</string>
+    <!-- Preference Titles -->
+    <string name="general_preferences_header">General</string>
+    <string name="driver_license_header">Driver\'s license</string>
 
-//Stages
-<string name="onboarding_stages_title">Identity verification</string>
-<string name="onboarding_stages_description">Please complete the following steps for a successful verification</string>
-<string name="onboarding_stages_selfie">Selfie</string>
-<string name="onboarding_stages_selfie_with_challenge">Selfie with challenge</string>
-<string name="onboarding_stages_selfie_with_document">Selfie with document</string>
-<string name="onboarding_stages_id_card">National ID Card</string>
-<string name="onboarding_stages_driver_license">Driver license</string>
-<string name="onboarding_stages_passport">Passport</string>
-<string name="onboarding_stages_residence_permit">Residence permit</string>
-<string name="onboarding_stages_credit_card">Credit/Debit card</string>
-<string name="onboarding_stages_health_insurance_card">Health insurance card</string>
-<string name="onboarding_stages_already_completed">Stage already completed</string>
-<string name="onboarding_stages_completed">Completed</string>
-<string name="onboarding_stages_inactive">Please complete the previous step</string>
-<string name="onboarding_stages_start_button">START</string>
-<string name="onboarding_stages_done_button">CONTINUE</string>
+    <!-- Messages Preferences -->
+    <string name="country_title">Country</string>
+    <string name="auth_error">Auth problem: Please, contact alice@alicebiometrics.com</string>
 
-//Doc sides screen
-<string name="onboarding_sides_title_id_card">National ID Card</string>
-<string name="onboarding_sides_title_driver_license">Driver license</string>
-<string name="onboarding_sides_title_passport">Passport</string>
-<string name="onboarding_sides_title_residence_permit">Residence permit</string>
-<string name="onboarding_sides_title_health_insurance_card">Health insurance card</string>
-<string name="onboarding_sides_subtitle">Please, proceed with document capture.</string>
-<string name="onboarding_sides_front">FRONT SIDE</string>
-<string name="onboarding_sides_back">BACK SIDE</string>
-<string name="onboarding_sides_info_page">INFO PAGE</string>
-<string name="onboarding_sides_tap_here">TAP HERE</string>
-<string name="onboarding_sides_done_button">CONTINUE</string>
-<string name="onboarding_sides_issuing_country">Issuing country:</string>
 
-//Country selector
-<string name="onboarding_country_selector_subtitle_issuing_country">Select the issuing country</string>
-<string name="onboarding_country_selector_other">Other</string>
-<string name="onboarding_country_selector_not_selected">Please select the issuing country</string>
-<string name="onboarding_country_selector_start">Start</string>
-<string name="onboarding_country_selector_cancel">Cancel</string>
-<string name="onboarding_country_selector_reload">Reload</string>
+    <!-- Sync Preferences -->
+    <string name="driver_license_preference_title">Add Spanish driver\'s license</string>
+    <string name="preferences">Preferences</string>
+    <string name="email_hint">Please, type your email</string>
+    <string name="alice_logo_description" translatable="false">Alice logo</string>
+    <string name="selfie_preference_title">Add Selfie</string>
+    <string name="user_already_exists">Error: the user already exists</string>
+    <string name="onboarding_commands">Use OnboardingCommands</string>
+    <string name="empty_sandbox_token">Error: you must set the SandboxToken on the Preferences</string>
+    <string name="ask_for_first_name">Ask for First Name</string>
+    <string name="ask_for_last_name">Ask for Last Name</string>
+    <string name="hint_last_name">Please, type your last name</string>
+    <string name="hint_first_name">Please, type your first name</string>
+    <string name="experimental_environment">Experimental Environment</string>
 
-//Doc capturer
-<string name="onboarding_doc_capturer_retry_photo">Retry photo</string>
-<string name="onboarding_doc_capturer_send_photo">Send photo</string>
-<string name="onboarding_doc_capturer_manual">Manual capture</string>
-<string name="onboarding_doc_capturer_retry">Retry</string>
-<string name="onboarding_doc_capturer_dismiss">Cancel</string>
-<string name="onboarding_doc_capturer_add_sheet">Add sheet</string>
-<string name="onboarding_doc_capturer_send">Send</string>
-<string name="onboarding_doc_capturer_info_text">Fit the %1$s of your %2$s from %3$s until it is automatically scanned</string>
-<string name="onboarding_doc_capturer_info_text_passport">Fit your passport info page until it is automatically scanned</string>
-<string name="onboarding_doc_capturer_alert_title_timeout">Problem reading your document</string>
-<string name="onboarding_doc_capturer_alert_subtitle_timeout">Make sure your document is adjusted to the rectangle</string>
-<string name="onboarding_doc_capturer_alert_title_generic_problem">Problem reading your document</string>
-<string name="onboarding_doc_capturer_alert_subtitle_generic_problem">Make sure you’re showing the right document (%1$s from %2$s) without occlusions, glare or shadows</string>
-<string name="onboarding_doc_capturer_alert_subtitle_passport_missing_mrz">Make sure you’re showing your passport without occlusions, glare or shadows</string>
-<string name="onboarding_doc_capturer_alert_title_wrong_doc">Wrong document</string>
-<string name="onboarding_doc_capturer_alert_subtitle_wrong_doc">Make sure you’re showing the right document (%1$s from %2$s)</string>
-<string name="onboarding_doc_capturer_alert_subtitle_wrong_doc_residencepermit_esp">Make sure you’re showing a valid document with photo</string>
-<string name="onboarding_doc_capturer_alert_title_wrong_side">Wrong document side</string>
-<string name="onboarding_doc_capturer_alert_subtitle_wrong_side">Make sure you’re showing the right side (%1$s)</string>
-<string name="onboarding_doc_capturer_alert_title_poor_quality">Problem reading your document</string>
-<string name="onboarding_doc_capturer_alert_subtitle_poor_quality">Make sure you\'re showing your document without occlusions, glare or shadows</string>
-<string name="onboarding_doc_capturer_front">FRONT SIDE</string>
-<string name="onboarding_doc_capturer_back">BACK SIDE</string>
-<string name="onboarding_doc_capturer_choose_source">Choose source</string>
-<string name="onboarding_doc_capturer_review_back">Use another photo</string>
-<string name="onboarding_doc_capturer_subtitle">Please, proceed with the capture</string>
-<string name="onboarding_doc_capturer_subtitle_review">Please, make sure that the image only contains a document and it\'s not rotated</string>
-<string name="onboarding_doc_capturer_title_review">Image review</string>
-<string name="onboarding_doc_capturer_review_ok">It\'s ok</string>
-<string name="onboarding_doc_capturer_source_camera">Camera</string>
-<string name="onboarding_doc_capturer_source_file">File</string>
-<string name="onboarding_doc_capturer_adding">Uploading file</string>
-<string name="onboarding_doc_capturer_subtitle_try_manual_capture">The document couldn\'t be captured, please try manual capture</string>
-<string name="onboarding_doc_capturer_subtitle_try_again_or_manual_capture">The document couldn\'t be captured. Please, try again or use manual capture</string>
-<string name="onboarding_doc_capturer_qr_message">Don\'t worry, you can continue the process from your smartphone. Scan the QR!</string>
-<string name="onboarding_doc_capturer_qr_or_you_can">or you can</string>
-<string name="onboarding_doc_capturer_check_position">Adjust document to rectangle</string>
-<string name="onboarding_doc_capturer_processing_stay_still">Capturing… Stay still</string>
-
-//Credit card general
-<string name="onboarding_credit_card_supported_cards">Accepted cards:</string>
-<string name="onboarding_credit_card_alert_title_generic_problem">Problem reading your card</string>
-<string name="onboarding_credit_card_alert_subtitle_generic_problem">If you encounter problems scanning your card, you can enter the data manually</string>
-<string name="onboarding_credit_card_alert_title_unsupported_card">Unsupported card</string>
-<string name="onboarding_credit_card_alert_subtitle_unsupported_card">The accepted cards are: </string>
-<string name="onboarding_credit_card_alert_retry">Retry</string>
-<string name="onboarding_credit_card_alert_enter_manually">Enter manually</string>
-
-//Credit card mode selector
-<string name="onboarding_credit_card_mode_selector_title">Credit/Debit card</string>
-<string name="onboarding_credit_card_mode_selector_subtitle">Please, choose a method to provide your card information</string>
-<string name="onboarding_credit_card_mode_selector_nfc">Scan automatically with NFC (only if your card has this symbol)</string>
-<string name="onboarding_credit_card_mode_selector_camera">Scan automatically with rear camera</string>
-<string name="onboarding_credit_card_mode_selector_form">Enter manually</string>
-
-//Credit card capturer from camera
-<string name="onboarding_credit_card_camera_capturer_info_text">Fit the side that shows the card number until it is automatically scanned</string>
-
-//Credit card capturer from NFC
-<string name="onboarding_credit_card_nfc_capturer_title">Scan card</string>
-<string name="onboarding_credit_card_nfc_capturer_error_not_available">There is no NFC module available in this device</string>
-<string name="onboarding_credit_card_nfc_capturer_error_generic">Please do not move your card, try again</string>
-<string name="onboarding_credit_card_nfc_capturer_error_unknown_card">Unknown card</string>
-<string name="onboarding_credit_card_nfc_capturer_error_contactless_locked">Locked card</string>
-<string name="onboarding_credit_card_nfc_capturer_tap_your_card">Please put your card on the back of your phone</string>
-<string name="onboarding_credit_card_nfc_info_title_scanning">Reading…</string>
-<string name="onboarding_credit_card_nfc_info_subtitle_scanning">Please, do not move your card while reading.</string>
-<string name="onboarding_credit_card_nfc_alert_title_is_off">NFC is turned off</string>
-<string name="onboarding_credit_card_nfc_alert_subtitle_is_off">You need turn on the NFC module for reading. Wish to turn it on now?</string>
-<string name="onboarding_credit_card_nfc_alert_positive_is_off">Turn on</string>
-<string name="onboarding_credit_card_nfc_alert_title_expired_card">Expired card</string>
-<string name="onboarding_credit_card_nfc_alert_subtitle_expired_card">Your card expired on</string>
-
-//Credit card form
-<string name="onboarding_credit_card_form_title">Card data</string>
-<string name="onboarding_credit_card_form_subtitle_check_data">Please, check and complete the data</string>
-<string name="onboarding_credit_card_form_add_card">Add card</string>
-<string name="onboarding_credit_card_form_hint_card_number">Card Number</string>
-<string name="onboarding_credit_card_form_hint_expiration">Expiration Date</string>
-<string name="onboarding_credit_card_form_hint_cvv">CVV</string>
-<string name="onboarding_credit_card_form_hint_cardholder_name">Cardholder Name</string>
-<string name="onboarding_credit_card_form_hint_postal_code">Postal Code</string>
-<string name="onboarding_credit_card_form_hint_country_code">Country Code</string>
-<string name="onboarding_credit_card_form_hint_mobile_number">Mobile Number</string>
-<string name="onboarding_credit_card_form_cvv">CVV</string>
-<string name="onboarding_credit_card_form_cvc">CVC</string>
-<string name="onboarding_credit_card_form_cid">CID</string>
-<string name="onboarding_credit_card_form_cvn">CVN</string>
-<string name="onboarding_credit_card_form_month">Month</string>
-<string name="onboarding_credit_card_form_year">Year</string>
-<string name="onboarding_credit_card_form_card_number_required">Card number is required</string>
-<string name="onboarding_credit_card_form_card_number_invalid">Card number is invalid</string>
-<string name="onboarding_credit_card_form_card_number_unsupported">Unsupported card</string>
-<string name="onboarding_credit_card_form_cvv_required">%s is required</string>
-<string name="onboarding_credit_card_form_cvv_invalid">%s is invalid</string>
-<string name="onboarding_credit_card_form_expiration_required">Expiration date is required</string>
-<string name="onboarding_credit_card_form_expiration_invalid">Expiration date is invalid</string>
-<string name="onboarding_credit_card_form_cardholder_name_required">Cardholder name is required</string>
-<string name="onboarding_credit_card_form_postal_code_required">Postal code is required</string>
-<string name="onboarding_credit_card_form_country_code_required">Country code is required</string>
-<string name="onboarding_credit_card_form_mobile_number_required">The phone number is required</string>
-<string name="onboarding_credit_card_form_save_card_checkbox_name">Save card</string>
-
-//Document NFC capturer
-<string name="onboarding_nfc_doc_capturer_hold_your_doc_iphone">Hold your iPhone nearby your document and make sure it partially sticks out on top</string>
-<string name="onboarding_nfc_doc_capturer_hold_your_doc_android">Place your document on the back of your phone</string>
-<string name="onboarding_nfc_doc_capturer_finding_antenna">Align the document with your phone\'s NFC antenna. If you don\'t know where it is, slowly slide your document until the phone vibrates or rings.</string>
-<string name="onboarding_nfc_doc_capturer_finding_antenna_shortened">Slowly slide your document until the phone vibrates or rings.</string>
-<string name="onboarding_nfc_doc_capturer_keep_still_until_finished">Keep the document still until the reading is finished</string>
-<string name="onboarding_nfc_doc_capturer_tutorial">Tutorial</string>
-<string name="onboarding_nfc_doc_capturer_start_reading">START</string>
-<string name="onboarding_nfc_doc_capturer_expiry">Expiry</string>
-<string name="onboarding_nfc_doc_capturer_authenticating">Authenticating with document…</string>
-<string name="onboarding_nfc_doc_capturer_reading">Reading… don\'t move your document</string>
-<string name="onboarding_nfc_doc_capturer_success">Document read successfully.</string>
-<string name="onboarding_nfc_doc_capturer_error_connection_title">Connection error</string>
-<string name="onboarding_nfc_doc_capturer_error_connection_subtitle">Don\'t move your document during the reading process</string>
-<string name="onboarding_nfc_doc_capturer_error_generic_title">Problem reading your document</string>
-<string name="onboarding_nfc_doc_capturer_error_generic_subtitle">Please, try again.</string>
-<string name="onboarding_nfc_doc_capturer_error_unsupported_doc_title">Unsupported document</string>
-<string name="onboarding_nfc_doc_capturer_error_unsupported_doc_subtitle">Sorry, we don\'t support your document at the moment</string>
-<string name="onboarding_nfc_doc_capturer_error_wrong_doc_title">Wrong document</string>
-<string name="onboarding_nfc_doc_capturer_error_wrong_doc_subtitle">Make sure you are scanning the right document</string>
-
-//Selfie capturer
-<string name="onboarding_selfie_capturer_adding">Adding selfie…</string>
-<string name="onboarding_selfie_capturer_adding_with_challenge">Adding selfie with challenge…</string>
-<string name="onboarding_selfie_capturer_adding_with_document">Adding selfie with document…</string>
-<string name="onboarding_selfie_capturer_authenticating">Authenticating…</string>
-<string name="onboarding_selfie_capturer_move_farther">Please, move your device farther.</string>
-<string name="onboarding_selfie_capturer_get_closer">Please, come closer.</string>
-<string name="onboarding_selfie_capturer_no_face">No face detected.</string>
-<string name="onboarding_selfie_capturer_look_camera">Please, look at the camera.</string>
-<string name="onboarding_selfie_capturer_center_face">Please, center your face in the oval</string>
-<string name="onboarding_selfie_capturer_device_elevation">Please, hold your device to eye level.</string>
-<string name="onboarding_selfie_cancel">Cancel</string>
-<string name="onboarding_selfie_capturer_wrong_yaw_angle">Please, center your face in the oval.</string>
-<string name="onboarding_selfie_capturer_title_insufficient_faces">Facial processing could not be completed</string>
-<string name="onboarding_selfie_capturer_subtitle_insufficient_faces">Make sure your remain still, keeping your face in the oval and in good lighting conditions during the whole process</string>
-<string name="onboarding_selfie_capturer_face_detected_tooltip">Click here to take a photo!</string>
-<string name="onboarding_selfie_capturer_subtitle">Please, proceed with the capture</string>
-<string name="onboarding_selfie_capturer_subtitle_review">Please, make sure that your picture is good</string>
-<string name="onboarding_selfie_with_document_capturer_center_face">Please, center your face on the oval and the document on the rectangle</string>
-
-//OTD capturer
-<string name="onboarding_other_trusted_docs_subtitle">Please, choose a PDF file</string>
-<string name="onboarding_other_trusted_docs_capturer_subtitle">Please, capture your document</string>
-<string name="onboarding_other_trusted_docs_click_or_drop">Click or drop file here</string>
-<string name="onboarding_other_trusted_docs_capturer_accept">Accept</string>
-<string name="onboarding_other_trusted_docs_capturer_cancel">Cancel</string>
-<string name="onboarding_other_trusted_docs_capturer_continue">Continue</string>
-<string name="onboarding_other_trusted_docs_capturer_camera">Camera</string>
-<string name="onboarding_other_trusted_docs_capturer_images_limit">Maximum number of images reached</string>
-<string name="onboarding_other_trusted_docs_capturer_documents">Documents</string>
-<string name="onboarding_other_trusted_docs_capturer_file_size_limit_title">Too large PDF</string>
-<string name="onboarding_other_trusted_docs_capturer_file_size_limit_subtitle">The file cannot exceed 5 MB</string>
-
-//Welcome
+    <string name="client_error">Client error</string>
+    <string name="connection_error">Connection error</string>
+    <string name="encoding_error">Encoding error</string>
+    <string name="invalid_sandbox_token">Invalid SANDBOX_TOKEN. Please, add a valid SANDBOX_TOKEN (Settings)</string>
+    <string name="server_error">Server error</string>
+    <string name="unknown_error">Unknown error</string>
+    <string name="label_framework_version">Framework version:</string>
+    <string name="title_alice_onboarding" translatable="false">Alice Onboarding</string>
+    <string name="label_app_version">Version:</string>
+    <string name="title_app_info">App Info</string>
+    <string name="select_country">Select country</string>
+    <string name="onboarding_flow_preferences_header">Onboarding flow</string>
+    <string name="onboarding_additional_options_preferences_header">Additional options</string>
+    <string name="experimental_sandbox_token">Experimental Sandbox Token</string>
+    <string name="id_card_preference_title">Add ID Card</string>
+    <string name="residence_permit_preference_title">Add Residence Permit</string>
+    <string name="passport_preference_title">Passport</string>
 
 </resources>
