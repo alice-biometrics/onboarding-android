@@ -47,7 +47,7 @@
 <string name="onboarding_stages_selfie_with_challenge">Selfie with challenge</string>
 <string name="onboarding_stages_selfie_with_document">Selfie with document</string>
 <string name="onboarding_stages_id_card">National ID Card</string>
-<string name="onboarding_stages_driver_license">Driver license</string>
+<string name="onboarding_stages_driver_license">Driver\'s license</string>
 <string name="onboarding_stages_passport">Passport</string>
 <string name="onboarding_stages_residence_permit">Residence permit</string>
 <string name="onboarding_stages_credit_card">Credit/Debit card</string>
@@ -60,7 +60,7 @@
 
 //Doc sides screen
 <string name="onboarding_sides_title_id_card">National ID Card</string>
-<string name="onboarding_sides_title_driver_license">Driver license</string>
+<string name="onboarding_sides_title_driver_license">Driver\'s license</string>
 <string name="onboarding_sides_title_passport">Passport</string>
 <string name="onboarding_sides_title_residence_permit">Residence permit</string>
 <string name="onboarding_sides_title_health_insurance_card">Health insurance card</string>

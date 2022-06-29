@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="onboarding_click_or_drop">单击或将图像放在此处</string>
+<string name="onboarding_close">关</string>
+<string name="onboarding_rotate">旋转</string>
+<string name="onboarding_yes">是</string>
+<string name="onboarding_no">没有</string>
+<string name="onboarding_alert_title_really_sure_to_exit">流程不完整</string>
+<string name="onboarding_alert_subtitle_really_sure_to_exit">您确定要退出吗</string>
+<string name="onboarding_ask_for_permissions_title">此功能需要使用摄像头</string>
+<string name="onboarding_ask_for_permissions_subtitle">在设备设置中，打开应用程序设置并激活相机。</string>
+<string name="onboarding_ask_for_permissions_ok_button">打开设置</string>
+<string name="onboarding_ask_for_permissions_cancel_button">取消</string>
+<string name="onboarding_not_supported_browser_modal_message">我们不建议使用此浏览器。请使用更流行的浏览器（如 Chrome 或 Firefox）尝试该过程。</string>
+<string name="onboarding_not_supported_browser_modal_title">不支持的浏览器</string>
+
+//Errors
+<string name="onboarding_error_config">请检查您的OnboardingConfig。您应该至少选择一个 Onboarding Stage</string>
+<string name="onboarding_error_loading_resources">连接速度慢，请稍后再试</string>
+<string name="onboarding_error_title_technical">发生错误</string>
+<string name="onboarding_error_subtitle_technical">请再试一遍</string>
+<string name="onboarding_error_title_connection">连接错误</string>
+<string name="onboarding_error_subtitle_connection">请检查您的网络连接</string>
+<string name="onboarding_error_storage_is_full_title">磁盘空间不足</string>
+<string name="onboarding_error_storage_is_full_subtitle">请删除一些文件以继续。</string>
+<string name="onboarding_error_title_camera">摄像头错误</string>
+<string name="onboarding_error_subtitle_camera">请再试一遍</string>
+<string name="onboarding_error_title_selfie">无法发送自拍</string>
+<string name="onboarding_error_subtitle_selfie">请再试一遍</string>
+<string name="onboarding_error_title_authentication">授权错误</string>
+<string name="onboarding_error_subtitle_authentication">请再试一遍</string>
+<string name="onboarding_error_subtitle_camera_not_available">请检查您的相机。</string>
+<string name="onboarding_browser_no_compatible">此功能在此浏览器中不可用，请尝试使用Safari</string>
+<string name="onboarding_error_user_not_found">找不到使用者</string>
+<string name="onboarding_error_title_file_too_big">文件变大</string>
+<string name="onboarding_error_subtitle_file_too_big">允许的最大文件大小为 {size} MB</string>
+<string name="onboarding_error_title_file_type_not_supported">文件不受支持</string>
+<string name="onboarding_error_subtitle_file_type_not_supported">支持的文件类型为 .jpg、.png、.bmp</string>
+<string name="onboarding_error_doc_country_not_supported">抱歉，所选国家/地区不支持此类文件</string>
+<string name="onboarding_error_title_challenge_timeout">超时</string>
+<string name="onboarding_error_subtitle_challenge_timeout">这一挑战没有得到满足。请再试一次</string>
+
+//Stages
+<string name="onboarding_stages_title">身份验证</string>
+<string name="onboarding_stages_description">请完成以下步骤以成功验证</string>
+<string name="onboarding_stages_selfie">自拍</string>
+<string name="onboarding_stages_selfie_with_challenge">挑战自拍</string>
+<string name="onboarding_stages_selfie_with_document">带文件的自拍</string>
+<string name="onboarding_stages_id_card">身份证</string>
+<string name="onboarding_stages_driver_license">驾照</string>
+<string name="onboarding_stages_passport">护照</string>
+<string name="onboarding_stages_residence_permit">居留证</string>
+<string name="onboarding_stages_credit_card">信用卡/借记卡</string>
+<string name="onboarding_stages_health_insurance_card">健康保险卡</string>
+<string name="onboarding_stages_already_completed">阶段已经完成</string>
+<string name="onboarding_stages_completed">已完成</string>
+<string name="onboarding_stages_inactive">请完成上一步</string>
+<string name="onboarding_stages_start_button">开始</string>
+<string name="onboarding_stages_done_button">继续</string>
+
+//Doc sides screen
+<string name="onboarding_sides_title_id_card">身份证</string>
+<string name="onboarding_sides_title_driver_license">驾照</string>
+<string name="onboarding_sides_title_passport">护照</string>
+<string name="onboarding_sides_title_residence_permit">居留证</string>
+<string name="onboarding_sides_title_health_insurance_card">健康保险卡</string>
+<string name="onboarding_sides_subtitle">请继续进行文档捕获</string>
+<string name="onboarding_sides_front">正面</string>
+<string name="onboarding_sides_back">背面</string>
+<string name="onboarding_sides_info_page">信息页</string>
+<string name="onboarding_sides_tap_here">点击此处</string>
+<string name="onboarding_sides_done_button">继续</string>
+<string name="onboarding_sides_issuing_country">发行国：</string>
+
+//Country selector
+<string name="onboarding_country_selector_subtitle_issuing_country">请选择签发国家</string>
+<string name="onboarding_country_selector_other">其他</string>
+<string name="onboarding_country_selector_not_selected">请选择签发国家</string>
+<string name="onboarding_country_selector_start">开始</string>
+<string name="onboarding_country_selector_cancel">取消</string>
+<string name="onboarding_country_selector_reload">重新加载</string>
+
+//Doc capturer
+<string name="onboarding_doc_capturer_retry_photo">重拍照片</string>
+<string name="onboarding_doc_capturer_send_photo">发送照片</string>
+<string name="onboarding_doc_capturer_manual">手动拍摄</string>
+<string name="onboarding_doc_capturer_retry">重试</string>
+<string name="onboarding_doc_capturer_dismiss">取消</string>
+<string name="onboarding_doc_capturer_add_sheet">添加工作表</string>
+<string name="onboarding_doc_capturer_send">发送</string>
+<string name="onboarding_doc_capturer_info_text">放入文档，直到自动扫描 (%1$s %2$s %3$s)</string>
+<string name="onboarding_doc_capturer_info_text_passport">适合您的护照信息页面，直到自动扫描它</string>
+<string name="onboarding_doc_capturer_alert_title_timeout">读取文件时出现问</string>
+<string name="onboarding_doc_capturer_alert_subtitle_timeout">确保将文档调整为矩形</string>
+<string name="onboarding_doc_capturer_alert_title_generic_problem">读取文件时出现问</string>
+<string name="onboarding_doc_capturer_alert_subtitle_generic_problem">确保显示正确的文档 (%1$s - %2$s) 没有遮挡，眩光或阴影</string>
+<string name="onboarding_doc_capturer_alert_subtitle_passport_missing_mrz">确保您出示的护照没有遮挡，眩光或阴影</string>
+<string name="onboarding_doc_capturer_alert_title_wrong_doc">错误的文件</string>
+<string name="onboarding_doc_capturer_alert_subtitle_wrong_doc">确保显示正确的文档 (%1$s - %2$s)</string>
+<string name="onboarding_doc_capturer_alert_subtitle_wrong_doc_residencepermit_esp">确保显示带有照片的有效文档</string>
+<string name="onboarding_doc_capturer_alert_title_wrong_side">文件面错误</string>
+<string name="onboarding_doc_capturer_alert_subtitle_wrong_side">确保您显示的是右侧 (%1$s)</string>
+<string name="onboarding_doc_capturer_alert_title_poor_quality">读取文件时出现问</string>
+<string name="onboarding_doc_capturer_alert_subtitle_poor_quality">确保显示的文档右侧没有遮挡，眩光或阴影</string>
+<string name="onboarding_doc_capturer_front">正面</string>
+<string name="onboarding_doc_capturer_back">背面</string>
+<string name="onboarding_doc_capturer_choose_source">选择来源</string>
+<string name="onboarding_doc_capturer_review_back">使用其他照片</string>
+<string name="onboarding_doc_capturer_subtitle">请继续进行捕获</string>
+<string name="onboarding_doc_capturer_subtitle_review">请确保图像仅包含文档且未旋转</string>
+<string name="onboarding_doc_capturer_title_review">图片审查</string>
+<string name="onboarding_doc_capturer_review_ok">没关系</string>
+<string name="onboarding_doc_capturer_source_camera">相机</string>
+<string name="onboarding_doc_capturer_source_file">文件</string>
+<string name="onboarding_doc_capturer_adding">上载档案</string>
+<string name="onboarding_doc_capturer_subtitle_try_manual_capture">无法捕获该文档，请尝试手动捕获</string>
+<string name="onboarding_doc_capturer_subtitle_try_again_or_manual_capture">无法捕获该文档。 请重试或使用手动捕获</string>
+<string name="onboarding_doc_capturer_qr_message">不用担心，您可以从智能手机继续该过程。 扫描QR！</string>
+<string name="onboarding_doc_capturer_qr_or_you_can">或者你可以</string>
+<string name="onboarding_doc_capturer_check_position">将文档调整为矩形</string>
+<string name="onboarding_doc_capturer_processing_stay_still">正在捕获…请勿移动文档</string>
+
+//Credit card general
+<string name="onboarding_credit_card_supported_cards">接受卡:</string>
+<string name="onboarding_credit_card_alert_title_generic_problem">问题读你的卡</string>
+<string name="onboarding_credit_card_alert_subtitle_generic_problem">如果遇到问题，扫描您的卡，您可以手动输入数据</string>
+<string name="onboarding_credit_card_alert_title_unsupported_card">不支持的卡</string>
+<string name="onboarding_credit_card_alert_subtitle_unsupported_card">支持的卡是：</string>
+<string name="onboarding_credit_card_alert_retry">重试</string>
+<string name="onboarding_credit_card_alert_enter_manually">手动输入</string>
+
+//Credit card mode selector
+<string name="onboarding_credit_card_mode_selector_title">信用卡/借记卡</string>
+<string name="onboarding_credit_card_mode_selector_subtitle">请选择一个方法来提供您的信用卡信息</string>
+<string name="onboarding_credit_card_mode_selector_nfc">与NFC自动扫描 (仅当您的卡有这个符号）</string>
+<string name="onboarding_credit_card_mode_selector_camera">与后置摄像头自动扫描</string>
+<string name="onboarding_credit_card_mode_selector_form">手动输入</string>
+
+//Credit card capturer from camera
+<string name="onboarding_credit_card_camera_capturer_info_text">装上显示卡号的一面，直到被自动扫描为止</string>
+
+//Credit card capturer from NFC
+<string name="onboarding_credit_card_nfc_capturer_title">扫描卡</string>
+<string name="onboarding_credit_card_nfc_capturer_error_not_available">有一个在这个设备没有可用的NFC模块</string>
+<string name="onboarding_credit_card_nfc_capturer_error_generic">请不要把你的网卡，再试一次</string>
+<string name="onboarding_credit_card_nfc_capturer_error_unknown_card">未知卡</string>
+<string name="onboarding_credit_card_nfc_capturer_error_contactless_locked">锁定的卡</string>
+<string name="onboarding_credit_card_nfc_capturer_tap_your_card">请把你的卡上您的手机的背面</string>
+<string name="onboarding_credit_card_nfc_info_title_scanning">读…</string>
+<string name="onboarding_credit_card_nfc_info_subtitle_scanning">请，而读不动你的卡。</string>
+<string name="onboarding_credit_card_nfc_alert_title_is_off">NFC已关闭</string>
+<string name="onboarding_credit_card_nfc_alert_subtitle_is_off">你需要打开NFC模块上读取。想打开它呢？</string>
+<string name="onboarding_credit_card_nfc_alert_positive_is_off">打开</string>
+<string name="onboarding_credit_card_nfc_alert_title_expired_card">卡已过期</string>
+<string name="onboarding_credit_card_nfc_alert_subtitle_expired_card">您的卡已过期的</string>
+
+//Credit card form
+<string name="onboarding_credit_card_form_title">卡数据</string>
+<string name="onboarding_credit_card_form_subtitle_check_data">请检查并完成数据</string>
+<string name="onboarding_credit_card_form_add_card">新增卡</string>
+<string name="onboarding_credit_card_form_hint_card_number">卡号</string>
+<string name="onboarding_credit_card_form_hint_expiration">截止日期</string>
+<string name="onboarding_credit_card_form_hint_cvv">CVV</string>
+<string name="onboarding_credit_card_form_hint_cardholder_name">持卡人姓名</string>
+<string name="onboarding_credit_card_form_hint_postal_code">邮政编码</string>
+<string name="onboarding_credit_card_form_hint_country_code">国家代码</string>
+<string name="onboarding_credit_card_form_hint_mobile_number">手机号码</string>
+<string name="onboarding_credit_card_form_cvv">CVV</string>
+<string name="onboarding_credit_card_form_cvc">CVC</string>
+<string name="onboarding_credit_card_form_cid">CID</string>
+<string name="onboarding_credit_card_form_cvn">CVN</string>
+<string name="onboarding_credit_card_form_month">月</string>
+<string name="onboarding_credit_card_form_year">年</string>
+<string name="onboarding_credit_card_form_card_number_required">卡号为必填项</string>
+<string name="onboarding_credit_card_form_card_number_invalid">卡号无效</string>
+<string name="onboarding_credit_card_form_card_number_unsupported">不支持的卡</string>
+<string name="onboarding_credit_card_form_cvv_required">%s 的需要</string>
+<string name="onboarding_credit_card_form_cvv_invalid">%s 无效</string>
+<string name="onboarding_credit_card_form_expiration_required">到期日期为必填</string>
+<string name="onboarding_credit_card_form_expiration_invalid">到期日无效</string>
+<string name="onboarding_credit_card_form_cardholder_name_required">持卡人姓名为必填</string>
+<string name="onboarding_credit_card_form_postal_code_required">邮政编码为必填项</string>
+<string name="onboarding_credit_card_form_country_code_required">国家代码是必需的</string>
+<string name="onboarding_credit_card_form_mobile_number_required">电话号码是必需的</string>
+<string name="onboarding_credit_card_form_save_card_checkbox_name">保存卡</string>
+
+//Document NFC capturer
+<string name="onboarding_nfc_doc_capturer_hold_your_doc_iphone">将iPhone放在文档附近，并确保其部分突出在顶部</string>
+<string name="onboarding_nfc_doc_capturer_hold_your_doc_android">将文件放在手机背面</string>
+<string name="onboarding_nfc_doc_capturer_finding_antenna">将文档与手机的NFC天线对齐。如果您不知道它在哪里，请慢慢滑动文档，直到手机振动或响起为止。</string>
+<string name="onboarding_nfc_doc_capturer_finding_antenna_shortened">慢慢滑动文档，直到手机振动或响起。</string>
+<string name="onboarding_nfc_doc_capturer_keep_still_until_finished">保持文档静止，直到读取完成</string>
+<string name="onboarding_nfc_doc_capturer_tutorial">教程</string>
+<string name="onboarding_nfc_doc_capturer_start_reading">开始</string>
+<string name="onboarding_nfc_doc_capturer_expiry">到期</string>
+<string name="onboarding_nfc_doc_capturer_authenticating">与文件进行身份验证…</string>
+<string name="onboarding_nfc_doc_capturer_reading">读…不动您的文档</string>
+<string name="onboarding_nfc_doc_capturer_success">文档成功读取。</string>
+<string name="onboarding_nfc_doc_capturer_error_connection_title">连接错误</string>
+<string name="onboarding_nfc_doc_capturer_error_connection_subtitle">在阅读过程中不要移动文档</string>
+<string name="onboarding_nfc_doc_capturer_error_generic_title">读取文件时出现问</string>
+<string name="onboarding_nfc_doc_capturer_error_generic_subtitle">请再试一遍</string>
+<string name="onboarding_nfc_doc_capturer_error_unsupported_doc_title">不支持的文件</string>
+<string name="onboarding_nfc_doc_capturer_error_unsupported_doc_subtitle">抱歉，我们暂时不支持您的文档</string>
+<string name="onboarding_nfc_doc_capturer_error_wrong_doc_title">错误的文件</string>
+<string name="onboarding_nfc_doc_capturer_error_wrong_doc_subtitle">确保您正在扫描正确的文档</string>
+
+//Selfie capturer
+<string name="onboarding_selfie_capturer_adding">自拍加载中…</string>
+<string name="onboarding_selfie_capturer_adding_with_challenge">添加带有挑战的自拍……</string>
+<string name="onboarding_selfie_capturer_adding_with_document">添加带有文档的自拍照…</string>
+<string name="onboarding_selfie_capturer_authenticating">验证中…</string>
+<string name="onboarding_selfie_capturer_move_farther">请将设备远离</string>
+<string name="onboarding_selfie_capturer_get_closer">请靠近</string>
+<string name="onboarding_selfie_capturer_no_face">未识别面部</string>
+<string name="onboarding_selfie_capturer_look_camera">请看着摄像头</string>
+<string name="onboarding_selfie_capturer_center_face">请将您的面部调整至框中</string>
+<string name="onboarding_selfie_capturer_device_elevation">请将设备举至齐目</string>
+<string name="onboarding_selfie_cancel">取消</string>
+<string name="onboarding_selfie_capturer_wrong_yaw_angle">请将您的面部调整至框中</string>
+<string name="onboarding_selfie_capturer_title_insufficient_faces">面部处理未能完成</string>
+<string name="onboarding_selfie_capturer_subtitle_insufficient_faces">在整个过程中，确保保持静止不动，使脸部保持椭圆形并保持良好的照明条件</string>
+<string name="onboarding_selfie_capturer_face_detected_tooltip">点击这里拍照！</string>
+<string name="onboarding_selfie_capturer_subtitle">请继续进行捕获</string>
+<string name="onboarding_selfie_capturer_subtitle_review">请确保您的图片好</string>
+<string name="onboarding_selfie_with_document_capturer_center_face">请把你的脸放在椭圆上，把文件放在长方形上</string>
+
+//OTD capturer
+<string name="onboarding_other_trusted_docs_subtitle">请选择一个PDF文件</string>
+<string name="onboarding_other_trusted_docs_capturer_subtitle">请捕获您的文件</string>
+<string name="onboarding_other_trusted_docs_click_or_drop">在此处单击或拖放文件</string>
+<string name="onboarding_other_trusted_docs_capturer_accept">接受</string>
+<string name="onboarding_other_trusted_docs_capturer_cancel">取消</string>
+<string name="onboarding_other_trusted_docs_capturer_continue">继续</string>
+<string name="onboarding_other_trusted_docs_capturer_camera">相机</string>
+<string name="onboarding_other_trusted_docs_capturer_images_limit">已达到最大图像数</string>
+<string name="onboarding_other_trusted_docs_capturer_documents">文件</string>
+<string name="onboarding_other_trusted_docs_capturer_file_size_limit_title">PDF太大</string>
+<string name="onboarding_other_trusted_docs_capturer_file_size_limit_subtitle">文件不能超过 5 MB</string>
+
+//Welcome
+
+</resources>

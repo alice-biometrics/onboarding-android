@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="onboarding_click_or_drop">Resmi buraya tıklayın veya bırakın</string>
+<string name="onboarding_close">Kapat</string>
+<string name="onboarding_rotate">Döndür</string>
+<string name="onboarding_yes">Evet</string>
+<string name="onboarding_no">Hayır</string>
+<string name="onboarding_alert_title_really_sure_to_exit">Eksik süreç</string>
+<string name="onboarding_alert_subtitle_really_sure_to_exit">Çıkacağına gerçekten emin misin?</string>
+<string name="onboarding_ask_for_permissions_title">Bu işlevsellik kamera erişimi gerektirir</string>
+<string name="onboarding_ask_for_permissions_subtitle">Cihaz ayarlarında, uygulama ayarlarını açın ve kamerayı etkinleştirin.</string>
+<string name="onboarding_ask_for_permissions_ok_button">Ayarları aç</string>
+<string name="onboarding_ask_for_permissions_cancel_button">İptal</string>
+<string name="onboarding_not_supported_browser_modal_message">Bu tarayıcının kullanılmasını önermiyoruz. Lütfen işlemi Chrome veya Firefox gibi daha popüler bir tarayıcı kullanarak deneyin.</string>
+<string name="onboarding_not_supported_browser_modal_title">Desteklenmeyen tarayıcı</string>
+
+//Errors
+<string name="onboarding_error_config">Lütfen kimlik doğrulama ayarlarınızı gözden geçirin. En azından bir kimlik doğrulama adımı seçilmiş olmalıdır.</string>
+<string name="onboarding_error_loading_resources">Bağlantı hızı yavaş, lütfen tekrar deneyin.</string>
+<string name="onboarding_error_title_technical">Bir hata oluştu.</string>
+<string name="onboarding_error_subtitle_technical">Lütfen tekrar deneyin.</string>
+<string name="onboarding_error_title_connection">Bağlantı hatası</string>
+<string name="onboarding_error_subtitle_connection">Lütfen internet bağlantınızı kontrol edin.</string>
+<string name="onboarding_error_storage_is_full_title">Disk alanı eksik</string>
+<string name="onboarding_error_storage_is_full_subtitle">Lütfen devam etmek için bazı dosyaları silin.</string>
+<string name="onboarding_error_title_camera">Kamera hatası.</string>
+<string name="onboarding_error_subtitle_camera">Lütfen tekrar deneyin.</string>
+<string name="onboarding_error_title_selfie">Selfi gönderilemedi.</string>
+<string name="onboarding_error_subtitle_selfie">Lütfen tekrar deneyin.</string>
+<string name="onboarding_error_title_authentication">Kimlik doğrulaması hatası.</string>
+<string name="onboarding_error_subtitle_authentication">Lütfen tekrar deneyin.</string>
+<string name="onboarding_error_subtitle_camera_not_available">Lütfen kameranızı kontrol edin.</string>
+<string name="onboarding_browser_no_compatible">Bu işlev bu tarayıcıda mevcut değil, lütfen Safari\'yi deneyin</string>
+<string name="onboarding_error_user_not_found">Kullanıcı bulunamadı</string>
+<string name="onboarding_error_title_file_too_big">Büyük dosya</string>
+<string name="onboarding_error_subtitle_file_too_big">İzin verilen maksimum dosya boyutu {size} MB\'dir</string>
+<string name="onboarding_error_title_file_type_not_supported">Dosya desteklenmiyor</string>
+<string name="onboarding_error_subtitle_file_type_not_supported">Desteklenen dosya türleri: .jpg, .png, .bmp</string>
+<string name="onboarding_error_doc_country_not_supported">Maalesef bu belge türü seçilen ülke için desteklenmiyor</string>
+<string name="onboarding_error_title_challenge_timeout">Zaman aşımı</string>
+<string name="onboarding_error_subtitle_challenge_timeout">Meydan okuma karşılanmadı. lütfen tekrar deneyin</string>
+
+//Stages
+<string name="onboarding_stages_title">Kimlik doğrulama</string>
+<string name="onboarding_stages_description">Başarılı bir doğrulama için lütfen aşağıdaki adımları tamamlayın</string>
+<string name="onboarding_stages_selfie">Selfi</string>
+<string name="onboarding_stages_selfie_with_challenge">Meydan okuma ile selfie</string>
+<string name="onboarding_stages_selfie_with_document">Belgeli özçekim</string>
+<string name="onboarding_stages_id_card">Nüfus Cüzdanı</string>
+<string name="onboarding_stages_driver_license">Ehliyet</string>
+<string name="onboarding_stages_passport">Pasaport</string>
+<string name="onboarding_stages_residence_permit">Oturum İzni</string>
+<string name="onboarding_stages_credit_card">Kredi/Banka Kartı</string>
+<string name="onboarding_stages_health_insurance_card">Sağlık sigortası kartı</string>
+<string name="onboarding_stages_already_completed">Adım daha önce tamamlandı</string>
+<string name="onboarding_stages_completed">Tamamlandı</string>
+<string name="onboarding_stages_inactive">Lütfen önceki adımı tamamlayın</string>
+<string name="onboarding_stages_start_button">BAŞLA</string>
+<string name="onboarding_stages_done_button">DEVAM ET</string>
+
+//Doc sides screen
+<string name="onboarding_sides_title_id_card">Nüfus Cüzdanı</string>
+<string name="onboarding_sides_title_driver_license">Ehliyet</string>
+<string name="onboarding_sides_title_passport">Pasaport</string>
+<string name="onboarding_sides_title_residence_permit">Oturum İzni</string>
+<string name="onboarding_sides_title_health_insurance_card">Sağlık sigortası kartı</string>
+<string name="onboarding_sides_subtitle">Lütfen belge yüklemeye devam edin.</string>
+<string name="onboarding_sides_front">ÖN TARAF</string>
+<string name="onboarding_sides_back">ARKA TARAF</string>
+<string name="onboarding_sides_info_page">BİLGİ SAYFASI</string>
+<string name="onboarding_sides_tap_here">BURAYA DOKUNUN</string>
+<string name="onboarding_sides_done_button">DEVAM ET</string>
+<string name="onboarding_sides_issuing_country">Sağlayan ülke:</string>
+
+//Country selector
+<string name="onboarding_country_selector_subtitle_issuing_country">Düzenleyen ülke</string>
+<string name="onboarding_country_selector_other">Diğer</string>
+<string name="onboarding_country_selector_not_selected">Lütfen düzenleyen ülkeyi seçin</string>
+<string name="onboarding_country_selector_start">Başla</string>
+<string name="onboarding_country_selector_cancel">İptal</string>
+<string name="onboarding_country_selector_reload">Tekrar yükle</string>
+
+//Doc capturer
+<string name="onboarding_doc_capturer_retry_photo">Yeniden çek</string>
+<string name="onboarding_doc_capturer_send_photo">Fotoğraf gönder</string>
+<string name="onboarding_doc_capturer_manual">Elle ekleme</string>
+<string name="onboarding_doc_capturer_retry">Yeniden dene</string>
+<string name="onboarding_doc_capturer_dismiss">İptal</string>
+<string name="onboarding_doc_capturer_add_sheet">Sayfa ekle</string>
+<string name="onboarding_doc_capturer_send">Göndermek</string>
+<string name="onboarding_doc_capturer_info_text">(%2$s) (%1$s) otomatik olarak taranana kadar (%3$s)\'dan takın</string>
+<string name="onboarding_doc_capturer_info_text_passport">Otomatik olarak taranana kadar pasaport bilgi sayfanızı sığdırın</string>
+<string name="onboarding_doc_capturer_alert_title_timeout">Belgenizi okumada soru</string>
+<string name="onboarding_doc_capturer_alert_subtitle_timeout">Belgenizin dikdörtgene ayarlandığından emin olun</string>
+<string name="onboarding_doc_capturer_alert_title_generic_problem">Belgenizi okumada soru</string>
+<string name="onboarding_doc_capturer_alert_subtitle_generic_problem">Doğru belgeyi gösterdiğinizden emin olun (%1$s - %2$s) gösterdiğinizden emin olun</string>
+<string name="onboarding_doc_capturer_alert_subtitle_passport_missing_mrz">Pasaportunuzu oklüzyon, parlama veya gölge olmadan gösterdiğinizden emin olun</string>
+<string name="onboarding_doc_capturer_alert_title_wrong_doc">Yanlış belge</string>
+<string name="onboarding_doc_capturer_alert_subtitle_wrong_doc">Doğru belgeyi gösterdiğinizden emin olun (%1$s - %2$s)</string>
+<string name="onboarding_doc_capturer_alert_subtitle_wrong_doc_residencepermit_esp">Fotoğraflı geçerli bir belge gösterdiğinizden emin olun</string>
+<string name="onboarding_doc_capturer_alert_title_wrong_side">Yanlış belge tarafı</string>
+<string name="onboarding_doc_capturer_alert_subtitle_wrong_side">Doğru tarafı gösterdiğinizden emin olun (%1$s)</string>
+<string name="onboarding_doc_capturer_alert_title_poor_quality">Belgenizi okumada soru</string>
+<string name="onboarding_doc_capturer_alert_subtitle_poor_quality">Belgenizi oklüzyon, parlama veya gölgeler olmadan gösterdiğinizden emin olun</string>
+<string name="onboarding_doc_capturer_front">ÖN TARAF</string>
+<string name="onboarding_doc_capturer_back">ARKA TARAF</string>
+<string name="onboarding_doc_capturer_choose_source">Kaynak Seç</string>
+<string name="onboarding_doc_capturer_review_back">Başka bir fotoğraf kullan</string>
+<string name="onboarding_doc_capturer_subtitle">Lütfen ele geçirmeye devam edin</string>
+<string name="onboarding_doc_capturer_subtitle_review">Lütfen resmin yalnızca bir belge içerdiğinden ve döndürülmediğinden emin olun</string>
+<string name="onboarding_doc_capturer_title_review">Görüntü incelemesi</string>
+<string name="onboarding_doc_capturer_review_ok">Tamam</string>
+<string name="onboarding_doc_capturer_source_camera">Kamera</string>
+<string name="onboarding_doc_capturer_source_file">Dosya</string>
+<string name="onboarding_doc_capturer_adding">Dosya yükleniyor</string>
+<string name="onboarding_doc_capturer_subtitle_try_manual_capture">Belge yakalanamadı, lütfen manuel yakalamayı deneyin</string>
+<string name="onboarding_doc_capturer_subtitle_try_again_or_manual_capture">Doküman yakalanamadı. Lütfen tekrar deneyin veya manuel yakalamayı kullanın</string>
+<string name="onboarding_doc_capturer_qr_message">Merak etmeyin, akıllı telefonunuzdan işleme devam edebilirsiniz. QR\'yi tarayın!</string>
+<string name="onboarding_doc_capturer_qr_or_you_can">ya da yapabilirsin</string>
+<string name="onboarding_doc_capturer_check_position">Belgeyi dikdörtgene göre ayarla</string>
+<string name="onboarding_doc_capturer_processing_stay_still">Yakalanıyor… Belgeyi hareket ettirmeyin</string>
+
+//Credit card general
+<string name="onboarding_credit_card_supported_cards">Kabul edilen kartlar:</string>
+<string name="onboarding_credit_card_alert_title_generic_problem">Sorun kartınızı okuma</string>
+<string name="onboarding_credit_card_alert_subtitle_generic_problem">Kartınızı tarayarak sorunlarla karşılaşırsanız, elle verileri girebilirsiniz</string>
+<string name="onboarding_credit_card_alert_title_unsupported_card">Desteklenmeyen kart</string>
+<string name="onboarding_credit_card_alert_subtitle_unsupported_card">Desteklenen kartlar: </string>
+<string name="onboarding_credit_card_alert_retry">Yeniden dene</string>
+<string name="onboarding_credit_card_alert_enter_manually">Manuel olarak giriniz</string>
+
+//Credit card mode selector
+<string name="onboarding_credit_card_mode_selector_title">Kredi/Banka Kartı</string>
+<string name="onboarding_credit_card_mode_selector_subtitle">Kart bilgilerinizi sağlamak için bir yöntem seçin</string>
+<string name="onboarding_credit_card_mode_selector_nfc">NFC ile otomatik tarama (Kartınızın bu sembolü mevcutsa)</string>
+<string name="onboarding_credit_card_mode_selector_camera">Arka kamera ile otomatik tarama</string>
+<string name="onboarding_credit_card_mode_selector_form">Manuel olarak giriniz</string>
+
+//Credit card capturer from camera
+<string name="onboarding_credit_card_camera_capturer_info_text">Otomatik olarak taranıncaya kadar kart numarasını gösteren tarafı takın</string>
+
+//Credit card capturer from NFC
+<string name="onboarding_credit_card_nfc_capturer_title">Kartı tara</string>
+<string name="onboarding_credit_card_nfc_capturer_error_not_available">Bu cihazdaki hiçbir NFC modülü yoktur</string>
+<string name="onboarding_credit_card_nfc_capturer_error_generic">Kartınızı hareket etmeyin, tekrar deneyin</string>
+<string name="onboarding_credit_card_nfc_capturer_error_unknown_card">Bilinmeyen kart</string>
+<string name="onboarding_credit_card_nfc_capturer_error_contactless_locked">Kilitli kart</string>
+<string name="onboarding_credit_card_nfc_capturer_tap_your_card">senin telefonun arkasındaki kartınızı koyunuz</string>
+<string name="onboarding_credit_card_nfc_info_title_scanning">Okuma…</string>
+<string name="onboarding_credit_card_nfc_info_subtitle_scanning">okurken, kartınızı hareket etmeyin.</string>
+<string name="onboarding_credit_card_nfc_alert_title_is_off">NFC kapatılır</string>
+<string name="onboarding_credit_card_nfc_alert_subtitle_is_off">Sen okumak için NFC modülü açmak gerekmez. Şimdi açmak için Dilek?</string>
+<string name="onboarding_credit_card_nfc_alert_positive_is_off">Aç</string>
+<string name="onboarding_credit_card_nfc_alert_title_expired_card">Süresi geçmiş kart</string>
+<string name="onboarding_credit_card_nfc_alert_subtitle_expired_card">Kartınız tarihinde sona erdi</string>
+
+//Credit card form
+<string name="onboarding_credit_card_form_title">Kart verileri</string>
+<string name="onboarding_credit_card_form_subtitle_check_data">Lütfen verileri kontrol edin ve tamamlayın</string>
+<string name="onboarding_credit_card_form_add_card">Kart ekle</string>
+<string name="onboarding_credit_card_form_hint_card_number">Kart numarası</string>
+<string name="onboarding_credit_card_form_hint_expiration">Son kullanma tarihi</string>
+<string name="onboarding_credit_card_form_hint_cvv">CVV</string>
+<string name="onboarding_credit_card_form_hint_cardholder_name">Kart Sahibinin Adı</string>
+<string name="onboarding_credit_card_form_hint_postal_code">posta kodu</string>
+<string name="onboarding_credit_card_form_hint_country_code">Ülke kodu</string>
+<string name="onboarding_credit_card_form_hint_mobile_number">Cep numarası</string>
+<string name="onboarding_credit_card_form_cvv">CVV</string>
+<string name="onboarding_credit_card_form_cvc">CVC</string>
+<string name="onboarding_credit_card_form_cid">CID</string>
+<string name="onboarding_credit_card_form_cvn">CVN</string>
+<string name="onboarding_credit_card_form_month">Ay</string>
+<string name="onboarding_credit_card_form_year">Yıl</string>
+<string name="onboarding_credit_card_form_card_number_required">Kart numarası gereklidir</string>
+<string name="onboarding_credit_card_form_card_number_invalid">Kart numarası geçersiz</string>
+<string name="onboarding_credit_card_form_card_number_unsupported">Desteklenmeyen kart</string>
+<string name="onboarding_credit_card_form_cvv_required">%s gereklidir</string>
+<string name="onboarding_credit_card_form_cvv_invalid">%s hatalı</string>
+<string name="onboarding_credit_card_form_expiration_required">Son kullanma tarihi gerekli</string>
+<string name="onboarding_credit_card_form_expiration_invalid">Son kullanma tarihi geçersiz</string>
+<string name="onboarding_credit_card_form_cardholder_name_required">Kart sahibinin adı gereklidir</string>
+<string name="onboarding_credit_card_form_postal_code_required">Posta kodu gerekli</string>
+<string name="onboarding_credit_card_form_country_code_required">Ülke kodu gerekli</string>
+<string name="onboarding_credit_card_form_mobile_number_required">telefon numarası gereklidir</string>
+<string name="onboarding_credit_card_form_save_card_checkbox_name">kartı kaydet</string>
+
+//Document NFC capturer
+<string name="onboarding_nfc_doc_capturer_hold_your_doc_iphone">İPhone\'unuzu belgenizin yakınında tutun ve kısmen yukarıdan dışarı çıktığından emin olun</string>
+<string name="onboarding_nfc_doc_capturer_hold_your_doc_android">Belgenizi telefonunuzun arkasına yerleştirin</string>
+<string name="onboarding_nfc_doc_capturer_finding_antenna">Belgeyi telefonunuzun NFC anteniyle hizalayın. Nerede olduğunu bilmiyorsanız, telefon titreyene veya çalıncaya kadar belgenizi yavaşça kaydırın.</string>
+<string name="onboarding_nfc_doc_capturer_finding_antenna_shortened">Telefon titreyene veya çalana kadar belgenizi yavaşça kaydırın.</string>
+<string name="onboarding_nfc_doc_capturer_keep_still_until_finished">Okuma bitene kadar belgeyi sabit tutun</string>
+<string name="onboarding_nfc_doc_capturer_tutorial">Öğretici</string>
+<string name="onboarding_nfc_doc_capturer_start_reading">BAŞLA</string>
+<string name="onboarding_nfc_doc_capturer_expiry">Vade</string>
+<string name="onboarding_nfc_doc_capturer_authenticating">belge ile kimlik denetimi yapılıyor …</string>
+<string name="onboarding_nfc_doc_capturer_reading">Okuma … Belgenizi hareket etmiyor</string>
+<string name="onboarding_nfc_doc_capturer_success">Belge başarıyla okundu.</string>
+<string name="onboarding_nfc_doc_capturer_error_connection_title">Bağlantı hatası</string>
+<string name="onboarding_nfc_doc_capturer_error_connection_subtitle">Okuma işlemi sırasında belgenizi hareket ettirmeyin</string>
+<string name="onboarding_nfc_doc_capturer_error_generic_title">Belgenizi okumada soru</string>
+<string name="onboarding_nfc_doc_capturer_error_generic_subtitle">Lütfen tekrar deneyin.</string>
+<string name="onboarding_nfc_doc_capturer_error_unsupported_doc_title">Desteksiz belge</string>
+<string name="onboarding_nfc_doc_capturer_error_unsupported_doc_subtitle">Üzgünüz, şu anda belgenizi desteklemiyoruz</string>
+<string name="onboarding_nfc_doc_capturer_error_wrong_doc_title">Yanlış belge</string>
+<string name="onboarding_nfc_doc_capturer_error_wrong_doc_subtitle">Doğru belgeyi taradığınızdan emin olun</string>
+
+//Selfie capturer
+<string name="onboarding_selfie_capturer_adding">Selfi ekleniyor…</string>
+<string name="onboarding_selfie_capturer_adding_with_challenge">Meydan okuma ile selfie ekleniyor…</string>
+<string name="onboarding_selfie_capturer_adding_with_document">Belgeyle selfie ekleniyor…</string>
+<string name="onboarding_selfie_capturer_authenticating">Kimlik doğrulanıyor…</string>
+<string name="onboarding_selfie_capturer_move_farther">Lütfen telefonunuzu uzaklaştırın.</string>
+<string name="onboarding_selfie_capturer_get_closer">Lütfen telefonunuzu yaklaştırın.</string>
+<string name="onboarding_selfie_capturer_no_face">Yüz algılanamadı.</string>
+<string name="onboarding_selfie_capturer_look_camera">Lütfen kameraya bakın.</string>
+<string name="onboarding_selfie_capturer_center_face">Lütfen yüzünüzü çerçeveye yerleştiriniz.</string>
+<string name="onboarding_selfie_capturer_device_elevation">Lütfen telefonunuzu göz hizasında tutun.</string>
+<string name="onboarding_selfie_cancel">İptal</string>
+<string name="onboarding_selfie_capturer_wrong_yaw_angle">Lütfen yüzünüzü çerçeveye yerleştiriniz.</string>
+<string name="onboarding_selfie_capturer_title_insufficient_faces">Yüz tanımlaması tamamlanamadı.</string>
+<string name="onboarding_selfie_capturer_subtitle_insufficient_faces">Tüm süreç boyunca yüzünüzü ovalde ve iyi ışık koşullarında tutarak hareketsiz kaldığınızdan emin olun</string>
+<string name="onboarding_selfie_capturer_face_detected_tooltip">Fotoğraf çekmek için buraya tıklayın!</string>
+<string name="onboarding_selfie_capturer_subtitle">Lütfen ele geçirmeye devam edin</string>
+<string name="onboarding_selfie_capturer_subtitle_review">Lütfen resminizin iyi olduğundan emin olun</string>
+<string name="onboarding_selfie_with_document_capturer_center_face">Lütfen yüzünüzü ovalin üzerine ve belgeyi dikdörtgenin üzerine ortalayın</string>
+
+//OTD capturer
+<string name="onboarding_other_trusted_docs_subtitle">Lütfen bir PDF dosyası seçin</string>
+<string name="onboarding_other_trusted_docs_capturer_subtitle">Lütfen belgenizi alın</string>
+<string name="onboarding_other_trusted_docs_click_or_drop">Dosyayı buraya tıklayın veya bırakın</string>
+<string name="onboarding_other_trusted_docs_capturer_accept">Kabul etmek</string>
+<string name="onboarding_other_trusted_docs_capturer_cancel">İptal</string>
+<string name="onboarding_other_trusted_docs_capturer_continue">Devam et</string>
+<string name="onboarding_other_trusted_docs_capturer_camera">Kamera</string>
+<string name="onboarding_other_trusted_docs_capturer_images_limit">Maksimum görüntü sayısına ulaşıldı</string>
+<string name="onboarding_other_trusted_docs_capturer_documents">Belgeler</string>
+<string name="onboarding_other_trusted_docs_capturer_file_size_limit_title">Çok büyük PDF</string>
+<string name="onboarding_other_trusted_docs_capturer_file_size_limit_subtitle">Dosya 5 MB\'ı aşamaz</string>
+
+//Welcome
+
+</resources>
