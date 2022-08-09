@@ -238,6 +238,4 @@
 <string name="onboarding_other_trusted_docs_capturer_file_size_limit_title">Too large PDF</string>
 <string name="onboarding_other_trusted_docs_capturer_file_size_limit_subtitle">The file cannot exceed 5 MB</string>
 
-//Welcome
-
 </resources>
