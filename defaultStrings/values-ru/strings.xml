@@ -44,13 +44,12 @@
 <string name="onboarding_stages_title">Проверка личности</string>
 <string name="onboarding_stages_description">Пожалуйста, выполните следующие шаги для успешной проверки</string>
 <string name="onboarding_stages_selfie">Селфи</string>
-<string name="onboarding_stages_selfie_with_challenge">Селфи с вызовом</string>
 <string name="onboarding_stages_selfie_with_document">Селфи с документом</string>
+<string name="onboarding_stages_selfie_with_document_challenge">Селфи с документом</string>
 <string name="onboarding_stages_id_card">Удостоверение личности</string>
 <string name="onboarding_stages_driver_license">Водительские права</string>
 <string name="onboarding_stages_passport">Паспорт</string>
 <string name="onboarding_stages_residence_permit">Вид на жительство</string>
-<string name="onboarding_stages_credit_card">Кредитная/дебетовая карта</string>
 <string name="onboarding_stages_health_insurance_card">Карточка медицинского страхования</string>
 <string name="onboarding_stages_already_completed">Этап уже завершен</string>
 <string name="onboarding_stages_completed">Завершенный</string>
@@ -119,70 +118,6 @@
 <string name="onboarding_doc_capturer_qr_or_you_can">или вы можете</string>
 <string name="onboarding_doc_capturer_check_position">Отрегулируйте документ по прямоугольнику</string>
 <string name="onboarding_doc_capturer_processing_stay_still">Захват… Не перемещайте документ</string>
-
-//Credit card general
-<string name="onboarding_credit_card_supported_cards">Принимаемые карты:</string>
-<string name="onboarding_credit_card_alert_title_generic_problem">Проблема при чтении вашей карты</string>
-<string name="onboarding_credit_card_alert_subtitle_generic_problem">Если вы столкнулись с проблемами сканирования вашей карты, вы можете ввести данные вручную</string>
-<string name="onboarding_credit_card_alert_title_unsupported_card">неподдерживаемые карты</string>
-<string name="onboarding_credit_card_alert_subtitle_unsupported_card">Поддерживаемые карты: </string>
-<string name="onboarding_credit_card_alert_retry">Попытаться заново</string>
-<string name="onboarding_credit_card_alert_enter_manually">введите вручную</string>
-
-//Credit card mode selector
-<string name="onboarding_credit_card_mode_selector_title">Кредитная/дебетовая карта</string>
-<string name="onboarding_credit_card_mode_selector_subtitle">Пожалуйста, выберите способ для предоставления информации о кредитной карте</string>
-<string name="onboarding_credit_card_mode_selector_nfc">Сканирование автоматически с помощью NFC (только если карта имеет этот символ)</string>
-<string name="onboarding_credit_card_mode_selector_camera">Сканирование автоматически с камерой заднего вида</string>
-<string name="onboarding_credit_card_mode_selector_form">введите вручную</string>
-
-//Credit card capturer from camera
-<string name="onboarding_credit_card_camera_capturer_info_text">Вставьте сторону, на которой указан номер карты, до автоматического сканирования.</string>
-
-//Credit card capturer from NFC
-<string name="onboarding_credit_card_nfc_capturer_title">Сканировать карту</string>
-<string name="onboarding_credit_card_nfc_capturer_error_not_available">Там нет модуля NFC доступны в этом устройстве</string>
-<string name="onboarding_credit_card_nfc_capturer_error_generic">Пожалуйста, не перемещать карту, попробуйте еще раз</string>
-<string name="onboarding_credit_card_nfc_capturer_error_unknown_card">Неизвестная карта</string>
-<string name="onboarding_credit_card_nfc_capturer_error_contactless_locked">Закрытая карта</string>
-<string name="onboarding_credit_card_nfc_capturer_tap_your_card">Пожалуйста, введите свои карты на задней панели телефона</string>
-<string name="onboarding_credit_card_nfc_info_title_scanning">Чтение …</string>
-<string name="onboarding_credit_card_nfc_info_subtitle_scanning">Пожалуйста, не перемещать карту во время чтения.</string>
-<string name="onboarding_credit_card_nfc_alert_title_is_off">NFC выключен</string>
-<string name="onboarding_credit_card_nfc_alert_subtitle_is_off">Вам нужно включить модуль NFC для чтения. Хотите включить его сейчас?</string>
-<string name="onboarding_credit_card_nfc_alert_positive_is_off">Включить</string>
-<string name="onboarding_credit_card_nfc_alert_title_expired_card">Истек срок действия карты</string>
-<string name="onboarding_credit_card_nfc_alert_subtitle_expired_card">Ваша карта истекла</string>
-
-//Credit card form
-<string name="onboarding_credit_card_form_title">Данные карты</string>
-<string name="onboarding_credit_card_form_subtitle_check_data">Пожалуйста, проверьте и заполните данные</string>
-<string name="onboarding_credit_card_form_add_card">Добавить карту</string>
-<string name="onboarding_credit_card_form_hint_card_number">Номер карты</string>
-<string name="onboarding_credit_card_form_hint_expiration">Срок годности</string>
-<string name="onboarding_credit_card_form_hint_cvv">CVV</string>
-<string name="onboarding_credit_card_form_hint_cardholder_name">Имя владельца карты</string>
-<string name="onboarding_credit_card_form_hint_postal_code">Почтовый Код</string>
-<string name="onboarding_credit_card_form_hint_country_code">Код страны</string>
-<string name="onboarding_credit_card_form_hint_mobile_number">Мобильный номер</string>
-<string name="onboarding_credit_card_form_cvv">CVV</string>
-<string name="onboarding_credit_card_form_cvc">CVC</string>
-<string name="onboarding_credit_card_form_cid">ИДС</string>
-<string name="onboarding_credit_card_form_cvn">CVN</string>
-<string name="onboarding_credit_card_form_month">Месяц</string>
-<string name="onboarding_credit_card_form_year">Год</string>
-<string name="onboarding_credit_card_form_card_number_required">Номер карты требуется</string>
-<string name="onboarding_credit_card_form_card_number_invalid">Номер карты недействителен</string>
-<string name="onboarding_credit_card_form_card_number_unsupported">неподдерживаемые карты</string>
-<string name="onboarding_credit_card_form_cvv_required">%s требуется</string>
-<string name="onboarding_credit_card_form_cvv_invalid">%s является недействительным</string>
-<string name="onboarding_credit_card_form_expiration_required">Действительно требуется</string>
-<string name="onboarding_credit_card_form_expiration_invalid">Срок годности является недействительным</string>
-<string name="onboarding_credit_card_form_cardholder_name_required">Имя владельца карты требуется</string>
-<string name="onboarding_credit_card_form_postal_code_required">Почтовый индекс требуется</string>
-<string name="onboarding_credit_card_form_country_code_required">Код страны требуется</string>
-<string name="onboarding_credit_card_form_mobile_number_required">Номер телефона требуется</string>
-<string name="onboarding_credit_card_form_save_card_checkbox_name">Сохранить карту</string>
 
 //Document NFC capturer
 <string name="onboarding_nfc_doc_capturer_hold_your_doc_iphone">Держите iPhone рядом с документом и убедитесь, что он частично торчит сверху</string>

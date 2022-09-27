@@ -44,13 +44,12 @@
 <string name="onboarding_stages_title">identitate egiaztatzea</string>
 <string name="onboarding_stages_description">Mesedez, bete urrats hauek egiaztapena arrakasta izateko</string>
 <string name="onboarding_stages_selfie">Selfie</string>
-<string name="onboarding_stages_selfie_with_challenge">Selfie erronkarekin</string>
 <string name="onboarding_stages_selfie_with_document">Selfie dokumentuarekin</string>
+<string name="onboarding_stages_selfie_with_document_challenge">Selfie dokumentuen erronkarekin</string>
 <string name="onboarding_stages_id_card">Nortasun agiria</string>
 <string name="onboarding_stages_driver_license">Gidabaimena</string>
 <string name="onboarding_stages_passport">Pasaportea</string>
 <string name="onboarding_stages_residence_permit">Egoitza baimena</string>
-<string name="onboarding_stages_credit_card">Kreditu / zordunketa txartela</string>
 <string name="onboarding_stages_health_insurance_card">Osasun txartela</string>
 <string name="onboarding_stages_already_completed">Urratsa dagoeneko burututa</string>
 <string name="onboarding_stages_completed">Osatuta</string>
@@ -119,70 +118,6 @@
 <string name="onboarding_doc_capturer_qr_or_you_can">edo bestela</string>
 <string name="onboarding_doc_capturer_check_position">Dokumentuan ezartzen kutxa</string>
 <string name="onboarding_doc_capturer_processing_stay_still">Harrapaketak … Ez dokumentua mugitu</string>
-
-//Credit card general
-<string name="onboarding_credit_card_supported_cards">Onartutako txartelak:</string>
-<string name="onboarding_credit_card_alert_title_generic_problem">Arazoa zure txartela irakurtzen</string>
-<string name="onboarding_credit_card_alert_subtitle_generic_problem">Automatikoan arazoak duzun zure txartela eskaneatzen bada, datuak eskuz sar dezakezu</string>
-<string name="onboarding_credit_card_alert_title_unsupported_card">Txartela ez da onartzen</string>
-<string name="onboarding_credit_card_alert_subtitle_unsupported_card">Onartutako txartelak, besteak beste:</string>
-<string name="onboarding_credit_card_alert_retry">Berriro saiatzen</string>
-<string name="onboarding_credit_card_alert_enter_manually">Sar eskuz</string>
-
-//Credit card mode selector
-<string name="onboarding_credit_card_mode_selector_title">Kreditu / zor txartela</string>
-<string name="onboarding_credit_card_mode_selector_subtitle">Mesedez aukeratu bat zure txartelaren informazioa emateko</string>
-<string name="onboarding_credit_card_mode_selector_nfc">Automatikoki eskaneatu NFC (zure txartela Ikur hori badu)</string>
-<string name="onboarding_credit_card_mode_selector_camera">Automatikoki atzeko kamera eskaneatu</string>
-<string name="onboarding_credit_card_mode_selector_form">Sar eskuz</string>
-
-//Credit card capturer from camera
-<string name="onboarding_credit_card_camera_capturer_info_text">Albo-txartela kopuru erakutsiz Enkoadraketa automatikoki eskaneatu arte</string>
-
-//Credit card capturer from NFC
-<string name="onboarding_credit_card_nfc_capturer_title">Eskaneatu txartela</string>
-<string name="onboarding_credit_card_nfc_capturer_error_not_available">Ez dago NFC modulua erabilgarri gailu honetan</string>
-<string name="onboarding_credit_card_nfc_capturer_error_generic">Mesedez, ez zure txartela eraman. Saiatu berriro.</string>
-<string name="onboarding_credit_card_nfc_capturer_error_unknown_card">Txartel ezezagun</string>
-<string name="onboarding_credit_card_nfc_capturer_error_contactless_locked">Blokeatuta txartela</string>
-<string name="onboarding_credit_card_nfc_capturer_tap_your_card">Mesedez, zure txartela zure telefonoa atzealdean</string>
-<string name="onboarding_credit_card_nfc_info_title_scanning">Irakurtzen …</string>
-<string name="onboarding_credit_card_nfc_info_subtitle_scanning">Mesedez, ez da txartela mugitu bitartean irakurtzen.</string>
-<string name="onboarding_credit_card_nfc_alert_title_is_off">NFC desgaituta</string>
-<string name="onboarding_credit_card_nfc_alert_subtitle_is_off">NFC gaituta modulu irakurtzeko izan behar duzu. orain gaitu nahi duzu?</string>
-<string name="onboarding_credit_card_nfc_alert_positive_is_off">Aktibatu</string>
-<string name="onboarding_credit_card_nfc_alert_title_expired_card">Iraungitako txartela</string>
-<string name="onboarding_credit_card_nfc_alert_subtitle_expired_card">Zure txartela iraungi</string>
-
-//Credit card form
-<string name="onboarding_credit_card_form_title">Txartela datuak</string>
-<string name="onboarding_credit_card_form_subtitle_check_data">Mesedez, berrikusi eta osoa datuak</string>
-<string name="onboarding_credit_card_form_add_card">Gehitu txartela</string>
-<string name="onboarding_credit_card_form_hint_card_number">Txartel zenbakia</string>
-<string name="onboarding_credit_card_form_hint_expiration">Epea</string>
-<string name="onboarding_credit_card_form_hint_cvv">CVV</string>
-<string name="onboarding_credit_card_form_hint_cardholder_name">Txartelaren titularraren izena</string>
-<string name="onboarding_credit_card_form_hint_postal_code">Posta kodea</string>
-<string name="onboarding_credit_card_form_hint_country_code">Herrialde kodea</string>
-<string name="onboarding_credit_card_form_hint_mobile_number">Mobile kopurua</string>
-<string name="onboarding_credit_card_form_cvv">CVV</string>
-<string name="onboarding_credit_card_form_cvc">CVC</string>
-<string name="onboarding_credit_card_form_cid">CID</string>
-<string name="onboarding_credit_card_form_cvn">CVN</string>
-<string name="onboarding_credit_card_form_month">Hilabetea</string>
-<string name="onboarding_credit_card_form_year">Urtea</string>
-<string name="onboarding_credit_card_form_card_number_required">Txartelaren zenbakia eman behar da</string>
-<string name="onboarding_credit_card_form_card_number_invalid">Yxartel zenbakia baliogabea</string>
-<string name="onboarding_credit_card_form_card_number_unsupported">Txartela ez da onartzen</string>
-<string name="onboarding_credit_card_form_cvv_required">% S derrigorrezkoa da</string>
-<string name="onboarding_credit_card_form_cvv_invalid">% S da baliogabe</string>
-<string name="onboarding_credit_card_form_expiration_required">Iraungitze data derrigorrezkoa da</string>
-<string name="onboarding_credit_card_form_expiration_invalid">Iraungitze-data baliogabea</string>
-<string name="onboarding_credit_card_form_cardholder_name_required">Titularrak izena eman behar da</string>
-<string name="onboarding_credit_card_form_postal_code_required">Posta kodea derrigorrezkoa da</string>
-<string name="onboarding_credit_card_form_country_code_required">Herrialdeentzako derrigorrezkoa da</string>
-<string name="onboarding_credit_card_form_mobile_number_required">Telefono zenbakia eman behar da</string>
-<string name="onboarding_credit_card_form_save_card_checkbox_name">Save txartela</string>
 
 //Document NFC capturer
 <string name="onboarding_nfc_doc_capturer_hold_your_doc_iphone">Mantendu zure iPhone zure dokumentua itsatsita eta ziur irtengo partzialki gainetik egin</string>

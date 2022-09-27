@@ -44,13 +44,12 @@
 <string name="onboarding_stages_title">Verificació d\'identitat</string>
 <string name="onboarding_stages_description">Si us plau, completeu els passos següents per a una verificació correcta</string>
 <string name="onboarding_stages_selfie">Selfie</string>
-<string name="onboarding_stages_selfie_with_challenge">Selfie amb repte</string>
 <string name="onboarding_stages_selfie_with_document">Selfie amb document</string>
+<string name="onboarding_stages_selfie_with_document_challenge">Selfie amb repte de document</string>
 <string name="onboarding_stages_id_card">Carnet d\'identitat</string>
 <string name="onboarding_stages_driver_license">Carnet de conduir</string>
 <string name="onboarding_stages_passport">Passaport</string>
 <string name="onboarding_stages_residence_permit">Permís de residència</string>
-<string name="onboarding_stages_credit_card">Targeta de crèdit/dèbit</string>
 <string name="onboarding_stages_health_insurance_card">Targeta sanitària</string>
 <string name="onboarding_stages_already_completed">Pas ja completat</string>
 <string name="onboarding_stages_completed">Complet</string>
@@ -119,70 +118,6 @@
 <string name="onboarding_doc_capturer_qr_or_you_can">o podeu</string>
 <string name="onboarding_doc_capturer_check_position">Ajusta el document a l\'rectangle</string>
 <string name="onboarding_doc_capturer_processing_stay_still">Capturant… No mogui el document</string>
-
-//Credit card general
-<string name="onboarding_credit_card_supported_cards">Targetes admeses:</string>
-<string name="onboarding_credit_card_alert_title_generic_problem">Problema a l\'llegir la seva targeta</string>
-<string name="onboarding_credit_card_alert_subtitle_generic_problem">Si es troba amb problemes d\'escaneig de la seva targeta, pot introduir les dades manualment</string>
-<string name="onboarding_credit_card_alert_title_unsupported_card">Targeta no admesa</string>
-<string name="onboarding_credit_card_alert_subtitle_unsupported_card">Les targetes admeses són: </string>
-<string name="onboarding_credit_card_alert_retry">Reintentar</string>
-<string name="onboarding_credit_card_alert_enter_manually">Introduir manualment</string>
-
-//Credit card mode selector
-<string name="onboarding_credit_card_mode_selector_title">Targeta de crèdit/dèbit</string>
-<string name="onboarding_credit_card_mode_selector_subtitle">Si us plau, tria un mètode per proporcionar la informació de la targeta</string>
-<string name="onboarding_credit_card_mode_selector_nfc">Escanejar automàticament amb NFC (només si la targeta té aquest símbol)</string>
-<string name="onboarding_credit_card_mode_selector_camera">Escanejar automàticament amb la càmera del darrere</string>
-<string name="onboarding_credit_card_mode_selector_form">Introduir manualment</string>
-
-//Credit card capturer from camera
-<string name="onboarding_credit_card_camera_capturer_info_text">Enquadra el costat que mostra el número de la targeta fins que es escanegi automàticament</string>
-
-//Credit card capturer from NFC
-<string name="onboarding_credit_card_nfc_capturer_title">Escaneja la targeta</string>
-<string name="onboarding_credit_card_nfc_capturer_error_not_available">No hi ha cap mòdul NFC disponible en aquest dispositiu</string>
-<string name="onboarding_credit_card_nfc_capturer_error_generic">Si us plau, no moguis la targeta. Intenta-ho de nou.</string>
-<string name="onboarding_credit_card_nfc_capturer_error_unknown_card">Targeta desconeguda</string>
-<string name="onboarding_credit_card_nfc_capturer_error_contactless_locked">Targeta bloquejada</string>
-<string name="onboarding_credit_card_nfc_capturer_tap_your_card">Si us plau, posi la seva targeta a la part posterior del seu telèfon</string>
-<string name="onboarding_credit_card_nfc_info_title_scanning">Llegint…</string>
-<string name="onboarding_credit_card_nfc_info_subtitle_scanning">Si us plau, no moguis la targeta durant la lectura.</string>
-<string name="onboarding_credit_card_nfc_alert_title_is_off">NFC desactivat</string>
-<string name="onboarding_credit_card_nfc_alert_subtitle_is_off">Cal tenir activat el mòdul NFC per a la lectura. Vols activar-ara?</string>
-<string name="onboarding_credit_card_nfc_alert_positive_is_off">Activa</string>
-<string name="onboarding_credit_card_nfc_alert_title_expired_card">Targeta caducada</string>
-<string name="onboarding_credit_card_nfc_alert_subtitle_expired_card">La teva targeta ha caducat el</string>
-
-//Credit card form
-<string name="onboarding_credit_card_form_title">Dades de la targeta</string>
-<string name="onboarding_credit_card_form_subtitle_check_data">Si us plau, revisa i completa les dades</string>
-<string name="onboarding_credit_card_form_add_card">Afegir targeta</string>
-<string name="onboarding_credit_card_form_hint_card_number">Número de targeta</string>
-<string name="onboarding_credit_card_form_hint_expiration">Data de venciment</string>
-<string name="onboarding_credit_card_form_hint_cvv">CVV</string>
-<string name="onboarding_credit_card_form_hint_cardholder_name">Nom de titular de la targeta</string>
-<string name="onboarding_credit_card_form_hint_postal_code">codi postal</string>
-<string name="onboarding_credit_card_form_hint_country_code">Codi de país</string>
-<string name="onboarding_credit_card_form_hint_mobile_number">Núm mòbil</string>
-<string name="onboarding_credit_card_form_cvv">CVV</string>
-<string name="onboarding_credit_card_form_cvc">CVC</string>
-<string name="onboarding_credit_card_form_cid">CID</string>
-<string name="onboarding_credit_card_form_cvn">CVN</string>
-<string name="onboarding_credit_card_form_month">Mes</string>
-<string name="onboarding_credit_card_form_year">any</string>
-<string name="onboarding_credit_card_form_card_number_required">El nombre de targeta és obligatori</string>
-<string name="onboarding_credit_card_form_card_number_invalid">Número de targeta no vàlid</string>
-<string name="onboarding_credit_card_form_card_number_unsupported">Targeta no admesa</string>
-<string name="onboarding_credit_card_form_cvv_required">El %s és obligatori</string>
-<string name="onboarding_credit_card_form_cvv_invalid">El %s no és vàlid</string>
-<string name="onboarding_credit_card_form_expiration_required">La data de venciment és obligatòria</string>
-<string name="onboarding_credit_card_form_expiration_invalid">Data de venciment no vàlida</string>
-<string name="onboarding_credit_card_form_cardholder_name_required">El nom de la titular de la targeta és obligatori</string>
-<string name="onboarding_credit_card_form_postal_code_required">El codi postal és obligatori</string>
-<string name="onboarding_credit_card_form_country_code_required">El codi de país és obligatori</string>
-<string name="onboarding_credit_card_form_mobile_number_required">El número de telèfon és obligatori</string>
-<string name="onboarding_credit_card_form_save_card_checkbox_name">Desar targeta</string>
 
 //Document NFC capturer
 <string name="onboarding_nfc_doc_capturer_hold_your_doc_iphone">Mantingues el teu iPhone tocant el teu document i assegura\'t que sobresurti en part per dalt</string>

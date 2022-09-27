@@ -44,13 +44,12 @@
 <string name="onboarding_stages_title">Verificación de identidad</string>
 <string name="onboarding_stages_description">Por favor, complete los siguientes pasos para una verificación correcta</string>
 <string name="onboarding_stages_selfie">Selfie</string>
-<string name="onboarding_stages_selfie_with_challenge">Selfie con retos</string>
 <string name="onboarding_stages_selfie_with_document">Selfie con documento</string>
+<string name="onboarding_stages_selfie_with_document_challenge">Selfie con reto de documento</string>
 <string name="onboarding_stages_id_card">Cédula de identidad</string>
 <string name="onboarding_stages_driver_license">Licencia de conducir</string>
 <string name="onboarding_stages_passport">Pasaporte</string>
 <string name="onboarding_stages_residence_permit">Permiso de residencia</string>
-<string name="onboarding_stages_credit_card">Tarjeta de crédito/débito</string>
 <string name="onboarding_stages_health_insurance_card">Tarjeta sanitaria</string>
 <string name="onboarding_stages_already_completed">Paso ya completado</string>
 <string name="onboarding_stages_completed">Completado</string>
@@ -119,70 +118,6 @@
 <string name="onboarding_doc_capturer_qr_or_you_can">o puede</string>
 <string name="onboarding_doc_capturer_check_position">Ajuste el documento al rectángulo</string>
 <string name="onboarding_doc_capturer_processing_stay_still">Capturando… No mueva el documento</string>
-
-//Credit card general
-<string name="onboarding_credit_card_supported_cards">Tarjetas admitidas:</string>
-<string name="onboarding_credit_card_alert_title_generic_problem">Problema al leer su tarjeta</string>
-<string name="onboarding_credit_card_alert_subtitle_generic_problem">Si encuentra problemas en el escaneo automático de su tarjeta, puede introducir los datos manualmente</string>
-<string name="onboarding_credit_card_alert_title_unsupported_card">Tarjeta no admitida</string>
-<string name="onboarding_credit_card_alert_subtitle_unsupported_card">Las tarjetas admitidas son: </string>
-<string name="onboarding_credit_card_alert_retry">Reintentar</string>
-<string name="onboarding_credit_card_alert_enter_manually">Introducir manualmente</string>
-
-//Credit card mode selector
-<string name="onboarding_credit_card_mode_selector_title">Tarjeta de crédito/débito</string>
-<string name="onboarding_credit_card_mode_selector_subtitle">Por favor, elija un método para proporcionar la información de su tarjeta</string>
-<string name="onboarding_credit_card_mode_selector_nfc">Escanear automáticamente con NFC (solo si su tarjeta tiene este símbolo)</string>
-<string name="onboarding_credit_card_mode_selector_camera">Escanear automáticamente con la cámara trasera</string>
-<string name="onboarding_credit_card_mode_selector_form">Introducir manualmente</string>
-
-//Credit card capturer from camera
-<string name="onboarding_credit_card_camera_capturer_info_text">Encuadre el lado que muestra el número de la tarjeta hasta que se escanee automáticamente</string>
-
-//Credit card capturer from NFC
-<string name="onboarding_credit_card_nfc_capturer_title">Escanear tarjeta</string>
-<string name="onboarding_credit_card_nfc_capturer_error_not_available">No hay ningún módulo NFC disponible en este dispositivo</string>
-<string name="onboarding_credit_card_nfc_capturer_error_generic">Por favor, no mueva su tarjeta. Inténtelo de nuevo.</string>
-<string name="onboarding_credit_card_nfc_capturer_error_unknown_card">Tarjeta desconocida</string>
-<string name="onboarding_credit_card_nfc_capturer_error_contactless_locked">Tarjeta bloqueada</string>
-<string name="onboarding_credit_card_nfc_capturer_tap_your_card">Por favor, ponga su tarjeta en la parte posterior de su teléfono</string>
-<string name="onboarding_credit_card_nfc_info_title_scanning">Leyendo…</string>
-<string name="onboarding_credit_card_nfc_info_subtitle_scanning">Por favor, no mueva la tarjeta durante la lectura.</string>
-<string name="onboarding_credit_card_nfc_alert_title_is_off">NFC desactivado</string>
-<string name="onboarding_credit_card_nfc_alert_subtitle_is_off">Es necesario tener activado el módulo NFC para la lectura. ¿Desea activarlo ahora?</string>
-<string name="onboarding_credit_card_nfc_alert_positive_is_off">Activar</string>
-<string name="onboarding_credit_card_nfc_alert_title_expired_card">Tarjeta expirada</string>
-<string name="onboarding_credit_card_nfc_alert_subtitle_expired_card">Su tarjeta expiró el</string>
-
-//Credit card form
-<string name="onboarding_credit_card_form_title">Datos de la tarjeta</string>
-<string name="onboarding_credit_card_form_subtitle_check_data">Por favor, revise y complete los datos</string>
-<string name="onboarding_credit_card_form_add_card">Añadir tarjeta</string>
-<string name="onboarding_credit_card_form_hint_card_number">Número de tarjeta</string>
-<string name="onboarding_credit_card_form_hint_expiration">Fecha de vencimiento</string>
-<string name="onboarding_credit_card_form_hint_cvv">CVV</string>
-<string name="onboarding_credit_card_form_hint_cardholder_name">Nombre del titular de la tarjeta</string>
-<string name="onboarding_credit_card_form_hint_postal_code">Código postal</string>
-<string name="onboarding_credit_card_form_hint_country_code">Código de país</string>
-<string name="onboarding_credit_card_form_hint_mobile_number">N.º de móvil</string>
-<string name="onboarding_credit_card_form_cvv">CVV</string>
-<string name="onboarding_credit_card_form_cvc">CVC</string>
-<string name="onboarding_credit_card_form_cid">CID</string>
-<string name="onboarding_credit_card_form_cvn">CVN</string>
-<string name="onboarding_credit_card_form_month">Mes</string>
-<string name="onboarding_credit_card_form_year">Año</string>
-<string name="onboarding_credit_card_form_card_number_required">El número de tarjeta es obligatorio</string>
-<string name="onboarding_credit_card_form_card_number_invalid">Número de tarjeta no válido</string>
-<string name="onboarding_credit_card_form_card_number_unsupported">Tarjeta no admitida</string>
-<string name="onboarding_credit_card_form_cvv_required">El %s es obligatorio</string>
-<string name="onboarding_credit_card_form_cvv_invalid">El %s es inválido</string>
-<string name="onboarding_credit_card_form_expiration_required">La fecha de vencimiento es obligatoria</string>
-<string name="onboarding_credit_card_form_expiration_invalid">Fecha de vencimiento no válida</string>
-<string name="onboarding_credit_card_form_cardholder_name_required">El nombre del titular de la tarjeta es obligatorio</string>
-<string name="onboarding_credit_card_form_postal_code_required">El código postal es obligatorio</string>
-<string name="onboarding_credit_card_form_country_code_required">El código de país es obligatorio</string>
-<string name="onboarding_credit_card_form_mobile_number_required">El código de país es obligatorio</string>
-<string name="onboarding_credit_card_form_save_card_checkbox_name">Guardar tarjeta</string>
 
 //Document NFC capturer
 <string name="onboarding_nfc_doc_capturer_hold_your_doc_iphone">Mantenga su iPhone pegado a su documento y asegúrese de que sobresalga en parte por arriba</string>
