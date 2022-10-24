@@ -45,7 +45,7 @@
 <string name="onboarding_stages_description">Por favor, complete los siguientes pasos para una verificación correcta</string>
 <string name="onboarding_stages_selfie">Selfie</string>
 <string name="onboarding_stages_selfie_with_document">Selfie con documento</string>
-<string name="onboarding_stages_selfie_with_document_challenge">Selfie con reto de documento</string>
+<string name="onboarding_stages_selfie_with_challenge">Selfie con reto</string>
 <string name="onboarding_stages_id_card">Cédula de identidad</string>
 <string name="onboarding_stages_driver_license">Licencia de conducir</string>
 <string name="onboarding_stages_passport">Pasaporte</string>
@@ -142,7 +142,7 @@
 
 //Selfie capturer
 <string name="onboarding_selfie_capturer_adding">Añadiendo selfie…</string>
-<string name="onboarding_selfie_capturer_adding_with_challenge">Añadiendo selfie con retos…</string>
+<string name="onboarding_selfie_capturer_adding_with_challenge">Añadiendo selfie con reto…</string>
 <string name="onboarding_selfie_capturer_adding_with_document">Añadiendo selfie con documento…</string>
 <string name="onboarding_selfie_capturer_authenticating">Autenticando…</string>
 <string name="onboarding_selfie_capturer_move_farther">Por favor, aleje el dispositivo</string>

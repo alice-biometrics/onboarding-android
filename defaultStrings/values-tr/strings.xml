@@ -45,7 +45,7 @@
 <string name="onboarding_stages_description">Başarılı bir doğrulama için lütfen aşağıdaki adımları tamamlayın</string>
 <string name="onboarding_stages_selfie">Selfi</string>
 <string name="onboarding_stages_selfie_with_document">Belgeli özçekim</string>
-<string name="onboarding_stages_selfie_with_document_challenge">Belge meydan okumalı selfie</string>
+<string name="onboarding_stages_selfie_with_challenge">Meydan okuma ile selfie</string>
 <string name="onboarding_stages_id_card">Nüfus Cüzdanı</string>
 <string name="onboarding_stages_driver_license">Ehliyet</string>
 <string name="onboarding_stages_passport">Pasaport</string>

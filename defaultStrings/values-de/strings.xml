@@ -45,7 +45,7 @@
 <string name="onboarding_stages_description">Bitte führen Sie die folgenden Schritte für eine erfolgreiche Verifizierung durch</string>
 <string name="onboarding_stages_selfie">Selfie</string>
 <string name="onboarding_stages_selfie_with_document">Selfie mit Dokument</string>
-<string name="onboarding_stages_selfie_with_document_challenge">Selfie mit Dokumentenherausforderung</string>
+<string name="onboarding_stages_selfie_with_challenge">Selfie mit Herausforderung</string>
 <string name="onboarding_stages_id_card">Personalausweis</string>
 <string name="onboarding_stages_driver_license">Führerschein</string>
 <string name="onboarding_stages_passport">Reisepass</string>

@@ -45,7 +45,7 @@
 <string name="onboarding_stages_description">Mesedez, bete urrats hauek egiaztapena arrakasta izateko</string>
 <string name="onboarding_stages_selfie">Selfie</string>
 <string name="onboarding_stages_selfie_with_document">Selfie dokumentuarekin</string>
-<string name="onboarding_stages_selfie_with_document_challenge">Selfie dokumentuen erronkarekin</string>
+<string name="onboarding_stages_selfie_with_challenge">Selfie erronkarekin</string>
 <string name="onboarding_stages_id_card">Nortasun agiria</string>
 <string name="onboarding_stages_driver_license">Gidabaimena</string>
 <string name="onboarding_stages_passport">Pasaportea</string>

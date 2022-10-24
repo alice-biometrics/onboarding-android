@@ -45,7 +45,7 @@
 <string name="onboarding_stages_description">Si us plau, completeu els passos següents per a una verificació correcta</string>
 <string name="onboarding_stages_selfie">Selfie</string>
 <string name="onboarding_stages_selfie_with_document">Selfie amb document</string>
-<string name="onboarding_stages_selfie_with_document_challenge">Selfie amb repte de document</string>
+<string name="onboarding_stages_selfie_with_challenge">Selfie amb repte</string>
 <string name="onboarding_stages_id_card">Carnet d\'identitat</string>
 <string name="onboarding_stages_driver_license">Carnet de conduir</string>
 <string name="onboarding_stages_passport">Passaport</string>
