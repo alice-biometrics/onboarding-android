@@ -139,6 +139,9 @@
 <string name="onboarding_nfc_doc_capturer_error_unsupported_doc_subtitle">Извините, в настоящий момент мы не поддерживаем ваш документ</string>
 <string name="onboarding_nfc_doc_capturer_error_wrong_doc_title">Неверный документ</string>
 <string name="onboarding_nfc_doc_capturer_error_wrong_doc_subtitle">Убедитесь, что вы сканируете нужный документ</string>
+<string name="onboarding_nfc_doc_capturer_alert_title_is_off">NFC выключен</string>
+<string name="onboarding_nfc_doc_capturer_alert_subtitle_is_off">Вам нужно включить модуль NFC для чтения. Хотите включить его сейчас?</string>
+<string name="onboarding_nfc_doc_capturer_alert_positive_is_off">Включить</string>
 
 //Selfie capturer
 <string name="onboarding_selfie_capturer_adding">Добавляем селфи…</string>

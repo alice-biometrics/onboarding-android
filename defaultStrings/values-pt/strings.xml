@@ -139,6 +139,9 @@
 <string name="onboarding_nfc_doc_capturer_error_unsupported_doc_subtitle">Desculpe, não oferecemos suporte ao seu documento no momento</string>
 <string name="onboarding_nfc_doc_capturer_error_wrong_doc_title">Documento errado</string>
 <string name="onboarding_nfc_doc_capturer_error_wrong_doc_subtitle">Certifique-se de que está a usar o documento correto</string>
+<string name="onboarding_nfc_doc_capturer_alert_title_is_off">NFC desativada</string>
+<string name="onboarding_nfc_doc_capturer_alert_subtitle_is_off">Você precisa ter NFC habilitado para leitura. Você quer habilitá-lo agora?</string>
+<string name="onboarding_nfc_doc_capturer_alert_positive_is_off">Ativar</string>
 
 //Selfie capturer
 <string name="onboarding_selfie_capturer_adding">Enviando selfie…</string>

@@ -139,6 +139,9 @@
 <string name="onboarding_nfc_doc_capturer_error_unsupported_doc_subtitle">Leider unterstützen wir Ihr Dokument derzeit nicht</string>
 <string name="onboarding_nfc_doc_capturer_error_wrong_doc_title">Falsches Dokument</string>
 <string name="onboarding_nfc_doc_capturer_error_wrong_doc_subtitle">Stellen Sie sicher, dass Sie das Scannen des rigth Dokument</string>
+<string name="onboarding_nfc_doc_capturer_alert_title_is_off">NFC wird ausgeschaltet</string>
+<string name="onboarding_nfc_doc_capturer_alert_subtitle_is_off">Sie müssen sich für das Lesen auf dem NFC-Modul einzuschalten. Ich wünschte es nun an drehen?</string>
+<string name="onboarding_nfc_doc_capturer_alert_positive_is_off">Schalte ein</string>
 
 //Selfie capturer
 <string name="onboarding_selfie_capturer_adding">Selfie hinzufügen…</string>

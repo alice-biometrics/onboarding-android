@@ -139,6 +139,9 @@
 <string name="onboarding_nfc_doc_capturer_error_unsupported_doc_subtitle">Üzgünüz, şu anda belgenizi desteklemiyoruz</string>
 <string name="onboarding_nfc_doc_capturer_error_wrong_doc_title">Yanlış belge</string>
 <string name="onboarding_nfc_doc_capturer_error_wrong_doc_subtitle">Doğru belgeyi taradığınızdan emin olun</string>
+<string name="onboarding_nfc_doc_capturer_alert_title_is_off">NFC kapatılır</string>
+<string name="onboarding_nfc_doc_capturer_alert_subtitle_is_off">Sen okumak için NFC modülü açmak gerekmez. Şimdi açmak için Dilek?</string>
+<string name="onboarding_nfc_doc_capturer_alert_positive_is_off">Aç</string>
 
 //Selfie capturer
 <string name="onboarding_selfie_capturer_adding">Selfi ekleniyor…</string>
