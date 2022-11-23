@@ -15,7 +15,7 @@ import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.preference.PreferenceManager
 import br.com.simplepass.loadingbutton.customViews.CircularProgressButton
-import com.alicebiometrics.onboarding.Enviroment
+import com.alicebiometrics.onboarding.Environment
 import com.alicebiometrics.onboarding.api.DocumentType
 import com.alicebiometrics.onboarding.api.Onboarding
 import com.alicebiometrics.onboarding.auth.AuthenticationError
@@ -135,7 +135,7 @@ class MainActivity : AppCompatActivity(), SharedPreferences.OnSharedPreferenceCh
     // SANDBOX
     private fun checkSandboxToken() {
         var token: String = sandboxToken
-        if (Onboarding.getEnvironment() == Enviroment.STAGING) {
+        if (Onboarding.getEnvironment() == Environment.STAGING) {
             token = experimentalSandboxToken
         }
         if (token.isEmpty()) {
@@ -303,9 +303,9 @@ class MainActivity : AppCompatActivity(), SharedPreferences.OnSharedPreferenceCh
 
     private fun configureEnvironment() {
         if (experimentalEnvironment) {
-            Onboarding.setEnvironment(Enviroment.STAGING)
+            Onboarding.setEnvironment(Environment.STAGING)
         } else {
-            Onboarding.setEnvironment(Enviroment.PRODUCTION)
+            Onboarding.setEnvironment(Environment.PRODUCTION)
         }
     }
 
