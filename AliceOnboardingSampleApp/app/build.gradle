@@ -42,7 +42,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0'
     implementation 'com.google.android.material:material:1.0.0'
     implementation 'br.com.simplepass:loading-button-android:2.1.5'
-	implementation 'com.alicebiometrics.onboarding:AliceOnboarding:1.13.4'
+	implementation 'com.alicebiometrics.onboarding:AliceOnboarding:1.13.5'
 
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
 
