@@ -15,6 +15,7 @@ import org.json.JSONObject
 
 class OnboardingCommandActivity : AppCompatActivity() {
 
+    private val TAG = "OnboardingCommands"
     private val ONBOARDINGCOMMANDS = "ONBOARDING_COMMANDS"
     private val REQUEST_CODE_ADD_FACE = 100
     private val REQUEST_CODE_ADD_DOCUMENT = 200
@@ -101,8 +102,19 @@ class OnboardingCommandActivity : AppCompatActivity() {
                 is OnboardingCommandResult.Success -> {
                     val authorized = JSONObject(result.response.content).getJSONObject("user").getString("authorized")!!.toBoolean()
                     if (authorized) {
-                        onboardingCommands.authenticate(requestCode = REQUEST_CODE_AUTHENTICATE)
-                    } else {
+                        onboardingCommands.authenticate {
+                            when (it) {
+                                is OnboardingCommandResult.Success -> {
+                                    Log.d(TAG, it.response.toString())
+                                }
+                                is OnboardingCommandResult.Failure -> {
+                                    Log.d(TAG, it.response.toString())
+                                }
+                                is OnboardingCommandResult.Cancel -> {
+                                    Log.d(TAG, "Authentication canceled")
+                                }
+                            }
+                        }                    } else {
                         showDialog("User with email is not authorized yet.\n" +
                                 "Get access with your backend or using ALiCE Dasboard\n")
                     }
