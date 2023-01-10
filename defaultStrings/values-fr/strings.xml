@@ -118,6 +118,7 @@
 <string name="onboarding_doc_capturer_qr_or_you_can">ou tu peux</string>
 <string name="onboarding_doc_capturer_check_position">Ajuster le document au rectangle</string>
 <string name="onboarding_doc_capturer_processing_stay_still">Capture… Ne déplacez pas le document</string>
+<string name="onboarding_error_max_number_of_documents">Vous avez dépassé le nombre maximum de tentatives</string>
 
 //Document NFC capturer
 <string name="onboarding_nfc_doc_capturer_hold_your_doc_iphone">Tenez votre iPhone à proximité de votre document et assurez-vous qu\'il dépasse partiellement</string>
@@ -164,7 +165,7 @@
 <string name="onboarding_selfie_with_document_capturer_center_face">S\'il vous plaît, centrez votre visage sur l\'ovale et le document sur le rectangle</string>
 
 //OTD capturer
-<string name="onboarding_other_trusted_docs_subtitle">Veuillez choisir un fichier PDF</string>
+<string name="onboarding_other_trusted_docs_subtitle">Veuillez choisir un fichier PDF ou une image</string>
 <string name="onboarding_other_trusted_docs_capturer_subtitle">S\'il vous plaît, capturez votre document</string>
 <string name="onboarding_other_trusted_docs_click_or_drop">Cliquez ou déposez le fichier ici</string>
 <string name="onboarding_other_trusted_docs_capturer_accept">Accepter</string>
@@ -175,6 +176,9 @@
 <string name="onboarding_other_trusted_docs_capturer_documents">Documents</string>
 <string name="onboarding_other_trusted_docs_capturer_file_size_limit_title">PDF trop volumineux</string>
 <string name="onboarding_other_trusted_docs_capturer_file_size_limit_subtitle">Le fichier ne peut pas dépasser 5 MB</string>
+<string name="onboarding_other_trusted_docs_upload_another_image">Joindre plus d\'images</string>
+<string name="onboarding_other_trusted_docs_pdf_not_allowed">Le dernier document téléchargé était une image, continuez à télécharger des images</string>
+<string name="onboarding_other_trusted_docs_error">Problème avec le fichier téléchargé</string>
 
 //Welcome
 

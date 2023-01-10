@@ -118,6 +118,7 @@
 <string name="onboarding_doc_capturer_qr_or_you_can">ou você pode</string>
 <string name="onboarding_doc_capturer_check_position">Ajustar o documento ao retângulo</string>
 <string name="onboarding_doc_capturer_processing_stay_still">Capturando… Não mova o documento</string>
+<string name="onboarding_error_max_number_of_documents">Você excedeu o número máximo de tentativas</string>
 
 //Document NFC capturer
 <string name="onboarding_nfc_doc_capturer_hold_your_doc_iphone">Mantenha o seu iPhone próximo ao documento e certifique-se de que a metade fique para fora</string>
@@ -164,7 +165,7 @@
 <string name="onboarding_selfie_with_document_capturer_center_face">Centralize seu rosto no oval e o documento no retângulo</string>
 
 //OTD capturer
-<string name="onboarding_other_trusted_docs_subtitle">Por favor, escolha um arquivo PDF</string>
+<string name="onboarding_other_trusted_docs_subtitle">Por favor, escolha um arquivo PDF ou uma imagem</string>
 <string name="onboarding_other_trusted_docs_capturer_subtitle">Por favor, capture o seu documento</string>
 <string name="onboarding_other_trusted_docs_click_or_drop">Clique ou solte o arquivo aqui</string>
 <string name="onboarding_other_trusted_docs_capturer_accept">Aceitar</string>
@@ -175,6 +176,9 @@
 <string name="onboarding_other_trusted_docs_capturer_documents">Documentos</string>
 <string name="onboarding_other_trusted_docs_capturer_file_size_limit_title">PDF muito grande</string>
 <string name="onboarding_other_trusted_docs_capturer_file_size_limit_subtitle">O arquivo não pode exceder 5 MB</string>
+<string name="onboarding_other_trusted_docs_upload_another_image">Anexar mais imagens</string>
+<string name="onboarding_other_trusted_docs_pdf_not_allowed">O último documento enviado foi uma imagem, continue enviando imagens</string>
+<string name="onboarding_other_trusted_docs_error">Problema com arquivo enviado</string>
 
 //Welcome
 

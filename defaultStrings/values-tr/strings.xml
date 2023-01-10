@@ -118,6 +118,7 @@
 <string name="onboarding_doc_capturer_qr_or_you_can">ya da yapabilirsin</string>
 <string name="onboarding_doc_capturer_check_position">Belgeyi dikdörtgene göre ayarla</string>
 <string name="onboarding_doc_capturer_processing_stay_still">Yakalanıyor… Belgeyi hareket ettirmeyin</string>
+<string name="onboarding_error_max_number_of_documents">Maksimum deneme sayısını aştınız</string>
 
 //Document NFC capturer
 <string name="onboarding_nfc_doc_capturer_hold_your_doc_iphone">İPhone\'unuzu belgenizin yakınında tutun ve kısmen yukarıdan dışarı çıktığından emin olun</string>
@@ -164,7 +165,7 @@
 <string name="onboarding_selfie_with_document_capturer_center_face">Lütfen yüzünüzü ovalin üzerine ve belgeyi dikdörtgenin üzerine ortalayın</string>
 
 //OTD capturer
-<string name="onboarding_other_trusted_docs_subtitle">Lütfen bir PDF dosyası seçin</string>
+<string name="onboarding_other_trusted_docs_subtitle">Lütfen bir PDF dosyası veya resim seçin</string>
 <string name="onboarding_other_trusted_docs_capturer_subtitle">Lütfen belgenizi alın</string>
 <string name="onboarding_other_trusted_docs_click_or_drop">Dosyayı buraya tıklayın veya bırakın</string>
 <string name="onboarding_other_trusted_docs_capturer_accept">Kabul etmek</string>
@@ -175,6 +176,9 @@
 <string name="onboarding_other_trusted_docs_capturer_documents">Belgeler</string>
 <string name="onboarding_other_trusted_docs_capturer_file_size_limit_title">Çok büyük PDF</string>
 <string name="onboarding_other_trusted_docs_capturer_file_size_limit_subtitle">Dosya 5 MB\'ı aşamaz</string>
+<string name="onboarding_other_trusted_docs_upload_another_image">Daha fazla resim ekle</string>
+<string name="onboarding_other_trusted_docs_pdf_not_allowed">Son yüklenen belge bir resimdi, resim yüklemeye devam edin</string>
+<string name="onboarding_other_trusted_docs_error">Yüklenen dosyayla ilgili sorun</string>
 
 //Welcome
 

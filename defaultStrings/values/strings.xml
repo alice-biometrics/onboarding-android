@@ -47,7 +47,7 @@
     <string name="onboarding_stages_selfie_with_document">Selfie with document</string>
     <string name="onboarding_stages_selfie_with_challenge">Selfie with challenge</string>
     <string name="onboarding_stages_id_card">National ID Card</string>
-    <string name="onboarding_stages_driver_license">Driver license</string>
+    <string name="onboarding_stages_driver_license">Driving licence</string>
     <string name="onboarding_stages_passport">Passport</string>
     <string name="onboarding_stages_residence_permit">Residence permit</string>
     <string name="onboarding_stages_health_insurance_card">Health insurance card</string>
@@ -59,7 +59,7 @@
 
     //Doc sides screen
     <string name="onboarding_sides_title_id_card">National ID Card</string>
-    <string name="onboarding_sides_title_driver_license">Driver license</string>
+    <string name="onboarding_sides_title_driver_license">Driving licence</string>
     <string name="onboarding_sides_title_passport">Passport</string>
     <string name="onboarding_sides_title_residence_permit">Residence permit</string>
     <string name="onboarding_sides_title_health_insurance_card">Health insurance card</string>
@@ -118,6 +118,7 @@
     <string name="onboarding_doc_capturer_qr_or_you_can">or you can</string>
     <string name="onboarding_doc_capturer_check_position">Adjust document to rectangle</string>
     <string name="onboarding_doc_capturer_processing_stay_still">Capturing… Stay still</string>
+    <string name="onboarding_error_max_number_of_documents">You have exceeded the maximum number of attempts</string>
 
     //Document NFC capturer
     <string name="onboarding_nfc_doc_capturer_hold_your_doc_iphone">Hold your iPhone nearby your document and make sure it partially sticks out on top</string>
@@ -164,7 +165,7 @@
     <string name="onboarding_selfie_with_document_capturer_center_face">Please, center your face on the oval and the document on the rectangle</string>
 
     //OTD capturer
-    <string name="onboarding_other_trusted_docs_subtitle">Please, choose a PDF file</string>
+    <string name="onboarding_other_trusted_docs_subtitle">Please choose a PDF or an image</string>
     <string name="onboarding_other_trusted_docs_capturer_subtitle">Please, capture your document</string>
     <string name="onboarding_other_trusted_docs_click_or_drop">Click or drop file here</string>
     <string name="onboarding_other_trusted_docs_capturer_accept">Accept</string>
@@ -175,6 +176,9 @@
     <string name="onboarding_other_trusted_docs_capturer_documents">Documents</string>
     <string name="onboarding_other_trusted_docs_capturer_file_size_limit_title">Too large PDF</string>
     <string name="onboarding_other_trusted_docs_capturer_file_size_limit_subtitle">The file cannot exceed 5 MB</string>
+    <string name="onboarding_other_trusted_docs_upload_another_image">Attach more images</string>
+    <string name="onboarding_other_trusted_docs_pdf_not_allowed">The last uploaded document was an image, keep uploading images</string>
+    <string name="onboarding_other_trusted_docs_error">Problem with uploaded file</string>
 
     //Welcome
 

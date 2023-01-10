@@ -118,6 +118,7 @@
 <string name="onboarding_doc_capturer_qr_or_you_can">edo bestela</string>
 <string name="onboarding_doc_capturer_check_position">Dokumentuan ezartzen kutxa</string>
 <string name="onboarding_doc_capturer_processing_stay_still">Harrapaketak … Ez dokumentua mugitu</string>
+<string name="onboarding_error_max_number_of_documents">Gehienezko saiakera kopurua gainditu duzu</string>
 
 //Document NFC capturer
 <string name="onboarding_nfc_doc_capturer_hold_your_doc_iphone">Mantendu zure iPhone zure dokumentua itsatsita eta ziur irtengo partzialki gainetik egin</string>
@@ -164,7 +165,7 @@
 <string name="onboarding_selfie_with_document_capturer_center_face">Mesedez, jarri aurpegia obaloan eta dokumentua laukizuzenean</string>
 
 //OTD capturer
-<string name="onboarding_other_trusted_docs_subtitle">Mesedez, aukeratu PDF fitxategi bat</string>
+<string name="onboarding_other_trusted_docs_subtitle">Mesedez, aukeratu PDF fitxategi bat edo argazki bat</string>
 <string name="onboarding_other_trusted_docs_capturer_subtitle">Mesedez, atera zure dokumentua</string>
 <string name="onboarding_other_trusted_docs_click_or_drop">Egin klik edo jaregin fitxategia hemen</string>
 <string name="onboarding_other_trusted_docs_capturer_accept">Onartzeko</string>
@@ -175,6 +176,9 @@
 <string name="onboarding_other_trusted_docs_capturer_documents">Dokumentuak</string>
 <string name="onboarding_other_trusted_docs_capturer_file_size_limit_title">PDF handiegia</string>
 <string name="onboarding_other_trusted_docs_capturer_file_size_limit_subtitle">Fitxategiak ezin du 5 MB baino gehiago izan</string>
+<string name="onboarding_other_trusted_docs_upload_another_image">Erantsi irudi gehiago</string>
+<string name="onboarding_other_trusted_docs_pdf_not_allowed">Kargatu den azken dokumentua irudi bat izan da, jarraitu irudiak igotzen</string>
+<string name="onboarding_other_trusted_docs_error">Arazoa kargatutako fitxategiarekin</string>
 
 //Welcome
 
