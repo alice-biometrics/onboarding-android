@@ -17,7 +17,7 @@
 //Errors
 <string name="onboarding_error_config">Lütfen kimlik doğrulama ayarlarınızı gözden geçirin. En azından bir kimlik doğrulama adımı seçilmiş olmalıdır.</string>
 <string name="onboarding_error_loading_resources">Bağlantı hızı yavaş, lütfen tekrar deneyin.</string>
-<string name="onboarding_error_title_technical">Bir hata oluştu.</string>
+<string name="onboarding_error_title_technical">Bir hata oluştu</string>
 <string name="onboarding_error_subtitle_technical">Lütfen tekrar deneyin.</string>
 <string name="onboarding_error_title_connection">Bağlantı hatası</string>
 <string name="onboarding_error_subtitle_connection">Lütfen internet bağlantınızı kontrol edin.</string>
@@ -35,6 +35,7 @@
 <string name="onboarding_error_title_file_too_big">Büyük dosya</string>
 <string name="onboarding_error_subtitle_file_too_big">İzin verilen maksimum dosya boyutu {size} MB\'dir</string>
 <string name="onboarding_error_title_file_type_not_supported">Dosya desteklenmiyor</string>
+<string name="onboarding_error_title_image_type_not_supported">Resim desteklenmiyor</string>
 <string name="onboarding_error_subtitle_file_type_not_supported">Desteklenen dosya türleri: .jpg, .png, .bmp</string>
 <string name="onboarding_error_doc_country_not_supported">Maalesef bu belge türü seçilen ülke için desteklenmiyor</string>
 <string name="onboarding_error_title_challenge_timeout">Zaman aşımı</string>
@@ -46,6 +47,7 @@
 <string name="onboarding_stages_selfie">Selfi</string>
 <string name="onboarding_stages_selfie_with_document">Belgeli özçekim</string>
 <string name="onboarding_stages_selfie_with_challenge">Meydan okuma ile selfie</string>
+<string name="onboarding_stages_selfie_with_document_challenge">Meydan okuma ile selfie</string>
 <string name="onboarding_stages_id_card">Nüfus Cüzdanı</string>
 <string name="onboarding_stages_driver_license">Ehliyet</string>
 <string name="onboarding_stages_passport">Pasaport</string>
@@ -163,6 +165,8 @@
 <string name="onboarding_selfie_capturer_subtitle">Lütfen ele geçirmeye devam edin</string>
 <string name="onboarding_selfie_capturer_subtitle_review">Lütfen resminizin iyi olduğundan emin olun</string>
 <string name="onboarding_selfie_with_document_capturer_center_face">Lütfen yüzünüzü ovalin üzerine ve belgeyi dikdörtgenin üzerine ortalayın</string>
+<string name="onboarding_selfie_capturer_button_tutorial"></string>
+<string name="onboarding_selfie_capturer_subtitle_tutorial"></string>
 
 //OTD capturer
 <string name="onboarding_other_trusted_docs_subtitle">Lütfen bir PDF dosyası veya resim seçin</string>

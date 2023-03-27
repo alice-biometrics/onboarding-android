@@ -35,6 +35,7 @@
 <string name="onboarding_error_title_file_too_big">文件变大</string>
 <string name="onboarding_error_subtitle_file_too_big">允许的最大文件大小为 {size} MB</string>
 <string name="onboarding_error_title_file_type_not_supported">文件不受支持</string>
+<string name="onboarding_error_title_image_type_not_supported">图片不受支持</string>
 <string name="onboarding_error_subtitle_file_type_not_supported">支持的文件类型为 .jpg、.png、.bmp</string>
 <string name="onboarding_error_doc_country_not_supported">抱歉，所选国家/地区不支持此类文件</string>
 <string name="onboarding_error_title_challenge_timeout">超时</string>
@@ -46,6 +47,7 @@
 <string name="onboarding_stages_selfie">自拍</string>
 <string name="onboarding_stages_selfie_with_document">带文件的自拍</string>
 <string name="onboarding_stages_selfie_with_challenge">挑战自拍</string>
+<string name="onboarding_stages_selfie_with_document_challenge">挑战自拍</string>
 <string name="onboarding_stages_id_card">身份证</string>
 <string name="onboarding_stages_driver_license">驾照</string>
 <string name="onboarding_stages_passport">护照</string>
@@ -163,6 +165,8 @@
 <string name="onboarding_selfie_capturer_subtitle">请继续进行捕获</string>
 <string name="onboarding_selfie_capturer_subtitle_review">请确保您的图片好</string>
 <string name="onboarding_selfie_with_document_capturer_center_face">请把你的脸放在椭圆上，把文件放在长方形上</string>
+<string name="onboarding_selfie_capturer_button_tutorial"></string>
+<string name="onboarding_selfie_capturer_subtitle_tutorial"></string>
 
 //OTD capturer
 <string name="onboarding_other_trusted_docs_subtitle">请选择PDF文件或图片</string>

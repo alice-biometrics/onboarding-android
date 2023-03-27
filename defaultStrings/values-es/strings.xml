@@ -17,7 +17,7 @@
 //Errors
 <string name="onboarding_error_config">Por favor, revise su OnboardingConfig. Debe de tener seleccionada por lo menos una Onboarding Stage.</string>
 <string name="onboarding_error_loading_resources">Conexión lenta, inténtelo de nuevo más tarde</string>
-<string name="onboarding_error_title_technical">Ha ocurrido algún error.</string>
+<string name="onboarding_error_title_technical">Ha ocurrido un error</string>
 <string name="onboarding_error_subtitle_technical">Por favor, inténtelo de nuevo.</string>
 <string name="onboarding_error_title_connection">Error de conexión</string>
 <string name="onboarding_error_subtitle_connection">Compruebe su conexión a Internet</string>
@@ -35,6 +35,7 @@
 <string name="onboarding_error_title_file_too_big">Archivo demasiado grande</string>
 <string name="onboarding_error_subtitle_file_too_big">El tamaño máximo soportado es {size} MB</string>
 <string name="onboarding_error_title_file_type_not_supported">Archivo no soportado</string>
+<string name="onboarding_error_title_image_type_not_supported">Imagen no soportada</string>
 <string name="onboarding_error_subtitle_file_type_not_supported">Tipos de archivo soportados .jpg, png, .bmp</string>
 <string name="onboarding_error_doc_country_not_supported">Lo sentimos, este tipo de documento no es compatible con el país seleccionado</string>
 <string name="onboarding_error_title_challenge_timeout">Tiempo agotado</string>
@@ -46,6 +47,7 @@
 <string name="onboarding_stages_selfie">Selfie</string>
 <string name="onboarding_stages_selfie_with_document">Selfie con documento</string>
 <string name="onboarding_stages_selfie_with_challenge">Selfie con reto</string>
+<string name="onboarding_stages_selfie_with_document_challenge">Selfie con reto</string>
 <string name="onboarding_stages_id_card">Cédula de identidad</string>
 <string name="onboarding_stages_driver_license">Licencia de conducir</string>
 <string name="onboarding_stages_passport">Pasaporte</string>
@@ -163,6 +165,8 @@
 <string name="onboarding_selfie_capturer_subtitle">Por favor, continúe con la captura</string>
 <string name="onboarding_selfie_capturer_subtitle_review">Por favor, compruebe que la foto es buena</string>
 <string name="onboarding_selfie_with_document_capturer_center_face">Por favor, centra tu cara en el óvalo y el documento en el rectángulo</string>
+<string name="onboarding_selfie_capturer_button_tutorial">Vale, ¡entendido!</string>
+<string name="onboarding_selfie_capturer_subtitle_tutorial">Ahora tienes que hacerte un selfie. Sigue estas instrucciones</string>
 
 //OTD capturer
 <string name="onboarding_other_trusted_docs_subtitle">Por favor, elija un PDF o una imagen</string>

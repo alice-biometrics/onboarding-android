@@ -35,6 +35,7 @@
 <string name="onboarding_error_title_file_too_big">Файл слишком большой</string>
 <string name="onboarding_error_subtitle_file_too_big">Максимально допустимый размер файла: {size} МБ.</string>
 <string name="onboarding_error_title_file_type_not_supported">Файл не поддерживается</string>
+<string name="onboarding_error_title_image_type_not_supported">Изображение не поддерживается</string>
 <string name="onboarding_error_subtitle_file_type_not_supported">Поддерживаемые типы файлов: .jpg, .png, .bmp.</string>
 <string name="onboarding_error_doc_country_not_supported">К сожалению, этот тип документа не поддерживается для выбранной страны</string>
 <string name="onboarding_error_title_challenge_timeout">Таймаут</string>
@@ -46,6 +47,7 @@
 <string name="onboarding_stages_selfie">Селфи</string>
 <string name="onboarding_stages_selfie_with_document">Селфи с документом</string>
 <string name="onboarding_stages_selfie_with_challenge">Селфи с вызовом</string>
+<string name="onboarding_stages_selfie_with_document_challenge">Селфи с вызовом</string>
 <string name="onboarding_stages_id_card">Удостоверение личности</string>
 <string name="onboarding_stages_driver_license">Водительские права</string>
 <string name="onboarding_stages_passport">Паспорт</string>
@@ -163,6 +165,8 @@
 <string name="onboarding_selfie_capturer_subtitle">Пожалуйста, продолжайте захват</string>
 <string name="onboarding_selfie_capturer_subtitle_review">Пожалуйста, убедитесь, что ваша фотография хорошая</string>
 <string name="onboarding_selfie_with_document_capturer_center_face">Пожалуйста, отцентрируйте лицо на овале, а документ на прямоугольнике</string>
+<string name="onboarding_selfie_capturer_button_tutorial"></string>
+<string name="onboarding_selfie_capturer_subtitle_tutorial"></string>
 
 //OTD capturer
 <string name="onboarding_other_trusted_docs_subtitle">Пожалуйста, выберите файл PDF или изображение</string>
