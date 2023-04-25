@@ -48,6 +48,7 @@
 <string name="onboarding_stages_selfie_with_document">Селфи с документом</string>
 <string name="onboarding_stages_selfie_with_challenge">Селфи с вызовом</string>
 <string name="onboarding_stages_selfie_with_document_challenge">Селфи с вызовом</string>
+<string name="onboarding_stages_document">Документ</string>
 <string name="onboarding_stages_id_card">Удостоверение личности</string>
 <string name="onboarding_stages_driver_license">Водительские права</string>
 <string name="onboarding_stages_passport">Паспорт</string>
@@ -80,6 +81,12 @@
 <string name="onboarding_country_selector_start">Начать</string>
 <string name="onboarding_country_selector_cancel">Отмена</string>
 <string name="onboarding_country_selector_reload">перезагрузить</string>
+
+//Doc and country selector
+<string name="onboarding_doc_country_selector_title">Выбор документа</string>
+<string name="onboarding_doc_country_selector_issuing_country">Страна документа</string>
+<string name="onboarding_doc_country_selector_allowed_documents">Принятые документы</string>
+<string name="onboarding_doc_country_selector_document_type">Тип документа</string>
 
 //Doc capturer
 <string name="onboarding_doc_capturer_retry_photo">Сделать снимок заново</string>

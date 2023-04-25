@@ -48,6 +48,7 @@
 <string name="onboarding_stages_selfie_with_document">Selfie con documento</string>
 <string name="onboarding_stages_selfie_with_challenge">Selfie con sfida</string>
 <string name="onboarding_stages_selfie_with_document_challenge">Selfie con sfida</string>
+<string name="onboarding_stages_document">Documento</string>
 <string name="onboarding_stages_id_card">Carta d\'Identità</string>
 <string name="onboarding_stages_driver_license">Patente di Guida</string>
 <string name="onboarding_stages_passport">Passaporto</string>
@@ -80,6 +81,12 @@
 <string name="onboarding_country_selector_start">Iniziare</string>
 <string name="onboarding_country_selector_cancel">Cancellare</string>
 <string name="onboarding_country_selector_reload">Ricaricare</string>
+
+//Doc and country selector
+<string name="onboarding_doc_country_selector_title">Selezione del documento</string>
+<string name="onboarding_doc_country_selector_issuing_country">Paese del documento</string>
+<string name="onboarding_doc_country_selector_allowed_documents">Documenti accettati</string>
+<string name="onboarding_doc_country_selector_document_type">Tipo di documento</string>
 
 //Doc capturer
 <string name="onboarding_doc_capturer_retry_photo">Riprovare a effettuare la foto</string>

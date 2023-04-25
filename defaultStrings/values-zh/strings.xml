@@ -48,6 +48,7 @@
 <string name="onboarding_stages_selfie_with_document">带文件的自拍</string>
 <string name="onboarding_stages_selfie_with_challenge">挑战自拍</string>
 <string name="onboarding_stages_selfie_with_document_challenge">挑战自拍</string>
+<string name="onboarding_stages_document">文档</string>
 <string name="onboarding_stages_id_card">身份证</string>
 <string name="onboarding_stages_driver_license">驾照</string>
 <string name="onboarding_stages_passport">护照</string>
@@ -80,6 +81,12 @@
 <string name="onboarding_country_selector_start">开始</string>
 <string name="onboarding_country_selector_cancel">取消</string>
 <string name="onboarding_country_selector_reload">重新加载</string>
+
+//Doc and country selector
+<string name="onboarding_doc_country_selector_title">文档选择</string>
+<string name="onboarding_doc_country_selector_issuing_country">文件国家</string>
+<string name="onboarding_doc_country_selector_allowed_documents">接受的文件</string>
+<string name="onboarding_doc_country_selector_document_type">文档类型</string>
 
 //Doc capturer
 <string name="onboarding_doc_capturer_retry_photo">重拍照片</string>

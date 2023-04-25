@@ -48,6 +48,7 @@
 <string name="onboarding_stages_selfie_with_document">Selfie dokumentuarekin</string>
 <string name="onboarding_stages_selfie_with_challenge">Selfie erronkarekin</string>
 <string name="onboarding_stages_selfie_with_document_challenge">Selfie erronkarekin</string>
+<string name="onboarding_stages_document">Dokumentua</string>
 <string name="onboarding_stages_id_card">Nortasun agiria</string>
 <string name="onboarding_stages_driver_license">Gidabaimena</string>
 <string name="onboarding_stages_passport">Pasaportea</string>
@@ -80,6 +81,12 @@
 <string name="onboarding_country_selector_start">Hasi</string>
 <string name="onboarding_country_selector_cancel">Utzi</string>
 <string name="onboarding_country_selector_reload">Berriro kargatu</string>
+
+//Doc and country selector
+<string name="onboarding_doc_country_selector_title">Dokumentuen hautaketa</string>
+<string name="onboarding_doc_country_selector_issuing_country">Dokumentu Herrialdea</string>
+<string name="onboarding_doc_country_selector_allowed_documents">Onartutako dokumentuak</string>
+<string name="onboarding_doc_country_selector_document_type">Dokumentu mota</string>
 
 //Doc capturer
 <string name="onboarding_doc_capturer_retry_photo">Berriro saiatzen harrapatzea</string>
