@@ -33,15 +33,14 @@ class MainActivity : AppCompatActivity(), SharedPreferences.OnSharedPreferenceCh
 
     private val TAG = "AliceOnboardingSample"
 
-    // ALiCE //
+    // Alice //
     private val ONBOARDING_REQUEST_CODE: Int = 100
     private val DEFAULT_ISSUING_COUNTRY: String = "ESP"
-
-
     private var sandboxManager: SandboxManager? = null
-    private var sandboxToken: String = ""
-    private var experimentalSandboxToken: String = ""
-    private var experimentalEnvironment = false
+
+    private var environment: Environment = Environment.PRODUCTION
+    private var sandboxTrialToken: String = ""
+    private var productionTrialToken: String = ""
 
     // Input //
     private lateinit var emailInput: EditText
@@ -57,8 +56,6 @@ class MainActivity : AppCompatActivity(), SharedPreferences.OnSharedPreferenceCh
     private var requirePassport: Boolean = true
 
     private var requireSelfie: Boolean = true
-    private var firstName: Boolean = false
-    private var lastName: Boolean = false
     private lateinit var userInfo: UserInfo
 
     // UI //
@@ -73,19 +70,27 @@ class MainActivity : AppCompatActivity(), SharedPreferences.OnSharedPreferenceCh
         printOnboardingInfo()
         configureInputs()
         configureSettings()
-        checkSandboxToken()
+        checkTrialToken()
 
         val intent = Intent(this, PermissionsManager::class.java)
         this.startActivity(intent)
     }
 
     fun getAuthenticator(authenticationMode: AuthenticationMode) : Authenticator {
-        when (authenticationMode) {
-            AuthenticationMode.TRIAL -> return TrialAuthenticator(
-                trialToken = this.sandboxToken,
+        return when (authenticationMode) {
+            AuthenticationMode.TRIAL -> TrialAuthenticator(
+                trialToken = getTokenFromEnvironment(),
                 userInfo = this.userInfo
             )
-            AuthenticationMode.PRODUCTION -> return MyBackendAuthenticator()
+            AuthenticationMode.PRODUCTION -> MyBackendAuthenticator()
+        }
+    }
+
+    private fun getTokenFromEnvironment(): String {
+        return when (Onboarding.getEnvironment()) {
+            Environment.SANDBOX -> this.sandboxTrialToken
+            Environment.PRODUCTION -> this.productionTrialToken
+            else -> { return ""}
         }
     }
 
@@ -96,8 +101,6 @@ class MainActivity : AppCompatActivity(), SharedPreferences.OnSharedPreferenceCh
 
         userInfo = UserInfo(
             email = emailInput.text.toString(),
-            firstName = getFirstName(),
-            lastName = getLastName()
         )
 
         val authenticator = getAuthenticator(AuthenticationMode.TRIAL)
@@ -107,6 +110,9 @@ class MainActivity : AppCompatActivity(), SharedPreferences.OnSharedPreferenceCh
         // val authenticator = getAuthenticator(AuthenticationMode.PRODUCTION)
 
         authenticator.execute { response ->
+            createAccountButton.revertAnimation()
+            createAccountButton.isEnabled = true
+
             when (response) {
                 is Response.Success -> onUserAuthenticated(response.message)
                 is Response.Failure -> Snackbar.make(
@@ -119,8 +125,6 @@ class MainActivity : AppCompatActivity(), SharedPreferences.OnSharedPreferenceCh
     }
 
     private fun onUserAuthenticated(userToken: String) {
-        createAccountButton.revertAnimation()
-        createAccountButton.isEnabled = true
         if (useOnboardingCommands) {
             launchOnboardingCommandsActivity(userId=userToken)
             return
@@ -132,17 +136,14 @@ class MainActivity : AppCompatActivity(), SharedPreferences.OnSharedPreferenceCh
         onboarding.run(ONBOARDING_REQUEST_CODE)
     }
 
-    // SANDBOX
-    private fun checkSandboxToken() {
-        var token: String = sandboxToken
-        if (Onboarding.getEnvironment() == Environment.STAGING) {
-            token = experimentalSandboxToken
-        }
+    private fun checkTrialToken() {
+        val token = getTokenFromEnvironment()
+
         if (token.isEmpty()) {
             Handler().postDelayed({
                 Snackbar.make(
                     parentLayout,
-                    getString(R.string.empty_sandbox_token),
+                    getString(R.string.empty_trial_token),
                     Snackbar.LENGTH_LONG
                 )
                     .show()
@@ -194,9 +195,11 @@ class MainActivity : AppCompatActivity(), SharedPreferences.OnSharedPreferenceCh
         if (requestCode == ONBOARDING_REQUEST_CODE) {
             if (resultCode == Activity.RESULT_OK) {
                 Log.d(TAG, "Onboarding OK")
-                val userInfo = data!!.getStringExtra("userStatus")
-                val userId = JSONObject(userInfo).getString("user_id")
-                showUserReport(userId)
+                Snackbar.make(
+                    parentLayout,
+                    getString(android.R.string.ok),
+                    Snackbar.LENGTH_LONG
+                ).show()
             } else if (resultCode == Activity.RESULT_CANCELED) {
                 Log.d(TAG, "Onboarding cancelled")
                 Snackbar.make(
@@ -220,11 +223,7 @@ class MainActivity : AppCompatActivity(), SharedPreferences.OnSharedPreferenceCh
             .registerOnSharedPreferenceChangeListener(this)
     }
 
-    private fun showUserReport(userId: String) {
-        val intent = Intent(this, ReportActivity::class.java)
-        intent.putExtra("userId", userId)
-        startActivity(intent)
-    }
+
 
     //SETTINGS
     private fun configureSettings() {
@@ -236,16 +235,15 @@ class MainActivity : AppCompatActivity(), SharedPreferences.OnSharedPreferenceCh
         selectCountry = sharedPreferences.getBoolean("select_country", true)
         requireSelfie = sharedPreferences.getBoolean("selfie", true)
         useOnboardingCommands = sharedPreferences.getBoolean("onboarding_commands", false)
-        sandboxToken = sharedPreferences.getString("sandbox_token", "")!!
-        experimentalSandboxToken = sharedPreferences.getString("experimental_sandbox_token", "")!!
-        firstName = sharedPreferences.getBoolean("firstName", false)
-        lastName = sharedPreferences.getBoolean("lastName", false)
+        productionTrialToken = sharedPreferences.getString("production_trial_token", "")!!
+        sandboxTrialToken = sharedPreferences.getString("sandbox_trial_token", "")!!
+        environment = Environment.valueOf(sharedPreferences.getString("environment", "production").toString().uppercase())
         iconMiddle = findViewById(R.id.iconMiddle)
-        experimentalEnvironment = sharedPreferences.getBoolean("experimental_environment", false)
         iconTop = findViewById(R.id.iconTop)
         textFieldMiddle = findViewById(R.id.textFieldMiddle)
         textFieldTop = findViewById(R.id.textFieldTop)
-        configureEnvironment()
+
+        Onboarding.setEnvironment(environment)
     }
 
     override fun onSharedPreferenceChanged(sharedPreferences: SharedPreferences, key: String) {
@@ -255,25 +253,14 @@ class MainActivity : AppCompatActivity(), SharedPreferences.OnSharedPreferenceCh
             "residence_permit" -> requireResidencePermit = sharedPreferences.getBoolean(key, false)
             "passport" -> requirePassport = sharedPreferences.getBoolean(key, true)
             "select_custom_document" -> selectCountry = sharedPreferences.getBoolean(key, true)
-            "firstName" -> {
-                firstName = sharedPreferences.getBoolean(key, false)
-                configureTextFields()
+            "production_trial_token" -> {
+                productionTrialToken = sharedPreferences.getString(key, "")!!
             }
-            "lastName" -> {
-                lastName = sharedPreferences.getBoolean(key, false)
-                configureTextFields()
+            "sandbox_trial_token" -> {
+                sandboxTrialToken = sharedPreferences.getString(key, "")!!
             }
-            "experimentalEnvironment" -> experimentalEnvironment = sharedPreferences.getBoolean(key, false)
             "selfie" -> requireSelfie = sharedPreferences.getBoolean(key, true)
             "onboarding_commands" -> useOnboardingCommands = sharedPreferences.getBoolean(key, true)
-            "sandbox_token" -> {
-                sandboxToken = sharedPreferences.getString(key, "")!!
-                checkSandboxToken()
-            }
-            "experimental_sandbox_token" -> {
-                experimentalSandboxToken = sharedPreferences.getString(key, "")!!
-            }
-
         }
     }
 
@@ -282,56 +269,12 @@ class MainActivity : AppCompatActivity(), SharedPreferences.OnSharedPreferenceCh
         startActivity(intent)
     }
 
-    private fun configureTextFields() {
-        if (firstName && lastName) {
-            textFieldMiddle.visibility = VISIBLE
-            iconMiddle.visibility = VISIBLE
-            textFieldMiddle.setHint(R.string.hint_last_name)
-            textFieldTop.visibility = VISIBLE
-            iconTop.visibility = VISIBLE
-            textFieldTop.setHint(R.string.hint_first_name)
-        } else if (firstName) {
-            textFieldMiddle.visibility = VISIBLE
-            iconMiddle.visibility = VISIBLE
-            textFieldMiddle.setHint(R.string.hint_first_name)
-        } else if (lastName) {
-            textFieldMiddle.visibility = VISIBLE
-            iconMiddle.visibility = VISIBLE
-            textFieldMiddle.setHint(R.string.hint_last_name)
-        }
-    }
-
-    private fun configureEnvironment() {
-        if (experimentalEnvironment) {
-            Onboarding.setEnvironment(Environment.STAGING)
-        } else {
-            Onboarding.setEnvironment(Environment.PRODUCTION)
-        }
-    }
-
-    private fun getFirstName(): String {
-        if (firstName && lastName) {
-            return textFieldTop.text.toString()
-        } else if (firstName && !lastName) {
-            return textFieldMiddle.text.toString()
-        }
-        return ""
-    }
-
-    private fun getLastName(): String {
-        return if (lastName) {
-            textFieldMiddle.text.toString()
-        } else {
-            ""
-        }
-    }
-
     private fun getStringAuthenticationError(authenticationError: AuthenticationError): String {
         when (authenticationError) {
             AuthenticationError.CLIENT_ERROR -> return getString(R.string.client_error)
             AuthenticationError.CONNECTION_ERROR -> return getString(R.string.connection_error)
             AuthenticationError.ENCODING_ERROR -> return getString(R.string.encoding_error)
-            AuthenticationError.INVALID_TRIAL_TOKEN -> return getString(R.string.invalid_sandbox_token)
+            AuthenticationError.INVALID_TRIAL_TOKEN -> return getString(R.string.invalid_trial_token)
             AuthenticationError.SERVER_ERROR -> return getString(R.string.server_error)
             AuthenticationError.UNKNOWN_ERROR -> return getString(R.string.unknown_error)
             AuthenticationError.INVALID_MAIL -> return "Invalid mail"
@@ -354,7 +297,6 @@ class MainActivity : AppCompatActivity(), SharedPreferences.OnSharedPreferenceCh
                 createAccountButton.isEnabled = s.toString().trim { it <= ' ' }.isNotEmpty()
             }
         })
-        configureTextFields()
     }
 
 }

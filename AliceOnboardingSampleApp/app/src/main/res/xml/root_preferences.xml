@@ -18,27 +18,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <PreferenceCategory
-        app:icon="@drawable/settings"
-        app:title="@string/general_preferences_header">
+        app:icon="@drawable/token"
+        app:title="@string/credentials">
 
         <EditTextPreference
-            android:icon="@drawable/token"
+            android:icon="@drawable/qr_code_scanner"
             android:paddingLeft="10dp"
-            app:key="sandbox_token"
-            app:title="Sandbox token" />
-
-        <SwitchPreferenceCompat
-            app:defaultValue="false"
-            app:icon="@drawable/experimental"
-            app:key="experimental_environment"
-            app:title="@string/experimental_environment" />
-
-
-        <EditTextPreference
-            android:icon="@drawable/token"
-            app:key="experimental_sandbox_token"
-            app:title="@string/experimental_sandbox_token" />
-
+            app:key="sandbox_trial_token"
+            app:title="@string/sandbox_trial_token" />
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -64,7 +51,7 @@
             app:title="@string/id_card_preference_title" />
 
         <SwitchPreferenceCompat
-            app:defaultValue="true"
+            app:defaultValue="false"
             app:icon="@drawable/car"
             app:key="driver_license"
             app:title="@string/driver_license_preference_title" />
@@ -76,10 +63,24 @@
             app:title="@string/residence_permit_preference_title" />
 
         <SwitchPreferenceCompat
-            app:defaultValue="true"
+            app:defaultValue="false"
             app:icon="@drawable/ic_identity_card"
             app:key="passport"
             app:title="@string/passport_preference_title" />
+        <SwitchPreferenceCompat
+            android:id="@+id/switchPreferenceCompat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:defaultValue="false"
+            app:icon="@drawable/ic_identity_card"
+            app:key="health_insurance_card"
+            app:title="@string/health_insurance_card_preference_title" />
+
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:icon="@drawable/ic_identity_card"
+            app:key="other_trusted_document"
+            app:title="@string/other_trusted_document_preference_title" />
 
     </PreferenceCategory>
 
@@ -87,34 +88,34 @@
         app:icon="@drawable/settings"
         app:title="@string/onboarding_additional_options_preferences_header">
 
+        <DropDownPreference
+            app:defaultValue="sandbox"
+            app:icon="@drawable/experimental"
+            android:key="environment"
+            android:title="@string/environment"
+            android:entries="@array/environment_entries"
+            android:entryValues="@array/environment_values"
+            android:summary="%s"
+            />
+
         <SwitchPreferenceCompat
             app:defaultValue="false"
             app:icon="@drawable/commands"
             app:key="onboarding_commands"
             app:title="@string/onboarding_commands" />
 
-        <SwitchPreferenceCompat
-            app:defaultValue="false"
-            app:icon="@drawable/person"
-            app:key="firstName"
-            app:title="@string/ask_for_first_name" />
 
+    </PreferenceCategory>
 
-        <SwitchPreferenceCompat
-            app:defaultValue="false"
-            app:icon="@drawable/person"
-            app:key="lastName"
-            app:title="@string/ask_for_last_name" />
+    <PreferenceCategory
+        android:icon="@drawable/token"
+        app:title="@string/other_credentials">
 
-        <Preference
-            app:icon="@drawable/info"
-            app:key="about"
-            app:title="@string/title_activity_about">
-            <intent
-                android:action="android.intent.action.VIEW"
-                android:targetClass="com.alicebiometrics.aliceonboardingsampleapp.AboutActivity"
-                android:targetPackage="com.alicebiometrics.aliceonboardingsampleapp" />
-        </Preference>
+        <EditTextPreference
+            android:icon="@drawable/qr_code_scanner"
+            android:paddingLeft="10dp"
+            app:key="production_trial_token"
+            app:title="@string/production_trial_token" />
 
     </PreferenceCategory>
 
