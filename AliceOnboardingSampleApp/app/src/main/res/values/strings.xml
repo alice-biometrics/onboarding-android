@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name" translatable="false">Alice</string>
     <string name="create_account">Create account</string>
@@ -6,11 +5,18 @@
     <string name="email_not_valid">Please, check that your email is correct</string>
     <string name="title_activity_settings">Settings</string>
     <string name="title_activity_about">About</string>
+    <string name="title_activity_privacy_policy">Privacy policy</string>
+    <string name="title_open_source_agreements">Open source agreements</string>
+
+
     <string name="command_add_selfie">Command Add Selfie</string>
     <string name="command_add_document">Command Add Document</string>
     <string name="command_get_user_status">Command Get User Status</string>
     <string name="command_authenticate">Command Authenticate</string>
     <string name="get_supported_documents">Get Supported Documents</string>
+    <string name="command_other_trusted_document">Other trusted document</string>
+
+
     <string name="exit">Exit</string>
 
     <!-- Preference Titles -->
@@ -19,28 +25,28 @@
 
     <!-- Messages Preferences -->
     <string name="country_title">Country</string>
-    <string name="auth_error">Auth problem: Please, contact alice@alicebiometrics.com</string>
-
 
     <!-- Sync Preferences -->
-    <string name="driver_license_preference_title">Add Spanish driver\'s license</string>
-    <string name="preferences">Preferences</string>
+    <string name="driver_license_preference_title">Driver\'s license</string>
+    <string name="preferences">Settings</string>
     <string name="email_hint">Please, type your email</string>
     <string name="alice_logo_description" translatable="false">Alice logo</string>
-    <string name="selfie_preference_title">Add Selfie</string>
+    <string name="selfie_preference_title">Selfie</string>
+    <string name="selfie_with_challenge_preference_title">Selfie with challenge</string>
     <string name="user_already_exists">Error: the user already exists</string>
+    <string name="random_email">Use random email</string>
     <string name="onboarding_commands">Use OnboardingCommands</string>
-    <string name="empty_sandbox_token">Error: you must set the SandboxToken on the Preferences</string>
-    <string name="ask_for_first_name">Ask for First Name</string>
-    <string name="ask_for_last_name">Ask for Last Name</string>
-    <string name="hint_last_name">Please, type your last name</string>
-    <string name="hint_first_name">Please, type your first name</string>
-    <string name="experimental_environment">Experimental Environment</string>
+    <string name="empty_trial_token">Error: you must set the trial token on the Preferences</string>
+    <string name="activate_dismiss_button">Activate dismiss button</string>
+    <string name="force_stages_order">Force onboarding stages order</string>
+    <string name="environment">Environment</string>
+    <string name="credentials">Credentials</string>
+    <string name="other_credentials">Other credentials</string>
 
     <string name="client_error">Client error</string>
     <string name="connection_error">Connection error</string>
     <string name="encoding_error">Encoding error</string>
-    <string name="invalid_sandbox_token">Invalid SANDBOX_TOKEN. Please, add a valid SANDBOX_TOKEN (Settings)</string>
+    <string name="invalid_trial_token">Invalid or expired trial token. Please, ask for a new one.</string>
     <string name="server_error">Server error</string>
     <string name="unknown_error">Unknown error</string>
     <string name="label_framework_version">Framework version:</string>
@@ -50,9 +56,31 @@
     <string name="select_country">Select country</string>
     <string name="onboarding_flow_preferences_header">Onboarding flow</string>
     <string name="onboarding_additional_options_preferences_header">Additional options</string>
-    <string name="experimental_sandbox_token">Experimental Sandbox Token</string>
-    <string name="id_card_preference_title">Add ID Card</string>
-    <string name="residence_permit_preference_title">Add Residence Permit</string>
+    <string name="scan_sandbox_trial_token">Scan trial token</string>
+    <string name="sandbox_trial_token">Sandbox trial token</string>
+    <string name="production_trial_token">Production trial token</string>
+    <string name="staging_trial_token">Staging trial token</string>
+    <string name="id_card_preference_title">National ID Card</string>
+    <string name="residence_permit_preference_title">Residence Permit</string>
     <string name="passport_preference_title">Passport</string>
+
+    <string name="any_document_preference_title">Any document</string>
+    <string name="other_trusted_document_preference_title">Other trusted document</string>
+    <string name="health_insurance_card_preference_title">Health insurance card</string>
+
+    <string name="use_nfc_preference_title">Ask for NFC</string>
+    <string name="use_nfc_tutorial_preference_title">Show NFC tutorial</string>
+
+    <string name="how_to_get_a_trial_token">How to get your trial token</string>
+    <string name="how_to_get_a_trial_token_description">1. Visit https://dashboard.alicebiometrics.com/ from another device\n\n 2. Go to the \'Credentials\' section of the side menu\n\n 3. Scan the QR</string>
+
+    <string name="no_account_yet">Don´t have an account?</string>
+    <string name="already_have_account">Already have an account?</string>
+
+    <string name="sign_up">Sign Up</string>
+    <string name="log_in">Log In</string>
+    <string name="title_activity_qr_scan">Scan QR</string>
+    <string name="trial_token_dialog_edit_text">Paste here your trial token</string>
+    <string name="trial_token_dialog_button">Scan QR</string>
 
 </resources>

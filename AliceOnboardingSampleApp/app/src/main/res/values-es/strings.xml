@@ -1,52 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="country_title">País</string>
     <string name="create_account">Crear cuenta</string>
     <string name="driver_license_header" translatable="false">Carnet de conducir</string>
-    <string name="driver_license_preference_title">Pedir carnet de conducir</string>
+    <string name="driver_license_preference_title">Carnet de conducir</string>
     <string name="email_hint">Por favor, escriba su email</string>
     <string name="email_not_valid">Por favor, compruebe que su email es correcto</string>
     <string name="general_preferences_header">General</string>
     <string name="onboarding_error">No se pudo completar el proceso de Onboarding</string>
-    <string name="preferences">Prefåerencias</string>
+    <string name="preferences">Preferencias</string>
     <string name="title_activity_settings">Ajustes</string>
     <string name="user_already_exists">Error: el usuario ya existe</string>
     <string name="command_add_selfie">Comando Añadir Selfie</string>
     <string name="command_add_document">Comando Añadir Documento</string>
     <string name="command_get_user_status">Comando Estatus de Usuario</string>
     <string name="command_authenticate">Comando Autenticar</string>
+    <string name="command_other_trusted_document">Otros documentos de confianza</string>
+    <string name="title_open_source_agreements">Licencias open source</string>
+
+
     <string name="get_supported_documents">Comando Documentos Soportados</string>
     <string name="onboarding_commands">Usar comandos de onboarding</string>
-    <string name="empty_sandbox_token">Error: debes configurar el SandboxToken en las Preferencias</string>
-    <string name="ask_for_first_name" translatable="false">Usar nombre</string>
-    <string name="ask_for_last_name" translatable="false">Usar apellido</string>
-    <string name="hint_last_name">Por favor, escriba su apellido</string>
-    <string name="hint_first_name">Por favor, escriba su nombre</string>
-    <string name="experimental_environment">Entorno experimental</string>
+    <string name="empty_trial_token">Error: debes configurar el trial token en las Preferencias</string>
+    <string name="activate_dismiss_button" translatable="false">Activar botón de cancelar</string>
+    <string name="force_stages_order">Forzar orden de los pasos</string>
+    <string name="environment">Entorno</string>
+    <string name="credentials">Credenciales</string>
+    <string name="other_credentials">Otras credenciales</string>
     <string name="exit">Salir</string>
-
-
-    <string name="auth_error">Problema de autenticación: Por favor, contacte con alice@alicebiometrics.com</string>
-
+    <string name="random_email">Usar email random</string>
 
     <string name="client_error">Error en el cliente</string>
     <string name="connection_error">Error de conexión</string>
     <string name="encoding_error">Error de codificación</string>
-    <string name="invalid_sandbox_token">Sandbox token invalido. Por favor, añada un SANDBOX_TOKEN válido en (Settings)</string>
+    <string name="invalid_trial_token">Trial token inválido o caducado. Por favor, solicite uno nuevo.</string>
+
     <string name="server_error">Error de servidor</string>
     <string name="unknown_error">Error desconocido</string>
     <string name="label_app_version">Versión:</string>
     <string name="label_framework_version">Versión del framework:</string>
     <string name="title_activity_about">Acerca de</string>
+    <string name="title_activity_privacy_policy">Política de privacidad</string>
     <string name="title_app_info">Información de la applicación</string>
     <string name="select_country">Seleccionar país</string>
     <string name="onboarding_flow_preferences_header">Flujo Onboarding</string>
     <string name="onboarding_additional_options_preferences_header">Opciones adicionales</string>
-    <string name="experimental_sandbox_token">Experimental Sandbox Token</string>
-    <string name="id_card_preference_title">Añadir DNI</string>
-    <string name="residence_permit_preference_title">Añadir NIE</string>
-    <string name="selfie_preference_title">Añadir Selfie</string>
+    <string name="scan_sandbox_trial_token">Escanear trial token</string>
+    <string name="sandbox_trial_token">Sandbox trial token</string>
+    <string name="production_trial_token">Production trial token</string>
+    <string name="staging_trial_token">Staging trial token</string>
+    <string name="id_card_preference_title">Documento de identidad</string>
+    <string name="residence_permit_preference_title">Permiso de residencia</string>
+    <string name="selfie_preference_title">Selfie</string>
+    <string name="selfie_with_challenge_preference_title">Selfie con reto</string>
     <string name="passport_preference_title">Pasaporte</string>
+    <string name="any_document_preference_title">Cualquier documento</string>
+    <string name="other_trusted_document_preference_title">Otro documento de confianza</string>
+    <string name="health_insurance_card_preference_title">Tarjeta sanitaria</string>
+    <string name="use_nfc_preference_title">Solicitar NFC</string>
+    <string name="use_nfc_tutorial_preference_title">Mostrar tutorial NFC</string>
+
+
+    <string name="how_to_get_a_trial_token">Cómo obtener tu trial token</string>
+    <string name="how_to_get_a_trial_token_description">1. Visita https://dashboard.alicebiometrics.com/ desde otro dispositivo\n\n 2. Ve a la sección \'Credenciales\' del menú lateral\n\n 3. Escanea el QR</string>
+
+    <string name="no_account_yet">¿No tienes una cuenta?</string>
+    <string name="already_have_account">¿Ya tienes una cuenta?</string>
+
+    <string name="sign_up">Registrarse</string>
+    <string name="log_in">Entrar</string>
+
+    <string name="title_activity_qr_scan">Escanea QR</string>
+    <string name="trial_token_dialog_edit_text">Pega aquí tu trial token</string>
+    <string name="trial_token_dialog_button">Escanea QR</string>
 
 </resources>
