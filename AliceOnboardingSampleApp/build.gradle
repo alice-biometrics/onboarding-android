@@ -26,7 +26,7 @@ allprojects {
         mavenCentral()
         maven { url "https://jitpack.io" }
         maven {
-            url "https://alicebiometrics.jfrog.io/artifactory/alicebiometrics-maven-pro-local/"
+            url "https://alice-biometrics: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@maven.pkg.github.com/alice-biometrics/onboarding-android"
         }
     }
 }

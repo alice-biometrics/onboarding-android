@@ -15,8 +15,7 @@ import org.json.JSONObject
 
 class OnboardingCommandActivity : AppCompatActivity() {
 
-    private val TAG = "OnboardingCommands"
-    private val ONBOARDINGCOMMANDS = "ONBOARDING_COMMANDS"
+    private val TAG = "ONBOARDING_COMMANDS"
     private val REQUEST_CODE_ADD_FACE = 100
     private val REQUEST_CODE_ADD_DOCUMENT = 200
     private val REQUEST_CODE_AUTHENTICATE = 300
@@ -25,7 +24,16 @@ class OnboardingCommandActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_onboarding_command)
-        onboardingCommands = OnboardingCommands(this, intent.getStringExtra("userId")!!)
+        onboardingCommands = OnboardingCommands(this, intent.getStringExtra("userId")!!) { result ->
+            when (result) {
+                is OnboardingCommandResult.Success -> {
+                    Log.d(TAG, result.toString())
+                }
+                is OnboardingCommandResult.Failure  -> {
+                    Log.d(TAG, result.toString())
+                }
+            }
+        }
     }
 
     fun commandAddSelfie(view: View) {
