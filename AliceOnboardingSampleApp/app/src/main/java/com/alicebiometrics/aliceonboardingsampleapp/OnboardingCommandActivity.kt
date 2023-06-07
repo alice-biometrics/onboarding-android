@@ -23,15 +23,14 @@ class OnboardingCommandActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_onboarding_command)
-        onboardingCommands = OnboardingCommands(this, intent.getStringExtra("userId")!!) { result ->
+        onboardingCommands = OnboardingCommands(this, intent.getStringExtra("userId")!!)
+        { result ->
             when (result) {
                 is OnboardingCommandResult.Success -> {
-                    Log.d(TAG, result.toString())
+                    setContentView(R.layout.activity_onboarding_command)
                 }
-                is OnboardingCommandResult.Failure  -> {
-                    Log.d(TAG, result.toString())
-                }
+                is OnboardingCommandResult.Failure ->  showDialog(result.response.toString())
+                else -> showDialog(getString(R.string.unknown_error))
             }
         }
     }

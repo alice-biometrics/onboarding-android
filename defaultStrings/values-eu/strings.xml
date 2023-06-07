@@ -17,7 +17,7 @@
 //Errors
 <string name="onboarding_error_config">Mesedez, egiaztatu zure OnboardingConfig. Onboarding Etapa bat hautatu behar duzu gutxienez.</string>
 <string name="onboarding_error_loading_resources">Konexio motela, saiatu berriro geroago</string>
-<string name="onboarding_error_title_technical">Akats batzuk gertatu dira.</string>
+<string name="onboarding_error_title_technical">Akats batzuk gertatu dira</string>
 <string name="onboarding_error_subtitle_technical">Saiatu berriro mesedez.</string>
 <string name="onboarding_error_title_connection">Konexioaren errorea</string>
 <string name="onboarding_error_subtitle_connection">Egiaztatu Interneteko konexioa</string>
@@ -35,6 +35,7 @@
 <string name="onboarding_error_title_file_too_big">Fitxategia handiegia da</string>
 <string name="onboarding_error_subtitle_file_too_big">Onartutako gehieneko tamaina {size} MB da</string>
 <string name="onboarding_error_title_file_type_not_supported">Onartzen ez den fitxategia</string>
+<string name="onboarding_error_title_image_type_not_supported">Irudia ez da onartzen</string>
 <string name="onboarding_error_subtitle_file_type_not_supported">Onartutako .jpg, png, .bmp fitxategi motak</string>
 <string name="onboarding_error_doc_country_not_supported">Sentitzen dugu, dokumentu mota hau ez da onartzen hautatutako herrialdean</string>
 <string name="onboarding_error_title_challenge_timeout">Denboraz kanpo</string>
@@ -46,6 +47,8 @@
 <string name="onboarding_stages_selfie">Selfie</string>
 <string name="onboarding_stages_selfie_with_document">Selfie dokumentuarekin</string>
 <string name="onboarding_stages_selfie_with_challenge">Selfie erronkarekin</string>
+<string name="onboarding_stages_selfie_with_document_challenge">Selfie erronkarekin</string>
+<string name="onboarding_stages_document">Dokumentua</string>
 <string name="onboarding_stages_id_card">Nortasun agiria</string>
 <string name="onboarding_stages_driver_license">Gidabaimena</string>
 <string name="onboarding_stages_passport">Pasaportea</string>
@@ -78,6 +81,12 @@
 <string name="onboarding_country_selector_start">Hasi</string>
 <string name="onboarding_country_selector_cancel">Utzi</string>
 <string name="onboarding_country_selector_reload">Berriro kargatu</string>
+
+//Doc and country selector
+<string name="onboarding_doc_country_selector_title">Dokumentuen hautaketa</string>
+<string name="onboarding_doc_country_selector_issuing_country">Dokumentu Herrialdea</string>
+<string name="onboarding_doc_country_selector_allowed_documents">Onartutako dokumentuak</string>
+<string name="onboarding_doc_country_selector_document_type">Dokumentu mota</string>
 
 //Doc capturer
 <string name="onboarding_doc_capturer_retry_photo">Berriro saiatzen harrapatzea</string>
@@ -163,6 +172,8 @@
 <string name="onboarding_selfie_capturer_subtitle">Mesedez, jarraitu harrapatzea batera</string>
 <string name="onboarding_selfie_capturer_subtitle_review">Mesedez begiratu argazkian ona dela</string>
 <string name="onboarding_selfie_with_document_capturer_center_face">Mesedez, jarri aurpegia obaloan eta dokumentua laukizuzenean</string>
+<string name="onboarding_selfie_capturer_button_tutorial"></string>
+<string name="onboarding_selfie_capturer_subtitle_tutorial"></string>
 
 //OTD capturer
 <string name="onboarding_other_trusted_docs_subtitle">Mesedez, aukeratu PDF fitxategi bat edo argazki bat</string>

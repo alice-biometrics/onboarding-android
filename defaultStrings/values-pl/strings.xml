@@ -35,6 +35,7 @@
 <string name="onboarding_error_title_file_too_big">Plik jest za duży</string>
 <string name="onboarding_error_subtitle_file_too_big">Maksymalny dozwolony rozmiar pliku to {size} MB</string>
 <string name="onboarding_error_title_file_type_not_supported">Plik nie jest obsługiwany</string>
+<string name="onboarding_error_title_image_type_not_supported">Obraz nieobsługiwany</string>
 <string name="onboarding_error_subtitle_file_type_not_supported">Obsługiwane typy plików to .jpg, .png, .bmp</string>
 <string name="onboarding_error_doc_country_not_supported">Przepraszamy, ten typ dokumentu nie jest obsługiwany w wybranym kraju</string>
 <string name="onboarding_error_title_challenge_timeout">Koniec czasu</string>
@@ -46,6 +47,8 @@
 <string name="onboarding_stages_selfie">Selfie</string>
 <string name="onboarding_stages_selfie_with_document">Selfie z dokumentem</string>
 <string name="onboarding_stages_selfie_with_challenge">Selfie z wyzwaniem</string>
+<string name="onboarding_stages_selfie_with_document_challenge">Selfie z wyzwaniem</string>
+<string name="onboarding_stages_document">Dokument</string>
 <string name="onboarding_stages_id_card">Dowód osobisty</string>
 <string name="onboarding_stages_driver_license">Prawo jazdy</string>
 <string name="onboarding_stages_passport">Paszport</string>
@@ -78,6 +81,12 @@
 <string name="onboarding_country_selector_start">ZACZYNAMY</string>
 <string name="onboarding_country_selector_cancel">ANULUJ</string>
 <string name="onboarding_country_selector_reload">Przeładować</string>
+
+//Doc and country selector
+<string name="onboarding_doc_country_selector_title">Wybór dokumentu</string>
+<string name="onboarding_doc_country_selector_issuing_country">Kraj dokumentu</string>
+<string name="onboarding_doc_country_selector_allowed_documents">Akceptowane dokumenty</string>
+<string name="onboarding_doc_country_selector_document_type">Typ dokumentu</string>
 
 //Doc capturer
 <string name="onboarding_doc_capturer_retry_photo">Wykonaj zdjęcie ponownie</string>
@@ -163,6 +172,8 @@
 <string name="onboarding_selfie_capturer_subtitle">Proszę kontynuować przechwytywanie</string>
 <string name="onboarding_selfie_capturer_subtitle_review">Upewnij się, że Twoje zdjęcie jest dobre</string>
 <string name="onboarding_selfie_with_document_capturer_center_face">Proszę wyśrodkować twarz na owalu, a dokument na prostokącie</string>
+<string name="onboarding_selfie_capturer_button_tutorial"></string>
+<string name="onboarding_selfie_capturer_subtitle_tutorial"></string>
 
 //OTD capturer
 <string name="onboarding_other_trusted_docs_subtitle">Proszę wybrać plik PDF lub zdjęcie</string>

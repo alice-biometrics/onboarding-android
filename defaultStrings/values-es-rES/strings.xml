@@ -17,7 +17,7 @@
 //Errors
 <string name="onboarding_error_config">Por favor, revisa tu OnboardingConfig. Debes seleccionar por lo menos un Onboarding Stage.</string>
 <string name="onboarding_error_loading_resources">Conexión lenta, inténtalo de nuevo más tarde</string>
-<string name="onboarding_error_title_technical">Ha ocurrido algún error.</string>
+<string name="onboarding_error_title_technical">Ha ocurrido un error</string>
 <string name="onboarding_error_subtitle_technical">Por favor, inténtalo de nuevo.</string>
 <string name="onboarding_error_title_connection">Error de conexión</string>
 <string name="onboarding_error_subtitle_connection">Comprueba tu conexión a Internet</string>
@@ -35,10 +35,11 @@
 <string name="onboarding_error_title_file_too_big">Archivo demasiado grande</string>
 <string name="onboarding_error_subtitle_file_too_big">El tamaño máximo soportado es {size} MB</string>
 <string name="onboarding_error_title_file_type_not_supported">Archivo no soportado</string>
+<string name="onboarding_error_title_image_type_not_supported">Imagen no soportada</string>
 <string name="onboarding_error_subtitle_file_type_not_supported">Tipos de archivo soportados .jpg, png, .bmp</string>
 <string name="onboarding_error_doc_country_not_supported">Lo sentimos, este tipo de documento no es compatible con el país seleccionado</string>
 <string name="onboarding_error_title_challenge_timeout">Tiempo agotado</string>
-<string name="onboarding_error_subtitle_challenge_timeout">No se ha superado el reto. Por favor, inténtelo de nuevo</string>
+<string name="onboarding_error_subtitle_challenge_timeout">No has superado el reto. Por favor, inténtalo de nuevo</string>
 
 //Stages
 <string name="onboarding_stages_title">Verificación de identidad</string>
@@ -46,6 +47,8 @@
 <string name="onboarding_stages_selfie">Selfie</string>
 <string name="onboarding_stages_selfie_with_document">Selfie con documento</string>
 <string name="onboarding_stages_selfie_with_challenge">Selfie con reto</string>
+<string name="onboarding_stages_selfie_with_document_challenge">Selfie con reto</string>
+<string name="onboarding_stages_document">Documento</string>
 <string name="onboarding_stages_id_card">Carnet de identidad</string>
 <string name="onboarding_stages_driver_license">Carnet de conducir</string>
 <string name="onboarding_stages_passport">Pasaporte</string>
@@ -78,6 +81,12 @@
 <string name="onboarding_country_selector_start">Comenzar</string>
 <string name="onboarding_country_selector_cancel">Cancelar</string>
 <string name="onboarding_country_selector_reload">Recargar</string>
+
+//Doc and country selector
+<string name="onboarding_doc_country_selector_title">Selección de documento</string>
+<string name="onboarding_doc_country_selector_issuing_country">País del documento</string>
+<string name="onboarding_doc_country_selector_allowed_documents">Documentos aceptados</string>
+<string name="onboarding_doc_country_selector_document_type">Tipo de documento</string>
 
 //Doc capturer
 <string name="onboarding_doc_capturer_retry_photo">Reintentar captura</string>
@@ -118,7 +127,7 @@
 <string name="onboarding_doc_capturer_qr_or_you_can">o puedes</string>
 <string name="onboarding_doc_capturer_check_position">Ajusta el documento al rectángulo</string>
 <string name="onboarding_doc_capturer_processing_stay_still">Capturando… No muevas el documento</string>
-<string name="onboarding_error_max_number_of_documents">Ha superado el número máximo de intentos</string>
+<string name="onboarding_error_max_number_of_documents">Has superado el número máximo de intentos</string>
 
 //Document NFC capturer
 <string name="onboarding_nfc_doc_capturer_hold_your_doc_iphone">Mantén tu iPhone pegado a tu documento y asegúrate de que sobresalga en parte por arriba</string>
@@ -163,6 +172,8 @@
 <string name="onboarding_selfie_capturer_subtitle">Por favor, continúa con la captura</string>
 <string name="onboarding_selfie_capturer_subtitle_review">Por favor, comprueba que la foto es buena</string>
 <string name="onboarding_selfie_with_document_capturer_center_face">Por favor, centra tu cara en el óvalo y el documento en el rectángulo</string>
+<string name="onboarding_selfie_capturer_button_tutorial"></string>
+<string name="onboarding_selfie_capturer_subtitle_tutorial"></string>
 
 //OTD capturer
 <string name="onboarding_other_trusted_docs_subtitle">Por favor, elija un PDF o una imagen</string>

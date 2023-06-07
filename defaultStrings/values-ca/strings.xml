@@ -17,7 +17,7 @@
 //Errors
 <string name="onboarding_error_config">Si us plau, revisi el seu OnboardingConfig. Deu tenir seleccionada com a mínim un OnboardingStage.</string>
 <string name="onboarding_error_loading_resources">Connexió lenta-ho a provar més tard</string>
-<string name="onboarding_error_title_technical">Hi ha hagut algun error.</string>
+<string name="onboarding_error_title_technical">Hi ha hagut algun error</string>
 <string name="onboarding_error_subtitle_technical">Intenta-ho de nou.</string>
 <string name="onboarding_error_title_connection">Error de connexió</string>
 <string name="onboarding_error_subtitle_connection">Comprova la teva connexió a Internet</string>
@@ -35,6 +35,7 @@
 <string name="onboarding_error_title_file_too_big">El fitxer és massa gran</string>
 <string name="onboarding_error_subtitle_file_too_big">La mida màxima permesa del fitxer és de {size} MB</string>
 <string name="onboarding_error_title_file_type_not_supported">El fitxer no és compatible</string>
+<string name="onboarding_error_title_image_type_not_supported">Imatge no suportada</string>
 <string name="onboarding_error_subtitle_file_type_not_supported">Els tipus de fitxers admesos són .jpg, .png, .bmp</string>
 <string name="onboarding_error_doc_country_not_supported">Ho sentim, aquest tipus de document no és compatible amb el país seleccionat</string>
 <string name="onboarding_error_title_challenge_timeout">Temps esgotat</string>
@@ -46,6 +47,8 @@
 <string name="onboarding_stages_selfie">Selfie</string>
 <string name="onboarding_stages_selfie_with_document">Selfie amb document</string>
 <string name="onboarding_stages_selfie_with_challenge">Selfie amb repte</string>
+<string name="onboarding_stages_selfie_with_document_challenge">Selfie amb repte</string>
+<string name="onboarding_stages_document">Docuemnt</string>
 <string name="onboarding_stages_id_card">Carnet d\'identitat</string>
 <string name="onboarding_stages_driver_license">Carnet de conduir</string>
 <string name="onboarding_stages_passport">Passaport</string>
@@ -78,6 +81,12 @@
 <string name="onboarding_country_selector_start">Començar</string>
 <string name="onboarding_country_selector_cancel">Cancel·lar</string>
 <string name="onboarding_country_selector_reload">Recarregar</string>
+
+//Doc and country selector
+<string name="onboarding_doc_country_selector_title">Selecció de documents</string>
+<string name="onboarding_doc_country_selector_issuing_country">País del document</string>
+<string name="onboarding_doc_country_selector_allowed_documents">Accepted documents</string>
+<string name="onboarding_doc_country_selector_document_type">Tipus de document</string>
 
 //Doc capturer
 <string name="onboarding_doc_capturer_retry_photo">Reintenta captura</string>
@@ -163,6 +172,8 @@
 <string name="onboarding_selfie_capturer_subtitle">Si us plau, continuï amb la captura</string>
 <string name="onboarding_selfie_capturer_subtitle_review">Si us plau, comprova que la foto és bona</string>
 <string name="onboarding_selfie_with_document_capturer_center_face">Si us plau, centreu la vostra cara a l\'oval i el document al rectangle</string>
+<string name="onboarding_selfie_capturer_button_tutorial"></string>
+<string name="onboarding_selfie_capturer_subtitle_tutorial"></string>
 
 //OTD capturer
 <string name="onboarding_other_trusted_docs_subtitle">Si us plau, trieu un fitxer PDF o una imatge</string>

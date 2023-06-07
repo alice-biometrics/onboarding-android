@@ -1,12 +1,13 @@
 <resources>
     <!-- Reply Preference -->
-    <string-array name="country_entries">
-        <item>Spain</item>
-        <item>France</item>
+    <string-array name="environment_entries">
+        <item>Sandbox</item>
+        <item>Production</item>
     </string-array>
 
-    <string-array name="country_values">
-        <item>spa</item>
-        <item>fra</item>
+    <string-array name="environment_values">
+        <item>sandbox</item>
+        <item>production</item>
     </string-array>
+
 </resources>
