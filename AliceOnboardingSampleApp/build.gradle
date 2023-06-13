@@ -5,7 +5,6 @@ buildscript {
     repositories {
         google()
         jcenter()
-
     }
 
     dependencies {
@@ -13,11 +12,8 @@ buildscript {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
         classpath "org.jetbrains.dokka:dokka-android-gradle-plugin:$dokkaVersion"
         classpath "org.jetbrains.kotlin:kotlin-serialization:$kotlinVersion"
-        classpath "org.jfrog.buildinfo:build-info-extractor-gradle:4.20.0"
     }
 }
-
-
 
 allprojects {
     repositories {
@@ -25,9 +21,7 @@ allprojects {
         jcenter()
         mavenCentral()
         maven { url "https://jitpack.io" }
-        maven {
-            url "https://alicebiometrics.jfrog.io/artifactory/alicebiometrics-maven-pro-local/"
-        }
+        maven { url "https://europe-west1-maven.pkg.dev/alice-cloud/maven" }
     }
 }
 
