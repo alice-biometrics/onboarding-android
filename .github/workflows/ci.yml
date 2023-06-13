@@ -6,7 +6,7 @@ on:
       - '.github/workflows/ci.yml'
       - 'AliceOnboardingSampleApp/app/build.gradle'
     branches:
-      - 'master'
+      - 'main'
 
 env:
   ALICE_GITHUB_ACCESS_TOKEN: ${{ secrets.ALICE_GITHUB_ACCESS_TOKEN }}
