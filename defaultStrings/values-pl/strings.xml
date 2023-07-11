@@ -29,7 +29,7 @@
 <string name="onboarding_error_subtitle_selfie">Spróbuj ponownie</string>
 <string name="onboarding_error_title_authentication">Błąd uwierzytelniania</string>
 <string name="onboarding_error_subtitle_authentication">Spróbuj ponownie</string>
-<string name="onboarding_error_subtitle_camera_not_available">Sprawdź swój aparat.</string>
+<string name="onboarding_error_subtitle_camera_not_available">Sprawdź, czy kamera jest dostępna i czy wyraziłeś zgodę na dostęp do niej</string>
 <string name="onboarding_browser_no_compatible">Ta funkcja nie jest dostępna w tej przeglądarce, wypróbuj Safari</string>
 <string name="onboarding_error_user_not_found">Użytkownik nie znaleziony</string>
 <string name="onboarding_error_title_file_too_big">Plik jest za duży</string>
@@ -106,10 +106,13 @@
 <string name="onboarding_doc_capturer_alert_title_wrong_doc">Niewłaściwy dokument</string>
 <string name="onboarding_doc_capturer_alert_subtitle_wrong_doc">Upewnij się, że wyświetlasz odpowiedni dokument (%1$s - %2$s)</string>
 <string name="onboarding_doc_capturer_alert_subtitle_wrong_doc_residencepermit_esp">Upewnij się, że pokazujesz ważny dokument ze zdjęciem</string>
+<string name="onboarding_doc_capturer_alert_title_not_allowed_doc">Niedozwolony dokument</string>
+<string name="onboarding_doc_capturer_alert_subtitle_not_allowed_doc">Upewnij się, że pokazujesz jeden z następujących dokumentów: %1$s</string>
 <string name="onboarding_doc_capturer_alert_title_wrong_side">Wrong document side</string>
 <string name="onboarding_doc_capturer_alert_subtitle_wrong_side">Upewnij się, że wyświetlasz prawą stronę (%1$s)</string>
 <string name="onboarding_doc_capturer_alert_title_poor_quality">Problem z odczytaniem dokument</string>
 <string name="onboarding_doc_capturer_alert_subtitle_poor_quality">Upewnij się, że wyświetlasz dokument bez okluzji, odblasków i cieni</string>
+<string name="onboarding_doc_capturer_alert_subtitle_select_document">Wybierz dokument, którego używasz</string>
 <string name="onboarding_doc_capturer_front">PRZÓD</string>
 <string name="onboarding_doc_capturer_back">TYŁ</string>
 <string name="onboarding_doc_capturer_choose_source">Wybierz źródło</string>
@@ -172,8 +175,8 @@
 <string name="onboarding_selfie_capturer_subtitle">Proszę kontynuować przechwytywanie</string>
 <string name="onboarding_selfie_capturer_subtitle_review">Upewnij się, że Twoje zdjęcie jest dobre</string>
 <string name="onboarding_selfie_with_document_capturer_center_face">Proszę wyśrodkować twarz na owalu, a dokument na prostokącie</string>
-<string name="onboarding_selfie_capturer_button_tutorial"></string>
-<string name="onboarding_selfie_capturer_subtitle_tutorial"></string>
+<string name="onboarding_selfie_capturer_button_tutorial">Ok, rozumiem!</string>
+<string name="onboarding_selfie_capturer_subtitle_tutorial">Teraz musisz zrobić selfie. Postępuj zgodnie z tymi instrukcjami</string>
 
 //OTD capturer
 <string name="onboarding_other_trusted_docs_subtitle">Proszę wybrać plik PDF lub zdjęcie</string>
@@ -192,5 +195,10 @@
 <string name="onboarding_other_trusted_docs_error">Problem z przesłanym plikiem</string>
 
 //Welcome
+
+//QR view
+<string name="onboarding_qr_button">Kontynuuj na tym urządzeniu</string>
+<string name="onboarding_qr_info_text">Wykryliśmy, że używasz komputera. Kamery komputerowe są często słabej jakości. Aby ułatwić ten proces, zalecamy korzystanie z telefonu komórkowego.</string>
+<string name="onboarding_qr_info_text_extra">Czy chcesz kontynuować proces wdrażania na telefonie komórkowym? Wystarczy zeskanować ten kod QR:</string>
 
 </resources>

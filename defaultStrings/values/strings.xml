@@ -29,7 +29,7 @@
 <string name="onboarding_error_subtitle_selfie">Please, try again.</string>
 <string name="onboarding_error_title_authentication">Authentication error.</string>
 <string name="onboarding_error_subtitle_authentication">Please, try again.</string>
-<string name="onboarding_error_subtitle_camera_not_available">Please, check that your context is secure and check your camera</string>
+<string name="onboarding_error_subtitle_camera_not_available">Please, check that a camera is available and that you have given permission to access it</string>
 <string name="onboarding_browser_no_compatible">This functionality is not available in this browser, please try Safari</string>
 <string name="onboarding_error_user_not_found">User not found</string>
 <string name="onboarding_error_title_file_too_big">File is too big</string>
@@ -106,10 +106,13 @@
 <string name="onboarding_doc_capturer_alert_title_wrong_doc">Wrong document</string>
 <string name="onboarding_doc_capturer_alert_subtitle_wrong_doc">Make sure you’re showing the right document (%1$s from %2$s)</string>
 <string name="onboarding_doc_capturer_alert_subtitle_wrong_doc_residencepermit_esp">Make sure you’re showing a valid document with photo</string>
+<string name="onboarding_doc_capturer_alert_title_not_allowed_doc">Not allowed document</string>
+<string name="onboarding_doc_capturer_alert_subtitle_not_allowed_doc">Make sure you’re showing one of the following documents: %1$s</string>
 <string name="onboarding_doc_capturer_alert_title_wrong_side">Wrong document side</string>
 <string name="onboarding_doc_capturer_alert_subtitle_wrong_side">Make sure you’re showing the right side (%1$s)</string>
 <string name="onboarding_doc_capturer_alert_title_poor_quality">Problem reading your document</string>
 <string name="onboarding_doc_capturer_alert_subtitle_poor_quality">Make sure you\'re showing your document without occlusions, glare or shadows</string>
+<string name="onboarding_doc_capturer_alert_subtitle_select_document">Select the document you are using</string>
 <string name="onboarding_doc_capturer_front">FRONT SIDE</string>
 <string name="onboarding_doc_capturer_back">BACK SIDE</string>
 <string name="onboarding_doc_capturer_choose_source">Choose source</string>
@@ -192,5 +195,10 @@
 <string name="onboarding_other_trusted_docs_error">Problem with uploaded file</string>
 
 //Welcome
+
+//QR view
+<string name="onboarding_qr_button">Continue on this device</string>
+<string name="onboarding_qr_info_text">We have detected that you are using a PC. PC webcams are often of poor quality. To make the process easier we recommend using a mobile.</string>
+<string name="onboarding_qr_info_text_extra">Do you want to continue the onboarding process on your mobile? You just have to scan this QR:</string>
 
 </resources>

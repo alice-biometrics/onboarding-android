@@ -29,7 +29,7 @@
 <string name="onboarding_error_subtitle_selfie">Saiatu berriro mesedez.</string>
 <string name="onboarding_error_title_authentication">Autentifikazio-errorea.</string>
 <string name="onboarding_error_subtitle_authentication">Saiatu berriro mesedez.</string>
-<string name="onboarding_error_subtitle_camera_not_available">Egiaztatu ingurune seguru batean zaudela eta egiaztatu kamera</string>
+<string name="onboarding_error_subtitle_camera_not_available">Mesedez, egiaztatu kamera bat konektatuta duzula eta sarbide-baimenak eman dituzula</string>
 <string name="onboarding_browser_no_compatible">Funtzionalitate hau ez dago eskuragarri arakatzaile honetan, mesedez, probatu Safarian</string>
 <string name="onboarding_error_user_not_found">Erabiltzailea ez da aurkitu</string>
 <string name="onboarding_error_title_file_too_big">Fitxategia handiegia da</string>
@@ -106,10 +106,13 @@
 <string name="onboarding_doc_capturer_alert_title_wrong_doc">Dokumentu okerra</string>
 <string name="onboarding_doc_capturer_alert_subtitle_wrong_doc">Ziurtatu dokumentu zuzena erakusteko (%1$ %2$s)</string>
 <string name="onboarding_doc_capturer_alert_subtitle_wrong_doc_residencepermit_esp">Ziurtatu baliozko argazki-dokumentu bat erakusteko</string>
+<string name="onboarding_doc_capturer_alert_title_not_allowed_doc">Ez da dokumentua onartu</string>
+<string name="onboarding_doc_capturer_alert_subtitle_not_allowed_doc">Ziurtatu dokumentu hauetako bat erakusten duzula: %1$s</string>
 <string name="onboarding_doc_capturer_alert_title_wrong_side">Okerreko aldean</string>
 <string name="onboarding_doc_capturer_alert_subtitle_wrong_side">Ziurtatu zuzena albo erakusteko (%1$s)</string>
 <string name="onboarding_doc_capturer_alert_title_poor_quality">Arazoa zure dokumentua irakurtzeko</string>
 <string name="onboarding_doc_capturer_alert_subtitle_poor_quality">Ziurtatu dokumentua erakusteko occlusions, hausnarketak edo itzalak gabe</string>
+<string name="onboarding_doc_capturer_alert_subtitle_select_document">Hautatu erabiltzen ari zaren dokumentua</string>
 <string name="onboarding_doc_capturer_front">AURREKO ZATIA</string>
 <string name="onboarding_doc_capturer_back">ATZEKO</string>
 <string name="onboarding_doc_capturer_choose_source">Aukeratu iturburua</string>
@@ -172,8 +175,8 @@
 <string name="onboarding_selfie_capturer_subtitle">Mesedez, jarraitu harrapatzea batera</string>
 <string name="onboarding_selfie_capturer_subtitle_review">Mesedez begiratu argazkian ona dela</string>
 <string name="onboarding_selfie_with_document_capturer_center_face">Mesedez, jarri aurpegia obaloan eta dokumentua laukizuzenean</string>
-<string name="onboarding_selfie_capturer_button_tutorial"></string>
-<string name="onboarding_selfie_capturer_subtitle_tutorial"></string>
+<string name="onboarding_selfie_capturer_button_tutorial">Ados, lortu!</string>
+<string name="onboarding_selfie_capturer_subtitle_tutorial">Orain selfie bat egin behar duzu. Jarraitu argibide hauek</string>
 
 //OTD capturer
 <string name="onboarding_other_trusted_docs_subtitle">Mesedez, aukeratu PDF fitxategi bat edo argazki bat</string>
@@ -192,5 +195,10 @@
 <string name="onboarding_other_trusted_docs_error">Arazoa kargatutako fitxategiarekin</string>
 
 //Welcome
+
+//QR view
+<string name="onboarding_qr_button">Jarraitu gailu honetan</string>
+<string name="onboarding_qr_info_text">Ordenagailu bat erabiltzen ari zarela detektatu dugu. Ordenagailuko kamerak kalitate txarrekoak izaten dira. Prozesua errazteko mugikorra erabiltzea gomendatzen dugu.</string>
+<string name="onboarding_qr_info_text_extra">Sartze-prozesua mugikorrean jarraitu nahi duzu? QR hau eskaneatu besterik ez duzu egin behar:</string>
 
 </resources>

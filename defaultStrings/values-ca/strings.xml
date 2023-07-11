@@ -29,7 +29,7 @@
 <string name="onboarding_error_subtitle_selfie">Intenta-ho de nou.</string>
 <string name="onboarding_error_title_authentication">Error d\'autenticació.</string>
 <string name="onboarding_error_subtitle_authentication">Intenta-ho de nou.</string>
-<string name="onboarding_error_subtitle_camera_not_available">Si us plau, comprovi la seva càmera</string>
+<string name="onboarding_error_subtitle_camera_not_available">Si us plau, comproveu que teniu una càmera connectada i que heu donat permisos d\'accés</string>
 <string name="onboarding_browser_no_compatible">Aquesta funcionalitat no és compatible amb el navegad por utilitzat. Proveu amb Safari</string>
 <string name="onboarding_error_user_not_found">Usuari no trobat</string>
 <string name="onboarding_error_title_file_too_big">El fitxer és massa gran</string>
@@ -48,7 +48,7 @@
 <string name="onboarding_stages_selfie_with_document">Selfie amb document</string>
 <string name="onboarding_stages_selfie_with_challenge">Selfie amb repte</string>
 <string name="onboarding_stages_selfie_with_document_challenge">Selfie amb repte</string>
-<string name="onboarding_stages_document">Docuemnt</string>
+<string name="onboarding_stages_document">Document</string>
 <string name="onboarding_stages_id_card">Carnet d\'identitat</string>
 <string name="onboarding_stages_driver_license">Carnet de conduir</string>
 <string name="onboarding_stages_passport">Passaport</string>
@@ -85,7 +85,7 @@
 //Doc and country selector
 <string name="onboarding_doc_country_selector_title">Selecció de documents</string>
 <string name="onboarding_doc_country_selector_issuing_country">País del document</string>
-<string name="onboarding_doc_country_selector_allowed_documents">Accepted documents</string>
+<string name="onboarding_doc_country_selector_allowed_documents">Documents acceptats</string>
 <string name="onboarding_doc_country_selector_document_type">Tipus de document</string>
 
 //Doc capturer
@@ -106,10 +106,13 @@
 <string name="onboarding_doc_capturer_alert_title_wrong_doc">Document incorrecte</string>
 <string name="onboarding_doc_capturer_alert_subtitle_wrong_doc">Assegura\'t de mostrar el document correcte (%1$s - %2$s)</string>
 <string name="onboarding_doc_capturer_alert_subtitle_wrong_doc_residencepermit_esp">Assegura\'t de mostrar un document vàlid amb fotografia</string>
+<string name="onboarding_doc_capturer_alert_title_not_allowed_doc">Document no acceptat</string>
+<string name="onboarding_doc_capturer_alert_subtitle_not_allowed_doc">Assegura\'t de mostrar un document dels següents: %1$s</string>
 <string name="onboarding_doc_capturer_alert_title_wrong_side">Costat incorrecte</string>
 <string name="onboarding_doc_capturer_alert_subtitle_wrong_side">Assegura\'t de mostrar el costat correcte (%1$s)</string>
 <string name="onboarding_doc_capturer_alert_title_poor_quality">Problema a l\'llegir el teu document</string>
 <string name="onboarding_doc_capturer_alert_subtitle_poor_quality">Assegura\'t de mostrar el document sense oclusions, reflexos o ombres</string>
+<string name="onboarding_doc_capturer_alert_subtitle_select_document">Selecciona el document que utilitzeu</string>
 <string name="onboarding_doc_capturer_front">PART FRONTAL</string>
 <string name="onboarding_doc_capturer_back">PART POSTERIOR</string>
 <string name="onboarding_doc_capturer_choose_source">Trieu origen</string>
@@ -172,8 +175,8 @@
 <string name="onboarding_selfie_capturer_subtitle">Si us plau, continuï amb la captura</string>
 <string name="onboarding_selfie_capturer_subtitle_review">Si us plau, comprova que la foto és bona</string>
 <string name="onboarding_selfie_with_document_capturer_center_face">Si us plau, centreu la vostra cara a l\'oval i el document al rectangle</string>
-<string name="onboarding_selfie_capturer_button_tutorial"></string>
-<string name="onboarding_selfie_capturer_subtitle_tutorial"></string>
+<string name="onboarding_selfie_capturer_button_tutorial">D\'acord ho tinc!</string>
+<string name="onboarding_selfie_capturer_subtitle_tutorial">Ara t\'has de fer una selfie. Seguiu aquestes instruccions</string>
 
 //OTD capturer
 <string name="onboarding_other_trusted_docs_subtitle">Si us plau, trieu un fitxer PDF o una imatge</string>
@@ -192,5 +195,10 @@
 <string name="onboarding_other_trusted_docs_error">Problema amb el fitxer penjat</string>
 
 //Welcome
+
+//QR view
+<string name="onboarding_qr_button">Continueu en aquest dispositiu</string>
+<string name="onboarding_qr_info_text">Hem detectat que estàs utilitzant un ordinador. Les càmeres web de PC solen ser de mala qualitat. Per facilitar el procés us recomanem utilitzar un mòbil.</string>
+<string name="onboarding_qr_info_text_extra">Vols continuar el procés d\'incorporació al teu mòbil? Només has d\'escanejar aquest QR:</string>
 
 </resources>
