@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity(), SharedPreferences.OnSharedPreferenceCh
     private val DEFAULT_ISSUING_COUNTRY: String = "ESP"
     private var sandboxManager: SandboxManager? = null
 
-    private var environment: Environment = Environment.PRODUCTION
+    private var environment: Environment = Environment.SANDBOX
     private var sandboxTrialToken: String = ""
     private var productionTrialToken: String = ""
 
@@ -237,7 +237,7 @@ class MainActivity : AppCompatActivity(), SharedPreferences.OnSharedPreferenceCh
         useOnboardingCommands = sharedPreferences.getBoolean("onboarding_commands", false)
         productionTrialToken = sharedPreferences.getString("production_trial_token", "")!!
         sandboxTrialToken = sharedPreferences.getString("sandbox_trial_token", "")!!
-        environment = Environment.valueOf(sharedPreferences.getString("environment", "production").toString().uppercase())
+        environment = Environment.valueOf(sharedPreferences.getString("environment", "sandbox").toString().uppercase())
         iconMiddle = findViewById(R.id.iconMiddle)
         iconTop = findViewById(R.id.iconTop)
         textFieldMiddle = findViewById(R.id.textFieldMiddle)
