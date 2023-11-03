@@ -4,7 +4,9 @@
 
 <img src="https://github.com/alice-biometrics/custom-emojis/blob/master/images/alice_header.png" width=auto>
 
-Alice Android SDK is a collection of software development tools to integrate Alice Onboarding.
+This repository serves as an example of how to integrate Alice Onboarding Android SDK into an application
+
+Alice Onboarding Android SDK is a collection of software development tools to make easier the integration of Alice Onboarding service.
 
 Its main features are:
 
@@ -12,12 +14,7 @@ Its main features are:
 - Communication with the onboarding API to facilitate rapid integration and development.
 - Management of the onboarding flow configuration: requested documents and order.
 
-This repository serves as an example of how to integrate Alice's SDK into an application.
 
 ## Documentation :page_facing_up:
 
 Refer to https://docs.alicebiometrics.com/onboarding/sections/mobile_client_side_sdks/android/
-
-## Contact :mailbox_with_mail:
-
-support@alicebiometrics.com
