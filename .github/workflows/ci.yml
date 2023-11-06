@@ -7,7 +7,8 @@ on:
       - 'AliceOnboardingSampleApp/app/build.gradle'
     branches:
       - 'main'
-
+  workflow_dispatch:
+  
 env:
   ALICE_GITHUB_ACCESS_TOKEN: ${{ secrets.ALICE_GITHUB_ACCESS_TOKEN }}
   GITHUB_API_URI: "https://api.github.com"
