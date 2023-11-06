@@ -44,6 +44,8 @@ class OnboardingCommandActivity : AppCompatActivity() {
                 is OnboardingCommandResult.Failure  -> {
                     showDialog(result.response.toString())
                 }
+
+                else -> {}
             }
         }
 
@@ -67,12 +69,16 @@ class OnboardingCommandActivity : AppCompatActivity() {
                             is OnboardingCommandResult.Failure  -> {
                                 showDialog(result.response.toString())
                             }
+
+                            else -> {}
                         }
                     }
                 }
                 is OnboardingCommandResult.Failure  -> {
                     showDialog(result.response.toString())
                 }
+
+                else -> {}
             }
         }
     }
@@ -86,6 +92,8 @@ class OnboardingCommandActivity : AppCompatActivity() {
                 is OnboardingCommandResult.Failure  -> {
                     showDialog(result.response.toString())
                 }
+
+                else -> {}
             }
         }
     }
@@ -99,6 +107,7 @@ class OnboardingCommandActivity : AppCompatActivity() {
                 is OnboardingCommandResult.Failure  -> {
                     showDialog(result.response.toString())
                 }
+                else -> {}
             }
         }
     }
@@ -120,6 +129,8 @@ class OnboardingCommandActivity : AppCompatActivity() {
                                 is OnboardingCommandResult.Cancel -> {
                                     Log.d(TAG, "Authentication canceled")
                                 }
+
+                                else -> {}
                             }
                         }                    } else {
                         showDialog("User with email is not authorized yet.\n" +
@@ -129,6 +140,8 @@ class OnboardingCommandActivity : AppCompatActivity() {
                 is OnboardingCommandResult.Failure -> {
                     showDialog(result.response.toString())
                 }
+
+                else -> {}
             }
         }
     }
@@ -160,6 +173,8 @@ class OnboardingCommandActivity : AppCompatActivity() {
             is OnboardingError.UnknownError -> {
                 showDialog(error.message)
             }
+
+            else -> {}
         }
     }
 
@@ -173,6 +188,8 @@ class OnboardingCommandActivity : AppCompatActivity() {
                 is OnboardingCommandResult.Failure -> {
                     handleOnboardingError(result.response)
                 }
+
+                else -> {}
             }
         }
         if (requestCode == REQUEST_CODE_ADD_DOCUMENT) {
@@ -186,6 +203,8 @@ class OnboardingCommandActivity : AppCompatActivity() {
                 is OnboardingCommandResult.Cancel  -> {
                     showDialog("User has cancelled the command")
                 }
+
+                else -> {}
             }
         }
         if (requestCode == REQUEST_CODE_AUTHENTICATE) {
@@ -196,6 +215,8 @@ class OnboardingCommandActivity : AppCompatActivity() {
                 is OnboardingCommandResult.Failure -> {
                     handleOnboardingError(result.response)
                 }
+
+                else -> {}
             }
         }
     }

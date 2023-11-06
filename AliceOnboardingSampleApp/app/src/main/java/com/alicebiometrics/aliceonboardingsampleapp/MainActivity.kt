@@ -9,7 +9,6 @@ import android.text.Editable
 import android.text.TextWatcher
 import android.util.Log
 import android.view.View
-import android.view.View.VISIBLE
 import android.widget.EditText
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
@@ -24,8 +23,8 @@ import com.alicebiometrics.onboarding.auth.Response
 import com.alicebiometrics.onboarding.auth.TrialAuthenticator
 import com.alicebiometrics.onboarding.config.OnboardingConfig
 import com.alicebiometrics.onboarding.sandbox.*
-
 import com.google.android.material.snackbar.Snackbar
+
 import org.json.JSONObject
 
 
@@ -246,21 +245,21 @@ class MainActivity : AppCompatActivity(), SharedPreferences.OnSharedPreferenceCh
         Onboarding.setEnvironment(environment)
     }
 
-    override fun onSharedPreferenceChanged(sharedPreferences: SharedPreferences, key: String) {
+    override fun onSharedPreferenceChanged(sharedPreferences: SharedPreferences?, key: String?) {
         when (key) {
-            "driver_license" -> requireDriverLicense = sharedPreferences.getBoolean(key, true)
-            "id_card" -> requireIDCard = sharedPreferences.getBoolean(key, true)
-            "residence_permit" -> requireResidencePermit = sharedPreferences.getBoolean(key, false)
-            "passport" -> requirePassport = sharedPreferences.getBoolean(key, true)
-            "select_custom_document" -> selectCountry = sharedPreferences.getBoolean(key, true)
+            "driver_license" -> requireDriverLicense = sharedPreferences!!.getBoolean(key, true)
+            "id_card" -> requireIDCard = sharedPreferences!!.getBoolean(key, true)
+            "residence_permit" -> requireResidencePermit = sharedPreferences!!.getBoolean(key, false)
+            "passport" -> requirePassport = sharedPreferences!!.getBoolean(key, true)
+            "select_custom_document" -> selectCountry = sharedPreferences!!.getBoolean(key, true)
             "production_trial_token" -> {
-                productionTrialToken = sharedPreferences.getString(key, "")!!
+                productionTrialToken = sharedPreferences!!.getString(key, "")!!
             }
             "sandbox_trial_token" -> {
-                sandboxTrialToken = sharedPreferences.getString(key, "")!!
+                sandboxTrialToken = sharedPreferences!!.getString(key, "")!!
             }
-            "selfie" -> requireSelfie = sharedPreferences.getBoolean(key, true)
-            "onboarding_commands" -> useOnboardingCommands = sharedPreferences.getBoolean(key, true)
+            "selfie" -> requireSelfie = sharedPreferences!!.getBoolean(key, true)
+            "onboarding_commands" -> useOnboardingCommands = sharedPreferences!!.getBoolean(key, true)
         }
     }
 
@@ -278,6 +277,7 @@ class MainActivity : AppCompatActivity(), SharedPreferences.OnSharedPreferenceCh
             AuthenticationError.SERVER_ERROR -> return getString(R.string.server_error)
             AuthenticationError.UNKNOWN_ERROR -> return getString(R.string.unknown_error)
             AuthenticationError.INVALID_MAIL -> return "Invalid mail"
+            else -> {}
         }
         return ""
     }

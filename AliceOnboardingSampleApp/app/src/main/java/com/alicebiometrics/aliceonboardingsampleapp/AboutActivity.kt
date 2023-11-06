@@ -4,11 +4,6 @@ import android.os.Bundle
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.alicebiometrics.onboarding.api.Onboarding
-import android.content.Intent
-import androidx.core.app.ComponentActivity.ExtraData
-import androidx.core.content.ContextCompat.getSystemService
-import android.icu.lang.UCharacter.GraphemeClusterBreak.T
-import android.view.View
 import androidx.appcompat.widget.Toolbar
 
 
@@ -23,7 +18,7 @@ class AboutActivity : AppCompatActivity() {
         frameworkVersionTextView = findViewById(R.id.tv_framework_version)
         appVersionTextView = findViewById(R.id.tv_app_version)
         frameworkVersionTextView.text = Onboarding.sdkVersion
-        appVersionTextView.text = BuildConfig.VERSION_NAME
+        //appVersionTextView.text = BuildConfig.VERSION_NAME
         setSupportActionBar(findViewById(R.id.about_toolbar))
         supportActionBar!!.setDisplayHomeAsUpEnabled(true)
         supportActionBar!!.setDisplayShowHomeEnabled(true)

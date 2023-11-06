@@ -42,11 +42,6 @@
             android:name=".OnboardingCommandActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ReportActivity"
-            android:configChanges="orientation|keyboardHidden"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
             android:name=".PermissionsManager"
             android:configChanges="orientation|keyboardHidden"
             android:screenOrientation="portrait"

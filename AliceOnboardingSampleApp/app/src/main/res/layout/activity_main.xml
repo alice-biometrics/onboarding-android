@@ -9,7 +9,6 @@
     android:backgroundTintMode="src_atop"
     tools:context=".MainActivity">
 
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="0dp"
