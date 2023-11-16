@@ -1,8 +1,13 @@
-# onboarding-android <img src="https://github.com/alice-biometrics/custom-emojis/blob/master/images/android.png" width="30"> [![Release](https://img.shields.io/github/v/release/alice-biometrics/onboarding-android)](https://github.com/alice-biometrics/onboarding-android/releases) [![doc](https://img.shields.io/badge/doc-onboarding-51CB56)](https://docs.alicebiometrics.com/onboarding/) [![doc-android](https://img.shields.io/badge/doc-android-51CB56)](https://docs.alicebiometrics.com/onboarding/sections/mobile_client_side_sdks/android/)
+![Header Graphic](https://github.com/alice-biometrics/custom-emojis/blob/master/images/alice_header.png)
 
+# Alice Onboarding Android SDK <img src="https://github.com/alice-biometrics/custom-emojis/blob/master/images/android.png" width="30"> 
 
-
-<img src="https://github.com/alice-biometrics/custom-emojis/blob/master/images/alice_header.png" width=auto>
+[![Version](https://img.shields.io/github/v/release/alice-biometrics/onboarding-android?style=flat)](#release-notes)
+[![API Doc](https://img.shields.io/github/v/release/alice-biometrics/onboarding-android?label=API%20doc&color=green&style=flat)](https://docs.alicebiometrics.com/onboarding/sections/mobile_client_side_sdks/android/)
+[![License](https://img.shields.io/badge/license-commercial-3D3D3D?style=flat)](#copyright)
+[![Platform](https://img.shields.io/badge/platform-Android-lightgrey?style=flat)](#general-requirements)
+[![API Level](https://img.shields.io/badge/API%20level-21+-orange?style=flat)](#general-requirements)
+![Maven](https://img.shields.io/maven-metadata/v?metadataUrl=https%3A%2F%2Feurope-west1-maven.pkg.dev%2Falice-cloud%2Fmaven%2Fcom%2Falicebiometrics%2Fonboarding%2FAliceOnboarding%2Fmaven-metadata.xml)
 
 This repository serves as an example of how to integrate Alice Onboarding Android SDK into an application
 
