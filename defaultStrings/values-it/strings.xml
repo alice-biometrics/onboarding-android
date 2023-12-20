@@ -42,8 +42,9 @@
 <string name="onboarding_error_subtitle_challenge_timeout">La sfida non è stata completata. Per favore, riprova</string>
 
 //Stages
-<string name="onboarding_stages_title">Vérification d\'identité</string>
-<string name="onboarding_stages_description">Per favore, completi i seguenti passaggi per una verifica riuscita</string>
+
+    <string name="onboarding_stages_title">Verifica dell&#232; identit&#224;</string>
+    <string name="onboarding_stages_description">Per favore, completi i seguenti passaggi per una verifica riuscita</string>
 <string name="onboarding_stages_selfie">Selfie</string>
 <string name="onboarding_stages_selfie_with_document">Selfie con documento</string>
 <string name="onboarding_stages_selfie_with_challenge">Selfie con sfida</string>
