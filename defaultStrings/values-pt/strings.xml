@@ -129,6 +129,8 @@
 <string name="onboarding_doc_capturer_qr_message">Não se preocupe, você pode continuar o processo no seu smartphone. Digitalize o QR!</string>
 <string name="onboarding_doc_capturer_qr_or_you_can">ou você pode</string>
 <string name="onboarding_doc_capturer_check_position">Certifique-se de exibir a página de informações do passaporte sem oclusões, reflexos ou sombras.</string>
+<string name="onboarding_doc_capturer_front_check_position">Certifique-se de exibir a página de informações do passaporte sem oclusões, reflexos ou sombras.</string>
+<string name="onboarding_doc_capturer_back_check_position">Certifique-se de exibir a página de informações do passaporte sem oclusões, reflexos ou sombras.</string>
 <string name="onboarding_doc_capturer_processing_stay_still">Capturando… Não mova o documento</string>
 <string name="onboarding_error_max_number_of_documents">Você excedeu o número máximo de tentativas</string>
 
@@ -161,16 +163,16 @@
 <string name="onboarding_selfie_capturer_adding_with_challenge">Adicionando selfie com desafio…</string>
 <string name="onboarding_selfie_capturer_adding_with_document">Adicionando selfie com documento…</string>
 <string name="onboarding_selfie_capturer_authenticating">Autenticando…</string>
-<string name="onboarding_selfie_capturer_move_farther">Por favor, afaste o dispositivo</string>
-<string name="onboarding_selfie_capturer_get_closer">Por favor, aproxime o dispositivo</string>
-<string name="onboarding_selfie_capturer_no_face">Faz não detetada.</string>
-<string name="onboarding_selfie_capturer_look_camera">Por favor, olhe a câmera</string>
-<string name="onboarding_selfie_capturer_center_face">Por favor, centre a súa faz no oval</string>
-<string name="onboarding_selfie_capturer_device_elevation">Por favor, aguante o dispositivo ao nível dos olhos</string>
+<string name="onboarding_selfie_capturer_move_farther">Afaste o dispositivo</string>
+<string name="onboarding_selfie_capturer_get_closer">Aproxime o dispositivo</string>
+<string name="onboarding_selfie_capturer_no_face">Faz não detetada</string>
+<string name="onboarding_selfie_capturer_look_camera">Olhe a câmera</string>
+<string name="onboarding_selfie_capturer_center_face">Centre a súa faz no oval</string>
+<string name="onboarding_selfie_capturer_device_elevation">Aguante o dispositivo ao nível dos olhos</string>
 <string name="onboarding_selfie_cancel">Cancelar</string>
-<string name="onboarding_selfie_capturer_wrong_yaw_angle">Por favor, centre a sua cara no indicador oval</string>
-<string name="onboarding_selfie_capturer_title_insufficient_faces">O processado facial não pudo ser completado</string>
-<string name="onboarding_selfie_capturer_subtitle_insufficient_faces">Certifique-se de permanecer imóvel, mantendo o rosto na forma oval e em boas condições de iluminação durante todo o processo</string>
+<string name="onboarding_selfie_capturer_wrong_yaw_angle">Centre a sua cara no indicador oval</string>
+<string name="onboarding_selfie_capturer_title_insufficient_faces">Faz não detetada</string>
+<string name="onboarding_selfie_capturer_subtitle_insufficient_faces">Certifique-se de manter seu rosto oval em boas condições de iluminação durante todo o processo</string>
 <string name="onboarding_selfie_capturer_face_detected_tooltip">Clique aqui para tirar uma foto!</string>
 <string name="onboarding_selfie_capturer_subtitle">Por favor, prossiga com a captura do selfie</string>
 <string name="onboarding_selfie_capturer_subtitle_review">Por favor, verifique se sua imagem está boa</string>
@@ -193,8 +195,6 @@
 <string name="onboarding_other_trusted_docs_upload_another_image">Anexar mais imagens</string>
 <string name="onboarding_other_trusted_docs_pdf_not_allowed">O último documento enviado foi uma imagem, continue enviando imagens</string>
 <string name="onboarding_other_trusted_docs_error">Problema com arquivo enviado</string>
-
-//Welcome
 
 //QR view
 <string name="onboarding_qr_button">Continuar neste dispositivo</string>

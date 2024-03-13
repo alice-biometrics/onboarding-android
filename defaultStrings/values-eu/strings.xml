@@ -129,6 +129,8 @@
 <string name="onboarding_doc_capturer_qr_message">Ez kezkatu, zure telefonoan prozesua jarraitu ahal izango duzu. QR eskaneatu dezakezu!</string>
 <string name="onboarding_doc_capturer_qr_or_you_can">edo bestela</string>
 <string name="onboarding_doc_capturer_check_position">Dokumentuan ezartzen kutxa</string>
+<string name="onboarding_doc_capturer_front_check_position">Dokumentuan ezartzen kutxa</string>
+<string name="onboarding_doc_capturer_back_check_position">Dokumentuan ezartzen kutxa</string>
 <string name="onboarding_doc_capturer_processing_stay_still">Harrapaketak … Ez dokumentua mugitu</string>
 <string name="onboarding_error_max_number_of_documents">Gehienezko saiakera kopurua gainditu duzu</string>
 
@@ -161,16 +163,16 @@
 <string name="onboarding_selfie_capturer_adding_with_challenge">Selfie erronkarekin gehitzen…</string>
 <string name="onboarding_selfie_capturer_adding_with_document">Selfie dokumentuarekin gehitzen…</string>
 <string name="onboarding_selfie_capturer_authenticating">Autentifikatzen …</string>
-<string name="onboarding_selfie_capturer_move_farther">Mesedez, kanpoan gailua</string>
-<string name="onboarding_selfie_capturer_get_closer">Mesedez, gailuak joan</string>
+<string name="onboarding_selfie_capturer_move_farther">Handitu gailuan</string>
+<string name="onboarding_selfie_capturer_get_closer">Hurbildu gailura</string>
 <string name="onboarding_selfie_capturer_no_face">Ez detektatu aurpegia</string>
-<string name="onboarding_selfie_capturer_look_camera">Mesedez begiratu kamera</string>
-<string name="onboarding_selfie_capturer_center_face">Mesedez dutelakoan zure aurpegia obalatua hasi</string>
-<string name="onboarding_selfie_capturer_device_elevation">Mesedez, jar begi mailan gailua</string>
+<string name="onboarding_selfie_capturer_look_camera">Begiratu kamerari</string>
+<string name="onboarding_selfie_capturer_center_face">Zentratu aurpegia obaloan</string>
+<string name="onboarding_selfie_capturer_device_elevation">Jarri gailua begien parean</string>
 <string name="onboarding_selfie_cancel">Utzi</string>
-<string name="onboarding_selfie_capturer_wrong_yaw_angle">Mesedez dutelakoan zure aurpegia obalatua hasi</string>
-<string name="onboarding_selfie_capturer_title_insufficient_faces">Ezin izan da aurpegiko informazioa kentzeko</string>
-<string name="onboarding_selfie_capturer_subtitle_insufficient_faces">Ziurtatu oraindik egoteko, prozesu osoan zehar zure aurpegia mantenduz obalo eta ona argiztapen baldintza</string>
+<string name="onboarding_selfie_capturer_wrong_yaw_angle">Zentratu aurpegia obaloan</string>
+<string name="onboarding_selfie_capturer_title_insufficient_faces">Ez detektatu aurpegia</string>
+<string name="onboarding_selfie_capturer_subtitle_insufficient_faces">Ziurtatu aurpegia obaloan mantentzea argi-baldintza onetan prozesu osoan zehar</string>
 <string name="onboarding_selfie_capturer_face_detected_tooltip">Egin klik hemen argazki bat hartu!</string>
 <string name="onboarding_selfie_capturer_subtitle">Mesedez, jarraitu harrapatzea batera</string>
 <string name="onboarding_selfie_capturer_subtitle_review">Mesedez begiratu argazkian ona dela</string>
@@ -193,8 +195,6 @@
 <string name="onboarding_other_trusted_docs_upload_another_image">Erantsi irudi gehiago</string>
 <string name="onboarding_other_trusted_docs_pdf_not_allowed">Kargatu den azken dokumentua irudi bat izan da, jarraitu irudiak igotzen</string>
 <string name="onboarding_other_trusted_docs_error">Arazoa kargatutako fitxategiarekin</string>
-
-//Welcome
 
 //QR view
 <string name="onboarding_qr_button">Jarraitu gailu honetan</string>

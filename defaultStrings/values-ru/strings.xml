@@ -129,6 +129,8 @@
 <string name="onboarding_doc_capturer_qr_message">Не волнуйтесь, вы можете продолжить процесс со своего смартфона. Сканируйте QR!</string>
 <string name="onboarding_doc_capturer_qr_or_you_can">или вы можете</string>
 <string name="onboarding_doc_capturer_check_position">Отрегулируйте документ по прямоугольнику</string>
+<string name="onboarding_doc_capturer_front_check_position">Отрегулируйте документ по прямоугольнику</string>
+<string name="onboarding_doc_capturer_back_check_position">Отрегулируйте документ по прямоугольнику</string>
 <string name="onboarding_doc_capturer_processing_stay_still">Захват… Не перемещайте документ</string>
 <string name="onboarding_error_max_number_of_documents">Вы превысили максимальное количество попыток</string>
 
@@ -161,16 +163,16 @@
 <string name="onboarding_selfie_capturer_adding_with_challenge">Добавление селфи с вызовом…</string>
 <string name="onboarding_selfie_capturer_adding_with_document">Добавление селфи с документом…</string>
 <string name="onboarding_selfie_capturer_authenticating">Осуществляем вход…</string>
-<string name="onboarding_selfie_capturer_move_farther">Пожалуйста, переместите ваше устройство дальше</string>
-<string name="onboarding_selfie_capturer_get_closer">Пожалуйста, подойдите ближе.</string>
-<string name="onboarding_selfie_capturer_no_face">Лица не обнаружено.</string>
-<string name="onboarding_selfie_capturer_look_camera">Пожалуйста, смотрите в камеру.</string>
-<string name="onboarding_selfie_capturer_center_face">Пожалуйста, отцентрируйте свое лицо в овале</string>
-<string name="onboarding_selfie_capturer_device_elevation">Пожалуйста, держите устройство на уровне глаз</string>
+<string name="onboarding_selfie_capturer_move_farther">Переместите свое устройство дальше</string>
+<string name="onboarding_selfie_capturer_get_closer">Подойти ближе</string>
+<string name="onboarding_selfie_capturer_no_face">Не обнаружено лица</string>
+<string name="onboarding_selfie_capturer_look_camera">Посмотрите на камеру</string>
+<string name="onboarding_selfie_capturer_center_face">Центра вашего лица в овале</string>
+<string name="onboarding_selfie_capturer_device_elevation">Держите устройство до уровня глаз</string>
 <string name="onboarding_selfie_cancel">Отмена</string>
-<string name="onboarding_selfie_capturer_wrong_yaw_angle">Пожалуйста, отцентрируйте свое лицо в овале</string>
-<string name="onboarding_selfie_capturer_title_insufficient_faces">Обработка лица не была завершена</string>
-<string name="onboarding_selfie_capturer_subtitle_insufficient_faces">Следите за тем, чтобы вы оставались неподвижными, держите лицо в овале и при хорошем освещении на протяжении всего процесса</string>
+<string name="onboarding_selfie_capturer_wrong_yaw_angle">Центра вашего лица в овале</string>
+<string name="onboarding_selfie_capturer_title_insufficient_faces">Не обнаружено лица</string>
+<string name="onboarding_selfie_capturer_subtitle_insufficient_faces">Обязательно держите лицо в овале при хорошем освещении на протяжении всего процесса</string>
 <string name="onboarding_selfie_capturer_face_detected_tooltip">Нажмите здесь, чтобы сделать фото!</string>
 <string name="onboarding_selfie_capturer_subtitle">Пожалуйста, продолжайте захват</string>
 <string name="onboarding_selfie_capturer_subtitle_review">Пожалуйста, убедитесь, что ваша фотография хорошая</string>
@@ -193,8 +195,6 @@
 <string name="onboarding_other_trusted_docs_upload_another_image">Прикрепите больше изображений</string>
 <string name="onboarding_other_trusted_docs_pdf_not_allowed">Последний загруженный документ был изображением, продолжайте загружать изображения</string>
 <string name="onboarding_other_trusted_docs_error">Проблема с загруженным файлом</string>
-
-//Welcome
 
 //QR view
 <string name="onboarding_qr_button">Продолжить на этом устройстве</string>

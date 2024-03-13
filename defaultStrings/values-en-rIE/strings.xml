@@ -129,6 +129,8 @@
 <string name="onboarding_doc_capturer_qr_message">Don\'t worry, you can continue the process from your smartphone. Scan the QR!</string>
 <string name="onboarding_doc_capturer_qr_or_you_can">or you can</string>
 <string name="onboarding_doc_capturer_check_position">Adjust document to rectangle</string>
+<string name="onboarding_doc_capturer_front_check_position">Adjust document to rectangle</string>
+<string name="onboarding_doc_capturer_back_check_position">Adjust document to rectangle</string>
 <string name="onboarding_doc_capturer_processing_stay_still">Capturing… Stay still</string>
 <string name="onboarding_error_max_number_of_documents">You have exceeded the maximum number of attempts</string>
 
@@ -161,16 +163,16 @@
 <string name="onboarding_selfie_capturer_adding_with_challenge">Adding selfie with challenge…</string>
 <string name="onboarding_selfie_capturer_adding_with_document">Adding selfie with document…</string>
 <string name="onboarding_selfie_capturer_authenticating">Authenticating…</string>
-<string name="onboarding_selfie_capturer_move_farther">Please, move your device farther.</string>
-<string name="onboarding_selfie_capturer_get_closer">Please, come closer.</string>
-<string name="onboarding_selfie_capturer_no_face">No face detected.</string>
-<string name="onboarding_selfie_capturer_look_camera">Please, look at the camera.</string>
-<string name="onboarding_selfie_capturer_center_face">Please, center your face in the oval</string>
-<string name="onboarding_selfie_capturer_device_elevation">Please, hold your device to eye level.</string>
+<string name="onboarding_selfie_capturer_move_farther">Move your device farther</string>
+<string name="onboarding_selfie_capturer_get_closer">Come closer</string>
+<string name="onboarding_selfie_capturer_no_face">No face detected</string>
+<string name="onboarding_selfie_capturer_look_camera">Look at the camera</string>
+<string name="onboarding_selfie_capturer_center_face">Center your face in the oval</string>
+<string name="onboarding_selfie_capturer_device_elevation">Hold your device to eye level</string>
 <string name="onboarding_selfie_cancel">Cancel</string>
-<string name="onboarding_selfie_capturer_wrong_yaw_angle">Please, center your face in the oval.</string>
-<string name="onboarding_selfie_capturer_title_insufficient_faces">Facial processing could not be completed</string>
-<string name="onboarding_selfie_capturer_subtitle_insufficient_faces">Make sure your remain still, keeping your face in the oval and in good lighting conditions during the whole process</string>
+<string name="onboarding_selfie_capturer_wrong_yaw_angle">Center your face in the oval</string>
+<string name="onboarding_selfie_capturer_title_insufficient_faces">No face detected</string>
+<string name="onboarding_selfie_capturer_subtitle_insufficient_faces">Make sure to keep your face in the oval in good lighting conditions throughout the process</string>
 <string name="onboarding_selfie_capturer_face_detected_tooltip">Click here to take a photo!</string>
 <string name="onboarding_selfie_capturer_subtitle">Please, proceed with the capture</string>
 <string name="onboarding_selfie_capturer_subtitle_review">Please, make sure that your picture is good</string>
@@ -193,8 +195,6 @@
 <string name="onboarding_other_trusted_docs_upload_another_image">Attach more images</string>
 <string name="onboarding_other_trusted_docs_pdf_not_allowed">The last uploaded document was an image, keep uploading images</string>
 <string name="onboarding_other_trusted_docs_error">Problem with uploaded file</string>
-
-//Welcome
 
 //QR view
 <string name="onboarding_qr_button">Continue on this device</string>

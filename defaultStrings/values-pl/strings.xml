@@ -93,7 +93,7 @@
 <string name="onboarding_doc_capturer_send_photo">Wyślij zdjęcie </string>
 <string name="onboarding_doc_capturer_manual">Wykonaj zdjęcie manualnie</string>
 <string name="onboarding_doc_capturer_retry">Spróbuj jeszcze raz</string>
-<string name="onboarding_doc_capturer_dismiss">Anuluj</string>
+<string name="onboarding_doc_capturer_dismiss">Anulować</string>
 <string name="onboarding_doc_capturer_add_sheet">Dodaj arkusz</string>
 <string name="onboarding_doc_capturer_send">Wysłać</string>
 <string name="onboarding_doc_capturer_info_text">Dopasuj %1$s %2$s z %3$s, aż zostanie automatycznie zeskanowana</string>
@@ -129,6 +129,8 @@
 <string name="onboarding_doc_capturer_qr_message">Nie martw się, możesz kontynuować proces ze swojego smartfona. Zeskanuj QR!</string>
 <string name="onboarding_doc_capturer_qr_or_you_can">lub możesz</string>
 <string name="onboarding_doc_capturer_check_position">Dopasuj dokument do prostokąta</string>
+<string name="onboarding_doc_capturer_front_check_position">Dopasuj dokument do prostokąta</string>
+<string name="onboarding_doc_capturer_back_check_position">Dopasuj dokument do prostokąta</string>
 <string name="onboarding_doc_capturer_processing_stay_still">Przechwytywanie… Nie przenoś dokumentu</string>
 <string name="onboarding_error_max_number_of_documents">Przekroczyłeś maksymalną liczbę prób</string>
 
@@ -161,16 +163,16 @@
 <string name="onboarding_selfie_capturer_adding_with_challenge">Dodaję selfie z wyzwaniem…</string>
 <string name="onboarding_selfie_capturer_adding_with_document">Dodaję selfie z dokumentem…</string>
 <string name="onboarding_selfie_capturer_authenticating">Uwierzytelnianie …</string>
-<string name="onboarding_selfie_capturer_move_farther">Oddal Twoje urzadzenie</string>
-<string name="onboarding_selfie_capturer_get_closer">Przybliż się</string>
-<string name="onboarding_selfie_capturer_no_face">Nie wykryto twarzy</string>
-<string name="onboarding_selfie_capturer_look_camera">Proszę patrzeć w kamerę</string>
-<string name="onboarding_selfie_capturer_center_face">Ustaw twarz tak, aby zmieściła się w okręgu</string>
-<string name="onboarding_selfie_capturer_device_elevation">Trzymaj urządzenie na wysokości oczu</string>
-<string name="onboarding_selfie_cancel">Anuluj</string>
-<string name="onboarding_selfie_capturer_wrong_yaw_angle">Ustaw twarz tak, aby zmieściła się w okręgu</string>
-<string name="onboarding_selfie_capturer_title_insufficient_faces">Nie można było ukończyć weryfikacji twarzy</string>
-<string name="onboarding_selfie_capturer_subtitle_insufficient_faces">Upewnij się, że pozostajesz nieruchomo, utrzymując twarz w owalu i w dobrych warunkach oświetleniowych podczas całego procesu</string>
+<string name="onboarding_selfie_capturer_move_farther">Przesuń swoje urządzenie dalej</string>
+<string name="onboarding_selfie_capturer_get_closer">Podejdź bliżej</string>
+<string name="onboarding_selfie_capturer_no_face">Brak wykrycia twarzy</string>
+<string name="onboarding_selfie_capturer_look_camera">Spójrz na aparat</string>
+<string name="onboarding_selfie_capturer_center_face">Wyśrodkuj twarz w owalnym</string>
+<string name="onboarding_selfie_capturer_device_elevation">Trzymaj urządzenie do poziomu oczu</string>
+<string name="onboarding_selfie_cancel">Anulować</string>
+<string name="onboarding_selfie_capturer_wrong_yaw_angle">Wyśrodkuj twarz w owalnym</string>
+<string name="onboarding_selfie_capturer_title_insufficient_faces">Brak wykrycia twarzy</string>
+<string name="onboarding_selfie_capturer_subtitle_insufficient_faces">Upewnij się, że twarz jest w owalu, w dobrych warunkach oświetleniowych przez cały czas trwania zabiegu</string>
 <string name="onboarding_selfie_capturer_face_detected_tooltip">Kliknij tutaj, aby zrobić zdjęcie!</string>
 <string name="onboarding_selfie_capturer_subtitle">Proszę kontynuować przechwytywanie</string>
 <string name="onboarding_selfie_capturer_subtitle_review">Upewnij się, że Twoje zdjęcie jest dobre</string>
@@ -193,8 +195,6 @@
 <string name="onboarding_other_trusted_docs_upload_another_image">Dołącz więcej zdjęć</string>
 <string name="onboarding_other_trusted_docs_pdf_not_allowed">Ostatnim przesłanym dokumentem był obraz, przesyłaj dalej obrazy</string>
 <string name="onboarding_other_trusted_docs_error">Problem z przesłanym plikiem</string>
-
-//Welcome
 
 //QR view
 <string name="onboarding_qr_button">Kontynuuj na tym urządzeniu</string>

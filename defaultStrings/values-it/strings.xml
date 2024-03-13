@@ -42,9 +42,8 @@
 <string name="onboarding_error_subtitle_challenge_timeout">La sfida non è stata completata. Per favore, riprova</string>
 
 //Stages
-
-    <string name="onboarding_stages_title">Verifica dell&#232; identit&#224;</string>
-    <string name="onboarding_stages_description">Per favore, completi i seguenti passaggi per una verifica riuscita</string>
+<string name="onboarding_stages_title">Verifica dell\'identità</string>
+<string name="onboarding_stages_description">Per favore, completi i seguenti passaggi per una verifica riuscita</string>
 <string name="onboarding_stages_selfie">Selfie</string>
 <string name="onboarding_stages_selfie_with_document">Selfie con documento</string>
 <string name="onboarding_stages_selfie_with_challenge">Selfie con sfida</string>
@@ -130,6 +129,8 @@
 <string name="onboarding_doc_capturer_qr_message">Non si preoccupi, puó continuare il processo dal suo smartphone. Scansioni il QR!</string>
 <string name="onboarding_doc_capturer_qr_or_you_can">o puó</string>
 <string name="onboarding_doc_capturer_check_position">Adattare il documento al rettangolo</string>
+<string name="onboarding_doc_capturer_front_check_position">Adattare il documento al rettangolo</string>
+<string name="onboarding_doc_capturer_back_check_position">Adattare il documento al rettangolo</string>
 <string name="onboarding_doc_capturer_processing_stay_still">Cattura… Non spostare il documento</string>
 <string name="onboarding_error_max_number_of_documents">Hai superato il numero massimo di tentativi</string>
 
@@ -162,16 +163,16 @@
 <string name="onboarding_selfie_capturer_adding_with_challenge">Aggiunta di selfie con sfida…</string>
 <string name="onboarding_selfie_capturer_adding_with_document">Aggiunta di selfie con documento…</string>
 <string name="onboarding_selfie_capturer_authenticating">Autenticazione…</string>
-<string name="onboarding_selfie_capturer_move_farther">Per favore, allontanare il dispositivo.</string>
-<string name="onboarding_selfie_capturer_get_closer">Per favore, avvicinarsi.</string>
-<string name="onboarding_selfie_capturer_no_face">Non è stato rilevato nessun viso</string>
-<string name="onboarding_selfie_capturer_look_camera">Per favore, guardare nella fotocamera.</string>
-<string name="onboarding_selfie_capturer_center_face">Per favore, centrare il viso nell\'ovale.</string>
-<string name="onboarding_selfie_capturer_device_elevation">Per favore, tenere il telefono all\' altezza degli occhi.</string>
+<string name="onboarding_selfie_capturer_move_farther">Ingrandisci il dispositivo</string>
+<string name="onboarding_selfie_capturer_get_closer">Avvicinati al dispositivo</string>
+<string name="onboarding_selfie_capturer_no_face">Viso non rilevato</string>
+<string name="onboarding_selfie_capturer_look_camera">Guarda la telecamera</string>
+<string name="onboarding_selfie_capturer_center_face">Centrare il viso sull\'ovale</string>
+<string name="onboarding_selfie_capturer_device_elevation">Tenere il telefono all\' altezza degli occhi.</string>
 <string name="onboarding_selfie_cancel">Cancella</string>
-<string name="onboarding_selfie_capturer_wrong_yaw_angle">Per favore, centrare il viso nell\'ovale.</string>
-<string name="onboarding_selfie_capturer_title_insufficient_faces">Il processo facciale non si è potuto completare.</string>
-<string name="onboarding_selfie_capturer_subtitle_insufficient_faces">Assicurarsi di rimanere fermo, mantenendo il viso nell\'ovale e in buone condizioni di illuminazione durante l\'intero processo</string>
+<string name="onboarding_selfie_capturer_wrong_yaw_angle">Centrare il viso sull\'ovale</string>
+<string name="onboarding_selfie_capturer_title_insufficient_faces">Viso non rilevato</string>
+<string name="onboarding_selfie_capturer_subtitle_insufficient_faces">Assicurati di mantenere il viso nell\'ovale in buone condizioni di illuminazione durante tutto il processo</string>
 <string name="onboarding_selfie_capturer_face_detected_tooltip">Cliccare qui per scattare una foto!</string>
 <string name="onboarding_selfie_capturer_subtitle">Per favore, procedere con la cattura</string>
 <string name="onboarding_selfie_capturer_subtitle_review">Per favore, assicurarsi che la foto sia buona</string>
@@ -194,8 +195,6 @@
 <string name="onboarding_other_trusted_docs_upload_another_image">Allega altre immagini</string>
 <string name="onboarding_other_trusted_docs_pdf_not_allowed">L\'ultimo documento caricato era un\'immagine, continua a caricare immagini</string>
 <string name="onboarding_other_trusted_docs_error">Problema con il file caricato</string>
-
-//Welcome
 
 //QR view
 <string name="onboarding_qr_button">Continua su questo dispositivo</string>
