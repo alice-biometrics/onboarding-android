@@ -18,17 +18,18 @@
 <string name="onboarding_error_config">Lütfen kimlik doğrulama ayarlarınızı gözden geçirin. En azından bir kimlik doğrulama adımı seçilmiş olmalıdır.</string>
 <string name="onboarding_error_loading_resources">Bağlantı hızı yavaş, lütfen tekrar deneyin.</string>
 <string name="onboarding_error_title_technical">Bir hata oluştu</string>
-<string name="onboarding_error_subtitle_technical">Lütfen tekrar deneyin.</string>
+<string name="onboarding_error_subtitle_technical">Lütfen tekrar deneyin</string>
 <string name="onboarding_error_title_connection">Bağlantı hatası</string>
 <string name="onboarding_error_subtitle_connection">Lütfen internet bağlantınızı kontrol edin.</string>
 <string name="onboarding_error_storage_is_full_title">Disk alanı eksik</string>
 <string name="onboarding_error_storage_is_full_subtitle">Lütfen devam etmek için bazı dosyaları silin.</string>
 <string name="onboarding_error_title_camera">Kamera hatası.</string>
-<string name="onboarding_error_subtitle_camera">Lütfen tekrar deneyin.</string>
-<string name="onboarding_error_title_selfie">Selfi gönderilemedi.</string>
-<string name="onboarding_error_subtitle_selfie">Lütfen tekrar deneyin.</string>
+<string name="onboarding_error_subtitle_camera">Lütfen tekrar deneyin</string>
+<string name="onboarding_error_title_selfie">Selfie gönderme hatası</string>
+<string name="onboarding_error_subtitle_selfie">Lütfen tekrar deneyin</string>
+<string name="onboarding_error_subtitle_active_selfie_already_exists">Zaten aktif bir selfie var</string>
 <string name="onboarding_error_title_authentication">Kimlik doğrulaması hatası.</string>
-<string name="onboarding_error_subtitle_authentication">Lütfen tekrar deneyin.</string>
+<string name="onboarding_error_subtitle_authentication">Lütfen tekrar deneyin</string>
 <string name="onboarding_error_subtitle_camera_not_available">Lütfen bir kamera olup olmadığını ve ona erişim izni verdiğinizi kontrol edin.</string>
 <string name="onboarding_browser_no_compatible">Bu işlev bu tarayıcıda mevcut değil, lütfen Safari\'yi deneyin</string>
 <string name="onboarding_error_user_not_found">Kullanıcı bulunamadı</string>
@@ -149,7 +150,7 @@
 <string name="onboarding_nfc_doc_capturer_error_connection_title">Bağlantı hatası</string>
 <string name="onboarding_nfc_doc_capturer_error_connection_subtitle">Okuma işlemi sırasında belgenizi hareket ettirmeyin</string>
 <string name="onboarding_nfc_doc_capturer_error_generic_title">Belgenizi okumada soru</string>
-<string name="onboarding_nfc_doc_capturer_error_generic_subtitle">Lütfen tekrar deneyin.</string>
+<string name="onboarding_nfc_doc_capturer_error_generic_subtitle">Lütfen tekrar deneyin</string>
 <string name="onboarding_nfc_doc_capturer_error_unsupported_doc_title">Desteksiz belge</string>
 <string name="onboarding_nfc_doc_capturer_error_unsupported_doc_subtitle">Üzgünüz, şu anda belgenizi desteklemiyoruz</string>
 <string name="onboarding_nfc_doc_capturer_error_wrong_doc_title">Yanlış belge</string>
@@ -179,6 +180,18 @@
 <string name="onboarding_selfie_with_document_capturer_center_face">Lütfen yüzünüzü ovalin üzerine ve belgeyi dikdörtgenin üzerine ortalayın</string>
 <string name="onboarding_selfie_capturer_button_tutorial">Tamam anladım!</string>
 <string name="onboarding_selfie_capturer_subtitle_tutorial">Şimdi bir selfie çekmelisin. Bu talimatları izleyin</string>
+<string name="onboarding_selfie_capturer_challenge_document_info">Kimlik kartınızın ön tarafını dikdörtgene sığdırın</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_too_far">Çok uzak</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_too_close">Çok yakın</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_wrong_position">Yanlış pozisyon</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_unnatural_color">Doğal olmayan renk</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_unnatural_color_description">Yüzünüzde renkli aydınlatmadan kaçının</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_underexposed">Düşük parlaklık</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_underexposed_description">Yüzünüzdeki aydınlatmanın makul ve tekdüze olduğundan emin olun</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_overexposed">Çok parlak</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_overexposed_description">Yüzünüzdeki aydınlatmanın makul ve eşit olduğundan, parlamadan emin olun</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_blurry">Bulanık</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_blurry_description">Yüzünüzün keskin göründüğünden emin olun ve kameranın üzerine kir veya koruyucu madde bulaşmasını önleyin</string>
 
 //OTD capturer
 <string name="onboarding_other_trusted_docs_subtitle">Lütfen bir PDF dosyası veya resim seçin</string>

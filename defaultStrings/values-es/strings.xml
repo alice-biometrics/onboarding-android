@@ -18,17 +18,18 @@
 <string name="onboarding_error_config">Por favor, revise su OnboardingConfig. Debe de tener seleccionada por lo menos una Onboarding Stage.</string>
 <string name="onboarding_error_loading_resources">Conexión lenta, inténtelo de nuevo más tarde</string>
 <string name="onboarding_error_title_technical">Ha ocurrido un error</string>
-<string name="onboarding_error_subtitle_technical">Por favor, inténtelo de nuevo.</string>
+<string name="onboarding_error_subtitle_technical">Por favor, inténtelo de nuevo</string>
 <string name="onboarding_error_title_connection">Error de conexión</string>
 <string name="onboarding_error_subtitle_connection">Compruebe su conexión a Internet</string>
 <string name="onboarding_error_storage_is_full_title">Error por falta de espacio</string>
 <string name="onboarding_error_storage_is_full_subtitle">Por favor, elimine algún archivo para poder continuar.</string>
 <string name="onboarding_error_title_camera">Error al grabar el video</string>
-<string name="onboarding_error_subtitle_camera">Por favor, inténtelo de nuevo.</string>
-<string name="onboarding_error_title_selfie">No se ha podido completar el envío del selfie.</string>
-<string name="onboarding_error_subtitle_selfie">Por favor, inténtelo de nuevo.</string>
+<string name="onboarding_error_subtitle_camera">Por favor, inténtelo de nuevo</string>
+<string name="onboarding_error_title_selfie">Error enviando el selfie</string>
+<string name="onboarding_error_subtitle_selfie">Por favor, inténtelo de nuevo</string>
+<string name="onboarding_error_subtitle_active_selfie_already_exists">Ya tiene un selfie activo</string>
 <string name="onboarding_error_title_authentication">Error de autenticación.</string>
-<string name="onboarding_error_subtitle_authentication">Por favor, inténtelo de nuevo.</string>
+<string name="onboarding_error_subtitle_authentication">Por favor, inténtelo de nuevo</string>
 <string name="onboarding_error_subtitle_camera_not_available">Por favor, compruebe que tiene una cámara conectada y que ha dado permisos de acceso</string>
 <string name="onboarding_browser_no_compatible">Esta funcionalidad no está disponible en este navegador, por favor pruebe en Safari</string>
 <string name="onboarding_error_user_not_found">Usuario no encontrado</string>
@@ -149,7 +150,7 @@
 <string name="onboarding_nfc_doc_capturer_error_connection_title">Error de conexión</string>
 <string name="onboarding_nfc_doc_capturer_error_connection_subtitle">No mueva su documento durante el proceso de lectura</string>
 <string name="onboarding_nfc_doc_capturer_error_generic_title">Problema al leer su documento</string>
-<string name="onboarding_nfc_doc_capturer_error_generic_subtitle">Por favor, inténtelo de nuevo.</string>
+<string name="onboarding_nfc_doc_capturer_error_generic_subtitle">Por favor, inténtelo de nuevo</string>
 <string name="onboarding_nfc_doc_capturer_error_unsupported_doc_title">Documento incompatible</string>
 <string name="onboarding_nfc_doc_capturer_error_unsupported_doc_subtitle">Lo sentimos, de momento no soportamos su documento</string>
 <string name="onboarding_nfc_doc_capturer_error_wrong_doc_title">Documento incorrecto</string>
@@ -179,6 +180,18 @@
 <string name="onboarding_selfie_with_document_capturer_center_face">Por favor, centra tu cara en el óvalo y el documento en el rectángulo</string>
 <string name="onboarding_selfie_capturer_button_tutorial">Vale, ¡entendido!</string>
 <string name="onboarding_selfie_capturer_subtitle_tutorial">Ahora tienes que hacerte un selfie. Sigue estas instrucciones</string>
+<string name="onboarding_selfie_capturer_challenge_document_info">Coloque la parte frontal de su carnet de identidad en el rectángulo</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_too_far">Demasiado lejos</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_too_close">Demasiado cerca</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_wrong_position">Posición incorrecta</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_unnatural_color">Color antinatural</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_unnatural_color_description">Evite iluminaciones de colores sobre su rostro</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_underexposed">Baja iluminación</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_underexposed_description">Asegúrese de que la iluminación de su cara sea razonable y uniforme</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_overexposed">Sobreiluminación</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_overexposed_description">Asegúrese de que la iluminación de su cara sea razonable y uniforme, sin brillos</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_blurry">Falta de nitidez</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_blurry_description">Asegúrese de que su cara se ve nítida y evite suciedad o protectores sobre la cámara</string>
 
 //OTD capturer
 <string name="onboarding_other_trusted_docs_subtitle">Por favor, elija un PDF o una imagen</string>

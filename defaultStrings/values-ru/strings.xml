@@ -18,17 +18,18 @@
 <string name="onboarding_error_config">Пожалуйста, просмотрите ваш OnboardingConfig. Вы должны выбрать хотя бы один Onboarding Stage.</string>
 <string name="onboarding_error_loading_resources">Медленное соединение, попробуйте позже</string>
 <string name="onboarding_error_title_technical">Произошла ошибка</string>
-<string name="onboarding_error_subtitle_technical">Пожалуйста, попробуйте еще раз.</string>
+<string name="onboarding_error_subtitle_technical">Пожалуйста, попробуйте еще раз</string>
 <string name="onboarding_error_title_connection">Ошибка подключения</string>
 <string name="onboarding_error_subtitle_connection">Пожалуйста, проверьте свое подключение к интернету.</string>
 <string name="onboarding_error_storage_is_full_title">Недостающее место на диске</string>
 <string name="onboarding_error_storage_is_full_subtitle">Пожалуйста, удалите некоторые файлы, чтобы продолжить.</string>
 <string name="onboarding_error_title_camera">Ошибка камеры</string>
-<string name="onboarding_error_subtitle_camera">Пожалуйста, попробуйте еще раз.</string>
-<string name="onboarding_error_title_selfie">Селф не может быть отправлен</string>
-<string name="onboarding_error_subtitle_selfie">Пожалуйста, попробуйте еще раз.</string>
+<string name="onboarding_error_subtitle_camera">Пожалуйста, попробуйте еще раз</string>
+<string name="onboarding_error_title_selfie">Ошибка отправки селфи</string>
+<string name="onboarding_error_subtitle_selfie">Пожалуйста, попробуйте еще раз</string>
+<string name="onboarding_error_subtitle_active_selfie_already_exists">У вас уже есть активная селфи</string>
 <string name="onboarding_error_title_authentication">Ошибка аутентификации</string>
-<string name="onboarding_error_subtitle_authentication">Пожалуйста, попробуйте еще раз.</string>
+<string name="onboarding_error_subtitle_authentication">Пожалуйста, попробуйте еще раз</string>
 <string name="onboarding_error_subtitle_camera_not_available">Пожалуйста, убедитесь, что камера доступна и что вы дали разрешение на доступ к ней.</string>
 <string name="onboarding_browser_no_compatible">Эта функция недоступна в этом браузере, попробуйте Safari</string>
 <string name="onboarding_error_user_not_found">Пользователь не найден</string>
@@ -149,7 +150,7 @@
 <string name="onboarding_nfc_doc_capturer_error_connection_title">Ошибка подключения</string>
 <string name="onboarding_nfc_doc_capturer_error_connection_subtitle">Не перемещайте документ во время чтения</string>
 <string name="onboarding_nfc_doc_capturer_error_generic_title">Проблема с чтением вашего документа</string>
-<string name="onboarding_nfc_doc_capturer_error_generic_subtitle">Пожалуйста, попробуйте еще раз.</string>
+<string name="onboarding_nfc_doc_capturer_error_generic_subtitle">Пожалуйста, попробуйте еще раз</string>
 <string name="onboarding_nfc_doc_capturer_error_unsupported_doc_title">Неподдерживаемый документ</string>
 <string name="onboarding_nfc_doc_capturer_error_unsupported_doc_subtitle">Извините, в настоящий момент мы не поддерживаем ваш документ</string>
 <string name="onboarding_nfc_doc_capturer_error_wrong_doc_title">Неверный документ</string>
@@ -179,6 +180,18 @@
 <string name="onboarding_selfie_with_document_capturer_center_face">Пожалуйста, отцентрируйте лицо на овале, а документ на прямоугольнике</string>
 <string name="onboarding_selfie_capturer_button_tutorial">Хорошо понял!</string>
 <string name="onboarding_selfie_capturer_subtitle_tutorial">Теперь вам нужно сделать селфи. Следуйте этим инструкциям</string>
+<string name="onboarding_selfie_capturer_challenge_document_info">Поместите лицевую сторону удостоверения личности в прямоугольник</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_too_far">Очень далеко</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_too_close">Слишком близко</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_wrong_position">Неправильная позиция</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_unnatural_color">Неестественный цвет</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_unnatural_color_description">Избегайте цветного освещения на лице</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_underexposed">Низкая яркость</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_underexposed_description">Убедитесь, что освещение вашего лица разумное и равномерное.</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_overexposed">Слишком яркий</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_overexposed_description">Убедитесь, что освещение вашего лица разумное и равномерное, без бликов.</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_blurry">Размытый</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_blurry_description">Убедитесь, что ваше лицо выглядит резким, и избегайте попадания грязи или защитных средств на камеру.</string>
 
 //OTD capturer
 <string name="onboarding_other_trusted_docs_subtitle">Пожалуйста, выберите файл PDF или изображение</string>

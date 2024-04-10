@@ -25,8 +25,9 @@
 <string name="onboarding_error_storage_is_full_subtitle">Usuń niektóre pliki, aby kontynuować.</string>
 <string name="onboarding_error_title_camera">Błąd aparatu</string>
 <string name="onboarding_error_subtitle_camera">Spróbuj ponownie</string>
-<string name="onboarding_error_title_selfie">Nie można wysłać selfie</string>
+<string name="onboarding_error_title_selfie">Błąd wysyłania selfie</string>
 <string name="onboarding_error_subtitle_selfie">Spróbuj ponownie</string>
+<string name="onboarding_error_subtitle_active_selfie_already_exists">Masz już aktywne selfie</string>
 <string name="onboarding_error_title_authentication">Błąd uwierzytelniania</string>
 <string name="onboarding_error_subtitle_authentication">Spróbuj ponownie</string>
 <string name="onboarding_error_subtitle_camera_not_available">Sprawdź, czy kamera jest dostępna i czy wyraziłeś zgodę na dostęp do niej</string>
@@ -179,6 +180,18 @@
 <string name="onboarding_selfie_with_document_capturer_center_face">Proszę wyśrodkować twarz na owalu, a dokument na prostokącie</string>
 <string name="onboarding_selfie_capturer_button_tutorial">Ok, rozumiem!</string>
 <string name="onboarding_selfie_capturer_subtitle_tutorial">Teraz musisz zrobić selfie. Postępuj zgodnie z tymi instrukcjami</string>
+<string name="onboarding_selfie_capturer_challenge_document_info">Dopasuj przednią stronę swojego dowodu osobistego do prostokąta</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_too_far">Za daleko</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_too_close">Zbyt blisko</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_wrong_position">Zła pozycja</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_unnatural_color">Nienaturalny kolor</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_unnatural_color_description">Unikaj kolorowego oświetlenia twarzy</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_underexposed">Niska jasność</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_underexposed_description">Upewnij się, że oświetlenie twarzy jest rozsądne i jednolite</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_overexposed">Za jasno</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_overexposed_description">Upewnij się, że oświetlenie twarzy jest rozsądne i równomierne, bez odblasków</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_blurry">Zamazany</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_blurry_description">Upewnij się, że Twoja twarz wygląda ostro i unikaj zabrudzeń lub ochraniaczy na aparacie</string>
 
 //OTD capturer
 <string name="onboarding_other_trusted_docs_subtitle">Proszę wybrać plik PDF lub zdjęcie</string>

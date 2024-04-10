@@ -18,15 +18,16 @@
 <string name="onboarding_error_config">Mesedez, egiaztatu zure OnboardingConfig. Onboarding Etapa bat hautatu behar duzu gutxienez.</string>
 <string name="onboarding_error_loading_resources">Konexio motela, saiatu berriro geroago</string>
 <string name="onboarding_error_title_technical">Akats batzuk gertatu dira</string>
-<string name="onboarding_error_subtitle_technical">Saiatu berriro mesedez.</string>
+<string name="onboarding_error_subtitle_technical">Saiatu berriro mesedez</string>
 <string name="onboarding_error_title_connection">Konexioaren errorea</string>
 <string name="onboarding_error_subtitle_connection">Egiaztatu Interneteko konexioa</string>
 <string name="onboarding_error_storage_is_full_title">Akatsa espazio faltagatik</string>
 <string name="onboarding_error_storage_is_full_subtitle">Jarraitzeko, ezabatu fitxategi bat.</string>
 <string name="onboarding_error_title_camera">Bideoak grabatzeak huts egin du</string>
 <string name="onboarding_error_subtitle_camera">Saiatu berriro mesedez.</string>
-<string name="onboarding_error_title_selfie">Ezin izan da selfie-lana bidali.</string>
+<string name="onboarding_error_title_selfie">Errorea errorea bidaltzean</string>
 <string name="onboarding_error_subtitle_selfie">Saiatu berriro mesedez.</string>
+<string name="onboarding_error_subtitle_active_selfie_already_exists">Selfie aktiboa duzu dagoeneko</string>
 <string name="onboarding_error_title_authentication">Autentifikazio-errorea.</string>
 <string name="onboarding_error_subtitle_authentication">Saiatu berriro mesedez.</string>
 <string name="onboarding_error_subtitle_camera_not_available">Mesedez, egiaztatu kamera bat konektatuta duzula eta sarbide-baimenak eman dituzula</string>
@@ -76,7 +77,7 @@
 
 //Country selector
 <string name="onboarding_country_selector_subtitle_issuing_country">Aukeratu igorlearen herrialdea</string>
-<string name="onboarding_country_selector_other">Beste</string>
+<string name="onboarding_country_selector_other">Bestela</string>
 <string name="onboarding_country_selector_not_selected">Mesedez, aukeratu alea herrialdean</string>
 <string name="onboarding_country_selector_start">Hasi</string>
 <string name="onboarding_country_selector_cancel">Utzi</string>
@@ -179,6 +180,18 @@
 <string name="onboarding_selfie_with_document_capturer_center_face">Mesedez, jarri aurpegia obaloan eta dokumentua laukizuzenean</string>
 <string name="onboarding_selfie_capturer_button_tutorial">Ados, lortu!</string>
 <string name="onboarding_selfie_capturer_subtitle_tutorial">Orain selfie bat egin behar duzu. Jarraitu argibide hauek</string>
+<string name="onboarding_selfie_capturer_challenge_document_info">Jarri zure NANaren aurrealdea laukizuzenean</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_too_far">Urrunegi</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_too_close">Hurbilegi</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_wrong_position">Posizio okerra</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_unnatural_color">Kolore ez naturala</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_unnatural_color_description">Saihestu aurpegian koloretako argiztapena</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_underexposed">Argiztapen baxua</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_underexposed_description">Ziurtatu aurpegiko argiztapena arrazoizkoa eta uniformea ​​dela</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_overexposed">Gehiegizko argiztapena</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_overexposed_description">Ziurtatu zure aurpegiko argiztapena arrazoizkoa eta berdina dela, distirarik gabe</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_blurry">Zorroztasun falta</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_blurry_description">Ziurtatu aurpegia zorrotza dela eta saihestu kameran zikinkeriarik edo babeslerik ez sartzea</string>
 
 //OTD capturer
 <string name="onboarding_other_trusted_docs_subtitle">Mesedez, aukeratu PDF fitxategi bat edo argazki bat</string>

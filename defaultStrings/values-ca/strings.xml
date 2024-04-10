@@ -18,17 +18,18 @@
 <string name="onboarding_error_config">Si us plau, revisi el seu OnboardingConfig. Deu tenir seleccionada com a mínim un OnboardingStage.</string>
 <string name="onboarding_error_loading_resources">Connexió lenta-ho a provar més tard</string>
 <string name="onboarding_error_title_technical">Hi ha hagut algun error</string>
-<string name="onboarding_error_subtitle_technical">Intenta-ho de nou.</string>
+<string name="onboarding_error_subtitle_technical">Intenta-ho de nou</string>
 <string name="onboarding_error_title_connection">Error de connexió</string>
 <string name="onboarding_error_subtitle_connection">Comprova la teva connexió a Internet</string>
 <string name="onboarding_error_storage_is_full_title">Error per falta d\'espai</string>
 <string name="onboarding_error_storage_is_full_subtitle">Si us plau, elimina algun arxiu per poder continuar.</string>
 <string name="onboarding_error_title_camera">Error a l\'gravar el vídeo</string>
-<string name="onboarding_error_subtitle_camera">Intenta-ho de nou.</string>
-<string name="onboarding_error_title_selfie">No s\'ha pogut completar l\'enviament de l\'selfie.</string>
-<string name="onboarding_error_subtitle_selfie">Intenta-ho de nou.</string>
+<string name="onboarding_error_subtitle_camera">Intenta-ho de nou</string>
+<string name="onboarding_error_title_selfie">Error enviant selfie</string>
+<string name="onboarding_error_subtitle_selfie">Intenta-ho de nou</string>
+<string name="onboarding_error_subtitle_active_selfie_already_exists">Ja teniu un selfie actiu</string>
 <string name="onboarding_error_title_authentication">Error d\'autenticació.</string>
-<string name="onboarding_error_subtitle_authentication">Intenta-ho de nou.</string>
+<string name="onboarding_error_subtitle_authentication">Intenta-ho de nou</string>
 <string name="onboarding_error_subtitle_camera_not_available">Si us plau, comproveu que teniu una càmera connectada i que heu donat permisos d\'accés</string>
 <string name="onboarding_browser_no_compatible">Aquesta funcionalitat no és compatible amb el navegad por utilitzat. Proveu amb Safari</string>
 <string name="onboarding_error_user_not_found">Usuari no trobat</string>
@@ -149,7 +150,7 @@
 <string name="onboarding_nfc_doc_capturer_error_connection_title">Error de connexió</string>
 <string name="onboarding_nfc_doc_capturer_error_connection_subtitle">No moguis el teu document durant el procés de lectura</string>
 <string name="onboarding_nfc_doc_capturer_error_generic_title">Problema a l\'llegir el teu document</string>
-<string name="onboarding_nfc_doc_capturer_error_generic_subtitle">Intenta-ho de nou.</string>
+<string name="onboarding_nfc_doc_capturer_error_generic_subtitle">Intenta-ho de nou</string>
 <string name="onboarding_nfc_doc_capturer_error_unsupported_doc_title">Document incompatible</string>
 <string name="onboarding_nfc_doc_capturer_error_unsupported_doc_subtitle">Ho sentim, de moment no suportem el teu document</string>
 <string name="onboarding_nfc_doc_capturer_error_wrong_doc_title">Document incorrecte</string>
@@ -179,6 +180,18 @@
 <string name="onboarding_selfie_with_document_capturer_center_face">Si us plau, centreu la vostra cara a l\'oval i el document al rectangle</string>
 <string name="onboarding_selfie_capturer_button_tutorial">D\'acord ho tinc!</string>
 <string name="onboarding_selfie_capturer_subtitle_tutorial">Ara t\'has de fer una selfie. Seguiu aquestes instruccions</string>
+<string name="onboarding_selfie_capturer_challenge_document_info">Col·loca la part frontal de la teva targeta d\'identificació al rectangle</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_too_far">Massa lluny</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_too_close">Massa a prop</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_wrong_position">Posició incorrecta</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_unnatural_color">Color antinatural</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_unnatural_color_description">Eviteu il·luminacions de colors sobre la cara</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_underexposed">Baixa il·luminació</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_underexposed_description">Assegureu-vos que la il·luminació de la cara sigui raonable i uniforme</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_overexposed">Sobreil·luminació</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_overexposed_description">Assegureu-vos que la il·luminació de la cara sigui raonable i uniforme, sense brillantors</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_blurry">Manca de nitidesa</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_blurry_description">Assegureu-vos que la cara es veu nítida i eviti brutícia o protectors sobre la càmera</string>
 
 //OTD capturer
 <string name="onboarding_other_trusted_docs_subtitle">Si us plau, trieu un fitxer PDF o una imatge</string>

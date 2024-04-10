@@ -25,8 +25,9 @@
 <string name="onboarding_error_storage_is_full_subtitle">Veuillez supprimer certains fichiers pour continuer.</string>
 <string name="onboarding_error_title_camera">Erreur de caméra</string>
 <string name="onboarding_error_subtitle_camera">Réessayez, SVP</string>
-<string name="onboarding_error_title_selfie">Le selfie n\'a pas pu être envoyé </string>
+<string name="onboarding_error_title_selfie">Erreur envoyant des selfies</string>
 <string name="onboarding_error_subtitle_selfie">Réessayez, SVP</string>
+<string name="onboarding_error_subtitle_active_selfie_already_exists">Vous avez déjà un selfie actif</string>
 <string name="onboarding_error_title_authentication">Erreur d’authentification</string>
 <string name="onboarding_error_subtitle_authentication">Réessayez, SVP</string>
 <string name="onboarding_error_subtitle_camera_not_available">Veuillez vérifier que vous avez une caméra connectée et que vous avez donné les autorisations d\'accès</string>
@@ -179,6 +180,18 @@
 <string name="onboarding_selfie_with_document_capturer_center_face">S\'il vous plaît, centrez votre visage sur l\'ovale et le document sur le rectangle</string>
 <string name="onboarding_selfie_capturer_button_tutorial">D\'accord, j\'ai compris !</string>
 <string name="onboarding_selfie_capturer_subtitle_tutorial">Maintenant, vous devez prendre un selfie. Suivez ces instructions</string>
+<string name="onboarding_selfie_capturer_challenge_document_info">Placez le recto de votre carte d\'identité dans le rectangle</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_too_far">Trop loin</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_too_close">Trop près</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_wrong_position">Mauvaise position</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_unnatural_color">Couleur non naturelle</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_unnatural_color_description">Évitez l’éclairage coloré sur votre visage</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_underexposed">Faible éclairage</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_underexposed_description">Assurez-vous que l\'éclairage sur votre visage est raisonnable et uniforme</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_overexposed">Trop lumineux</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_overexposed_description">Trop lumineux</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_blurry">Manque de netteté</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_blurry_description">Assurez-vous que votre visage soit net et évitez de mettre de la saleté ou des protecteurs sur l\'appareil photo.</string>
 
 //OTD capturer
 <string name="onboarding_other_trusted_docs_subtitle">Veuillez choisir un fichier PDF ou une image</string>
