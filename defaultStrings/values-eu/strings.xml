@@ -164,6 +164,7 @@
 <string name="onboarding_selfie_capturer_adding_with_challenge">Selfie erronkarekin gehitzen…</string>
 <string name="onboarding_selfie_capturer_adding_with_document">Selfie dokumentuarekin gehitzen…</string>
 <string name="onboarding_selfie_capturer_authenticating">Autentifikatzen …</string>
+<string name="onboarding_selfie_capturer_stay_still">Egon geldi</string>
 <string name="onboarding_selfie_capturer_move_farther">Handitu gailuan</string>
 <string name="onboarding_selfie_capturer_get_closer">Hurbildu gailura</string>
 <string name="onboarding_selfie_capturer_no_face">Ez detektatu aurpegia</string>
@@ -187,7 +188,7 @@
 <string name="onboarding_selfie_capturer_iqa_feedback_unnatural_color">Kolore ez naturala</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_unnatural_color_description">Saihestu aurpegian koloretako argiztapena</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_underexposed">Argiztapen baxua</string>
-<string name="onboarding_selfie_capturer_iqa_feedback_underexposed_description">Ziurtatu aurpegiko argiztapena arrazoizkoa eta uniformea ​​dela</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_underexposed_description">Ziurtatu zure aurpegiko argiztapena arrazoizkoa eta berdina dela</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_overexposed">Gehiegizko argiztapena</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_overexposed_description">Ziurtatu zure aurpegiko argiztapena arrazoizkoa eta berdina dela, distirarik gabe</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_blurry">Zorroztasun falta</string>

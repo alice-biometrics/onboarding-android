@@ -6,7 +6,7 @@
 <string name="onboarding_yes">Evet</string>
 <string name="onboarding_no">Hayır</string>
 <string name="onboarding_alert_title_really_sure_to_exit">Eksik süreç</string>
-<string name="onboarding_alert_subtitle_really_sure_to_exit">Çıkacağına gerçekten emin misin?</string>
+<string name="onboarding_alert_subtitle_really_sure_to_exit">Çıkmak istediğine emin misin?</string>
 <string name="onboarding_ask_for_permissions_title">Bu işlevsellik kamera erişimi gerektirir</string>
 <string name="onboarding_ask_for_permissions_subtitle">Cihaz ayarlarında, uygulama ayarlarını açın ve kamerayı etkinleştirin.</string>
 <string name="onboarding_ask_for_permissions_ok_button">Ayarları aç</string>
@@ -164,6 +164,7 @@
 <string name="onboarding_selfie_capturer_adding_with_challenge">Meydan okuma ile selfie ekleniyor…</string>
 <string name="onboarding_selfie_capturer_adding_with_document">Belgeyle selfie ekleniyor…</string>
 <string name="onboarding_selfie_capturer_authenticating">Kimlik doğrulanıyor…</string>
+<string name="onboarding_selfie_capturer_stay_still">Sabit kal</string>
 <string name="onboarding_selfie_capturer_move_farther">Cihazınızı daha uzağa taşıyın</string>
 <string name="onboarding_selfie_capturer_get_closer">Yaklaş</string>
 <string name="onboarding_selfie_capturer_no_face">Yüz tespit edilmedi</string>

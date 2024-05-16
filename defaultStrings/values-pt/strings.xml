@@ -164,6 +164,7 @@
 <string name="onboarding_selfie_capturer_adding_with_challenge">Adicionando selfie com desafio…</string>
 <string name="onboarding_selfie_capturer_adding_with_document">Adicionando selfie com documento…</string>
 <string name="onboarding_selfie_capturer_authenticating">Autenticando…</string>
+<string name="onboarding_selfie_capturer_stay_still">Fique quieto</string>
 <string name="onboarding_selfie_capturer_move_farther">Afaste o dispositivo</string>
 <string name="onboarding_selfie_capturer_get_closer">Aproxime o dispositivo</string>
 <string name="onboarding_selfie_capturer_no_face">Faz não detetada</string>
@@ -187,9 +188,9 @@
 <string name="onboarding_selfie_capturer_iqa_feedback_unnatural_color">Cor não natural</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_unnatural_color_description">Evite iluminação colorida em seu rosto</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_underexposed">Baixa iluminação</string>
-<string name="onboarding_selfie_capturer_iqa_feedback_underexposed_description">Certifique-se de que a iluminação do seu rosto seja razoável e uniforme</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_underexposed_description">Certifique-se de que a iluminação em seu rosto seja razoável e uniforme</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_overexposed">Iluminação excessiva</string>
-<string name="onboarding_selfie_capturer_iqa_feedback_overexposed_description">Certifique-se de que a iluminação do seu rosto seja razoável e uniforme, sem brilho</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_overexposed_description">Certifique-se de que a iluminação do seu rosto seja razoável e uniforme, sem reflexos</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_blurry">Falta de nitidez</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_blurry_description">Certifique-se de que seu rosto esteja nítido e evite sujeira ou protetores na câmera</string>
 

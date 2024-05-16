@@ -6,7 +6,7 @@
 <string name="onboarding_yes">Yes</string>
 <string name="onboarding_no">No</string>
 <string name="onboarding_alert_title_really_sure_to_exit">Incomplete process</string>
-<string name="onboarding_alert_subtitle_really_sure_to_exit">Are you really sure to exit?</string>
+<string name="onboarding_alert_subtitle_really_sure_to_exit">Are you sure you want to exit?</string>
 <string name="onboarding_ask_for_permissions_title">This functionality requires camera access</string>
 <string name="onboarding_ask_for_permissions_subtitle">In the device settings, open the application settings and activate the camera.</string>
 <string name="onboarding_ask_for_permissions_ok_button">Open Settings</string>
@@ -164,6 +164,7 @@
 <string name="onboarding_selfie_capturer_adding_with_challenge">Adding selfie with challenge…</string>
 <string name="onboarding_selfie_capturer_adding_with_document">Adding selfie with document…</string>
 <string name="onboarding_selfie_capturer_authenticating">Authenticating…</string>
+<string name="onboarding_selfie_capturer_stay_still">Stay still</string>
 <string name="onboarding_selfie_capturer_move_farther">Move your device farther</string>
 <string name="onboarding_selfie_capturer_get_closer">Come closer</string>
 <string name="onboarding_selfie_capturer_no_face">No face detected</string>

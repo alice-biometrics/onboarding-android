@@ -164,6 +164,7 @@
 <string name="onboarding_selfie_capturer_adding_with_challenge">Afegint una selfie amb un repte…</string>
 <string name="onboarding_selfie_capturer_adding_with_document">S\'està afegint una selfie amb el document…</string>
 <string name="onboarding_selfie_capturer_authenticating">Autenticant…</string>
+<string name="onboarding_selfie_capturer_stay_still">Queda\'t quiet</string>
 <string name="onboarding_selfie_capturer_move_farther">Allunyi el dispositiu</string>
 <string name="onboarding_selfie_capturer_get_closer">Acosta\'t al dispositiu</string>
 <string name="onboarding_selfie_capturer_no_face">Cara no detectada</string>

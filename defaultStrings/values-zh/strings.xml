@@ -6,7 +6,7 @@
 <string name="onboarding_yes">是</string>
 <string name="onboarding_no">没有</string>
 <string name="onboarding_alert_title_really_sure_to_exit">流程不完整</string>
-<string name="onboarding_alert_subtitle_really_sure_to_exit">您确定要退出吗</string>
+<string name="onboarding_alert_subtitle_really_sure_to_exit">你确定要离开？</string>
 <string name="onboarding_ask_for_permissions_title">此功能需要使用摄像头</string>
 <string name="onboarding_ask_for_permissions_subtitle">在设备设置中，打开应用程序设置并激活相机。</string>
 <string name="onboarding_ask_for_permissions_ok_button">打开设置</string>
@@ -164,6 +164,7 @@
 <string name="onboarding_selfie_capturer_adding_with_challenge">添加带有挑战的自拍……</string>
 <string name="onboarding_selfie_capturer_adding_with_document">添加带有文档的自拍照…</string>
 <string name="onboarding_selfie_capturer_authenticating">验证中…</string>
+<string name="onboarding_selfie_capturer_stay_still">保持静止</string>
 <string name="onboarding_selfie_capturer_move_farther">将设备移动到更远的地方</string>
 <string name="onboarding_selfie_capturer_get_closer">靠近点</string>
 <string name="onboarding_selfie_capturer_no_face">没有检测到的脸</string>

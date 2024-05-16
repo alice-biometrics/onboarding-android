@@ -164,6 +164,7 @@
 <string name="onboarding_selfie_capturer_adding_with_challenge">Añadiendo selfie con retos…</string>
 <string name="onboarding_selfie_capturer_adding_with_document">Añadiendo selfie con documento…</string>
 <string name="onboarding_selfie_capturer_authenticating">Autenticando…</string>
+<string name="onboarding_selfie_capturer_stay_still">Quédate quieto</string>
 <string name="onboarding_selfie_capturer_move_farther">Aleja el dispositivo</string>
 <string name="onboarding_selfie_capturer_get_closer">Acércate al dispositivo</string>
 <string name="onboarding_selfie_capturer_no_face">Cara no detectada</string>
