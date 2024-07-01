@@ -181,7 +181,7 @@
 <string name="onboarding_selfie_with_document_capturer_center_face">Por favor, centra tu cara en el óvalo y el documento en el rectángulo</string>
 <string name="onboarding_selfie_capturer_button_tutorial">Vale, ¡entendido!</string>
 <string name="onboarding_selfie_capturer_subtitle_tutorial">Ahora tienes que hacerte un selfie. Sigue estas instrucciones</string>
-<string name="onboarding_selfie_capturer_challenge_document_info">Coloca la parte frontal de tu carnet de identidad en el rectángulo</string>
+<string name="onboarding_selfie_capturer_challenge_document_info">Coloca la parte frontal de tu documento en el rectángulo</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_too_far">Demasiado lejos</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_too_close">Demasiado cerca</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_wrong_position">Posición incorrecta</string>
@@ -193,6 +193,8 @@
 <string name="onboarding_selfie_capturer_iqa_feedback_overexposed_description">Asegúrate de que la iluminación de tu cara sea razonable y uniforme, sin brillos</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_blurry">Falta de nitidez</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_blurry_description">Asegúrate de que tu cara se ve nítida y evita suciedad o protectores sobre la cámara</string>
+<string name="onboarding_selfie_capturer_uploading_selfie">Subiendo selfie</string>
+<string name="onboarding_selfie_capturer_selfie_uploaded">Selfie subido</string>
 
 //OTD capturer
 <string name="onboarding_other_trusted_docs_subtitle">Por favor, elija un PDF o una imagen</string>
@@ -214,5 +216,15 @@
 <string name="onboarding_qr_button">Continuar en este dispositivo</string>
 <string name="onboarding_qr_info_text">Hemos detectado que estás usando un PC. Las webcams de los PC suelen ser de mala calidad. Para que el proceso sea más fácil recomendamos usar un móvil.</string>
 <string name="onboarding_qr_info_text_extra">¿Quieres continuar el proceso de onboarding en tu móvil? Sólo tienes que escanear este QR:</string>
+
+//Tutorial view
+<string name="onboarding_tutorial_title">Vamos a hacer un selfie</string>
+<string name="onboarding_tutorial_first_subtitle">No te preocupes, solo te llevará unos segundos.</string>
+<string name="onboarding_tutorial_second_subtitle">Pero antes de comenzar, asegúrate de que:</string>
+<string name="onboarding_tutorial_first_instruction">Estás en un espacio bien iluminado.</string>
+<string name="onboarding_tutorial_second_instruction">Tu cámara está limpia y no está cubierta.</string>
+<string name="onboarding_tutorial_third_instruction">No llevas nada que cubra tu cara. Puedes mantener tus gafas.</string>
+<string name="onboarding_tutorial_continue_button">¡Estoy listo!</string>
+<string name="onboarding_tutorial_back_button">Volver</string>
 
 </resources>

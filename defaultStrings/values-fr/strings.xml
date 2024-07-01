@@ -193,6 +193,8 @@
 <string name="onboarding_selfie_capturer_iqa_feedback_overexposed_description">Trop lumineux</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_blurry">Manque de netteté</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_blurry_description">Assurez-vous que votre visage soit net et évitez de mettre de la saleté ou des protecteurs sur l\'appareil photo.</string>
+<string name="onboarding_selfie_capturer_uploading_selfie">Téléchargement d\'un selfie</string>
+<string name="onboarding_selfie_capturer_selfie_uploaded">Selfie téléchargé</string>
 
 //OTD capturer
 <string name="onboarding_other_trusted_docs_subtitle">Veuillez choisir un fichier PDF ou une image</string>
@@ -214,5 +216,15 @@
 <string name="onboarding_qr_button">Continuer sur cet appareil</string>
 <string name="onboarding_qr_info_text">Nous avons détecté que vous utilisez un PC. Les webcams PC sont souvent de mauvaise qualité. Pour faciliter le processus, nous vous recommandons d\'utiliser un mobile.</string>
 <string name="onboarding_qr_info_text_extra">Vous souhaitez poursuivre le processus d\'onboarding sur votre mobile ? Il vous suffit de scanner ce QR :</string>
+
+//Tutorial view
+<string name="onboarding_tutorial_title">Prenons un selfie</string>
+<string name="onboarding_tutorial_first_subtitle">Ne vous inquiétez pas, cela ne prendra que quelques secondes.</string>
+<string name="onboarding_tutorial_second_subtitle"></string>
+<string name="onboarding_tutorial_first_instruction">Vous êtes dans un espace bien éclairé</string>
+<string name="onboarding_tutorial_second_instruction">Votre caméra est propre et non couverte</string>
+<string name="onboarding_tutorial_third_instruction">Vous ne portez rien qui couvre votre visage. Vous pouvez garder vos lunettes</string>
+<string name="onboarding_tutorial_continue_button">Je suis prêt!</string>
+<string name="onboarding_tutorial_back_button">Dos</string>
 
 </resources>

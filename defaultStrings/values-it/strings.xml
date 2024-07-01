@@ -192,7 +192,9 @@
 <string name="onboarding_selfie_capturer_iqa_feedback_overexposed">Sovrailluminazione</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_overexposed_description">Assicurati che l\'illuminazione del tuo viso sia ragionevole e uniforme, senza abbagliamento</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_blurry">Mancanza di nitidezza</string>
-<string name="onboarding_selfie_capturer_iqa_feedback_blurry_description">Assicurati che il tuo viso sia nitido ed evita di sporcare o proteggere la fotocamera</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_blurry_description">Assicurati che il tuo viso sia nitido ed evita di sporcare la fotocamera con sporco o protezioni</string>
+<string name="onboarding_selfie_capturer_uploading_selfie">Caricamento selfie</string>
+<string name="onboarding_selfie_capturer_selfie_uploaded">Selfie caricato</string>
 
 //OTD capturer
 <string name="onboarding_other_trusted_docs_subtitle">Per favore, scegli un file PDF o un\'immagine</string>
@@ -214,5 +216,15 @@
 <string name="onboarding_qr_button">Continua su questo dispositivo</string>
 <string name="onboarding_qr_info_text">Abbiamo rilevato che stai utilizzando un PC. Le webcam per PC sono spesso di scarsa qualità. Per semplificare il processo, ti consigliamo di utilizzare un cellulare.</string>
 <string name="onboarding_qr_info_text_extra">Vuoi continuare il processo di onboarding sul tuo dispositivo mobile? Devi solo scansionare questo QR:</string>
+
+//Tutorial view
+<string name="onboarding_tutorial_title">Facciamo un selfie</string>
+<string name="onboarding_tutorial_first_subtitle">Non preoccuparti, ci vorranno solo pochi secondi.</string>
+<string name="onboarding_tutorial_second_subtitle">Ma prima di iniziare, assicurati che:</string>
+<string name="onboarding_tutorial_first_instruction">Ti trovi in uno spazio ben illuminato</string>
+<string name="onboarding_tutorial_second_instruction">La fotocamera è pulita e non coperta</string>
+<string name="onboarding_tutorial_third_instruction">Non indossi nulla che ti copra il viso. Puoi tenere gli occhiali</string>
+<string name="onboarding_tutorial_continue_button">Sono pronto!</string>
+<string name="onboarding_tutorial_back_button">Esci</string>
 
 </resources>

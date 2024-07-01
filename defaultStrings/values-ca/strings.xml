@@ -181,7 +181,7 @@
 <string name="onboarding_selfie_with_document_capturer_center_face">Si us plau, centreu la vostra cara a l\'oval i el document al rectangle</string>
 <string name="onboarding_selfie_capturer_button_tutorial">D\'acord ho tinc!</string>
 <string name="onboarding_selfie_capturer_subtitle_tutorial">Ara t\'has de fer una selfie. Seguiu aquestes instruccions</string>
-<string name="onboarding_selfie_capturer_challenge_document_info">Col·loca la part frontal de la teva targeta d\'identificació al rectangle</string>
+<string name="onboarding_selfie_capturer_challenge_document_info">Col·loca la part frontal del teu document al rectangle</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_too_far">Massa lluny</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_too_close">Massa a prop</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_wrong_position">Posició incorrecta</string>
@@ -193,6 +193,8 @@
 <string name="onboarding_selfie_capturer_iqa_feedback_overexposed_description">Assegureu-vos que la il·luminació de la cara sigui raonable i uniforme, sense brillantors</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_blurry">Manca de nitidesa</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_blurry_description">Assegureu-vos que la cara es veu nítida i eviti brutícia o protectors sobre la càmera</string>
+<string name="onboarding_selfie_capturer_uploading_selfie">Pujant selfie</string>
+<string name="onboarding_selfie_capturer_selfie_uploaded">Selfie pujat</string>
 
 //OTD capturer
 <string name="onboarding_other_trusted_docs_subtitle">Si us plau, trieu un fitxer PDF o una imatge</string>
@@ -214,5 +216,15 @@
 <string name="onboarding_qr_button">Continueu en aquest dispositiu</string>
 <string name="onboarding_qr_info_text">Hem detectat que estàs utilitzant un ordinador. Les càmeres web de PC solen ser de mala qualitat. Per facilitar el procés us recomanem utilitzar un mòbil.</string>
 <string name="onboarding_qr_info_text_extra">Vols continuar el procés d\'incorporació al teu mòbil? Només has d\'escanejar aquest QR:</string>
+
+//Tutorial view
+<string name="onboarding_tutorial_title">Fem una selfie</string>
+<string name="onboarding_tutorial_first_subtitle">No us preocupeu, només trigarà uns segons.</string>
+<string name="onboarding_tutorial_second_subtitle">Però abans de començar, assegureu-vos que:</string>
+<string name="onboarding_tutorial_first_instruction">Esteu en un espai ben il·luminat</string>
+<string name="onboarding_tutorial_second_instruction">La teva càmera està neta i no està coberta</string>
+<string name="onboarding_tutorial_third_instruction">No porteu res que us cobreixi la cara. Pots mantenir les teves ulleres</string>
+<string name="onboarding_tutorial_continue_button">Estic preparat!</string>
+<string name="onboarding_tutorial_back_button">Esquena</string>
 
 </resources>

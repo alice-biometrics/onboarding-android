@@ -193,6 +193,8 @@
 <string name="onboarding_selfie_capturer_iqa_feedback_overexposed_description">Upewnij się, że oświetlenie twarzy jest rozsądne i równomierne, bez odblasków</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_blurry">Zamazany</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_blurry_description">Upewnij się, że Twoja twarz wygląda ostro i unikaj zabrudzeń lub ochraniaczy na aparacie</string>
+<string name="onboarding_selfie_capturer_uploading_selfie">Przesyłanie selfie</string>
+<string name="onboarding_selfie_capturer_selfie_uploaded">Selfie przesłane</string>
 
 //OTD capturer
 <string name="onboarding_other_trusted_docs_subtitle">Proszę wybrać plik PDF lub zdjęcie</string>
@@ -214,5 +216,15 @@
 <string name="onboarding_qr_button">Kontynuuj na tym urządzeniu</string>
 <string name="onboarding_qr_info_text">Wykryliśmy, że używasz komputera. Kamery komputerowe są często słabej jakości. Aby ułatwić ten proces, zalecamy korzystanie z telefonu komórkowego.</string>
 <string name="onboarding_qr_info_text_extra">Czy chcesz kontynuować proces wdrażania na telefonie komórkowym? Wystarczy zeskanować ten kod QR:</string>
+
+//Tutorial view
+<string name="onboarding_tutorial_title">Zróbmy sobie selfie</string>
+<string name="onboarding_tutorial_first_subtitle">Nie martw się, zajmie to tylko kilka sekund.</string>
+<string name="onboarding_tutorial_second_subtitle">Ale zanim zaczniemy, upewnij się, że:</string>
+<string name="onboarding_tutorial_first_instruction">Jesteś w dobrze oświetlonym pomieszczeniu</string>
+<string name="onboarding_tutorial_second_instruction">Aparat jest czysty i niezakryty</string>
+<string name="onboarding_tutorial_third_instruction">Nie masz na sobie niczego zakrywającego twarz. Możesz zatrzymać okulary</string>
+<string name="onboarding_tutorial_continue_button">Jestem gotowy!</string>
+<string name="onboarding_tutorial_back_button">Wychodzić</string>
 
 </resources>

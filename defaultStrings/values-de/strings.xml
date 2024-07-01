@@ -193,6 +193,8 @@
 <string name="onboarding_selfie_capturer_iqa_feedback_overexposed_description">Stellen Sie sicher, dass die Beleuchtung Ihres Gesichts angemessen und gleichmäßig ist, ohne zu blenden</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_blurry">Verschwommen</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_blurry_description">Stellen Sie sicher, dass Ihr Gesicht scharf aussieht und vermeiden Sie, dass Schmutz oder Schutzfolien auf die Kamera gelangen</string>
+<string name="onboarding_selfie_capturer_uploading_selfie">Selfie hochladen</string>
+<string name="onboarding_selfie_capturer_selfie_uploaded">Selfie hochgeladen</string>
 
 //OTD capturer
 <string name="onboarding_other_trusted_docs_subtitle">Bitte wählen Sie eine PDF-Datei oder ein Bild aus</string>
@@ -214,5 +216,15 @@
 <string name="onboarding_qr_button">Auf diesem Gerät fortfahren</string>
 <string name="onboarding_qr_info_text">Wir haben festgestellt, dass Sie einen PC verwenden. PC-Webcams sind oft von schlechter Qualität. Um den Vorgang zu vereinfachen, empfehlen wir die Verwendung eines Mobiltelefons.</string>
 <string name="onboarding_qr_info_text_extra">Möchten Sie den Onboarding-Prozess auf Ihrem Handy fortsetzen? Sie müssen nur diesen QR scannen:</string>
+
+//Tutorial view
+<string name="onboarding_tutorial_title">Lass uns ein Selfie machen</string>
+<string name="onboarding_tutorial_first_subtitle">Keine Sorge, es dauert nur ein paar Sekunden.</string>
+<string name="onboarding_tutorial_second_subtitle">Aber bevor wir beginnen, stellen Sie sicher, dass:</string>
+<string name="onboarding_tutorial_first_instruction">Sie befinden sich in einem gut beleuchteten Raum</string>
+<string name="onboarding_tutorial_second_instruction">Ihre Kamera ist sauber und nicht abgedeckt</string>
+<string name="onboarding_tutorial_third_instruction">Sie tragen nichts, was Ihr Gesicht bedeckt. Sie können Ihre Brille behalten</string>
+<string name="onboarding_tutorial_continue_button">Ich bin bereit!</string>
+<string name="onboarding_tutorial_back_button">Zurück</string>
 
 </resources>

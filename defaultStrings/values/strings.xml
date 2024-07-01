@@ -6,7 +6,7 @@
 <string name="onboarding_yes">Yes</string>
 <string name="onboarding_no">No</string>
 <string name="onboarding_alert_title_really_sure_to_exit">Incomplete process</string>
-<string name="onboarding_alert_subtitle_really_sure_to_exit">Are you really sure to exit?</string>
+<string name="onboarding_alert_subtitle_really_sure_to_exit">Are you sure you want to exit?</string>
 <string name="onboarding_ask_for_permissions_title">This functionality requires camera access</string>
 <string name="onboarding_ask_for_permissions_subtitle">In the device settings, open the application settings and activate the camera.</string>
 <string name="onboarding_ask_for_permissions_ok_button">Open Settings</string>
@@ -181,7 +181,7 @@
 <string name="onboarding_selfie_with_document_capturer_center_face">Please, center your face on the oval and the document on the rectangle</string>
 <string name="onboarding_selfie_capturer_button_tutorial">Ok, got it!</string>
 <string name="onboarding_selfie_capturer_subtitle_tutorial">Now you have to take a selfie. Follow these instructions</string>
-<string name="onboarding_selfie_capturer_challenge_document_info">Fit the front side of your ID card in the rectangle</string>
+<string name="onboarding_selfie_capturer_challenge_document_info">Fit the front side of your ID in the rectangle</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_too_far">Too far</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_too_close">Too close</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_wrong_position">Wrong position</string>
@@ -193,6 +193,8 @@
 <string name="onboarding_selfie_capturer_iqa_feedback_overexposed_description">Make sure the lighting on your face is reasonable and even, without glare</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_blurry">Blurred</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_blurry_description">Make sure your face looks sharp and avoid getting dirt or protectors on the camera</string>
+<string name="onboarding_selfie_capturer_uploading_selfie">Uploading selfie</string>
+<string name="onboarding_selfie_capturer_selfie_uploaded">Selfie uploaded</string>
 
 //OTD capturer
 <string name="onboarding_other_trusted_docs_subtitle">Please choose a PDF or an image</string>
@@ -214,5 +216,15 @@
 <string name="onboarding_qr_button">Continue on this device</string>
 <string name="onboarding_qr_info_text">We have detected that you are using a PC. PC webcams are often of poor quality. To make the process easier we recommend using a mobile.</string>
 <string name="onboarding_qr_info_text_extra">Do you want to continue the onboarding process on your mobile? You just have to scan this QR:</string>
+
+//Tutorial view
+<string name="onboarding_tutorial_title">Let’s take a selfie</string>
+<string name="onboarding_tutorial_first_subtitle">Don\'t worry, it\'ll take just a few seconds.</string>
+<string name="onboarding_tutorial_second_subtitle">But before we start, make sure that:</string>
+<string name="onboarding_tutorial_first_instruction">You are in a well-lit space</string>
+<string name="onboarding_tutorial_second_instruction">Your camera is clean and not covered</string>
+<string name="onboarding_tutorial_third_instruction">You are not wearing anything covering your face. You can keep your eyeglasses</string>
+<string name="onboarding_tutorial_continue_button">I’m ready!</string>
+<string name="onboarding_tutorial_back_button">Back</string>
 
 </resources>

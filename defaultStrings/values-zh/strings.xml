@@ -193,6 +193,8 @@
 <string name="onboarding_selfie_capturer_iqa_feedback_overexposed_description">确保脸上的光线合理、均匀、无眩光</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_blurry">模糊</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_blurry_description">确保您的脸部看起来清晰，并避免相机上沾上灰尘或保护膜</string>
+<string name="onboarding_selfie_capturer_uploading_selfie">上传自拍照</string>
+<string name="onboarding_selfie_capturer_selfie_uploaded">自拍照已上传</string>
 
 //OTD capturer
 <string name="onboarding_other_trusted_docs_subtitle">请选择PDF文件或图片</string>
@@ -214,5 +216,15 @@
 <string name="onboarding_qr_button">在此设备上继续</string>
 <string name="onboarding_qr_info_text">我们检测到您正在使用 PC。 PC 网络摄像头的质量通常很差。 为了使这个过程更容易，我们建议使用手机。</string>
 <string name="onboarding_qr_info_text_extra">你想在你的手机上继续入职流程吗？ 你只需要扫描这个二维码：</string>
+
+//Tutorial view
+<string name="onboarding_tutorial_title">我们来张自拍照吧</string>
+<string name="onboarding_tutorial_first_subtitle">别担心，只需几秒钟。</string>
+<string name="onboarding_tutorial_second_subtitle">但在我们开始之前，请确保：</string>
+<string name="onboarding_tutorial_first_instruction">您处于光线充足的空间</string>
+<string name="onboarding_tutorial_second_instruction">您的相机干净且未被遮盖</string>
+<string name="onboarding_tutorial_third_instruction">您没有戴任何遮盖脸部的东西。 你可以保留你的眼镜</string>
+<string name="onboarding_tutorial_continue_button">我准备好了！</string>
+<string name="onboarding_tutorial_back_button">出去</string>
 
 </resources>

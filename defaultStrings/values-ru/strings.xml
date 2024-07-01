@@ -193,6 +193,8 @@
 <string name="onboarding_selfie_capturer_iqa_feedback_overexposed_description">Убедитесь, что освещение вашего лица разумное и равномерное, без бликов.</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_blurry">Размытый</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_blurry_description">Убедитесь, что ваше лицо выглядит резким, и избегайте попадания грязи или защитных средств на камеру.</string>
+<string name="onboarding_selfie_capturer_uploading_selfie">Загрузка селфи</string>
+<string name="onboarding_selfie_capturer_selfie_uploaded">Selfie enviada</string>
 
 //OTD capturer
 <string name="onboarding_other_trusted_docs_subtitle">Пожалуйста, выберите файл PDF или изображение</string>
@@ -214,5 +216,15 @@
 <string name="onboarding_qr_button">Продолжить на этом устройстве</string>
 <string name="onboarding_qr_info_text">Мы обнаружили, что вы используете ПК. Веб-камеры ПК часто имеют низкое качество. Чтобы упростить процесс, мы рекомендуем использовать мобильный телефон.</string>
 <string name="onboarding_qr_info_text_extra">Вы хотите продолжить процесс регистрации на своем мобильном телефоне? Вам просто нужно отсканировать этот QR:</string>
+
+//Tutorial view
+<string name="onboarding_tutorial_title">Давай сделаем селфи</string>
+<string name="onboarding_tutorial_first_subtitle">Не волнуйтесь, это займет всего несколько секунд.</string>
+<string name="onboarding_tutorial_second_subtitle">Но прежде чем мы начнем, убедитесь, что:</string>
+<string name="onboarding_tutorial_first_instruction">Вы находитесь в хорошо освещенном месте</string>
+<string name="onboarding_tutorial_second_instruction">Ваша камера чистая и не накрыта</string>
+<string name="onboarding_tutorial_third_instruction">На вас нет ничего, закрывающего лицо. Вы можете оставить свои очки</string>
+<string name="onboarding_tutorial_continue_button">Я готов!</string>
+<string name="onboarding_tutorial_back_button">выходить</string>
 
 </resources>

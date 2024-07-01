@@ -39,7 +39,7 @@
 <string name="onboarding_error_title_image_type_not_supported">Imaxe non compatible</string>
 <string name="onboarding_error_subtitle_file_type_not_supported">Os tipos de ficheiros admitidos son .jpg, .png e .bmp</string>
 <string name="onboarding_error_doc_country_not_supported">Este tipo de documento non é compatible co país seleccionado</string>
-<string name="onboarding_error_title_challenge_timeout">Tempo fóra</string>
+<string name="onboarding_error_title_challenge_timeout">Tempo agotado</string>
 <string name="onboarding_error_subtitle_challenge_timeout">O reto non se completou. Por favor, inténtao de novo</string>
 
 //Stages
@@ -164,7 +164,7 @@
 <string name="onboarding_selfie_capturer_adding_with_challenge">Engadindo selfie con desafío…</string>
 <string name="onboarding_selfie_capturer_adding_with_document">Engadindo selfie con documento…</string>
 <string name="onboarding_selfie_capturer_authenticating">Autenticando…</string>
-<string name="onboarding_selfie_capturer_stay_still">Quédese quieto</string>
+<string name="onboarding_selfie_capturer_stay_still">Quede quieto</string>
 <string name="onboarding_selfie_capturer_move_farther">Afasta o dispositivo</string>
 <string name="onboarding_selfie_capturer_get_closer">Achéguegate ao dispositivo</string>
 <string name="onboarding_selfie_capturer_no_face">Cara non detectada</string>
@@ -181,7 +181,7 @@
 <string name="onboarding_selfie_with_document_capturer_center_face">Por favor, centra a túa cara no óvalo e o documento no rectángulo</string>
 <string name="onboarding_selfie_capturer_button_tutorial">Vale, entendido!</string>
 <string name="onboarding_selfie_capturer_subtitle_tutorial">Agora tes que facer unha selfie. Siga estas instrucións</string>
-<string name="onboarding_selfie_capturer_challenge_document_info">Coloca a parte frontal do teu carnet de identidade no rectángulo</string>
+<string name="onboarding_selfie_capturer_challenge_document_info">Coloca a parte frontal do teu documento no rectángulo</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_too_far">Moi lonxe</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_too_close">Demasiado perto</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_wrong_position">Posición incorrecta</string>
@@ -193,6 +193,8 @@
 <string name="onboarding_selfie_capturer_iqa_feedback_overexposed_description">Asegúrate de que a iluminación do teu rostro sexa razoable e uniforme, sen brillos</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_blurry">Falta de nitidez</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_blurry_description">Asegúrate de que o teu rostro estea nítido e evita que a cámara se ensucie ou teña protectores</string>
+<string name="onboarding_selfie_capturer_uploading_selfie">Subindo selfie</string>
+<string name="onboarding_selfie_capturer_selfie_uploaded">Selfie subido</string>
 
 //OTD capturer
 <string name="onboarding_other_trusted_docs_subtitle">Por favor, escolla un ficheiro PDF o unha imaxe</string>
@@ -214,5 +216,15 @@
 <string name="onboarding_qr_button">Continúa neste dispositivo</string>
 <string name="onboarding_qr_info_text">Detectamos que estás a usar un PC. As cámaras web de PC adoitan ser de mala calidade. Para facilitar o proceso recomendamos utilizar un móbil.</string>
 <string name="onboarding_qr_info_text_extra">Queres continuar co proceso de incorporación no teu móbil? Só tes que escanear este QR:</string>
+
+//Tutorial view
+<string name="onboarding_tutorial_title">Imos facer un selfie</string>
+<string name="onboarding_tutorial_first_subtitle">Non te preocupes, só levará uns segundos.</string>
+<string name="onboarding_tutorial_second_subtitle">Pero antes de comezar, asegúrate de que:</string>
+<string name="onboarding_tutorial_first_instruction">Estás nun espazo ben iluminado</string>
+<string name="onboarding_tutorial_second_instruction">A túa cámara está limpa e non cuberta</string>
+<string name="onboarding_tutorial_third_instruction">Non levas nada que cobre a cara. Podes manter os teus lentes</string>
+<string name="onboarding_tutorial_continue_button">Estou listo!</string>
+<string name="onboarding_tutorial_back_button">Voltar</string>
 
 </resources>
