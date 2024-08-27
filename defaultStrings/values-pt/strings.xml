@@ -41,6 +41,7 @@
 <string name="onboarding_error_doc_country_not_supported">Este tipo de documento não é compatível com o país selecionado</string>
 <string name="onboarding_error_title_challenge_timeout">Tempo esgotado</string>
 <string name="onboarding_error_subtitle_challenge_timeout">O desafio não foi concluído. Por favor, tente novamente</string>
+<string name="onboarding_error_selfie_not_uploaded">Selfie não enviada</string>
 
 //Stages
 <string name="onboarding_stages_title">Verificação de Identidade</string>
@@ -176,21 +177,21 @@
 <string name="onboarding_selfie_capturer_title_insufficient_faces">Faz não detetada</string>
 <string name="onboarding_selfie_capturer_subtitle_insufficient_faces">Certifique-se de manter seu rosto oval em boas condições de iluminação durante todo o processo</string>
 <string name="onboarding_selfie_capturer_face_detected_tooltip">Clique aqui para tirar uma foto!</string>
-<string name="onboarding_selfie_capturer_subtitle">Por favor, prossiga com a captura do selfie</string>
+<string name="onboarding_selfie_capturer_subtitle">Centralize seu rosto no formato oval e coloque a câmera na altura dos olhos. Quando o oval ficar verde, não se mova até que o processo seja concluído. </string>
 <string name="onboarding_selfie_capturer_subtitle_review">Por favor, verifique se sua imagem está boa</string>
 <string name="onboarding_selfie_with_document_capturer_center_face">Centralize seu rosto no oval e o documento no retângulo</string>
 <string name="onboarding_selfie_capturer_button_tutorial">OK, entendi!</string>
 <string name="onboarding_selfie_capturer_subtitle_tutorial">Agora você tem que tirar uma selfie. Siga estas instruções</string>
 <string name="onboarding_selfie_capturer_challenge_document_info">Coloque a parte frontal do seu documento no retângulo</string>
-<string name="onboarding_selfie_capturer_iqa_feedback_too_far">Longe demais</string>
-<string name="onboarding_selfie_capturer_iqa_feedback_too_close">Muito perto</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_too_far">longe demais</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_too_close">muito perto</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_wrong_position">Posição errada</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_unnatural_color">Cor não natural</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_unnatural_color_description">Evite iluminação colorida em seu rosto</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_underexposed">Baixa iluminação</string>
-<string name="onboarding_selfie_capturer_iqa_feedback_underexposed_description">Certifique-se de que a iluminação do seu rosto seja razoável e uniforme</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_underexposed_description">Certifique-se de que a iluminação em seu rosto seja razoável e uniforme</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_overexposed">Iluminação excessiva</string>
-<string name="onboarding_selfie_capturer_iqa_feedback_overexposed_description">Certifique-se de que a iluminação do seu rosto seja razoável e uniforme, sem brilho</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_overexposed_description">Certifique-se de que a iluminação do seu rosto seja razoável e uniforme, sem reflexos</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_blurry">Falta de nitidez</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_blurry_description">Certifique-se de que seu rosto esteja nítido e evite sujeira ou protetores na câmera</string>
 <string name="onboarding_selfie_capturer_uploading_selfie">Enviando selfie</string>

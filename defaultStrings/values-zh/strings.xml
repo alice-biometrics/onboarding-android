@@ -41,6 +41,7 @@
 <string name="onboarding_error_doc_country_not_supported">抱歉，所选国家/地区不支持此类文件</string>
 <string name="onboarding_error_title_challenge_timeout">超时</string>
 <string name="onboarding_error_subtitle_challenge_timeout">这一挑战没有得到满足。请再试一次</string>
+<string name="onboarding_error_selfie_not_uploaded">自拍照未上传</string>
 
 //Stages
 <string name="onboarding_stages_title">身份验证</string>
@@ -176,14 +177,14 @@
 <string name="onboarding_selfie_capturer_title_insufficient_faces">没有检测到的脸</string>
 <string name="onboarding_selfie_capturer_subtitle_insufficient_faces">确保整个过程中在良好的照明条件下保持脸部呈椭圆形</string>
 <string name="onboarding_selfie_capturer_face_detected_tooltip">点击这里拍照！</string>
-<string name="onboarding_selfie_capturer_subtitle">请继续进行捕获</string>
+<string name="onboarding_selfie_capturer_subtitle">将您的脸置于椭圆形中心，并将相机放置在您眼睛的高度。当椭圆形变成绿色时，请勿移动，直至该过程完成。 </string>
 <string name="onboarding_selfie_capturer_subtitle_review">请确保您的图片好</string>
 <string name="onboarding_selfie_with_document_capturer_center_face">请把你的脸放在椭圆上，把文件放在长方形上</string>
 <string name="onboarding_selfie_capturer_button_tutorial">好的，我知道了！</string>
 <string name="onboarding_selfie_capturer_subtitle_tutorial">现在你必须自拍。 按照这些说明</string>
 <string name="onboarding_selfie_capturer_challenge_document_info">将身份证正面放入矩形中</string>
-<string name="onboarding_selfie_capturer_iqa_feedback_too_far">太远</string>
-<string name="onboarding_selfie_capturer_iqa_feedback_too_close">太接近了</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_too_far">太远了</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_too_close">太近了</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_wrong_position">位置错误</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_unnatural_color">颜色不自然</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_unnatural_color_description">避免彩色灯光打在脸上</string>

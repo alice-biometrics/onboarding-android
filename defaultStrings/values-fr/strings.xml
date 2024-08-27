@@ -41,6 +41,7 @@
 <string name="onboarding_error_doc_country_not_supported">Désolé, ce type de document n\'est pas pris en charge pour le pays sélectionné</string>
 <string name="onboarding_error_title_challenge_timeout">Délai d\'expiration</string>
 <string name="onboarding_error_subtitle_challenge_timeout">Le défi n\'est pas terminé. Veuillez réessayer, SVP</string>
+<string name="onboarding_error_selfie_not_uploaded">Selfie non téléchargé</string>
 
 //Stages
 <string name="onboarding_stages_title">Inscription en cours</string>
@@ -176,14 +177,14 @@
 <string name="onboarding_selfie_capturer_title_insufficient_faces">Visage non détecté</string>
 <string name="onboarding_selfie_capturer_subtitle_insufficient_faces">Assurez-vous de garder votre visage dans l\'ovale dans de bonnes conditions d\'éclairage tout au long du processus</string>
 <string name="onboarding_selfie_capturer_face_detected_tooltip">Cliquez ici pour prendre une photo!</string>
-<string name="onboarding_selfie_capturer_subtitle">Veuillez procéder à la capture</string>
+<string name="onboarding_selfie_capturer_subtitle">Centrez votre visage dans l\'ovale et placez l\'appareil photo au niveau de vos yeux. Lorsque l’ovale devient vert, ne bougez pas tant que le processus n’est pas terminé. </string>
 <string name="onboarding_selfie_capturer_subtitle_review">Veuillez vous assurer que votre photo est bonne</string>
 <string name="onboarding_selfie_with_document_capturer_center_face">S\'il vous plaît, centrez votre visage sur l\'ovale et le document sur le rectangle</string>
 <string name="onboarding_selfie_capturer_button_tutorial">D\'accord, j\'ai compris !</string>
 <string name="onboarding_selfie_capturer_subtitle_tutorial">Maintenant, vous devez prendre un selfie. Suivez ces instructions</string>
 <string name="onboarding_selfie_capturer_challenge_document_info">Placez le recto de votre carte d\'identité dans le rectangle</string>
-<string name="onboarding_selfie_capturer_iqa_feedback_too_far">Trop loin</string>
-<string name="onboarding_selfie_capturer_iqa_feedback_too_close">Trop près</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_too_far">loin</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_too_close">trop près</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_wrong_position">Mauvaise position</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_unnatural_color">Couleur non naturelle</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_unnatural_color_description">Évitez l’éclairage coloré sur votre visage</string>
@@ -220,7 +221,7 @@
 //Tutorial view
 <string name="onboarding_tutorial_title">Prenons un selfie</string>
 <string name="onboarding_tutorial_first_subtitle">Ne vous inquiétez pas, cela ne prendra que quelques secondes.</string>
-<string name="onboarding_tutorial_second_subtitle"></string>
+<string name="onboarding_tutorial_second_subtitle">Mais avant de commencer, assurez-vous que :</string>
 <string name="onboarding_tutorial_first_instruction">Vous êtes dans un espace bien éclairé</string>
 <string name="onboarding_tutorial_second_instruction">Votre caméra est propre et non couverte</string>
 <string name="onboarding_tutorial_third_instruction">Vous ne portez rien qui couvre votre visage. Vous pouvez garder vos lunettes</string>

@@ -41,6 +41,7 @@
 <string name="onboarding_error_doc_country_not_supported">Este tipo de documento non é compatible co país seleccionado</string>
 <string name="onboarding_error_title_challenge_timeout">Tempo agotado</string>
 <string name="onboarding_error_subtitle_challenge_timeout">O reto non se completou. Por favor, inténtao de novo</string>
+<string name="onboarding_error_selfie_not_uploaded">Non se cargou a selfie</string>
 
 //Stages
 <string name="onboarding_stages_title">Verificación de identidade</string>
@@ -176,14 +177,14 @@
 <string name="onboarding_selfie_capturer_title_insufficient_faces">Cara non detectada</string>
 <string name="onboarding_selfie_capturer_subtitle_insufficient_faces">Asegúrate de manter a túa cara no óvalo en boas condicións de iluminación durante todo o proceso</string>
 <string name="onboarding_selfie_capturer_face_detected_tooltip">Fai clic aquí para facer unha foto!</string>
-<string name="onboarding_selfie_capturer_subtitle">Por favor, continúa coa captura</string>
+<string name="onboarding_selfie_capturer_subtitle">Centra a túa cara no óvalo e coloca a cámara ao nivel dos teus ollos. Cando o óvalo se pon verde, non te movas ata que se complete o proceso. </string>
 <string name="onboarding_selfie_capturer_subtitle_review">Por favor, comproba que a foto está ben</string>
 <string name="onboarding_selfie_with_document_capturer_center_face">Por favor, centra a túa cara no óvalo e o documento no rectángulo</string>
 <string name="onboarding_selfie_capturer_button_tutorial">Vale, entendido!</string>
 <string name="onboarding_selfie_capturer_subtitle_tutorial">Agora tes que facer unha selfie. Siga estas instrucións</string>
 <string name="onboarding_selfie_capturer_challenge_document_info">Coloca a parte frontal do teu documento no rectángulo</string>
-<string name="onboarding_selfie_capturer_iqa_feedback_too_far">Moi lonxe</string>
-<string name="onboarding_selfie_capturer_iqa_feedback_too_close">Demasiado perto</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_too_far">demasiado lonxe</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_too_close">moi preto</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_wrong_position">Posición incorrecta</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_unnatural_color">Cor non natural</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_unnatural_color_description">Evite a iluminación de cores no seu rostro</string>

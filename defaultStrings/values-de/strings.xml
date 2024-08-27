@@ -41,6 +41,7 @@
 <string name="onboarding_error_doc_country_not_supported">Dieser Dokumenttyp wird für das ausgewählte Land leider nicht unterstützt</string>
 <string name="onboarding_error_title_challenge_timeout">Auszeit</string>
 <string name="onboarding_error_subtitle_challenge_timeout">Die Herausforderung ist nicht abgeschlossen. Versuche es bitte nochmals.</string>
+<string name="onboarding_error_selfie_not_uploaded">Selfie nicht hochgeladen</string>
 
 //Stages
 <string name="onboarding_stages_title">Identitätsprüfung</string>
@@ -176,7 +177,7 @@
 <string name="onboarding_selfie_capturer_title_insufficient_faces">Kein Gesicht erkannt</string>
 <string name="onboarding_selfie_capturer_subtitle_insufficient_faces">Achten Sie darauf, dass Ihr Gesicht während des gesamten Vorgangs bei guten Lichtverhältnissen im Oval bleibt</string>
 <string name="onboarding_selfie_capturer_face_detected_tooltip">Klicken Sie hier, um ein Foto zu machen!</string>
-<string name="onboarding_selfie_capturer_subtitle">Bitte fahren Sie mit der Erfassung fort</string>
+<string name="onboarding_selfie_capturer_subtitle">Zentrieren Sie Ihr Gesicht im Oval und platzieren Sie die Kamera auf Augenhöhe. Wenn das Oval grün wird, bewegen Sie sich nicht, bis der Vorgang abgeschlossen ist. </string>
 <string name="onboarding_selfie_capturer_subtitle_review">Bitte stellen Sie sicher, dass Ihr Bild gut ist</string>
 <string name="onboarding_selfie_with_document_capturer_center_face">Bitte zentrieren Sie Ihr Gesicht auf dem Oval und das Dokument auf dem Rechteck</string>
 <string name="onboarding_selfie_capturer_button_tutorial">OK habe es!</string>

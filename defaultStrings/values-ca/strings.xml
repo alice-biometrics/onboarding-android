@@ -41,6 +41,7 @@
 <string name="onboarding_error_doc_country_not_supported">Ho sentim, aquest tipus de document no és compatible amb el país seleccionat</string>
 <string name="onboarding_error_title_challenge_timeout">Temps esgotat</string>
 <string name="onboarding_error_subtitle_challenge_timeout">No s\'ha completat el desafiament. Intenta-ho de nou.</string>
+<string name="onboarding_error_selfie_not_uploaded">La selfie no s\'ha penjat</string>
 
 //Stages
 <string name="onboarding_stages_title">Verificació d\'identitat</string>
@@ -176,7 +177,7 @@
 <string name="onboarding_selfie_capturer_title_insufficient_faces">Cara no detectada</string>
 <string name="onboarding_selfie_capturer_subtitle_insufficient_faces">Assegureu-vos de mantenir el vostre rostre a l\'oval en bones condicions d\'il·luminació durant tot el procés</string>
 <string name="onboarding_selfie_capturer_face_detected_tooltip">Feu clic aquí per fer-vos una foto!</string>
-<string name="onboarding_selfie_capturer_subtitle">Si us plau, continuï amb la captura</string>
+<string name="onboarding_selfie_capturer_subtitle">Centreu la cara a l\'oval i col·loqueu la càmera a l\'alçada dels vostres ulls. Quan l\'oval es torna verd, no us moveu fins que s\'hagi completat el procés. </string>
 <string name="onboarding_selfie_capturer_subtitle_review">Si us plau, comprova que la foto és bona</string>
 <string name="onboarding_selfie_with_document_capturer_center_face">Si us plau, centreu la vostra cara a l\'oval i el document al rectangle</string>
 <string name="onboarding_selfie_capturer_button_tutorial">D\'acord ho tinc!</string>

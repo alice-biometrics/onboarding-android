@@ -41,6 +41,7 @@
 <string name="onboarding_error_doc_country_not_supported">Sorry, this type of document is not supported for the selected country</string>
 <string name="onboarding_error_title_challenge_timeout">Timeout</string>
 <string name="onboarding_error_subtitle_challenge_timeout">The challenge has not been completed. Please, try again</string>
+<string name="onboarding_error_selfie_not_uploaded">Selfie not uploaded</string>
 
 //Stages
 <string name="onboarding_stages_title">Identity verification</string>
@@ -176,7 +177,7 @@
 <string name="onboarding_selfie_capturer_title_insufficient_faces">No face detected</string>
 <string name="onboarding_selfie_capturer_subtitle_insufficient_faces">Make sure to keep your face in the oval in good lighting conditions throughout the process</string>
 <string name="onboarding_selfie_capturer_face_detected_tooltip">Click here to take a photo!</string>
-<string name="onboarding_selfie_capturer_subtitle">Please, proceed with the capture</string>
+<string name="onboarding_selfie_capturer_subtitle">Center your face in the oval and place the camera at the level of your eyes. When the oval turns green, do not move until the process is complete. </string>
 <string name="onboarding_selfie_capturer_subtitle_review">Please, make sure that your picture is good</string>
 <string name="onboarding_selfie_with_document_capturer_center_face">Please, center your face on the oval and the document on the rectangle</string>
 <string name="onboarding_selfie_capturer_button_tutorial">Ok, got it!</string>

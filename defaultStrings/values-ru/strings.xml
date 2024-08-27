@@ -41,6 +41,7 @@
 <string name="onboarding_error_doc_country_not_supported">К сожалению, этот тип документа не поддерживается для выбранной страны</string>
 <string name="onboarding_error_title_challenge_timeout">Таймаут</string>
 <string name="onboarding_error_subtitle_challenge_timeout">Задача не выполнена. Пожалуйста, попробуйте еще раз</string>
+<string name="onboarding_error_selfie_not_uploaded">Селфи не загружено</string>
 
 //Stages
 <string name="onboarding_stages_title">Проверка личности</string>
@@ -176,13 +177,13 @@
 <string name="onboarding_selfie_capturer_title_insufficient_faces">Не обнаружено лица</string>
 <string name="onboarding_selfie_capturer_subtitle_insufficient_faces">Обязательно держите лицо в овале при хорошем освещении на протяжении всего процесса</string>
 <string name="onboarding_selfie_capturer_face_detected_tooltip">Нажмите здесь, чтобы сделать фото!</string>
-<string name="onboarding_selfie_capturer_subtitle">Пожалуйста, продолжайте захват</string>
+<string name="onboarding_selfie_capturer_subtitle">Отцентрируйте свое лицо в овале и поместите камеру на уровне глаз. Когда овал станет зеленым, не двигайтесь, пока процесс не завершится. </string>
 <string name="onboarding_selfie_capturer_subtitle_review">Пожалуйста, убедитесь, что ваша фотография хорошая</string>
 <string name="onboarding_selfie_with_document_capturer_center_face">Пожалуйста, отцентрируйте лицо на овале, а документ на прямоугольнике</string>
 <string name="onboarding_selfie_capturer_button_tutorial">Хорошо понял!</string>
 <string name="onboarding_selfie_capturer_subtitle_tutorial">Теперь вам нужно сделать селфи. Следуйте этим инструкциям</string>
 <string name="onboarding_selfie_capturer_challenge_document_info">Поместите лицевую сторону удостоверения личности в прямоугольник</string>
-<string name="onboarding_selfie_capturer_iqa_feedback_too_far">Очень далеко</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_too_far">Слишком далеко</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_too_close">Слишком близко</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_wrong_position">Неправильная позиция</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_unnatural_color">Неестественный цвет</string>
@@ -191,7 +192,7 @@
 <string name="onboarding_selfie_capturer_iqa_feedback_underexposed_description">Убедитесь, что освещение вашего лица разумное и равномерное.</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_overexposed">Слишком яркий</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_overexposed_description">Убедитесь, что освещение вашего лица разумное и равномерное, без бликов.</string>
-<string name="onboarding_selfie_capturer_iqa_feedback_blurry">Размытый</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_blurry">размытый</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_blurry_description">Убедитесь, что ваше лицо выглядит резким, и избегайте попадания грязи или защитных средств на камеру.</string>
 <string name="onboarding_selfie_capturer_uploading_selfie">Загрузка селфи</string>
 <string name="onboarding_selfie_capturer_selfie_uploaded">Selfie enviada</string>
