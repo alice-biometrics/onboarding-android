@@ -48,7 +48,7 @@ android {
 
 dependencies {
 
-	implementation 'com.alicebiometrics.onboarding:AliceOnboarding:2.3.3'
+	implementation 'com.alicebiometrics.onboarding:AliceOnboarding:2.3.4'
 
     implementation 'br.com.simplepass:loading-button-android:2.1.5'
 
