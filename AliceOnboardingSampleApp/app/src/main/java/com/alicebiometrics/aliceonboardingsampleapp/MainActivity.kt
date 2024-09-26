@@ -9,34 +9,33 @@ import android.text.Editable
 import android.text.TextWatcher
 import android.util.Log
 import android.view.View
+import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.preference.PreferenceManager
-import br.com.simplepass.loadingbutton.customViews.CircularProgressButton
-import com.alicebiometrics.onboarding.Environment
+import com.alicebiometrics.onboarding.api.Environment
 import com.alicebiometrics.onboarding.api.DocumentType
 import com.alicebiometrics.onboarding.api.Onboarding
 import com.alicebiometrics.onboarding.auth.AuthenticationError
 import com.alicebiometrics.onboarding.auth.Authenticator
 import com.alicebiometrics.onboarding.auth.Response
 import com.alicebiometrics.onboarding.auth.TrialAuthenticator
+import com.alicebiometrics.onboarding.auth.UserInfo
 import com.alicebiometrics.onboarding.config.OnboardingConfig
-import com.alicebiometrics.onboarding.sandbox.*
+import com.alicebiometrics.onboarding.sandbox.SandboxManager
 import com.google.android.material.snackbar.Snackbar
-
-import org.json.JSONObject
 
 
 class MainActivity : AppCompatActivity(), SharedPreferences.OnSharedPreferenceChangeListener {
 
-    private val TAG = "AliceOnboardingSample"
-
+    companion object {
+        private const val TAG = "AliceOnboardingSample"
+        private const val ONBOARDING_REQUEST_CODE: Int = 100
+        private const val DEFAULT_ISSUING_COUNTRY: String = "ESP"
+    }
     // Alice //
-    private val ONBOARDING_REQUEST_CODE: Int = 100
-    private val DEFAULT_ISSUING_COUNTRY: String = "ESP"
     private var sandboxManager: SandboxManager? = null
-
     private var environment: Environment = Environment.SANDBOX
     private var sandboxTrialToken: String = ""
     private var productionTrialToken: String = ""
@@ -61,7 +60,7 @@ class MainActivity : AppCompatActivity(), SharedPreferences.OnSharedPreferenceCh
     private lateinit var parentLayout: View
     private lateinit var iconMiddle: ImageView
     private lateinit var iconTop: ImageView
-    private lateinit var createAccountButton: CircularProgressButton
+    private lateinit var createAccountButton: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -94,8 +93,6 @@ class MainActivity : AppCompatActivity(), SharedPreferences.OnSharedPreferenceCh
     }
 
     fun onButtonPressed(view: View) {
-
-        createAccountButton.startAnimation()
         createAccountButton.isEnabled = false
 
         userInfo = UserInfo(
@@ -109,7 +106,6 @@ class MainActivity : AppCompatActivity(), SharedPreferences.OnSharedPreferenceCh
         // val authenticator = getAuthenticator(AuthenticationMode.PRODUCTION)
 
         authenticator.execute { response ->
-            createAccountButton.revertAnimation()
             createAccountButton.isEnabled = true
 
             when (response) {

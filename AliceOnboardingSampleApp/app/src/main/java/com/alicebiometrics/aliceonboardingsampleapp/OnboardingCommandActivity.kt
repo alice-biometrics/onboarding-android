@@ -10,7 +10,6 @@ import com.alicebiometrics.onboarding.api.DocumentType
 import com.alicebiometrics.onboarding.api.OnboardingCommandResult
 import com.alicebiometrics.onboarding.api.OnboardingCommands
 import com.alicebiometrics.onboarding.api.OnboardingError
-import com.alicebiometrics.onboarding.utils.CustomAlertDialog
 import org.json.JSONObject
 
 class OnboardingCommandActivity : AppCompatActivity() {
@@ -147,10 +146,10 @@ class OnboardingCommandActivity : AppCompatActivity() {
     }
 
     private fun showDialog(message: String) {
-        val customAlertDialog = CustomAlertDialog(this)
-        customAlertDialog.setMessage(message)
-        customAlertDialog.setNegativeButton(getString(R.string.exit), {})
-        customAlertDialog.show()
+        val customAlertDialog = CustomAlertDialog(this).build()
+        customAlertDialog?.setMessage(message)
+        customAlertDialog?.setNegativeButton(getString(R.string.exit), {})
+        customAlertDialog?.show()
     }
 
     private fun handleOnboardingError(error: OnboardingError){
