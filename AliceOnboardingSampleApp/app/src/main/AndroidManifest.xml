@@ -18,19 +18,6 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
 
-
-        <provider
-            android:name="androidx.core.content.FileProvider"
-            android:authorities="com.alicebiometrics.aliceonboardingsampleapp.fileprovider"
-            android:exported="false"
-            tools:replace="android:authorities"
-            android:grantUriPermissions="true" >
-            <meta-data
-                android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/file_paths" />
-        </provider>
-
-
         <activity
             android:name="com.alicebiometrics.aliceonboardingsampleapp.AboutActivity"
             android:label="@string/title_activity_about"
@@ -64,7 +51,6 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
