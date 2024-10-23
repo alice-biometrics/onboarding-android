@@ -41,6 +41,7 @@
 <string name="onboarding_error_doc_country_not_supported">Maalesef bu belge türü seçilen ülke için desteklenmiyor</string>
 <string name="onboarding_error_title_challenge_timeout">Zaman aşımı</string>
 <string name="onboarding_error_subtitle_challenge_timeout">Meydan okuma karşılanmadı. lütfen tekrar deneyin</string>
+<string name="onboarding_timeout_modal_description">İzin verilen maksimum süreyi aştınız. Lütfen tekrar deneyin.</string>
 <string name="onboarding_error_selfie_not_uploaded">Selfie yüklenmedi</string>
 
 //Stages
@@ -188,12 +189,12 @@
 <string name="onboarding_selfie_capturer_iqa_feedback_wrong_position">Yanlış konum</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_unnatural_color">Doğal olmayan renk</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_unnatural_color_description">Yüzünüzde renkli aydınlatmadan kaçının</string>
-<string name="onboarding_selfie_capturer_iqa_feedback_underexposed">Düşük parlaklık</string>
-<string name="onboarding_selfie_capturer_iqa_feedback_underexposed_description">Yüzünüzdeki aydınlatmanın makul ve tekdüze olduğundan emin olun</string>
-<string name="onboarding_selfie_capturer_iqa_feedback_overexposed">Çok parlak</string>
-<string name="onboarding_selfie_capturer_iqa_feedback_overexposed_description">Yüzünüzdeki aydınlatmanın makul ve eşit olduğundan, parlamadan emin olun</string>
-<string name="onboarding_selfie_capturer_iqa_feedback_blurry">Bulanık</string>
-<string name="onboarding_selfie_capturer_iqa_feedback_blurry_description">Yüzünüzün keskin göründüğünden emin olun ve kameranın üzerine kir veya koruyucu madde bulaşmasını önleyin</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_underexposed">Daha aydınlık bir yere gidin</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_underexposed_description">Çok karanlık bir yerde olduğunuz ve yüzünüz açıkça görülemediği için selfie\'nizi işleyemedik. Daha iyi aydınlatmaya sahip bir yer bulun ve tekrar deneyin.</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_overexposed">Daha az doğrudan ışık alan bir yere geçin</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_overexposed_description">Yüzünüze çok fazla doğrudan ışık geldiğinden ve net bir şekilde görünmediğinden selfienizi işleyemedik. Daha az aydınlatılmış bir yer bulun ve tekrar deneyin.</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_blurry">Kamera merceğinizi temizleyin</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_blurry_description">Resim çok bulanık olduğu için selfie\'nizi işleyemedik. Kamera merceğinizin temiz ve çiziksiz olduğundan emin olun ve tekrar deneyin.</string>
 <string name="onboarding_selfie_capturer_uploading_selfie">Selfie yükleniyor</string>
 <string name="onboarding_selfie_capturer_selfie_uploaded">Selfie yüklendi</string>
 
@@ -227,5 +228,9 @@
 <string name="onboarding_tutorial_third_instruction">Yüzünüzü kapatan hiçbir şey giymiyorsunuz. Gözlüklerini saklayabilirsin</string>
 <string name="onboarding_tutorial_continue_button">Ben hazırım!</string>
 <string name="onboarding_tutorial_back_button">dışarı çıkmak</string>
+
+//Permission view
+<string name="onboarding_permission_title">Kamera erişimine izin ver</string>
+<string name="onboarding_permission_description">Doğrulama işleminize devam etmek için kameranıza erişmemiz gerekiyor. Aşağıdaki butona tıklayarak bize erişim izni verebilirsiniz.</string>
 
 </resources>

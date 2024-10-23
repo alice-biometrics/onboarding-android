@@ -41,6 +41,7 @@
 <string name="onboarding_error_doc_country_not_supported">Sentitzen dugu, dokumentu mota hau ez da onartzen hautatutako herrialdean</string>
 <string name="onboarding_error_title_challenge_timeout">Denboraz kanpo</string>
 <string name="onboarding_error_subtitle_challenge_timeout">Erronka ez da bete. Saiatu berriro mesedez</string>
+<string name="onboarding_timeout_modal_description">Onartutako gehienezko denbora gainditu duzu. Mesedez, saiatu berriro.</string>
 <string name="onboarding_error_selfie_not_uploaded">Selfie ez da kargatu</string>
 
 //Stages
@@ -188,12 +189,12 @@
 <string name="onboarding_selfie_capturer_iqa_feedback_wrong_position">Posizio okerra</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_unnatural_color">Kolore ez naturala</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_unnatural_color_description">Saihestu aurpegian koloretako argiztapena</string>
-<string name="onboarding_selfie_capturer_iqa_feedback_underexposed">Argiztapen baxua</string>
-<string name="onboarding_selfie_capturer_iqa_feedback_underexposed_description">Ziurtatu zure aurpegiko argiztapena arrazoizkoa eta berdina dela</string>
-<string name="onboarding_selfie_capturer_iqa_feedback_overexposed">Gehiegizko argiztapena</string>
-<string name="onboarding_selfie_capturer_iqa_feedback_overexposed_description">Ziurtatu zure aurpegiko argiztapena arrazoizkoa eta berdina dela, distirarik gabe</string>
-<string name="onboarding_selfie_capturer_iqa_feedback_blurry">Zorroztasun falta</string>
-<string name="onboarding_selfie_capturer_iqa_feedback_blurry_description">Ziurtatu aurpegia zorrotza dela eta saihestu kameran zikinkeriarik edo babeslerik ez sartzea</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_underexposed">Zoaz leku argiago batera</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_underexposed_description">Ezin izan dugu zure selfie-a prozesatu, ilunegia den leku batean zaudelako eta zure aurpegia argi ikusten ez delako. Bilatu argiztapen hobea duen toki bat eta saiatu berriro. </string>
+<string name="onboarding_selfie_capturer_iqa_feedback_overexposed">Argi zuzen gutxiago duen toki batera joan</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_overexposed_description">Ezin izan dugu zure selfie prozesatu zure aurpegian argi zuzen gehiegi dagoelako eta argi ikusten ez delako. Bilatu argi gutxiko leku bat eta saiatu berriro. </string>
+<string name="onboarding_selfie_capturer_iqa_feedback_blurry">Garbitu kameraren lentea</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_blurry_description">Ezin izan dugu zure selfie-a prozesatu irudia lausoegia delako. Egiaztatu kameraren lentea garbi dagoela eta marradurarik gabe dagoela eta saiatu berriro. </string>
 <string name="onboarding_selfie_capturer_uploading_selfie">Selfie-a kargatzen</string>
 <string name="onboarding_selfie_capturer_selfie_uploaded">Selfie kargatu da</string>
 
@@ -227,5 +228,9 @@
 <string name="onboarding_tutorial_third_instruction">Ez duzu ezer jantzita aurpegia estaltzeko. Betaurrekoak gorde ditzakezu</string>
 <string name="onboarding_tutorial_continue_button">Prest nago!</string>
 <string name="onboarding_tutorial_back_button">Atera</string>
+
+//Permission view
+<string name="onboarding_permission_title">Baimendu kamerarako sarbidea</string>
+<string name="onboarding_permission_description">Egiaztapenarekin jarraitzeko, zure kamera atzitu behar dugu. Sarbidea eman diezagukezu beheko botoian klik eginez.</string>
 
 </resources>

@@ -41,6 +41,7 @@
 <string name="onboarding_error_doc_country_not_supported">К сожалению, этот тип документа не поддерживается для выбранной страны</string>
 <string name="onboarding_error_title_challenge_timeout">Таймаут</string>
 <string name="onboarding_error_subtitle_challenge_timeout">Задача не выполнена. Пожалуйста, попробуйте еще раз</string>
+<string name="onboarding_timeout_modal_description">Вы превысили максимально допустимое время. Пожалуйста, попробуйте еще раз.</string>
 <string name="onboarding_error_selfie_not_uploaded">Селфи не загружено</string>
 
 //Stages
@@ -188,12 +189,12 @@
 <string name="onboarding_selfie_capturer_iqa_feedback_wrong_position">Неправильная позиция</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_unnatural_color">Неестественный цвет</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_unnatural_color_description">Избегайте цветного освещения на лице</string>
-<string name="onboarding_selfie_capturer_iqa_feedback_underexposed">Низкая яркость</string>
-<string name="onboarding_selfie_capturer_iqa_feedback_underexposed_description">Убедитесь, что освещение вашего лица разумное и равномерное.</string>
-<string name="onboarding_selfie_capturer_iqa_feedback_overexposed">Слишком яркий</string>
-<string name="onboarding_selfie_capturer_iqa_feedback_overexposed_description">Убедитесь, что освещение вашего лица разумное и равномерное, без бликов.</string>
-<string name="onboarding_selfie_capturer_iqa_feedback_blurry">размытый</string>
-<string name="onboarding_selfie_capturer_iqa_feedback_blurry_description">Убедитесь, что ваше лицо выглядит резким, и избегайте попадания грязи или защитных средств на камеру.</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_underexposed">Иди в более светлое место</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_underexposed_description">Нам не удалось обработать ваше селфи, поскольку вы находитесь в слишком темном месте и ваше лицо плохо видно. Найдите место с лучшим освещением и повторите попытку.</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_overexposed">Переместитесь в место с меньшим количеством прямого света.</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_overexposed_description">Нам не удалось обработать ваше селфи, поскольку на ваше лицо слишком много прямого света, и оно не видно четко. Найдите менее ярко освещенное место и повторите попытку.</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_blurry">Очистите объектив камеры</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_blurry_description">Нам не удалось обработать ваше селфи, поскольку изображение слишком размыто. Убедитесь, что объектив камеры чист и не имеет царапин, и повторите попытку.</string>
 <string name="onboarding_selfie_capturer_uploading_selfie">Загрузка селфи</string>
 <string name="onboarding_selfie_capturer_selfie_uploaded">Selfie enviada</string>
 
@@ -227,5 +228,9 @@
 <string name="onboarding_tutorial_third_instruction">На вас нет ничего, закрывающего лицо. Вы можете оставить свои очки</string>
 <string name="onboarding_tutorial_continue_button">Я готов!</string>
 <string name="onboarding_tutorial_back_button">выходить</string>
+
+//Permission view
+<string name="onboarding_permission_title">Разрешить доступ к камере</string>
+<string name="onboarding_permission_description">Чтобы продолжить проверку, нам нужен доступ к вашей камере. Вы можете предоставить нам доступ, нажав кнопку ниже.</string>
 
 </resources>

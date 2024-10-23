@@ -41,7 +41,8 @@
 <string name="onboarding_error_doc_country_not_supported">Este tipo de documento não é compatível com o país selecionado</string>
 <string name="onboarding_error_title_challenge_timeout">Tempo esgotado</string>
 <string name="onboarding_error_subtitle_challenge_timeout">O desafio não foi concluído. Por favor, tente novamente</string>
-<string name="onboarding_error_selfie_not_uploaded">Selfie não enviada</string>
+<string name="onboarding_timeout_modal_description">Você excedeu o tempo máximo permitido. Por favor, tente novamente.</string>
+<string name="onboarding_error_selfie_not_uploaded">Selfie não carregada</string>
 
 //Stages
 <string name="onboarding_stages_title">Verificação de Identidade</string>
@@ -188,12 +189,12 @@
 <string name="onboarding_selfie_capturer_iqa_feedback_wrong_position">Posição errada</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_unnatural_color">Cor não natural</string>
 <string name="onboarding_selfie_capturer_iqa_feedback_unnatural_color_description">Evite iluminação colorida em seu rosto</string>
-<string name="onboarding_selfie_capturer_iqa_feedback_underexposed">Baixa iluminação</string>
-<string name="onboarding_selfie_capturer_iqa_feedback_underexposed_description">Certifique-se de que a iluminação em seu rosto seja razoável e uniforme</string>
-<string name="onboarding_selfie_capturer_iqa_feedback_overexposed">Iluminação excessiva</string>
-<string name="onboarding_selfie_capturer_iqa_feedback_overexposed_description">Certifique-se de que a iluminação do seu rosto seja razoável e uniforme, sem reflexos</string>
-<string name="onboarding_selfie_capturer_iqa_feedback_blurry">Falta de nitidez</string>
-<string name="onboarding_selfie_capturer_iqa_feedback_blurry_description">Certifique-se de que seu rosto esteja nítido e evite sujeira ou protetores na câmera</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_underexposed">Vá para um lugar mais iluminado</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_underexposed_description">Não conseguimos processar sua selfie porque você está em um local muito escuro e seu rosto não pode ser visto com clareza. Encontre um local com melhor iluminação e tente novamente. </string>
+<string name="onboarding_selfie_capturer_iqa_feedback_overexposed">Vá para um local com menos luz direta</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_overexposed_description">Não conseguimos processar sua selfie porque há muita luz direta em seu rosto e ela não é claramente visível. Encontre um local menos iluminado e tente novamente. </string>
+<string name="onboarding_selfie_capturer_iqa_feedback_blurry">Limpe a lente da sua câmera</string>
+<string name="onboarding_selfie_capturer_iqa_feedback_blurry_description">Não foi possível processar sua selfie porque a imagem está muito desfocada. Verifique se a lente da sua câmera está limpa e sem riscos e tente novamente. </string>
 <string name="onboarding_selfie_capturer_uploading_selfie">Enviando selfie</string>
 <string name="onboarding_selfie_capturer_selfie_uploaded">Selfie enviada</string>
 
@@ -227,5 +228,9 @@
 <string name="onboarding_tutorial_third_instruction">Você não está usando nada cobrindo seu rosto. Você pode ficar com seus óculos</string>
 <string name="onboarding_tutorial_continue_button">Estou pronto!</string>
 <string name="onboarding_tutorial_back_button">Voltar</string>
+
+//Permission view
+<string name="onboarding_permission_title">Permitir acesso à câmera</string>
+<string name="onboarding_permission_description">Para prosseguir com sua verificação, precisamos de acesso à sua câmera. Você pode nos conceder acesso clicando no botão abaixo.</string>
 
 </resources>
